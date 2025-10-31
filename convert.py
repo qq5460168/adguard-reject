@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 功能：读取 rules.txt 中的 URL → 批量拉取 QuantumultX 规则 → 合并转换为 AdGuard 规则
+# 功能：读取 rules.txt 中的 URL → 批量拉取 QuantumultX 规则 → 合并转换为 AdGuard 规则（统一为||域名^格式）
 import re
 import requests
 
@@ -45,14 +45,14 @@ def fetch_single_url_rules(url: str) -> list:
         return []
 
 def merge_and_convert(all_rules: list, output_file: str):
-    """合并所有拉取的规则，提取 reject 规则并转换为 AdGuard 格式"""
+    """合并所有拉取的规则，提取 reject 规则并转换为 AdGuard 格式（统一为||域名^）"""
     adguard_rules = []
     # 头部说明
     adguard_rules.append("# ===============================")
     adguard_rules.append("# 自动拉取+合并+转换自 QuantumultX 在线规则")
     adguard_rules.append(f"# 规则来源配置：{URL_CONFIG_FILE}")
     adguard_rules.append("# 支持规则类型：URL/host-suffix/host-keyword + reject")
-    adguard_rules.append("# 转换工具：quantumultx-to-adguard-url-config")
+    adguard_rules.append("# 转换格式：统一为 ||域名^ 格式")
     adguard_rules.append("# ===============================\n")
 
     converted_count = 0
@@ -66,29 +66,27 @@ def merge_and_convert(all_rules: list, output_file: str):
             adguard_rules.append(line)
             continue
         
-        # 1. 匹配 URL 规则
+        # 1. 匹配 URL 规则（提取域名）
         url_match = re.match(r'url,\s*(https?|wss):\/\/([\w\.\-]+)(\/[^\s,]*)?,\s*reject', line, re.I)
         if url_match:
             domain = url_match.group(2).strip()
-            path = url_match.group(3) if url_match.group(3) else ""
-            adguard_rules.append(f"||{domain}{path}^")
+            adguard_rules.append(f"||{domain}^")  # 统一为||域名^格式
             converted_count += 1
             continue
         
-        # 2. 匹配 host-suffix 规则
+        # 2. 匹配 host-suffix 规则（直接使用域名）
         suffix_match = re.match(r'host-suffix,\s*([\w\.\-]+),\s*reject', line, re.I)
         if suffix_match:
             domain = suffix_match.group(1).strip()
-            adguard_rules.append(f"0.0.0.0 {domain}")
-            adguard_rules.append(f":: {domain}")
+            adguard_rules.append(f"||{domain}^")  # 统一为||域名^格式
             converted_count += 1
             continue
         
-        # 3. 匹配 host-keyword 规则
+        # 3. 匹配 host-keyword 规则（将关键词作为域名片段处理）
         keyword_match = re.match(r'host-keyword,\s*([\w\-]+),\s*reject', line, re.I)
         if keyword_match:
             keyword = keyword_match.group(1).strip()
-            adguard_rules.append(f"||*{keyword}*$important")
+            adguard_rules.append(f"||*{keyword}*$important")  # 关键词规则保留原有格式（因无法直接转换为纯域名）
             converted_count += 1
             continue
         
