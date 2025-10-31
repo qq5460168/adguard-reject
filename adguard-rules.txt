@@ -1,8 +1,8 @@
 # ===============================
-# 自动拉取+合并+转换自QuantumultX在线规则
-# 规则来源配置: rules.txt
-# 支持规则类型: URL/host/host-suffix/host-keyword + reject
-# 转换工具: quantumultx-to-adguard-url-config
+# 自动拉取+合并+转换自 QuantumultX 在线规则
+# 规则来源配置：rules.txt
+# 支持规则类型：URL/host/host-suffix/host-keyword + reject
+# 转换工具：quantumultx-to-adguard-url-config
 # ===============================
 
 #!name=广告拦截合集-不要设置策略偏好
@@ -191,9 +191,7 @@
 
 # > 58同城
 0.0.0.0 track.58.com
-:: track.58.com
 0.0.0.0 tracklog.58.com
-:: tracklog.58.com
 0.0.0.0 58mingri.cn
 :: 58mingri.cn
 0.0.0.0 58mingtian.cn
@@ -368,7 +366,6 @@
 
 # > Adobe Flash China Special Edition
 0.0.0.0 geo2.adobe.com
-:: geo2.adobe.com
 
 # > Akamai
 0.0.0.0 appnext-a.akamaihd.net
@@ -380,54 +377,32 @@
 
 # > Apple
 0.0.0.0 advertising.apple.com
-:: advertising.apple.com
 0.0.0.0 api-adservices.apple.com
-:: api-adservices.apple.com
 0.0.0.0 apple.comscoreresearch.com
-:: apple.comscoreresearch.com
 0.0.0.0 banners.itunes.apple.com
-:: banners.itunes.apple.com
 0.0.0.0 iad.apple.com
-:: iad.apple.com
 0.0.0.0 iadcontent.apple.com
-:: iadcontent.apple.com
 0.0.0.0 iadctest.qwapi.com
-:: iadctest.qwapi.com
 0.0.0.0 iadmoo.apple.com
-:: iadmoo.apple.com
 0.0.0.0 iadworkbench.apple.com
-:: iadworkbench.apple.com
 0.0.0.0 launch.apple.com
-:: launch.apple.com
 0.0.0.0 metrics.apple.com
-:: metrics.apple.com
 0.0.0.0 qwapi.apple.com
-:: qwapi.apple.com
 0.0.0.0 securemetrics.apple.com
-:: securemetrics.apple.com
 0.0.0.0 webproxy-advp.iad-apple.com
-:: webproxy-advp.iad-apple.com
 0.0.0.0 webproxy-advp.iad-apple.com.akadns.net
-:: webproxy-advp.iad-apple.com.akadns.net
 0.0.0.0 advp.apple.com
 :: advp.apple.com
 0.0.0.0 iadsdk.apple.com
 :: iadsdk.apple.com
 # 安全浏览限制解除
 0.0.0.0 lookup.api.bsb.baidu.com
-:: lookup.api.bsb.baidu.com
 0.0.0.0 proxy.safebrowsing.apple
-:: proxy.safebrowsing.apple
 0.0.0.0 safebrowsing.g.applimg.com
-:: safebrowsing.g.applimg.com
 0.0.0.0 safebrowsing.googleapis.com
-:: safebrowsing.googleapis.com
 0.0.0.0 safebrowsing.urlsec.qq.com
-:: safebrowsing.urlsec.qq.com
 0.0.0.0 token.safebrowsing.apple
-:: token.safebrowsing.apple
 0.0.0.0 vs6.bj2ct.u3.ucweb.com
-:: vs6.bj2ct.u3.ucweb.com
 0.0.0.0 safebrowsing.apple
 :: safebrowsing.apple
 0.0.0.0 u3.ucweb.com
@@ -601,25 +576,17 @@
 # host-suffix, newton-api.ele.me, reject
 
 # > 阿里云
-# 未识别规则: IP-CIDR, 203.107.1.1/24, reject
+# 未识别规则：IP-CIDR, 203.107.1.1/24, reject
 
 # > 爱奇艺
 0.0.0.0 api.iqiyi.com
-:: api.iqiyi.com
 0.0.0.0 cr-status.iqiyi.com
-:: cr-status.iqiyi.com
 0.0.0.0 f74f7f7765f8a2f6.ngaa.net.cn
-:: f74f7f7765f8a2f6.ngaa.net.cn
 0.0.0.0 ef-dongfeng.tanx.com
-:: ef-dongfeng.tanx.com
 0.0.0.0 iqiyim.adtrack.enlightent.cn
-:: iqiyim.adtrack.enlightent.cn
 0.0.0.0 dig.bdurl.net
-:: dig.bdurl.net
 0.0.0.0 t7z.cupid.iqiyi.com
-:: t7z.cupid.iqiyi.com
 0.0.0.0 t7z.cupid.ptqy.gitv.tv
-:: t7z.cupid.ptqy.gitv.tv
 0.0.0.0 cupid.iqiyi.com
 :: cupid.iqiyi.com
 0.0.0.0 t7z.cupid.iqiyi.com
@@ -684,11 +651,11 @@
 :: policy.video.iqiyi.com
 0.0.0.0 ifacelog.iqiyi.com
 :: ifacelog.iqiyi.com
-# 未识别规则: IP-CIDR, 203.107.63.154/32, reject
-# 未识别规则: IP-CIDR, 101.227.97.240/32, reject
-# 未识别规则: IP-CIDR, 101.227.200.11/32, reject
-# 未识别规则: IP-CIDR, 101.227.200.28/32, reject
-# 未识别规则: IP-CIDR, 124.192.153.42/32, reject
+# 未识别规则：IP-CIDR, 203.107.63.154/32, reject
+# 未识别规则：IP-CIDR, 101.227.97.240/32, reject
+# 未识别规则：IP-CIDR, 101.227.200.11/32, reject
+# 未识别规则：IP-CIDR, 101.227.200.28/32, reject
+# 未识别规则：IP-CIDR, 124.192.153.42/32, reject
 
 
 
@@ -727,19 +694,12 @@
 0.0.0.0 pos.baidu.com
 :: pos.baidu.com
 0.0.0.0 afd.baidu.com
-:: afd.baidu.com
 0.0.0.0 als.baidu.com
-:: als.baidu.com
 0.0.0.0 duclick.baidu.com
-:: duclick.baidu.com
 0.0.0.0 mobads.baidu.com
-:: mobads.baidu.com
 0.0.0.0 mobads-logs.baidu.com
-:: mobads-logs.baidu.com
 0.0.0.0 nadvideo2.baidu.com
-:: nadvideo2.baidu.com
 0.0.0.0 nsclick.baidu.com
-:: nsclick.baidu.com
 0.0.0.0 bce.baidu.com
 :: bce.baidu.com
 0.0.0.0 bar.baidu.com
@@ -1013,9 +973,7 @@
 0.0.0.0 nsclick.baidu.com
 :: nsclick.baidu.com
 0.0.0.0 hm.baidu.com
-:: hm.baidu.com
 0.0.0.0 hmma.baidu.com
-:: hmma.baidu.com
 0.0.0.0 bdtongfei.cn
 :: bdtongfei.cn
 0.0.0.0 mobads.baidu.com
@@ -1045,23 +1003,17 @@
 
 # > 百度地图
 0.0.0.0 afd.baidu.com
-:: afd.baidu.com
 0.0.0.0 afdconf.baidu.com
-:: afdconf.baidu.com
 0.0.0.0 httpdns.baidubce.com
-:: httpdns.baidubce.com
 0.0.0.0 lc.map.baidu.com
-:: lc.map.baidu.com
 
 # > 百度贴吧
 # 屏蔽域名dns查询
-# 未识别规则: IP-CIDR, 180.76.76.200/32, reject
+# 未识别规则：IP-CIDR, 180.76.76.200/32, reject
 
 # > 百词斩
 0.0.0.0 advertise.baicizhan.com
-:: advertise.baicizhan.com
 0.0.0.0 advertise.baicizhan.org
-:: advertise.baicizhan.org
 
 # > 百姓网
 0.0.0.0 admx.baixing.com
@@ -1286,11 +1238,8 @@
 
 # > Camera360
 0.0.0.0 dispatcher.360in.com
-:: dispatcher.360in.com
 0.0.0.0 ad.360in.com
-:: ad.360in.com
 0.0.0.0 exp.360in.com
-:: exp.360in.com
 
 # > 创维
 0.0.0.0 hoisin.coocaa.com
@@ -1298,15 +1247,12 @@
 0.0.0.0 hoisin.coocaatv.com
 :: hoisin.coocaatv.com
 0.0.0.0 data-hoisin.coocaa.com
-:: data-hoisin.coocaa.com
 
 # > 车来了
 0.0.0.0 atrace.chelaile.net.cn
 :: atrace.chelaile.net.cn
 0.0.0.0 logs.chelaile.net.cn
-:: logs.chelaile.net.cn
 0.0.0.0 ad.chelaile.net.cn
-:: ad.chelaile.net.cn
 
 
 
@@ -1329,26 +1275,26 @@
 
 # > Dr.Peng
 # IP-CIDR, 10.72.25.0/24, reject
-# 未识别规则: IP-CIDR, 211.161.101.110/32, reject
+# 未识别规则：IP-CIDR, 211.161.101.110/32, reject
 
 # > 叮嗒出行
-||*image.bianxianmao.com*$important
+# 未识别规则：host-keyword, image.bianxianmao.com, reject
 
 # > 滴滴青桔
 # 支付界面图片有误杀
-# 未识别规则: ;host-keyword, pt-starimg.didistatic.com, reject
-# 未识别规则: ip-cidr, 203.107.1.1/24, reject
+# 未识别规则：;host-keyword, pt-starimg.didistatic.com, reject
+# 未识别规则：ip-cidr, 203.107.1.1/24, reject
 
 # > 懂车帝
-||*p3-pack.byteimg.com*$important
-||*p6-pack.byteimg.com*$important
+# 未识别规则：host-keyword, p3-pack.byteimg.com, reject
+# 未识别规则：host-keyword, p6-pack.byteimg.com, reject
 
 # > 懂球帝
-||*apimg.qunliao.info*$important
+# 未识别规则：host-keyword, apimg.qunliao.info, reject
 
 # > 抖音
-||*bds.snssdk.com*$important
-||*p3.pstatp.com*$important
+# 未识别规则：host-keyword, bds.snssdk.com, reject
+# 未识别规则：host-keyword, p3.pstatp.com, reject
 
 # > 多多视频
 0.0.0.0 bayescom.com
@@ -1370,11 +1316,8 @@
 
 # > 叮咚买菜
 0.0.0.0 trackercollect.ddxq.mobi
-:: trackercollect.ddxq.mobi
 0.0.0.0 ddfs-public.ddimg.mobi
-:: ddfs-public.ddimg.mobi
 0.0.0.0 rttrack.ddxq.mobi
-:: rttrack.ddxq.mobi
 
 # > 东方网
 0.0.0.0 afpimages.eastday.com
@@ -1440,44 +1383,33 @@
 
 # > 番茄小说
 0.0.0.0 i-lq.snssdk.com
-:: i-lq.snssdk.com
 0.0.0.0 dig.bdurl.net
-:: dig.bdurl.net
 0.0.0.0 activity-ag.awemeughun.com
-:: activity-ag.awemeughun.com
 0.0.0.0 mcs.snssdk.com
-:: mcs.snssdk.com
 0.0.0.0 tnc3-alisc1.snssdk.com
-:: tnc3-alisc1.snssdk.com
 0.0.0.0 security-lq.snssdk.com
-:: security-lq.snssdk.com
 0.0.0.0 tnc3-aliec2.snssdk.com
-:: tnc3-aliec2.snssdk.com
 #host, is.snssdk.com, REJECT
 #host, i.snssdk.com, REJECT
 0.0.0.0 v6-novelapp.ixigua.com
-:: v6-novelapp.ixigua.com
 0.0.0.0 novelapp.ixigua.com
 :: novelapp.ixigua.com
 0.0.0.0 default.ixigua.com
 :: default.ixigua.com
 0.0.0.0 msync-im1-vip6-std.easemob.com
-:: msync-im1-vip6-std.easemob.com
 0.0.0.0 apd-pcdnwxlogin.teg.tencent-cloud.net
-:: apd-pcdnwxlogin.teg.tencent-cloud.net
 0.0.0.0 api.iegadp.qq.com
-:: api.iegadp.qq.com
 0.0.0.0 byteorge.com
 :: byteorge.com
 # 下面两条误杀严重导致懂车帝无法正常使用
 #host-suffix, bytegoofy.com, REJECT
 #host-suffix, bytedance.com, REJECT
-# 未识别规则: IP-CIDR, 49.71.37.101/32, REJECT
-# 未识别规则: IP-CIDR, 117.71.105.23/32, REJECT
-# 未识别规则: IP-CIDR, 218.94.207.205/32, REJECT
-# 未识别规则: IP-CIDR, 117.92.229.188/32, REJECT
-# 未识别规则: IP-CIDR, 101.36.166.16/32, REJECT
-# 未识别规则: IP-CIDR, 180.96.2.114/32, REJECT
+# 未识别规则：IP-CIDR, 49.71.37.101/32, REJECT
+# 未识别规则：IP-CIDR, 117.71.105.23/32, REJECT
+# 未识别规则：IP-CIDR, 218.94.207.205/32, REJECT
+# 未识别规则：IP-CIDR, 117.92.229.188/32, REJECT
+# 未识别规则：IP-CIDR, 101.36.166.16/32, REJECT
+# 未识别规则：IP-CIDR, 180.96.2.114/32, REJECT
 
 # > 风行网
 0.0.0.0 pb.funshion.net.cn
@@ -1547,11 +1479,8 @@
 
 # > 飞常准
 0.0.0.0 adv-adlog.variflight.com
-:: adv-adlog.variflight.com
 0.0.0.0 adv-ads.variflight.com
-:: adv-ads.variflight.com
 0.0.0.0 app-ad.variflight.com
-:: app-ad.variflight.com
 
 
 
@@ -1595,7 +1524,6 @@
 0.0.0.0 google-analytics.com
 :: google-analytics.com
 0.0.0.0 safebrowsing.googleapis.com
-:: safebrowsing.googleapis.com
 0.0.0.0 doubleclick.net
 :: doubleclick.net
 0.0.0.0 googleadservices.com
@@ -1637,7 +1565,6 @@
 0.0.0.0 www.google-analytics.com
 :: www.google-analytics.com
 0.0.0.0 ads.youtube.com
-:: ads.youtube.com
 0.0.0.0 cmshow.gtimg.cn
 :: cmshow.gtimg.cn
 0.0.0.0 discuz.gtimg.cn
@@ -1710,20 +1637,16 @@
 :: tralog.ganji.com
 
 # > 光大银行 阳光惠生活
-||*talk.bz.getui.com*$important
+# 未识别规则：host-keyword, talk.bz.getui.com, reject
 
 # > 高德地图
-# 未识别规则: ;host, restapi.amap.com, reject
+# 未识别规则：;host, restapi.amap.com, reject
 0.0.0.0 adiu.amap.com
 :: adiu.amap.com
 0.0.0.0 aboard.apilocate.amap.com
-:: aboard.apilocate.amap.com
 0.0.0.0 apiinit.amap.com
-:: apiinit.amap.com
 0.0.0.0 icloud-amap.com
-:: icloud-amap.com
 0.0.0.0 logs.amap.com
-:: logs.amap.com
 0.0.0.0 dualstack-logs.amap.com
 :: dualstack-logs.amap.com
 0.0.0.0 logs.amap.com
@@ -1733,20 +1656,16 @@
 0.0.0.0 page.amap.com
 :: page.amap.com
 0.0.0.0 optimus-ads.amap.com
-:: optimus-ads.amap.com
 0.0.0.0 optimus-ads.amap.com.w.alikunlun.com
-:: optimus-ads.amap.com.w.alikunlun.com
 0.0.0.0 shouji.sougou.com
 :: shouji.sougou.com
 0.0.0.0 u51.me
-:: u51.me
 0.0.0.0 u51.me
 :: u51.me
 
 # > 广州地铁乘车码
 # 多个广告 感谢CtrlMusic🐓分享
 0.0.0.0 apis.alenable.com
-:: apis.alenable.com
 
 # > 国美电器
 0.0.0.0 prom.gome.com.cn
@@ -1809,11 +1728,11 @@
 :: ipengtai.huanqiu.com
 
 # > HDO
-# 未识别规则: ;host-suffix, applovin.com, reject
-# 未识别规则: ;host-suffix, applvn.com, reject
+# 未识别规则：;host-suffix, applovin.com, reject
+# 未识别规则：;host-suffix, applvn.com, reject
 
 # > Huawei AspiegelBot
-# 未识别规则: IP-CIDR, 114.119.160.0/21, reject
+# 未识别规则：IP-CIDR, 114.119.160.0/21, reject
 
 # > 华为商城
 0.0.0.0 hiad.vmall.com
@@ -1886,15 +1805,10 @@
 # > 虎牙直播
 # 开屏广告
 0.0.0.0 pp-cdnfile2pcdn.msstatic.com
-:: pp-cdnfile2pcdn.msstatic.com
 0.0.0.0 livewebbs2pcdn.msstatic.com
-:: livewebbs2pcdn.msstatic.com
 0.0.0.0 huyafile.msstatic.com
-:: huyafile.msstatic.com
 0.0.0.0 livewebbs2.msstatic.com
-:: livewebbs2.msstatic.com
 0.0.0.0 business.msstatic.com
-:: business.msstatic.com
 0.0.0.0 v1d.szbdyd.com
 :: v1d.szbdyd.com
 0.0.0.0 3dm.huya.com
@@ -1902,7 +1816,7 @@
 
 # > 哈啰
 # 大部分图片无法正常加载
-# 未识别规则: ;host-keyword, assets.51downapp.cn, reject
+# 未识别规则：;host-keyword, assets.51downapp.cn, reject
 
 # > 黄油相机
 # 开屏广告 感谢#Dragon分享
@@ -1946,29 +1860,18 @@
 
 # > 驾校一点通
 0.0.0.0 richmanapi.jxedt.com
-:: richmanapi.jxedt.com
 0.0.0.0 richmanmain.jxedt.com
-:: richmanmain.jxedt.com
 0.0.0.0 richmanrules.jxedt.com
-:: richmanrules.jxedt.com
 
 # > 金山词霸
 0.0.0.0 ad-stat.ksosoft.com
-:: ad-stat.ksosoft.com
 0.0.0.0 img.auction-ads.wpscdn.cn
-:: img.auction-ads.wpscdn.cn
 0.0.0.0 counter.kingsoft.com
-:: counter.kingsoft.com
 0.0.0.0 counter.ksosoft.com
-:: counter.ksosoft.com
 0.0.0.0 minfo.wps.cn
-:: minfo.wps.cn
 0.0.0.0 mobad.ijinshan.com
-:: mobad.ijinshan.com
 0.0.0.0 ups.ksmobile.net
-:: ups.ksmobile.net
 0.0.0.0 ws.ksmobile.net
-:: ws.ksmobile.net
 
 # > 金山系 (Kingsoft)
 0.0.0.0 an.m.liebao.cn
@@ -2043,18 +1946,18 @@
 :: pdl.gionee.com
 
 # > 今日头条
-||*clk.gentags.net*$important
-||*dm.pstatp.com*$important
-||*dm.bytedance.com*$important
-||*uop.umeng.com*$important
-||*m.suning.com*$important
-||*adshare.toutiao.com*$important
-||*tunion-api.m.taobao.com*$important
-||*s1.pstatp.com*$important
-||*s2.pstatp.com*$important
-||*s3.pstatp.com*$important
-||*a3.pstatp.com*$important
-||*a3.bytecdn.cn*$important
+# 未识别规则：host-KEYWORD,clk.gentags.net, reject
+# 未识别规则：host-KEYWORD,dm.pstatp.com, reject
+# 未识别规则：host-KEYWORD,dm.bytedance.com, reject
+# 未识别规则：host-KEYWORD,uop.umeng.com, reject
+# 未识别规则：host-KEYWORD,m.suning.com, reject
+# 未识别规则：host-KEYWORD,adshare.toutiao.com, reject
+# 未识别规则：host-KEYWORD,tunion-api.m.taobao.com, reject
+# 未识别规则：host-KEYWORD,s1.pstatp.com, reject
+# 未识别规则：host-KEYWORD,s2.pstatp.com, reject
+# 未识别规则：host-KEYWORD,s3.pstatp.com, reject
+# 未识别规则：host-KEYWORD,a3.pstatp.com, reject
+# 未识别规则：host-KEYWORD,a3.bytecdn.cn, reject
 0.0.0.0 ad.toutiao.com
 :: ad.toutiao.com
 0.0.0.0 dm.toutiao.com
@@ -2103,14 +2006,12 @@
 :: jd.c-ptsp.com.cn
 # 屏蔽DNS
 0.0.0.0 dns.jd.com
-:: dns.jd.com
-# 未识别规则: IP-CIDR, 101.124.19.122/32, reject
-# 未识别规则: IP6-CIDR, 2402:db40:5100:1011::5/128, reject
+# 未识别规则：IP-CIDR, 101.124.19.122/32, reject
+# 未识别规则：IP6-CIDR, 2402:db40:5100:1011::5/128, reject
 
 # > 建行生活
 # 内置饿了么外卖弹窗
 0.0.0.0 o2o-ad-log-gateway.alibaba.com
-:: o2o-ad-log-gateway.alibaba.com
 
 # > 巨潮资讯
 0.0.0.0 ad.cninfo.com.cn
@@ -2125,11 +2026,8 @@
 # >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
 # > Keep
 0.0.0.0 apm.gotokeep.com
-:: apm.gotokeep.com
 0.0.0.0 kad.gotokeep.com
-:: kad.gotokeep.com
 0.0.0.0 hc-ssp.sm.cn
-:: hc-ssp.sm.cn
 
 # > 酷6网
 0.0.0.0 st.vq.ku6.cn
@@ -2167,22 +2065,15 @@
 
 # > 快乐广播
 0.0.0.0 ad.hpplay.cn
-:: ad.hpplay.cn
 0.0.0.0 adc.hpplay.cn
-:: adc.hpplay.cn
 0.0.0.0 adcdn.hpplay.cn
-:: adcdn.hpplay.cn
 0.0.0.0 adeng.hpplay.cn
-:: adeng.hpplay.cn
 0.0.0.0 pin.hpplay.cn
-:: pin.hpplay.cn
 0.0.0.0 rp.hpplay.cn
-:: rp.hpplay.cn
 0.0.0.0 rpt.hpplay.cn
-:: rpt.hpplay.cn
 
 # > 快手
-# 未识别规则: ;host, js-ad.a.yximgs.com, reject
+# 未识别规则：;host, js-ad.a.yximgs.com, reject
 0.0.0.0 e.kuaishou.com
 :: e.kuaishou.com
 0.0.0.0 cm.downloader.commercial.kuaishou.com
@@ -2198,40 +2089,30 @@
 
 # > 酷狗音乐
 0.0.0.0 adserviceretry.kugou.com
-:: adserviceretry.kugou.com
 0.0.0.0 ads.service.kugou.com
-:: ads.service.kugou.com
 0.0.0.0 adsfile.bssdlbig.kugou.com
-:: adsfile.bssdlbig.kugou.com
 0.0.0.0 g.koowo.com
-:: g.koowo.com
 0.0.0.0 kgmobilestat.kugou.com
-:: kgmobilestat.kugou.com
 0.0.0.0 kgmobilestatbak.kugou.com
-:: kgmobilestatbak.kugou.com
 0.0.0.0 mobilelog.kugou.com
-:: mobilelog.kugou.com
 0.0.0.0 adsfile.bssdlbig.kugou.com
-:: adsfile.bssdlbig.kugou.com
 0.0.0.0 pgdt.gtimg.com
-:: pgdt.gtimg.com
 0.0.0.0 adsmind.gdtimg.com
-:: adsmind.gdtimg.com
-||*searchrecommend.kugou.com*$important
-||*nbcollectretry.kugou.com*$important
-||*rtmretry.kugou.com*$important
-||*rt-m.kugou.com*$important
-||*nbcollect.kugou.com*$important
-||*c1img.ali.kugou.com*$important
-||*kgstaticdlbssdlbig.tx.kugou.com*$important
-||*adsfilebssdlbig.ali.kugou.com*$important
-||*splashimgbssdl.yun.kugou.com*$important
-||*adservice.kugou.com*$important
-||*kgipadstat.kugou.com*$important
-||*kgipadstatbak.kugou.com*$important
-||*logwebs.kugou.com*$important
-||*tracker.kugou.com*$important
-||*trackercdnbj.kugou.com*$important
+# 未识别规则：host-keyword, searchrecommend.kugou.com, reject
+# 未识别规则：host-keyword, nbcollectretry.kugou.com, reject
+# 未识别规则：host-keyword, rtmretry.kugou.com, reject
+# 未识别规则：host-keyword, rt-m.kugou.com, reject
+# 未识别规则：host-keyword, nbcollect.kugou.com, reject
+# 未识别规则：host-keyword, c1img.ali.kugou.com, reject
+# 未识别规则：host-keyword, kgstaticdlbssdlbig.tx.kugou.com, reject
+# 未识别规则：host-keyword, adsfilebssdlbig.ali.kugou.com, reject
+# 未识别规则：host-keyword, splashimgbssdl.yun.kugou.com, reject
+# 未识别规则：host-keyword, adservice.kugou.com, reject
+# 未识别规则：host-keyword, kgipadstat.kugou.com, reject
+# 未识别规则：host-keyword, kgipadstatbak.kugou.com, reject
+# 未识别规则：host-keyword, logwebs.kugou.com, reject
+# 未识别规则：host-keyword, tracker.kugou.com, reject
+# 未识别规则：host-keyword, trackercdnbj.kugou.com, reject
 0.0.0.0 oth.eve.mdt.qq.com
 :: oth.eve.mdt.qq.com
 0.0.0.0 channel.fanxing.kugou.com
@@ -2297,11 +2178,9 @@
 
 # > 酷我音乐
 0.0.0.0 mobilead.kuwo.cn
-:: mobilead.kuwo.cn
 0.0.0.0 rich.kuwo.cn
-:: rich.kuwo.cn
-||*rich.kuwo.cn*$important
-||*mobilead.kuwo.cn*$important
+# 未识别规则：host-keyword, rich.kuwo.cn, reject
+# 未识别规则：host-keyword, mobilead.kuwo.cn, reject
 0.0.0.0 c.kuwo.cn
 :: c.kuwo.cn
 0.0.0.0 deliver.kuwo.cn
@@ -2407,15 +2286,12 @@
 
 # > LinkWiFi
 0.0.0.0 a.wkanx.com
-:: a.wkanx.com
 0.0.0.0 cwx.lianwangtech.com
-:: cwx.lianwangtech.com
 0.0.0.0 c1wx.lianwangtech.com
-:: c1wx.lianwangtech.com
 
 # > 蓝基因
 # 弹窗还在，需要手动关闭
-||*medicine.lanjiyin.com.cn*$important
+# 未识别规则：host-keyword, medicine.lanjiyin.com.cn, reject
 
 # > 两步路
 0.0.0.0 admobile.top
@@ -2423,7 +2299,6 @@
 
 # > 乐视
 0.0.0.0 emma-414870e223.huodonghezi.com
-:: emma-414870e223.huodonghezi.com
 0.0.0.0 webp2p.letv.com
 :: webp2p.letv.com
 0.0.0.0 ark.letv.com
@@ -2584,7 +2459,6 @@
 
 # > 美团
 0.0.0.0 flowplus.meituan.net
-:: flowplus.meituan.net
 0.0.0.0 analytics.meituan.net
 :: analytics.meituan.net
 0.0.0.0 meituan.xn
@@ -2609,9 +2483,7 @@
 # > 美颜相机
 # 去首页和轮播广告
 0.0.0.0 adui.tg.meitu.com
-:: adui.tg.meitu.com
 0.0.0.0 aaid.uyunad.com
-:: aaid.uyunad.com
 
 # > 美图秀秀
 0.0.0.0 corp.meitu.com
@@ -2641,7 +2513,6 @@
 
 # > 美柚
 0.0.0.0 ad.seeyouyima.com
-:: ad.seeyouyima.com
 
 # > 魅族 (Meizu)
 0.0.0.0 api-flow.flyme.cn
@@ -2696,24 +2567,20 @@
 :: gs.getui.com
 
 # > 民生银行
-||*cm-10-134.getui.com*$important
-||*sdk.open.talk.getui.com*$important
-||*cm-10-35.getui.com*$important
-||*c-hzgt2.getui.com*$important
+# 未识别规则：host-keyword, cm-10-134.getui.com, reject
+# 未识别规则：host-keyword, sdk.open.talk.getui.com, reject
+# 未识别规则：host-keyword, cm-10-35.getui.com, reject
+# 未识别规则：host-keyword, c-hzgt2.getui.com, reject
 
 # > 墨迹天气
-||*me.api.moji.com*$important
-||*android.bugly.qq.com*$important
-||*av1.xdrig.com*$important
-||*adash.man.aliyuncs.com*$important
+# 未识别规则：host-KEYWORD,me.api.moji.com, reject
+# 未识别规则：host-KEYWORD,android.bugly.qq.com, reject
+# 未识别规则：host-KEYWORD,av1.xdrig.com, reject
+# 未识别规则：host-KEYWORD,adash.man.aliyuncs.com, reject
 0.0.0.0 ad.api.moji.com
-:: ad.api.moji.com
 0.0.0.0 adlaunch.moji.com
-:: adlaunch.moji.com
 0.0.0.0 ads.mojicdn.com
-:: ads.mojicdn.com
 0.0.0.0 v1.log.moji.com
-:: v1.log.moji.com
 0.0.0.0 cdn.moji.com
 :: cdn.moji.com
 0.0.0.0 fds.api.moji.com
@@ -2731,49 +2598,29 @@
 0.0.0.0 ad.cmvideo.cn
 :: ad.cmvideo.cn
 0.0.0.0 ggc.cmvideo.cn
-:: ggc.cmvideo.cn
 0.0.0.0 ggv.cmvideo.cn
-:: ggv.cmvideo.cn
 0.0.0.0 ggx.cmvideo.cn
-:: ggx.cmvideo.cn
 0.0.0.0 ggx03.miguvideo.com
-:: ggx03.miguvideo.com
 0.0.0.0 ggic03.miguvideo.com
-:: ggic03.miguvideo.com
 0.0.0.0 ggmk.miguvideo.com
-:: ggmk.miguvideo.com
 0.0.0.0 ggadoffline.miguvideo.com
-:: ggadoffline.miguvideo.com
 
 # > 米家
 0.0.0.0 sdkconfig.ad.xiaomi.com
-:: sdkconfig.ad.xiaomi.com
 
 # > 芒果TV
 0.0.0.0 dflow.bz.mgtv.com
-:: dflow.bz.mgtv.com
 0.0.0.0 encounter.bz.mgtv.com
-:: encounter.bz.mgtv.com
 0.0.0.0 floor.bz.mgtv.com
-:: floor.bz.mgtv.com
 0.0.0.0 img.da.mgtv.com
-:: img.da.mgtv.com
 0.0.0.0 layer.bz.mgtv.com
-:: layer.bz.mgtv.com
 0.0.0.0 mob.bz.mgtv.com
-:: mob.bz.mgtv.com
 0.0.0.0 mobile.da.mgtv.com
-:: mobile.da.mgtv.com
 0.0.0.0 rc-topic-api.bz.mgtv.com
-:: rc-topic-api.bz.mgtv.com
 0.0.0.0 v2.da.mgtv.com
-:: v2.da.mgtv.com
 0.0.0.0 video.da.mgtv.com
-:: video.da.mgtv.com
 0.0.0.0 vip.bz.mgtv.com
-:: vip.bz.mgtv.com
 0.0.0.0 ys.da.mgtv.com
-:: ys.da.mgtv.com
 0.0.0.0 mobile2.da.mgtv.com
 :: mobile2.da.mgtv.com
 0.0.0.0 cdn.cmop.mgtv.com
@@ -2877,30 +2724,22 @@
 
 # > OPPO
 0.0.0.0 adsfs.oppomobile.com
-:: adsfs.oppomobile.com
 0.0.0.0 ads.oppomobile.com
 :: ads.oppomobile.com
 
 # > Outlook
 0.0.0.0 acdn.adnxs.com
-:: acdn.adnxs.com
 0.0.0.0 mediation.adnxs.com
-:: mediation.adnxs.com
 0.0.0.0 sin3-ib.adnxs.com
-:: sin3-ib.adnxs.com
 
 
 
 # >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
 # > PPTV
 0.0.0.0 ads.aplus.pptv.com
-:: ads.aplus.pptv.com
 0.0.0.0 ads.aplusapi.pptv.com
-:: ads.aplusapi.pptv.com
 0.0.0.0 asimgs.pplive.cn
-:: asimgs.pplive.cn
 0.0.0.0 de.as.pptv.com
-:: de.as.pptv.com
 0.0.0.0 afp.pplive.com
 :: afp.pplive.com
 0.0.0.0 gas.data.pplive.com
@@ -2924,38 +2763,31 @@
 
 # > Photoable
 0.0.0.0 regist.fotoable.com
-:: regist.fotoable.com
 0.0.0.0 cdn.adapi.fotoable.com
-:: cdn.adapi.fotoable.com
 
 # > PeanutWiFi
 0.0.0.0 adnew.wifi8.com
-:: adnew.wifi8.com
 0.0.0.0 adfile.wifi8.com
-:: adfile.wifi8.com
 
 # > 皮皮虾
 # 推荐视频不能预览
-||*log-api.pangolin-sdk-toutiao-b.com*$important
-||*log-api.pangolin-sdk-toutiao.com*$important
-||*api-access.pangolin-sdk-toutiao.com*$important
-# 未识别规则: ;host-keyword, snssdk.com, reject
-# 未识别规则: ;host-keyword, mssdk.bytedance.com, reject
-# 未识别规则: ;host-keyword, api.ribaoapi.com, reject
-# 未识别规则: ;host-keyword, apps.bytesfield.com, reject
-# 未识别规则: ;host-keyword, bytesmanager.com, reject
-# 未识别规则: ;host-keyword, mssdk-bu.bytedance.com, reject
-# 未识别规则: ;host-keyword, 365yg.com, reject
-# 未识别规则: ;host-keyword, ppx.byteimg.com, reject
-# 未识别规则: ;host-keyword, i.snssdk.com, reject
+# 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao-b.com, reject
+# 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao.com, reject
+# 未识别规则：host-keyword, api-access.pangolin-sdk-toutiao.com, reject
+# 未识别规则：;host-keyword, snssdk.com, reject
+# 未识别规则：;host-keyword, mssdk.bytedance.com, reject
+# 未识别规则：;host-keyword, api.ribaoapi.com, reject
+# 未识别规则：;host-keyword, apps.bytesfield.com, reject
+# 未识别规则：;host-keyword, bytesmanager.com, reject
+# 未识别规则：;host-keyword, mssdk-bu.bytedance.com, reject
+# 未识别规则：;host-keyword, 365yg.com, reject
+# 未识别规则：;host-keyword, ppx.byteimg.com, reject
+# 未识别规则：;host-keyword, i.snssdk.com, reject
 
 # > 澎湃新闻
 0.0.0.0 admonitor.thepaper.cn
-:: admonitor.thepaper.cn
 0.0.0.0 adpai.thepaper.cn
-:: adpai.thepaper.cn
 0.0.0.0 imgadpai.thepaper.cn
-:: imgadpai.thepaper.cn
 0.0.0.0 ad.thepaper.cn
 :: ad.thepaper.cn
 0.0.0.0 imgad.thepaper.cn
@@ -2966,49 +2798,28 @@
 # >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
 # > QQ音乐
 0.0.0.0 adstats.tencentmusic.com
-:: adstats.tencentmusic.com
 0.0.0.0 ad.tencentmusic.com
-:: ad.tencentmusic.com
 0.0.0.0 adcdn.tencentmusic.com
-:: adcdn.tencentmusic.com
 0.0.0.0 adcdn6.tencentmusic.com
-:: adcdn6.tencentmusic.com
 0.0.0.0 adexpo.tencentmusic.com
-:: adexpo.tencentmusic.com
 0.0.0.0 adclick.tencentmusic.com
-:: adclick.tencentmusic.com
 0.0.0.0 otheve.beacon.qq.com
-:: otheve.beacon.qq.com
 0.0.0.0 monitor.music.qq.com
-:: monitor.music.qq.com
 0.0.0.0 stat.y.qq.com
-:: stat.y.qq.com
 0.0.0.0 tmead.y.qq.com
-:: tmead.y.qq.com
 0.0.0.0 oth.str.mdt.qq.com
-:: oth.str.mdt.qq.com
 0.0.0.0 h.trace.qq.com
-:: h.trace.qq.com
 0.0.0.0 sdk.e.qq.com
-:: sdk.e.qq.com
 0.0.0.0 p.l.qq.com
-:: p.l.qq.com
 0.0.0.0 us.l.qq.com
-:: us.l.qq.com
 0.0.0.0 tangram.e.qq.com
-:: tangram.e.qq.com
 0.0.0.0 tmeadbak.y.qq.com
-:: tmeadbak.y.qq.com
 0.0.0.0 imtmp.net
 :: imtmp.net
 0.0.0.0 tmeadcomm.y.qq.com
-:: tmeadcomm.y.qq.com
 0.0.0.0 ad.tencentmusic.com
-:: ad.tencentmusic.com
 0.0.0.0 adstats.tencentmusic.com
-:: adstats.tencentmusic.com
 0.0.0.0 tmead.y.qq.com
-:: tmead.y.qq.com
 0.0.0.0 rqd.qq.com
 :: rqd.qq.com
 0.0.0.0 wup.imtt.qq.com
@@ -3024,59 +2835,39 @@
 0.0.0.0 v.gdt.qq.com
 :: v.gdt.qq.com
 0.0.0.0 amsweb-cdn-gz-1258344696.file.myqcloud.com
-:: amsweb-cdn-gz-1258344696.file.myqcloud.com
 0.0.0.0 wallpaper-1258344696.file.myqcloud.com
-:: wallpaper-1258344696.file.myqcloud.com
 0.0.0.0 xs.gdt.qq.com
-:: xs.gdt.qq.com
-# 未识别规则: IP-CIDR, 120.222.240.171/32, REJECT
+# 未识别规则：IP-CIDR, 120.222.240.171/32, REJECT
 
 # > 蜻蜓FM
 0.0.0.0 ad.qingting.fm
-:: ad.qingting.fm
 0.0.0.0 adlaunch.qingting.fm
-:: adlaunch.qingting.fm
 0.0.0.0 ad-cdn.qingting.fm
-:: ad-cdn.qingting.fm
 
 # > 七猫小说
 0.0.0.0 cdn-new-ad.wtzw.com
-:: cdn-new-ad.wtzw.com
 0.0.0.0 a-remad.qm989.com
-:: a-remad.qm989.com
 0.0.0.0 mobads.baidu.com
-:: mobads.baidu.com
 0.0.0.0 gdt.qq.com
 :: gdt.qq.com
 0.0.0.0 qzs.gdtimg.com
-:: qzs.gdtimg.com
 0.0.0.0 mobads-pre-config.cdn.bcebos.com
-:: mobads-pre-config.cdn.bcebos.com
 0.0.0.0 pgdt.ugdtimg.com
-:: pgdt.ugdtimg.com
 
 # > 汽车之家
-||*adm3.autoimg.cn*$important
-# 未识别规则: ;host-keyword, audid-api.taobao.com, reject
-||*collectionpv.che168.com*$important
-||*adproxy.autohome.com*$important
-||*applogapi.autohome.com*$important
+# 未识别规则：host-keyword, adm3.autoimg.cn, reject
+# 未识别规则：;host-keyword, audid-api.taobao.com, reject
+# 未识别规则：host-keyword, collectionpv.che168.com, reject
+# 未识别规则：host-keyword, adproxy.autohome.com, reject
+# 未识别规则：host-keyword, applogapi.autohome.com, reject
 0.0.0.0 adproxy.autohome.com.cn
-:: adproxy.autohome.com.cn
 0.0.0.0 rd.autohome.com.cn
-:: rd.autohome.com.cn
 0.0.0.0 al.autohome.com.cn
-:: al.autohome.com.cn
 0.0.0.0 applogapi.autohome.com.cn
-:: applogapi.autohome.com.cn
 0.0.0.0 adm0.autoimg.cn
-:: adm0.autoimg.cn
 0.0.0.0 adm1.autoimg.cn
-:: adm1.autoimg.cn
 0.0.0.0 adm2.autoimg.cn
-:: adm2.autoimg.cn
 0.0.0.0 adm3.autoimg.cn
-:: adm3.autoimg.cn
 0.0.0.0 adm0.autoimg.cn
 :: adm0.autoimg.cn
 0.0.0.0 adm1.autoimg.cn
@@ -3166,24 +2957,19 @@
 
 # > Soul
 0.0.0.0 soul-ad.soulapp.cn
-:: soul-ad.soulapp.cn
 0.0.0.0 ad-r.soulapp.cn
-:: ad-r.soulapp.cn
 0.0.0.0 ad-reward.soulapp.cn
-:: ad-reward.soulapp.cn
 0.0.0.0 cdn.soulapp.cn
 :: cdn.soulapp.cn
-# 未识别规则: IP-CIDR, 47.56.131.76/32, REJECT
-# 未识别规则: IP-CIDR, 47.97.215.55/32, REJECT
-# 未识别规则: IP-CIDR, 47.99.42.29/32, REJECT
-# 未识别规则: IP-CIDR, 120.27.235.201/32, REJECT
-# 未识别规则: IP-CIDR, 121.196.197.147/32, REJECT
+# 未识别规则：IP-CIDR, 47.56.131.76/32, REJECT
+# 未识别规则：IP-CIDR, 47.97.215.55/32, REJECT
+# 未识别规则：IP-CIDR, 47.99.42.29/32, REJECT
+# 未识别规则：IP-CIDR, 120.27.235.201/32, REJECT
+# 未识别规则：IP-CIDR, 121.196.197.147/32, REJECT
 
 # > Snapchat
 0.0.0.0 ads.snapchat.com
-:: ads.snapchat.com
 0.0.0.0 adsapi.snapchat.com
-:: adsapi.snapchat.com
 
 # > 盛趣游戏
 0.0.0.0 adrs.sdo.com
@@ -3209,7 +2995,6 @@
 0.0.0.0 aty.sohu.com
 :: aty.sohu.com
 0.0.0.0 hui.sohu.com
-:: hui.sohu.com
 0.0.0.0 adnet.sohu.com
 :: adnet.sohu.com
 0.0.0.0 corp.sohu.com
@@ -3250,7 +3035,7 @@
 :: 888.tv.sohu.com
 
 # > 搜狗
-# 未识别规则: ;host, indivi-cdn.shouji.sogou.com, reject
+# 未识别规则：;host, indivi-cdn.shouji.sogou.com, reject
 0.0.0.0 epro.sogou.com
 :: epro.sogou.com
 0.0.0.0 golden1.sogou.com
@@ -3408,7 +3193,7 @@
 :: dl.wan.sogoucdn.com
 
 # > 搜狗输入法
-# 未识别规则: ;host-keyword, business-cdn.shouji.sogou.com, reject
+# 未识别规则：;host-keyword, business-cdn.shouji.sogou.com, reject
 0.0.0.0 push-service-ios.sginput.qq.com
 :: push-service-ios.sginput.qq.com
 
@@ -3419,29 +3204,18 @@
 # > 收钱吧
 # 买单小程序去广告
 0.0.0.0 ads-shopping.shouqianba.com
-:: ads-shopping.shouqianba.com
 
 # > 什么值得买
 0.0.0.0 aaid.uyunad.com
-:: aaid.uyunad.com
 0.0.0.0 acs4baichuan.m.taobao.com
-:: acs4baichuan.m.taobao.com
 0.0.0.0 adashxgc.ut.taobao.com
-:: adashxgc.ut.taobao.com
 0.0.0.0 analytics-api.smzdm.com
-:: analytics-api.smzdm.com
 0.0.0.0 baichuan-sdk.alicdn.com
-:: baichuan-sdk.alicdn.com
 0.0.0.0 dgstatic.jd.com
-:: dgstatic.jd.com
 0.0.0.0 msg.umengcloud.com
-:: msg.umengcloud.com
 0.0.0.0 sec.umeng.com
-:: sec.umeng.com
 0.0.0.0 ulogs.umeng.com
-:: ulogs.umeng.com
 0.0.0.0 ynuf.aliapp.org
-:: ynuf.aliapp.org
 0.0.0.0 res-ga.smzdm.com
 :: res-ga.smzdm.com
 
@@ -3640,15 +3414,10 @@
 
 # > 天神
 0.0.0.0 track.tenjin.com
-:: track.tenjin.com
 0.0.0.0 track.tenjin.io
-:: track.tenjin.io
 0.0.0.0 errlog.umeng.com
-:: errlog.umeng.com
 0.0.0.0 lf9-cdn-tos.bytegecko.com
-:: lf9-cdn-tos.bytegecko.com
 0.0.0.0 novel.pangolin-sdk-toutiao.com
-:: novel.pangolin-sdk-toutiao.com
 
 # > 淘宝
 0.0.0.0 apoll.m.taobao.com
@@ -3658,7 +3427,6 @@
 0.0.0.0 w.m.taobao.com
 :: w.m.taobao.com
 0.0.0.0 tunion-api.m.taobao.com
-:: tunion-api.m.taobao.com
 # host-suffix, ai.m.taobao.com, reject
 0.0.0.0 re.m.taobao.com
 :: re.m.taobao.com
@@ -3805,9 +3573,7 @@
 
 # > 同花顺
 0.0.0.0 adm.10jqka.com.cn
-:: adm.10jqka.com.cn
 0.0.0.0 stat.10jqka.com.cn
-:: stat.10jqka.com.cn
 0.0.0.0 ad.thsi.cn
 :: ad.thsi.cn
 
@@ -3846,7 +3612,7 @@
 :: pre.api.tw06.xlmc.sandai.net
 
 # > 团油
-||*img1.czb365.com*$important
+# 未识别规则：host-keyword, img1.czb365.com, reject
 
 # > 同盾
 0.0.0.0 fraudmetrix.cn
@@ -3911,43 +3677,24 @@
 
 # > UC浏览器
 0.0.0.0 safe.ucweb.com
-:: safe.ucweb.com
 0.0.0.0 px.ucweb.com
-:: px.ucweb.com
 0.0.0.0 navigis.uc.cn
-:: navigis.uc.cn
 0.0.0.0 order.sm.cn
-:: order.sm.cn
 0.0.0.0 ucdc-upaas.uc.cn
-:: ucdc-upaas.uc.cn
 0.0.0.0 access.open.uc.cn
-:: access.open.uc.cn
 0.0.0.0 uc.ucweb.com
-:: uc.ucweb.com
 0.0.0.0 emoji.uc.cn
-:: emoji.uc.cn
 0.0.0.0 ssp-partner.alibaba.com
-:: ssp-partner.alibaba.com
 0.0.0.0 voice-service.uc.cn
-:: voice-service.uc.cn
 0.0.0.0 v.uc.cn
-:: v.uc.cn
 0.0.0.0 coral.uc.cn
-:: coral.uc.cn
 0.0.0.0 wolong-dsp.sm.cn
-:: wolong-dsp.sm.cn
 0.0.0.0 cartoonapi.uc.cn
-:: cartoonapi.uc.cn
 0.0.0.0 umessage-online-zb.uc.cn
-:: umessage-online-zb.uc.cn
 0.0.0.0 api.c.uc.cn
-:: api.c.uc.cn
 0.0.0.0 aid.m.taobao.com
-:: aid.m.taobao.com
 0.0.0.0 cms.uc.cn
-:: cms.uc.cn
 0.0.0.0 applog-perf.uc.cn
-:: applog-perf.uc.cn
 0.0.0.0 clickc.admaster.com.cn
 :: clickc.admaster.com.cn
 0.0.0.0 fans.m.tmall.com
@@ -3997,17 +3744,11 @@
 0.0.0.0 rescn.u3.ucweb.com
 :: rescn.u3.ucweb.com
 0.0.0.0 feedback.uc.cn
-:: feedback.uc.cn
 0.0.0.0 gj.applog.uc.cn
-:: gj.applog.uc.cn
 0.0.0.0 gj.track.uc.cn
-:: gj.track.uc.cn
 0.0.0.0 gjapplog.uc.cn
-:: gjapplog.uc.cn
 0.0.0.0 gjtrack.uc.cn
-:: gjtrack.uc.cn
 0.0.0.0 holmeshelptest.uc.cn
-:: holmeshelptest.uc.cn
 0.0.0.0 ads.uc.cn
 :: ads.uc.cn
 0.0.0.0 adslot.uc.cn
@@ -4040,7 +3781,7 @@
 :: open-uc.cn
 0.0.0.0 puds.test.uae.uc.cn
 :: puds.test.uae.uc.cn
-# 未识别规则: ;host-suffix, t.uc.cn, reject
+# 未识别规则：;host-suffix, t.uc.cn, reject
 0.0.0.0 track.uc.cn
 :: track.uc.cn
 0.0.0.0 wmedia-track.uc.cn
@@ -4048,15 +3789,10 @@
 0.0.0.0 woodpecker.uc.cn
 :: woodpecker.uc.cn
 0.0.0.0 gecko-pangle-lf.snssdk.com
-:: gecko-pangle-lf.snssdk.com
 0.0.0.0 mercury-sdk.snssdk.com
-:: mercury-sdk.snssdk.com
 0.0.0.0 tbm.snssdk.com
-:: tbm.snssdk.com
 0.0.0.0 toblog.ctobsnssdk.com
-:: toblog.ctobsnssdk.com
 0.0.0.0 tnc3-aliec2.snssdk.com
-:: tnc3-aliec2.snssdk.com
 0.0.0.0 kwurl.ucweb.com
 :: kwurl.ucweb.com
 0.0.0.0 uc9.ucweb.com
@@ -4097,24 +3833,17 @@
 # >>>>>>>>>>>>>>> ✅ V ✅ <<<<<<<<<<<<<<
 # > Vivo
 0.0.0.0 adlog.vivo.com.cn
-:: adlog.vivo.com.cn
 0.0.0.0 adreq.vivo.com.cn
-:: adreq.vivo.com.cn
 0.0.0.0 ads-marketing-vivofs.vivo.com.cn
-:: ads-marketing-vivofs.vivo.com.cn
 0.0.0.0 adsdk.vivo.com.cn
-:: adsdk.vivo.com.cn
 0.0.0.0 adsstatic.vivo.com.cn
-:: adsstatic.vivo.com.cn
 0.0.0.0 adxlog.vivo.com.cn
-:: adxlog.vivo.com.cn
 0.0.0.0 vcardsdkservice.vivo.com.cn
-:: vcardsdkservice.vivo.com.cn
-||*stsdk.vivo.com.cn*$important
-||*stsdk.vivoglobal.com*$important
+# 未识别规则：host-keyword, stsdk.vivo.com.cn, reject
+# 未识别规则：host-keyword, stsdk.vivoglobal.com, reject
 
 # > VIVO商城
-||*paradisestatic.vivo.com.cn*$important
+# 未识别规则：host-keyword, paradisestatic.vivo.com.cn, reject
 
 
 
@@ -4158,31 +3887,30 @@
 :: unipayupg.wostore.cn
 
 # > WiFi万能钥匙
-||*app.51y5.net*$important
-||*apiinit.amap.com*$important
-||*c.51y5.net*$important
-||*msg.push.51y5.net*$important
-||*a.wkanx.com*$important
-||*c.wkanx.com*$important
-||*c1.wkanx.com*$important
-||*ap.51y5.net*$important
-||*dc.51y5.net*$important
-||*push-dc.51y5.net*$important
-||*news-log.51y5.net*$important
-||*login.push.51y5.net*$important
-||*news.51y5.net*$important
-||*cds.51y5.net*$important
-||*insurance.lianwifi.com*$important
-||*config.51y5.net*$important
-||*static.wkanx.com*$important
-||*config.y5en.com*$important
+# 未识别规则：host-keyword, app.51y5.net, reject
+# 未识别规则：host-keyword, apiinit.amap.com, reject
+# 未识别规则：host-keyword, c.51y5.net, reject
+# 未识别规则：host-keyword, msg.push.51y5.net, reject
+# 未识别规则：host-keyword, a.wkanx.com, reject
+# 未识别规则：host-keyword, c.wkanx.com, reject
+# 未识别规则：host-keyword, c1.wkanx.com, reject
+# 未识别规则：host-keyword, ap.51y5.net, reject
+# 未识别规则：host-keyword, dc.51y5.net, reject
+# 未识别规则：host-keyword, push-dc.51y5.net, reject
+# 未识别规则：host-keyword, news-log.51y5.net, reject
+# 未识别规则：host-keyword, login.push.51y5.net, reject
+# 未识别规则：host-keyword, news.51y5.net, reject
+# 未识别规则：host-keyword, cds.51y5.net, reject
+# 未识别规则：host-keyword, insurance.lianwifi.com, reject
+# 未识别规则：host-keyword, config.51y5.net, reject
+# 未识别规则：host-keyword, static.wkanx.com, reject
+# 未识别规则：host-keyword, config.y5en.com, reject
 # 万能钥匙专业版
 # 感谢【All in 梭哈】分享
 0.0.0.0 mi.gdt.qq.com
 :: mi.gdt.qq.com
 # 去除导航栏免费短剧
 0.0.0.0 taichi.51y5.net
-:: taichi.51y5.net
 
 # > 网易
 0.0.0.0 dsp.youdao.com
@@ -4190,35 +3918,20 @@
 0.0.0.0 union.youdao.com
 :: union.youdao.com
 0.0.0.0 ad.bn.netease.com
-:: ad.bn.netease.com
 0.0.0.0 ad.yixin.im
-:: ad.yixin.im
 0.0.0.0 admusicpic.music.126.net
-:: admusicpic.music.126.net
 0.0.0.0 g1.163.com
-:: g1.163.com
 0.0.0.0 gorgon.youdao.com
-:: gorgon.youdao.com
 0.0.0.0 iad.g.163.com
-:: iad.g.163.com
 0.0.0.0 iadmat.nosdn.127.net
-:: iadmat.nosdn.127.net
 0.0.0.0 iadmusicmat.music.126.net
-:: iadmusicmat.music.126.net
 0.0.0.0 iadmusicmatvideo.music.126.net
-:: iadmusicmatvideo.music.126.net
 0.0.0.0 impservice.dictapp.youdao.com
-:: impservice.dictapp.youdao.com
 0.0.0.0 impservice.youdao.com
-:: impservice.youdao.com
 0.0.0.0 n.3g.163.com
-:: n.3g.163.com
 0.0.0.0 nex.163.com
-:: nex.163.com
 0.0.0.0 yt-adp.nosdn.127.net
-:: yt-adp.nosdn.127.net
 0.0.0.0 yt-adp.ws.126.net
-:: yt-adp.ws.126.net
 0.0.0.0 ir.mail.126.com
 :: ir.mail.126.com
 0.0.0.0 adgeo.163.com
@@ -4374,7 +4087,7 @@
 
 # > 网易云
 # 此条会导致"淘宝->成就中心->淘宝人生"进不去
-# 未识别规则: ;host-keyword, ossgw.alicdn.com, reject
+# 未识别规则：;host-keyword, ossgw.alicdn.com, reject
 
 # > 歪麦霸王餐
 # 去开屏
@@ -4404,20 +4117,16 @@
 
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 # > 讯飞输入法
-||*ossp.voicecloud.cn*$important
-||*bj.imp.voiceads.cn*$important
-||*m.panda.voiceads.cn*$important
-||*iflyad.bj.openstorage.cn*$important
+# 未识别规则：host-keyword, ossp.voicecloud.cn, reject
+# 未识别规则：host-keyword, bj.imp.voiceads.cn, reject
+# 未识别规则：host-keyword, m.panda.voiceads.cn, reject
+# 未识别规则：host-keyword, iflyad.bj.openstorage.cn, reject
 
 # > 喜马拉雅
 0.0.0.0 adsehera.ximalaya.com
-:: adsehera.ximalaya.com
 0.0.0.0 adse.wsa.ximalaya.com
-:: adse.wsa.ximalaya.com
 0.0.0.0 adbehavior.ximalaya.com
-:: adbehavior.ximalaya.com
 0.0.0.0 adbehavior.wsa.ximalaya.com
-:: adbehavior.wsa.ximalaya.com
 0.0.0.0 ad.ximalaya.com
 :: ad.ximalaya.com
 0.0.0.0 adse.ximalaya.com
@@ -4431,13 +4140,9 @@
 
 # > 小红书
 0.0.0.0 ads-img-qc.xhscdn.com
-:: ads-img-qc.xhscdn.com
 0.0.0.0 ads-video-al.xhscdn.com
-:: ads-video-al.xhscdn.com
 0.0.0.0 ads-video-qc.xhscdn.com
-:: ads-video-qc.xhscdn.com
 0.0.0.0 t-ads.xiaohongshu.com
-:: t-ads.xiaohongshu.com
 
 # > 小米
 ||*XiaoQiang*$important
@@ -4556,14 +4261,12 @@
 
 # > 小小影视
 0.0.0.0 39d83s.com
-:: 39d83s.com
 
 # > 小利生活
-||*mpos-pic.helipay.com*$important
+# 未识别规则：host-keyword, mpos-pic.helipay.com, reject
 
 # > 小爱音箱
 0.0.0.0 mistat.xiaomi.com
-:: mistat.xiaomi.com
 
 # > 晓晓优选
 0.0.0.0 fancyapi.com
@@ -4592,7 +4295,7 @@
 :: api.wxcjgg.cn
 0.0.0.0 shunchangzhixing.com
 :: shunchangzhixing.com
-# 未识别规则: IP-CIDR, 114.132.165.205/32, REJECT
+# 未识别规则：IP-CIDR, 114.132.165.205/32, REJECT
 
 # > 新浪
 0.0.0.0 ad.sina.com.cn
@@ -4945,15 +4648,10 @@
 0.0.0.0 gemini.yahoo.com
 :: gemini.yahoo.com
 0.0.0.0 admarketing.yahoo.net
-:: admarketing.yahoo.net
 0.0.0.0 ads.auctions.yahoo.com
-:: ads.auctions.yahoo.com
 0.0.0.0 ads.finance.yahoo.com
-:: ads.finance.yahoo.com
 0.0.0.0 ads.yahoo.com
-:: ads.yahoo.com
 0.0.0.0 ads.yahoo.de
-:: ads.yahoo.de
 
 # > 一点资讯
 0.0.0.0 imagelx.yidianzixun.com
@@ -5037,19 +4735,12 @@
 
 # > 云闪付
 0.0.0.0 ads.95516.com
-:: ads.95516.com
 0.0.0.0 tysdk.95516.com
-:: tysdk.95516.com
 0.0.0.0 cm-10-138.getui.com
-:: cm-10-138.getui.com
 0.0.0.0 sdk.open.talk.getui.net
-:: sdk.open.talk.getui.net
 0.0.0.0 sdk-conf.getui.com
-:: sdk-conf.getui.com
 0.0.0.0 switch.cup.com.cn
-:: switch.cup.com.cn
 0.0.0.0 ads.cup.com.cn
-:: ads.cup.com.cn
 
 # > 云之家
 0.0.0.0 ad.yunzhijia.com
@@ -5081,15 +4772,15 @@
 :: rhdc-acs.youku.com
 # host-suffix, cad.youku.com, reject
 # host-suffix, sjarvis.taobao.com, reject
-# 未识别规则: DOMAIN, httpdns.alicdn.com, reject
-# 未识别规则: DOMAIN, adsmind.ugdtimg.com, reject
-# 未识别规则: DOMAIN, amdc.m.youku.com, reject
-# 未识别规则: DOMAIN, apiv4-iyes.youku.com, reject
+# 未识别规则：DOMAIN, httpdns.alicdn.com, reject
+# 未识别规则：DOMAIN, adsmind.ugdtimg.com, reject
+# 未识别规则：DOMAIN, amdc.m.youku.com, reject
+# 未识别规则：DOMAIN, apiv4-iyes.youku.com, reject
 # DOMAIN, iyes.youku.com, reject
 # DOMAIN, mc.atm.youku.com, reject
-# 未识别规则: DOMAIN, yk-ssp.ad.youku.com, reject
-# 未识别规则: DOMAIN, ykad-data.youku.com, reject
-# 未识别规则: DOMAIN, ad.mobile.youku.com, reject
+# 未识别规则：DOMAIN, yk-ssp.ad.youku.com, reject
+# 未识别规则：DOMAIN, ykad-data.youku.com, reject
+# 未识别规则：DOMAIN, ad.mobile.youku.com, reject
 0.0.0.0 ad.api.3g.tudou.com
 :: ad.api.3g.tudou.com
 0.0.0.0 ad.api.3g.youku.com
@@ -5151,9 +4842,7 @@
 
 # > 易车
 0.0.0.0 adx.yiche.com
-:: adx.yiche.com
 0.0.0.0 log.ycapp.yiche.com
-:: log.ycapp.yiche.com
 0.0.0.0 bglog.bitauto.com
 :: bglog.bitauto.com
 0.0.0.0 g.bitauto.com
@@ -5195,13 +4884,9 @@
 
 # > 央视网
 0.0.0.0 galaxy.bjcathay.com
-:: galaxy.bjcathay.com
 0.0.0.0 mdrecv.app.cntvwb.cn
-:: mdrecv.app.cntvwb.cn
 0.0.0.0 sdapprecv.app.cntvwb.cn
-:: sdapprecv.app.cntvwb.cn
 0.0.0.0 vdapprecv.app.cntvwb.cn
-:: vdapprecv.app.cntvwb.cn
 0.0.0.0 a.cctv.com
 :: a.cctv.com
 0.0.0.0 ad.cntv.cn
@@ -5298,21 +4983,15 @@
 :: push-android.myzaker.com
 
 # > 知乎
-# 未识别规则: USER-AGENT,AVOS*, reject
+# 未识别规则：USER-AGENT,AVOS*, reject
 0.0.0.0 appcloud.zhihu.com
-:: appcloud.zhihu.com
 0.0.0.0 appcloud2.in.zhihu.com
-:: appcloud2.in.zhihu.com
 0.0.0.0 mqtt.zhihu.com
-:: mqtt.zhihu.com
 0.0.0.0 sugar.zhihu.com
-:: sugar.zhihu.com
 0.0.0.0 crash2.zhihu.com
-:: crash2.zhihu.com
 0.0.0.0 118.89.204.198
-:: 118.89.204.198
-# 未识别规则: IP-CIDR, 118.89.204.198/32, reject
-# 未识别规则: IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+# 未识别规则：IP-CIDR, 118.89.204.198/32, reject
+# 未识别规则：IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
 # > 中关村
 0.0.0.0 apppv.zol.com.cn
@@ -5353,7 +5032,7 @@
 :: api.zol.com
 
 # > 中国移动
-# 未识别规则: IP-CIDR, 120.240.95.37/32, reject
+# 未识别规则：IP-CIDR, 120.240.95.37/32, reject
 
 # > 中国联通
 0.0.0.0 m1.ad.10010.com
@@ -5361,31 +5040,27 @@
 
 # > 中国电信
 0.0.0.0 ad.21cn.com
-:: ad.21cn.com
 0.0.0.0 ad.k.21cn.com
-:: ad.k.21cn.com
 0.0.0.0 admarket.21cn.com
-:: admarket.21cn.com
 0.0.0.0 adshows.21cn.com
-:: adshows.21cn.com
-# 未识别规则: IP-CIDR, 122.229.8.47/32, reject
-# 未识别规则: IP-CIDR, 122.229.29.89/32, reject
+# 未识别规则：IP-CIDR, 122.229.8.47/32, reject
+# 未识别规则：IP-CIDR, 122.229.29.89/32, reject
 
 # > 中信银行
-# 未识别规则: ;host-suffix, sis.jpush.io, reject
-# 未识别规则: ;host-suffix, s.jpush.cn, reject
-# 未识别规则: ;host-suffix, jpush.cn, reject
-# 未识别规则: ;host-suffix, im64.jpush.cn, reject
-# 未识别规则: ;host-suffix, im.jpush.cn, reject
-# 未识别规则: ;host-suffix, jpush.html5.qq.com, reject
+# 未识别规则：;host-suffix, sis.jpush.io, reject
+# 未识别规则：;host-suffix, s.jpush.cn, reject
+# 未识别规则：;host-suffix, jpush.cn, reject
+# 未识别规则：;host-suffix, im64.jpush.cn, reject
+# 未识别规则：;host-suffix, im.jpush.cn, reject
+# 未识别规则：;host-suffix, jpush.html5.qq.com, reject
 
 # > 中华万年历
-||*lkme.cc*$important
-||*api.freed.so*$important
-||*log-dmp.suishenyun.cn*$important
-||*client-dmp.suishenyun.cn*$important
-||*pc.suishenyun.net*$important
-||*v0-client-lz.rili.cn*$important
+# 未识别规则：host-keyword, lkme.cc, reject
+# 未识别规则：host-keyword, api.freed.so, reject
+# 未识别规则：host-keyword, log-dmp.suishenyun.cn, reject
+# 未识别规则：host-keyword, client-dmp.suishenyun.cn, reject
+# 未识别规则：host-keyword, pc.suishenyun.net, reject
+# 未识别规则：host-keyword, v0-client-lz.rili.cn, reject
 0.0.0.0 ad.51wnl.com
 :: ad.51wnl.com
 0.0.0.0 ad-android.51wnl.com
@@ -5449,9 +5124,7 @@
 
 # > 字节跳动
 0.0.0.0 ad.zijieapi.com
-:: ad.zijieapi.com
 0.0.0.0 applog.zijieapi.com
-:: applog.zijieapi.com
 0.0.0.0 -normal-lq.zijieapi.com
 :: -normal-lq.zijieapi.com
 0.0.0.0 dm.bytedance.com
@@ -5509,7 +5182,7 @@
 :: ad-sign.byteimg.com
 0.0.0.0 tos.pstatp.com
 :: tos.pstatp.com
-||*asiad.byteactivity*$important
+# 未识别规则：host-keyword, asiad.byteactivity, reject
 ||*pangolin-sdk-toutiao*$important
 ||*pglstatp-toutiao*$important
 0.0.0.0 pangolin.snssdk.com
@@ -6062,7 +5735,6 @@
 
 # NicoNico
 0.0.0.0 ads.nicovideo.jp
-:: ads.nicovideo.jp
 
 # Onetad
 0.0.0.0 onetad.com
@@ -6404,17 +6076,11 @@
 0.0.0.0 cdn.viglink.com
 :: cdn.viglink.com
 0.0.0.0 apicdn.viglink.com
-:: apicdn.viglink.com
 0.0.0.0 mc.viglink.com
-:: mc.viglink.com
 0.0.0.0 ns2.viglink.com
-:: ns2.viglink.com
 0.0.0.0 ns3.viglink.com
-:: ns3.viglink.com
 0.0.0.0 ns4.viglink.com
-:: ns4.viglink.com
 0.0.0.0 qa.viglink.com
-:: qa.viglink.com
 
 # Voiceads
 0.0.0.0 agr.voiceads.cn
@@ -6486,7 +6152,6 @@
 
 # 诸葛智能
 0.0.0.0 zgsdk.zhugeio.com
-:: zgsdk.zhugeio.com
 
 # Zedo
 0.0.0.0 zedo.com
