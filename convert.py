@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-# 功能：读取 QuantumultX 规则 URL → 仅转换 host, 域名, reject 为 hosts 规则 → 其他规则保持原样
+# 功能：读取 QuantumultX 规则 URL → 按指定格式转换目标规则 → 其他规则保持原样
 import re
 import requests
 from typing import List
 
 # 配置文件路径
 URL_CONFIG_FILE = "rules.txt"       # 存放 QuantumultX 在线规则 URL 的文件
-OUTPUT_FILE = "converted-rules.txt"  # 输出文件（保留所有规则，仅转换目标类型）
+OUTPUT_FILE = "converted-rules.txt"  # 输出文件
 
 def read_rule_urls(config_file: str) -> List[str]:
     """读取规则配置文件中的 URL，返回去重后的有效列表"""
@@ -47,40 +47,69 @@ def fetch_rules(urls: List[str]) -> List[str]:
         raise SystemExit(1)
     return all_rules
 
-def convert_host_rules(all_rules: List[str]) -> List[str]:
-    """仅转换 host, 域名, reject 为 0.0.0.0 域名，其他规则保持不变"""
+def convert_target_rules(all_rules: List[str]) -> List[str]:
+    """
+    按要求转换规则：
+    - host, 域名, reject → 0.0.0.0 域名（hosts 格式）
+    - host-suffix, 域名, reject → ||域名^（AdGuard 格式）
+    - 其他规则保持不变
+    """
     converted_rules = []
-    converted_count = 0
-    # 匹配 host 规则的正则（支持域名含 ._- 等字符，忽略大小写）
+    host_converted = 0  # 统计 host 规则转换数量
+    suffix_converted = 0  # 统计 host-suffix 规则转换数量
+    
+    # 正则表达式（支持域名含 ._- 等字符，忽略大小写）
     host_pattern = re.compile(r'^host,\s*([\w\.\-]+),\s*reject$', re.IGNORECASE)
+    suffix_pattern = re.compile(r'^host-suffix,\s*([\w\.\-]+),\s*reject$', re.IGNORECASE)
     
     for line in all_rules:
-        match = host_pattern.match(line.strip())
-        if match:
-            domain = match.group(1).strip()
-            converted_rules.append(f"0.0.0.0 {domain}")  # 转换为 hosts 格式
-            converted_count += 1
-        else:
-            converted_rules.append(line)  # 其他规则原样保留
+        line_stripped = line.strip()
+        
+        # 匹配 host 规则
+        host_match = host_pattern.match(line_stripped)
+        if host_match:
+            domain = host_match.group(1).strip()
+            converted_rules.append(f"0.0.0.0 {domain}")
+            host_converted += 1
+            continue
+        
+        # 匹配 host-suffix 规则
+        suffix_match = suffix_pattern.match(line_stripped)
+        if suffix_match:
+            domain = suffix_match.group(1).strip()
+            converted_rules.append(f"||{domain}^")  # 转换为 AdGuard 格式
+            suffix_converted += 1
+            continue
+        
+        # 其他规则原样保留
+        converted_rules.append(line)
     
     # 添加头部说明
     header = [
         "# ===============================",
         "# 规则转换说明",
-        "# 仅将 host, 域名, reject 转换为 0.0.0.0 域名（hosts 格式）",
-        "# 其他类型规则保持原始格式不变",
+        "# 1. host, 域名, reject → 0.0.0.0 域名（hosts 格式）",
+        "# 2. host-suffix, 域名, reject → ||域名^（AdGuard 格式）",
+        "# 3. 其他类型规则保持原始格式不变",
         "# ===============================\n"
     ]
-    return header + converted_rules, converted_count
+    return header + converted_rules, host_converted, suffix_converted
 
-def write_output(rules: List[str], output_file: str, converted_count: int):
-    """写入输出文件"""
+def write_output(rules: List[str], output_file: str, host_count: int, suffix_count: int):
+    """写入输出文件并显示统计信息"""
     try:
         with open(output_file, 'w', encoding='utf-8', newline='\n') as f:
             f.write('\n'.join(rules))
+        
+        total_converted = host_count + suffix_count
+        total_original = len(rules) - 6  # 扣除头部 6 行说明
+        
         print(f"\n✅ 转换完成！")
-        print(f"📊 统计：共处理 {len(rules) - 6} 行原始规则（扣除头部说明）")
-        print(f"📊 成功转换 {converted_count} 条 host 类型规则")
+        print(f"📊 统计：")
+        print(f"   - 共处理原始规则：{total_original} 行")
+        print(f"   - 转换 host 规则：{host_count} 条（→ 0.0.0.0 域名）")
+        print(f"   - 转换 host-suffix 规则：{suffix_count} 条（→ ||域名^）")
+        print(f"   - 总计转换：{total_converted} 条规则")
         print(f"📄 输出文件：{output_file}")
     except Exception as e:
         print(f"❌ 写入文件失败：{str(e)}")
@@ -91,7 +120,7 @@ if __name__ == "__main__":
     rule_urls = read_rule_urls(URL_CONFIG_FILE)
     # 步骤2：拉取所有规则
     all_rules = fetch_rules(rule_urls)
-    # 步骤3：仅转换 host 规则
-    converted_rules, count = convert_host_rules(all_rules)
-    # 步骤4：写入输出
-    write_output(converted_rules, OUTPUT_FILE, count)
+    # 步骤3：按要求转换目标规则
+    converted_rules, host_cnt, suffix_cnt = convert_target_rules(all_rules)
+    # 步骤4：写入输出文件
+    write_output(converted_rules, OUTPUT_FILE, host_cnt, suffix_cnt)
