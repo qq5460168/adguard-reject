@@ -36,7 +36,7 @@
 ||wss.haoyundmn.com^
 ||new.xiongzhangad.com^
 ||alexametrics.com^
-||*in-page-push*$important
+||in-page-push^
 
 # > 17173（网络游戏门户网站）
 ||ad.17173.com^
@@ -818,7 +818,7 @@
 # 未识别规则：IP-CIDR, 211.161.101.110/32, reject
 
 # > 叮嗒出行
-# 未识别规则：host-keyword, image.bianxianmao.com, reject
+||image.bianxianmao.com^
 
 # > 滴滴青桔
 # 支付界面图片有误杀
@@ -826,15 +826,15 @@
 # 未识别规则：ip-cidr, 203.107.1.1/24, reject
 
 # > 懂车帝
-# 未识别规则：host-keyword, p3-pack.byteimg.com, reject
-# 未识别规则：host-keyword, p6-pack.byteimg.com, reject
+||p3-pack.byteimg.com^
+||p6-pack.byteimg.com^
 
 # > 懂球帝
-# 未识别规则：host-keyword, apimg.qunliao.info, reject
+||apimg.qunliao.info^
 
 # > 抖音
-# 未识别规则：host-keyword, bds.snssdk.com, reject
-# 未识别规则：host-keyword, p3.pstatp.com, reject
+||bds.snssdk.com^
+||p3.pstatp.com^
 
 # > 多多视频
 ||bayescom.com^
@@ -1048,7 +1048,7 @@
 ||tralog.ganji.com^
 
 # > 光大银行 阳光惠生活
-# 未识别规则：host-keyword, talk.bz.getui.com, reject
+||talk.bz.getui.com^
 
 # > 高德地图
 # 未识别规则：;host, restapi.amap.com, reject
@@ -1251,18 +1251,18 @@
 ||pdl.gionee.com^
 
 # > 今日头条
-# 未识别规则：host-KEYWORD,clk.gentags.net, reject
-# 未识别规则：host-KEYWORD,dm.pstatp.com, reject
-# 未识别规则：host-KEYWORD,dm.bytedance.com, reject
-# 未识别规则：host-KEYWORD,uop.umeng.com, reject
-# 未识别规则：host-KEYWORD,m.suning.com, reject
-# 未识别规则：host-KEYWORD,adshare.toutiao.com, reject
-# 未识别规则：host-KEYWORD,tunion-api.m.taobao.com, reject
-# 未识别规则：host-KEYWORD,s1.pstatp.com, reject
-# 未识别规则：host-KEYWORD,s2.pstatp.com, reject
-# 未识别规则：host-KEYWORD,s3.pstatp.com, reject
-# 未识别规则：host-KEYWORD,a3.pstatp.com, reject
-# 未识别规则：host-KEYWORD,a3.bytecdn.cn, reject
+||clk.gentags.net^
+||dm.pstatp.com^
+||dm.bytedance.com^
+||uop.umeng.com^
+||m.suning.com^
+||adshare.toutiao.com^
+||tunion-api.m.taobao.com^
+||s1.pstatp.com^
+||s2.pstatp.com^
+||s3.pstatp.com^
+||a3.pstatp.com^
+||a3.bytecdn.cn^
 ||ad.toutiao.com^
 ||dm.toutiao.com^
 ||dsp.toutiao.com^
@@ -1360,21 +1360,21 @@
 # 未识别规则：host, adsfile.bssdlbig.kugou.com, reject
 # 未识别规则：host, pgdt.gtimg.com, reject
 # 未识别规则：host, adsmind.gdtimg.com, reject
-# 未识别规则：host-keyword, searchrecommend.kugou.com, reject
-# 未识别规则：host-keyword, nbcollectretry.kugou.com, reject
-# 未识别规则：host-keyword, rtmretry.kugou.com, reject
-# 未识别规则：host-keyword, rt-m.kugou.com, reject
-# 未识别规则：host-keyword, nbcollect.kugou.com, reject
-# 未识别规则：host-keyword, c1img.ali.kugou.com, reject
-# 未识别规则：host-keyword, kgstaticdlbssdlbig.tx.kugou.com, reject
-# 未识别规则：host-keyword, adsfilebssdlbig.ali.kugou.com, reject
-# 未识别规则：host-keyword, splashimgbssdl.yun.kugou.com, reject
-# 未识别规则：host-keyword, adservice.kugou.com, reject
-# 未识别规则：host-keyword, kgipadstat.kugou.com, reject
-# 未识别规则：host-keyword, kgipadstatbak.kugou.com, reject
-# 未识别规则：host-keyword, logwebs.kugou.com, reject
-# 未识别规则：host-keyword, tracker.kugou.com, reject
-# 未识别规则：host-keyword, trackercdnbj.kugou.com, reject
+||searchrecommend.kugou.com^
+||nbcollectretry.kugou.com^
+||rtmretry.kugou.com^
+||rt-m.kugou.com^
+||nbcollect.kugou.com^
+||c1img.ali.kugou.com^
+||kgstaticdlbssdlbig.tx.kugou.com^
+||adsfilebssdlbig.ali.kugou.com^
+||splashimgbssdl.yun.kugou.com^
+||adservice.kugou.com^
+||kgipadstat.kugou.com^
+||kgipadstatbak.kugou.com^
+||logwebs.kugou.com^
+||tracker.kugou.com^
+||trackercdnbj.kugou.com^
 ||oth.eve.mdt.qq.com^
 ||channel.fanxing.kugou.com^
 ||d.kugou.com^
@@ -1410,8 +1410,8 @@
 # > 酷我音乐
 # 未识别规则：host, mobilead.kuwo.cn, reject
 # 未识别规则：host, rich.kuwo.cn, reject
-# 未识别规则：host-keyword, rich.kuwo.cn, reject
-# 未识别规则：host-keyword, mobilead.kuwo.cn, reject
+||rich.kuwo.cn^
+||mobilead.kuwo.cn^
 ||c.kuwo.cn^
 ||deliver.kuwo.cn^
 ||game.kuwo.cn^
@@ -1478,7 +1478,7 @@
 
 # > 蓝基因
 # 弹窗还在，需要手动关闭
-# 未识别规则：host-keyword, medicine.lanjiyin.com.cn, reject
+||medicine.lanjiyin.com.cn^
 
 # > 两步路
 ||admobile.top^
@@ -1637,16 +1637,16 @@
 ||gs.getui.com^
 
 # > 民生银行
-# 未识别规则：host-keyword, cm-10-134.getui.com, reject
-# 未识别规则：host-keyword, sdk.open.talk.getui.com, reject
-# 未识别规则：host-keyword, cm-10-35.getui.com, reject
-# 未识别规则：host-keyword, c-hzgt2.getui.com, reject
+||cm-10-134.getui.com^
+||sdk.open.talk.getui.com^
+||cm-10-35.getui.com^
+||c-hzgt2.getui.com^
 
 # > 墨迹天气
-# 未识别规则：host-KEYWORD,me.api.moji.com, reject
-# 未识别规则：host-KEYWORD,android.bugly.qq.com, reject
-# 未识别规则：host-KEYWORD,av1.xdrig.com, reject
-# 未识别规则：host-KEYWORD,adash.man.aliyuncs.com, reject
+||me.api.moji.com^
+||android.bugly.qq.com^
+||av1.xdrig.com^
+||adash.man.aliyuncs.com^
 # 未识别规则：host, ad.api.moji.com, reject
 # 未识别规则：host, adlaunch.moji.com, reject
 # 未识别规则：host, ads.mojicdn.com, reject
@@ -1782,9 +1782,9 @@
 
 # > 皮皮虾
 # 推荐视频不能预览
-# 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao-b.com, reject
-# 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao.com, reject
-# 未识别规则：host-keyword, api-access.pangolin-sdk-toutiao.com, reject
+||log-api.pangolin-sdk-toutiao-b.com^
+||log-api.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao.com^
 # 未识别规则：;host-keyword, snssdk.com, reject
 # 未识别规则：;host-keyword, mssdk.bytedance.com, reject
 # 未识别规则：;host-keyword, api.ribaoapi.com, reject
@@ -1855,11 +1855,11 @@
 # 未识别规则：host, pgdt.ugdtimg.com, REJECT
 
 # > 汽车之家
-# 未识别规则：host-keyword, adm3.autoimg.cn, reject
+||adm3.autoimg.cn^
 # 未识别规则：;host-keyword, audid-api.taobao.com, reject
-# 未识别规则：host-keyword, collectionpv.che168.com, reject
-# 未识别规则：host-keyword, adproxy.autohome.com, reject
-# 未识别规则：host-keyword, applogapi.autohome.com, reject
+||collectionpv.che168.com^
+||adproxy.autohome.com^
+||applogapi.autohome.com^
 # 未识别规则：host, adproxy.autohome.com.cn, reject
 # 未识别规则：host, rd.autohome.com.cn, reject
 # 未识别规则：host, al.autohome.com.cn, reject
@@ -2296,7 +2296,7 @@
 ||pre.api.tw06.xlmc.sandai.net^
 
 # > 团油
-# 未识别规则：host-keyword, img1.czb365.com, reject
+||img1.czb365.com^
 
 # > 同盾
 ||fraudmetrix.cn^
@@ -2439,11 +2439,11 @@
 # 未识别规则：host, adsstatic.vivo.com.cn, reject
 # 未识别规则：host, adxlog.vivo.com.cn, reject
 # 未识别规则：host, vcardsdkservice.vivo.com.cn, reject
-# 未识别规则：host-keyword, stsdk.vivo.com.cn, reject
-# 未识别规则：host-keyword, stsdk.vivoglobal.com, reject
+||stsdk.vivo.com.cn^
+||stsdk.vivoglobal.com^
 
 # > VIVO商城
-# 未识别规则：host-keyword, paradisestatic.vivo.com.cn, reject
+||paradisestatic.vivo.com.cn^
 
 
 
@@ -2471,24 +2471,24 @@
 ||unipayupg.wostore.cn^
 
 # > WiFi万能钥匙
-# 未识别规则：host-keyword, app.51y5.net, reject
-# 未识别规则：host-keyword, apiinit.amap.com, reject
-# 未识别规则：host-keyword, c.51y5.net, reject
-# 未识别规则：host-keyword, msg.push.51y5.net, reject
-# 未识别规则：host-keyword, a.wkanx.com, reject
-# 未识别规则：host-keyword, c.wkanx.com, reject
-# 未识别规则：host-keyword, c1.wkanx.com, reject
-# 未识别规则：host-keyword, ap.51y5.net, reject
-# 未识别规则：host-keyword, dc.51y5.net, reject
-# 未识别规则：host-keyword, push-dc.51y5.net, reject
-# 未识别规则：host-keyword, news-log.51y5.net, reject
-# 未识别规则：host-keyword, login.push.51y5.net, reject
-# 未识别规则：host-keyword, news.51y5.net, reject
-# 未识别规则：host-keyword, cds.51y5.net, reject
-# 未识别规则：host-keyword, insurance.lianwifi.com, reject
-# 未识别规则：host-keyword, config.51y5.net, reject
-# 未识别规则：host-keyword, static.wkanx.com, reject
-# 未识别规则：host-keyword, config.y5en.com, reject
+||app.51y5.net^
+||apiinit.amap.com^
+||c.51y5.net^
+||msg.push.51y5.net^
+||a.wkanx.com^
+||c.wkanx.com^
+||c1.wkanx.com^
+||ap.51y5.net^
+||dc.51y5.net^
+||push-dc.51y5.net^
+||news-log.51y5.net^
+||login.push.51y5.net^
+||news.51y5.net^
+||cds.51y5.net^
+||insurance.lianwifi.com^
+||config.51y5.net^
+||static.wkanx.com^
+||config.y5en.com^
 # 万能钥匙专业版
 # 感谢【All in 梭哈】分享
 ||mi.gdt.qq.com^
@@ -2616,10 +2616,10 @@
 
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 # > 讯飞输入法
-# 未识别规则：host-keyword, ossp.voicecloud.cn, reject
-# 未识别规则：host-keyword, bj.imp.voiceads.cn, reject
-# 未识别规则：host-keyword, m.panda.voiceads.cn, reject
-# 未识别规则：host-keyword, iflyad.bj.openstorage.cn, reject
+||ossp.voicecloud.cn^
+||bj.imp.voiceads.cn^
+||m.panda.voiceads.cn^
+||iflyad.bj.openstorage.cn^
 
 # > 喜马拉雅
 # 未识别规则：host, adsehera.ximalaya.com, REJECT
@@ -2639,7 +2639,7 @@
 # 未识别规则：host, t-ads.xiaohongshu.com, reject
 
 # > 小米
-||*XiaoQiang*$important
+||XiaoQiang^
 ||ad.mi.com^
 ||ad1.xiaomi.com^
 ||admob.xiaomi.com^
@@ -2701,7 +2701,7 @@
 # 未识别规则：host, 39d83s.com, reject
 
 # > 小利生活
-# 未识别规则：host-keyword, mpos-pic.helipay.com, reject
+||mpos-pic.helipay.com^
 
 # > 小爱音箱
 # 未识别规则：host, mistat.xiaomi.com, reject
@@ -3181,12 +3181,12 @@
 # 未识别规则：;host-suffix, jpush.html5.qq.com, reject
 
 # > 中华万年历
-# 未识别规则：host-keyword, lkme.cc, reject
-# 未识别规则：host-keyword, api.freed.so, reject
-# 未识别规则：host-keyword, log-dmp.suishenyun.cn, reject
-# 未识别规则：host-keyword, client-dmp.suishenyun.cn, reject
-# 未识别规则：host-keyword, pc.suishenyun.net, reject
-# 未识别规则：host-keyword, v0-client-lz.rili.cn, reject
+||lkme.cc^
+||api.freed.so^
+||log-dmp.suishenyun.cn^
+||client-dmp.suishenyun.cn^
+||pc.suishenyun.net^
+||v0-client-lz.rili.cn^
 ||ad.51wnl.com^
 ||ad-android.51wnl.com^
 ||ad.51wnl-cq.com^
@@ -3269,9 +3269,9 @@
 ||miaozhen.com^
 ||ad-sign.byteimg.com^
 ||tos.pstatp.com^
-# 未识别规则：host-keyword, asiad.byteactivity, reject
-||*pangolin-sdk-toutiao*$important
-||*pglstatp-toutiao*$important
+||asiad.byteactivity^
+||pangolin-sdk-toutiao^
+||pglstatp-toutiao^
 ||pangolin.snssdk.com^
 ||video-cn.snssdk.com^
 ||getui.com^
@@ -3283,7 +3283,7 @@
 ||cdntips.net^
 ||tfogc.com^
 #host-keyword, volc, reject
-||*umeng*$important
+||umeng^
 # Ad-Stir
 ||ad-stir.com^
 # Adadapted
@@ -3299,7 +3299,7 @@
 ||addthisedge.com^
 
 # Adform
-||*adform*$important
+||adform^
 
 # Adhouyi (广告后台)
 ||ad.adhouyi.cn^
@@ -3410,7 +3410,7 @@
 ||api.android.dianru.com^
 
 # dtscout
-||*dtscout*$important
+||dtscout^
 ||dtscout.com^
 
 # Exoclick
@@ -3602,7 +3602,7 @@
 ||magicwindow.cn^
 
 # Mathtag
-||*mathtag*$important
+||mathtag^
 ||mathtag.com^
 ||pixel.mathtag.com^
 ||sync.mathtag.com^
