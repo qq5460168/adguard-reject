@@ -23,13 +23,7 @@
 # 1.2.3.4/24      /24表示网络的子网掩码长度，即前24位是网络部分，后8位是主机部分。这种表示法常用于描述特定范围内的IP地址
 # 6.7.8.9/32      /32表示整个32位的IP地址都用于表示这一个地址，即单独的一个IP地址
 #############################################
-
-
-
 # >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
-
-
-
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
 # > 12123
 0.0.0.0 v3.fstats.xyz
@@ -41,7 +35,6 @@
 0.0.0.0 alexametrics.com
 :: alexametrics.com
 ||*in-page-push*$important
-
 # > 17173（网络游戏门户网站）
 0.0.0.0 ad.17173.com
 :: ad.17173.com
@@ -53,13 +46,11 @@
 :: vda.17173.com
 0.0.0.0 s.17173cdn.com
 :: s.17173cdn.com
-
 # > 178游戏网
 0.0.0.0 market.178.com
 :: market.178.com
 0.0.0.0 tuiguang.178.com
 :: tuiguang.178.com
-
 # > 18183游戏网
 0.0.0.0 img1.18183.com
 :: img1.18183.com
@@ -67,7 +58,6 @@
 :: eezdx.erc.18183.com
 0.0.0.0 zpe.klre.18183.com
 :: zpe.klre.18183.com
-
 # > 1905电影网
 0.0.0.0 mlog.m1905.cn
 :: mlog.m1905.cn
@@ -77,9 +67,6 @@
 :: afp.m1905.com
 0.0.0.0 counter.m1905.com
 :: counter.m1905.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ 2 ✅ <<<<<<<<<<<<<<
 # > 2345网址导航
 0.0.0.0 dl.2345.com
@@ -104,9 +91,6 @@
 :: update.minipage.2345.com
 0.0.0.0 g.wan.2345.com
 :: g.wan.2345.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ 3 ✅ <<<<<<<<<<<<<<
 # > 360
 0.0.0.0 pjogndc8ixoidna.360doc.cn
@@ -159,11 +143,9 @@
 :: mbrowser.news.so.com
 0.0.0.0 tran.news.so.com
 :: tran.news.so.com
-
 # > 365日历
 0.0.0.0 ad.365rili.com
 :: ad.365rili.com
-
 # > 39健康网
 0.0.0.0 app-g.39.net
 :: app-g.39.net
@@ -173,13 +155,7 @@
 :: dpvc.39.net
 0.0.0.0 thetestpage.39.net
 :: thetestpage.39.net
-
-
-
 # >>>>>>>>>>>>>>> ✅ 4 ✅ <<<<<<<<<<<<<<
-
-
-
 # >>>>>>>>>>>>>>> ✅ 5 ✅ <<<<<<<<<<<<<<
 # > 51CTO学堂
 0.0.0.0 gg.51cto.com
@@ -188,7 +164,6 @@
 :: gg2.51cto.com
 0.0.0.0 gg3.51cto.com
 :: gg3.51cto.com
-
 # > 58同城
 0.0.0.0 track.58.com
 0.0.0.0 tracklog.58.com
@@ -214,36 +189,20 @@
 :: jumpluna.58.com
 0.0.0.0 news.58.com
 :: news.58.com
-0.0.0.0 track.58.com
 :: track.58.com
-0.0.0.0 tracklog.58.com
 :: tracklog.58.com
 0.0.0.0 zzpush.58.com
 :: zzpush.58.com
 0.0.0.0 jump.luna.58.com
 :: jump.luna.58.com
-
-
 # > 58汽车
 0.0.0.0 58.xgo.com.cn
 :: 58.xgo.com.cn
 0.0.0.0 imp.xgo.com.cn
 :: imp.xgo.com.cn
-
-
-
 # >>>>>>>>>>>>>>> ✅ 6 ✅ <<<<<<<<<<<<<<
-
-
-
 # >>>>>>>>>>>>>>> ✅ 7 ✅ <<<<<<<<<<<<<<
-
-
-
 # >>>>>>>>>>>>>>> ✅ 8 ✅ <<<<<<<<<<<<<<
-
-
-
 # >>>>>>>>>>>>>>> ✅ 9 ✅ <<<<<<<<<<<<<<
 # 9to5Mac
 # 网页版去广告
@@ -305,9 +264,6 @@
 :: presage.io
 0.0.0.0 mradx.net
 :: mradx.net
-
-
-
 # >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
 # > Adobe
 0.0.0.0 3dns-2.adobe.com
@@ -363,10 +319,8 @@
 :: marketo.net
 0.0.0.0 munchkin.marketo.net
 :: munchkin.marketo.net
-
 # > Adobe Flash China Special Edition
 0.0.0.0 geo2.adobe.com
-
 # > Akamai
 0.0.0.0 appnext-a.akamaihd.net
 :: appnext-a.akamaihd.net
@@ -374,7 +328,6 @@
 :: lbstatic-a.akamaihd.net
 0.0.0.0 toots-a.akamaihd.net
 :: toots-a.akamaihd.net
-
 # > Apple
 0.0.0.0 advertising.apple.com
 0.0.0.0 api-adservices.apple.com
@@ -407,7 +360,6 @@
 :: safebrowsing.apple
 0.0.0.0 u3.ucweb.com
 :: u3.ucweb.com
-
 # > Amazon
 0.0.0.0 amazon-adsystem.com
 :: amazon-adsystem.com
@@ -429,7 +381,6 @@
 :: smblock.s3.amazonaws.com
 0.0.0.0 whistleout.s3.amazonaws.com
 :: whistleout.s3.amazonaws.com
-
 # > AOL（美国在线）
 0.0.0.0 adinfo.aol.com
 :: adinfo.aol.com
@@ -441,7 +392,6 @@
 :: mads.aol.com
 0.0.0.0 cdn.komentary.aol.com
 :: cdn.komentary.aol.com
-
 # > 爱拍
 0.0.0.0 apas.aipai.com
 :: apas.aipai.com
@@ -449,7 +399,6 @@
 :: atiws.aipai.com
 0.0.0.0 mlog.aipai.com
 :: mlog.aipai.com
-
 # > 爱卡汽车网
 0.0.0.0 d0.xcar.com.cn
 :: d0.xcar.com.cn
@@ -457,7 +406,6 @@
 :: dw.xcar.com.cn
 0.0.0.0 pv.xcar.com.cn
 :: pv.xcar.com.cn
-
 # > 阿里系
 # host-suffix, alistatic.cn, reject
 # host-suffix, cnzz.cn, reject
@@ -574,10 +522,8 @@
 # host-suffix, grand.ele.me, reject
 # host-suffix, mobile-pubt.ele.me, reject
 # host-suffix, newton-api.ele.me, reject
-
 # > 阿里云
 # 未识别规则：IP-CIDR, 203.107.1.1/24, reject
-
 # > 爱奇艺
 0.0.0.0 api.iqiyi.com
 0.0.0.0 cr-status.iqiyi.com
@@ -589,7 +535,6 @@
 0.0.0.0 t7z.cupid.ptqy.gitv.tv
 0.0.0.0 cupid.iqiyi.com
 :: cupid.iqiyi.com
-0.0.0.0 t7z.cupid.iqiyi.com
 :: t7z.cupid.iqiyi.com
 0.0.0.0 static-s.iqiyi.com
 :: static-s.iqiyi.com
@@ -611,8 +556,6 @@
 :: cm.passport.iqiyi.com
 0.0.0.0 count.game.pps.tv
 :: count.game.pps.tv
-0.0.0.0 cupid.iqiyi.com
-:: cupid.iqiyi.com
 0.0.0.0 emoticon.sns.iqiyi.com
 :: emoticon.sns.iqiyi.com
 0.0.0.0 gamecenter.iqiyi.com
@@ -656,16 +599,12 @@
 # 未识别规则：IP-CIDR, 101.227.200.11/32, reject
 # 未识别规则：IP-CIDR, 101.227.200.28/32, reject
 # 未识别规则：IP-CIDR, 124.192.153.42/32, reject
-
-
-
 # >>>>>>>>>>>>>>> ✅ B ✅ <<<<<<<<<<<<<<
 # > bshare
 0.0.0.0 bshare.cn
 :: bshare.cn
 0.0.0.0 bshare.optimix.asia
 :: bshare.optimix.asia
-
 # > Braze
 0.0.0.0 iad.appboy.com
 :: iad.appboy.com
@@ -685,7 +624,6 @@
 :: iad-06.braze.com
 0.0.0.0 iad-08.braze.com
 :: iad-08.braze.com
-
 # > 百度
 0.0.0.0 duapps.com
 :: duapps.com
@@ -958,26 +896,17 @@
 :: znsv.baidu.com
 0.0.0.0 baidustatic.com
 :: baidustatic.com
-0.0.0.0 als.baidu.com
 :: als.baidu.com
-0.0.0.0 duclick.baidu.com
 :: duclick.baidu.com
 0.0.0.0 hm.baidu.com
 :: hm.baidu.com
 0.0.0.0 hmma.baidu.com
 :: hmma.baidu.com
-0.0.0.0 mobads.baidu.com
 :: mobads.baidu.com
-0.0.0.0 mobads-logs.baidu.com
 :: mobads-logs.baidu.com
-0.0.0.0 nsclick.baidu.com
 :: nsclick.baidu.com
-0.0.0.0 hm.baidu.com
-0.0.0.0 hmma.baidu.com
 0.0.0.0 bdtongfei.cn
 :: bdtongfei.cn
-0.0.0.0 mobads.baidu.com
-:: mobads.baidu.com
 0.0.0.0 ecma.bdimg.com
 :: ecma.bdimg.com
 0.0.0.0 ecmb.bdimg.com
@@ -996,25 +925,16 @@
 :: zz.bdstatic.com
 0.0.0.0 bcebos.com
 :: bcebos.com
-0.0.0.0 baidustatic.com
-:: baidustatic.com
-0.0.0.0 duapps.com
-:: duapps.com
-
 # > 百度地图
-0.0.0.0 afd.baidu.com
 0.0.0.0 afdconf.baidu.com
 0.0.0.0 httpdns.baidubce.com
 0.0.0.0 lc.map.baidu.com
-
 # > 百度贴吧
 # 屏蔽域名dns查询
 # 未识别规则：IP-CIDR, 180.76.76.200/32, reject
-
 # > 百词斩
 0.0.0.0 advertise.baicizhan.com
 0.0.0.0 advertise.baicizhan.org
-
 # > 百姓网
 0.0.0.0 admx.baixing.com
 :: admx.baixing.com
@@ -1028,7 +948,6 @@
 :: bd-s.baixing.net
 0.0.0.0 script-bd.baixing.net
 :: script-bd.baixing.net
-
 # > 爆米花
 0.0.0.0 a.baomihua.com
 :: a.baomihua.com
@@ -1036,7 +955,6 @@
 :: djs.baomihua.com
 0.0.0.0 resource.baomihua.com
 :: resource.baomihua.com
-
 # > 百意
 0.0.0.0 bayimob.com
 :: bayimob.com
@@ -1044,17 +962,14 @@
 :: hdggcdn.bayimob.com
 0.0.0.0 interaction.bayimob.com
 :: interaction.bayimob.com
-
 # > BBC
 0.0.0.0 visualscience.external.bbc.co.uk
 :: visualscience.external.bbc.co.uk
-
 # > Bing
 0.0.0.0 bat.bing.com
 :: bat.bing.com
 0.0.0.0 c.bing.com
 :: c.bing.com
-
 # > 笔趣阁
 0.0.0.0 j.biquge520.cc
 :: j.biquge520.cc
@@ -1062,13 +977,11 @@
 :: m.biquge5200.cc
 0.0.0.0 tt.biquge.la
 :: tt.biquge.la
-
 # > 宝宝树
 0.0.0.0 titan.babytree.com
 :: titan.babytree.com
 0.0.0.0 titan01.babytree.com
 :: titan01.babytree.com
-
 # > 暴风影音
 0.0.0.0 active.baofeng.com
 :: active.baofeng.com
@@ -1160,17 +1073,12 @@
 :: nclog.pad.baofeng.net
 0.0.0.0 jfm4.pop.baofeng.net
 :: jfm4.pop.baofeng.net
-
 # > 奔图
 0.0.0.0 ad.pantum.com
 :: ad.pantum.com
-
 # > 崩坏3
 0.0.0.0 ad.bh3.com
 :: ad.bh3.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ C ✅ <<<<<<<<<<<<<<
 # > 财新网
 0.0.0.0 apollo.caixin.com
@@ -1179,7 +1087,6 @@
 :: logstat.caixin.com
 0.0.0.0 promote.caixin.com
 :: promote.caixin.com
-
 # > CNN
 0.0.0.0 customad.cnn.com
 :: customad.cnn.com
@@ -1191,7 +1098,6 @@
 :: cnn.dyn.cnn.com
 0.0.0.0 i.l.cnn.net
 :: i.l.cnn.net
-
 # > CSDN
 0.0.0.0 ad.csdn.net
 :: ad.csdn.net
@@ -1203,7 +1109,6 @@
 :: dc2.csdn.net
 0.0.0.0 medal.blog.csdn.net
 :: medal.blog.csdn.net
-
 # > C&J Marketing
 # https://www.zhihu.com/question/46746200
 # 苏州思杰马克丁软件有限公司
@@ -1235,27 +1140,20 @@
 :: photozoomchina.com
 0.0.0.0 xitongqingli.com
 :: xitongqingli.com
-
 # > Camera360
 0.0.0.0 dispatcher.360in.com
-0.0.0.0 ad.360in.com
 0.0.0.0 exp.360in.com
-
 # > 创维
 0.0.0.0 hoisin.coocaa.com
 :: hoisin.coocaa.com
 0.0.0.0 hoisin.coocaatv.com
 :: hoisin.coocaatv.com
 0.0.0.0 data-hoisin.coocaa.com
-
 # > 车来了
 0.0.0.0 atrace.chelaile.net.cn
 :: atrace.chelaile.net.cn
 0.0.0.0 logs.chelaile.net.cn
 0.0.0.0 ad.chelaile.net.cn
-
-
-
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
 # > 当当网
 0.0.0.0 a.dangdang.com
@@ -1264,7 +1162,6 @@
 :: schprompt.dangdang.com
 0.0.0.0 t.dangdang.com
 :: t.dangdang.com
-
 # > 斗鱼直播
 0.0.0.0 wan.douyu.com
 :: wan.douyu.com
@@ -1272,53 +1169,41 @@
 :: g.wan.douyu.com
 0.0.0.0 dotcounter.douyutv.com
 :: dotcounter.douyutv.com
-
 # > Dr.Peng
 # IP-CIDR, 10.72.25.0/24, reject
 # 未识别规则：IP-CIDR, 211.161.101.110/32, reject
-
 # > 叮嗒出行
 # 未识别规则：host-keyword, image.bianxianmao.com, reject
-
 # > 滴滴青桔
 # 支付界面图片有误杀
 # 未识别规则：;host-keyword, pt-starimg.didistatic.com, reject
 # 未识别规则：ip-cidr, 203.107.1.1/24, reject
-
 # > 懂车帝
 # 未识别规则：host-keyword, p3-pack.byteimg.com, reject
 # 未识别规则：host-keyword, p6-pack.byteimg.com, reject
-
 # > 懂球帝
 # 未识别规则：host-keyword, apimg.qunliao.info, reject
-
 # > 抖音
 # 未识别规则：host-keyword, bds.snssdk.com, reject
 # 未识别规则：host-keyword, p3.pstatp.com, reject
-
 # > 多多视频
 0.0.0.0 bayescom.com
 :: bayescom.com
-
 # > 豆瓣
 0.0.0.0 erebor.douban.com
 :: erebor.douban.com
 0.0.0.0 ad.doubanio.com
 :: ad.doubanio.com
-
 # > 朵朵校友圈
 # 微信小程序去广告
 0.0.0.0 ad.duoduo.link
 :: ad.duoduo.link
-
 # > 盯盯拍
 # 广告联盟已包含
-
 # > 叮咚买菜
 0.0.0.0 trackercollect.ddxq.mobi
 0.0.0.0 ddfs-public.ddimg.mobi
 0.0.0.0 rttrack.ddxq.mobi
-
 # > 东方网
 0.0.0.0 afpimages.eastday.com
 :: afpimages.eastday.com
@@ -1332,7 +1217,6 @@
 :: tt321.eastday.com
 0.0.0.0 afpimages.eastday
 :: afpimages.eastday
-
 # > 东方财富
 0.0.0.0 bduserlog.eastmoney.com
 :: bduserlog.eastmoney.com
@@ -1340,7 +1224,6 @@
 :: js4.eastmoney.com
 0.0.0.0 same.eastmoney.com
 :: same.eastmoney.com
-
 # > 电脑之家
 0.0.0.0 btn.pchome.net
 :: btn.pchome.net
@@ -1354,9 +1237,6 @@
 :: ad.pchome.com.tw
 0.0.0.0 adcl.pchome.com.tw
 :: adcl.pchome.com.tw
-
-
-
 # >>>>>>>>>>>>>>> ✅ E ✅ <<<<<<<<<<<<<<
 # > 饿了么
 0.0.0.0 app-monitor.ele.me
@@ -1369,9 +1249,6 @@
 :: mobile-pubt.ele.me
 0.0.0.0 newton-api.ele.me
 :: newton-api.ele.me
-
-
-
 # >>>>>>>>>>>>>>> ✅ F ✅ <<<<<<<<<<<<<<
 # > Facebook
 0.0.0.0 facebookma.cn
@@ -1380,10 +1257,8 @@
 :: atdmt.com
 0.0.0.0 staticxx.facebook.com
 :: staticxx.facebook.com
-
 # > 番茄小说
 0.0.0.0 i-lq.snssdk.com
-0.0.0.0 dig.bdurl.net
 0.0.0.0 activity-ag.awemeughun.com
 0.0.0.0 mcs.snssdk.com
 0.0.0.0 tnc3-alisc1.snssdk.com
@@ -1410,7 +1285,6 @@
 # 未识别规则：IP-CIDR, 117.92.229.188/32, REJECT
 # 未识别规则：IP-CIDR, 101.36.166.16/32, REJECT
 # 未识别规则：IP-CIDR, 180.96.2.114/32, REJECT
-
 # > 风行网
 0.0.0.0 pb.funshion.net.cn
 :: pb.funshion.net.cn
@@ -1434,7 +1308,6 @@
 :: aa1.pub.funshion.com
 0.0.0.0 rt.funshion.net
 :: rt.funshion.net
-
 # > 凤凰新媒体
 0.0.0.0 stadig.ifeng.com
 :: stadig.ifeng.com
@@ -1470,20 +1343,15 @@
 :: c0.ifengimg.com
 0.0.0.0 c1.ifengimg.com
 :: c1.ifengimg.com
-
 # > 房天下 (Soufun)
 0.0.0.0 click1n.soufun.com
 :: click1n.soufun.com
 0.0.0.0 countubn.light.soufun.com
 :: countubn.light.soufun.com
-
 # > 飞常准
 0.0.0.0 adv-adlog.variflight.com
 0.0.0.0 adv-ads.variflight.com
 0.0.0.0 app-ad.variflight.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
 # > 勾正数据（GozenData）
 # https://www.v2ex.com/t/772523
@@ -1493,7 +1361,6 @@
 :: gzads.com
 0.0.0.0 gz-data.com
 :: gz-data.com
-
 # > Go.com
 0.0.0.0 ad.go.com
 :: ad.go.com
@@ -1513,17 +1380,14 @@
 :: adsatt.espn.go.com
 0.0.0.0 seavideo-ak.espn.go.com
 :: seavideo-ak.espn.go.com
-
 # > 购物党
 0.0.0.0 browser.gwdang.com
 :: browser.gwdang.com
 0.0.0.0 router.gwdang.com
 :: router.gwdang.com
-
 # > Google
 0.0.0.0 google-analytics.com
 :: google-analytics.com
-0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 doubleclick.net
 :: doubleclick.net
 0.0.0.0 googleadservices.com
@@ -1621,7 +1485,6 @@
 :: pgdt.ugdtimg.com
 0.0.0.0 adclick.g.doublecklick.net
 :: adclick.g.doublecklick.net
-
 # > 赶集网
 0.0.0.0 jiaoben.ganji.cn
 :: jiaoben.ganji.cn
@@ -1635,10 +1498,8 @@
 :: sta.ganji.com
 0.0.0.0 tralog.ganji.com
 :: tralog.ganji.com
-
 # > 光大银行 阳光惠生活
 # 未识别规则：host-keyword, talk.bz.getui.com, reject
-
 # > 高德地图
 # 未识别规则：;host, restapi.amap.com, reject
 0.0.0.0 adiu.amap.com
@@ -1649,28 +1510,22 @@
 0.0.0.0 logs.amap.com
 0.0.0.0 dualstack-logs.amap.com
 :: dualstack-logs.amap.com
-0.0.0.0 logs.amap.com
 :: logs.amap.com
 0.0.0.0 optimus-ads.amap.com
 :: optimus-ads.amap.com
 0.0.0.0 page.amap.com
 :: page.amap.com
-0.0.0.0 optimus-ads.amap.com
 0.0.0.0 optimus-ads.amap.com.w.alikunlun.com
 0.0.0.0 shouji.sougou.com
 :: shouji.sougou.com
 0.0.0.0 u51.me
-0.0.0.0 u51.me
 :: u51.me
-
 # > 广州地铁乘车码
 # 多个广告 感谢CtrlMusic🐓分享
 0.0.0.0 apis.alenable.com
-
 # > 国美电器
 0.0.0.0 prom.gome.com.cn
 :: prom.gome.com.cn
-
 # > 国双 (Gridsum)
 0.0.0.0 gridsumdissector.cn
 :: gridsumdissector.cn
@@ -1696,9 +1551,6 @@
 :: sso-cas.gridsumdissector.com
 0.0.0.0 g.gridsum.com
 :: g.gridsum.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ H ✅ <<<<<<<<<<<<<<
 # > Hao123
 # hao123上网导航
@@ -1708,7 +1560,6 @@
 :: 1.hao123.com
 0.0.0.0 mini.hao123.com
 :: mini.hao123.com
-
 # > 和讯网
 0.0.0.0 hxsame.hexun.com
 :: hxsame.hexun.com
@@ -1718,7 +1569,6 @@
 :: utrack.hexun.com
 0.0.0.0 hxjs.tool.hexun.com
 :: hxjs.tool.hexun.com
-
 # > 环球网
 0.0.0.0 boardx.huanqiu.com
 :: boardx.huanqiu.com
@@ -1726,20 +1576,16 @@
 :: interactive.huanqiu.com
 0.0.0.0 ipengtai.huanqiu.com
 :: ipengtai.huanqiu.com
-
 # > HDO
 # 未识别规则：;host-suffix, applovin.com, reject
 # 未识别规则：;host-suffix, applvn.com, reject
-
 # > Huawei AspiegelBot
 # 未识别规则：IP-CIDR, 114.119.160.0/21, reject
-
 # > 华为商城
 0.0.0.0 hiad.vmall.com
 :: hiad.vmall.com
 0.0.0.0 ad.hicloud.com
 :: ad.hicloud.com
-
 # > 华数TV
 0.0.0.0 acsystem.wasu.cn
 :: acsystem.wasu.cn
@@ -1757,7 +1603,6 @@
 :: adsystem.wasu.tv
 0.0.0.0 adwasu.tv
 :: adwasu.tv
-
 # > 湖南卫视
 0.0.0.0 da.hunantv.com
 :: da.hunantv.com
@@ -1781,15 +1626,12 @@
 :: log.v2.hunantv.com
 0.0.0.0 v2.log.hunantv.com
 :: v2.log.hunantv.com
-
 # > 沪江网校
 0.0.0.0 mc.hujiang.com
 :: mc.hujiang.com
-
 # > 互传
 0.0.0.0 ad.apk.vivo.com.cn
 :: ad.apk.vivo.com.cn
-
 # > 虎扑
 0.0.0.0 adx.hupu.com
 :: adx.hupu.com
@@ -1801,7 +1643,6 @@
 :: orz.hupu.com
 0.0.0.0 cc.dace.hupu.com
 :: cc.dace.hupu.com
-
 # > 虎牙直播
 # 开屏广告
 0.0.0.0 pp-cdnfile2pcdn.msstatic.com
@@ -1813,11 +1654,9 @@
 :: v1d.szbdyd.com
 0.0.0.0 3dm.huya.com
 :: 3dm.huya.com
-
 # > 哈啰
 # 大部分图片无法正常加载
 # 未识别规则：;host-keyword, assets.51downapp.cn, reject
-
 # > 黄油相机
 # 开屏广告 感谢#Dragon分享
 0.0.0.0 anythinktech.com
@@ -1826,11 +1665,9 @@
 :: adkwai.com
 0.0.0.0 mob.com
 :: mob.com
-
 # > 好游快爆
 0.0.0.0 ad.3839.com
 :: ad.3839.com
-
 # > 会声会影
 0.0.0.0 huishenghuiying.com.cn
 :: huishenghuiying.com.cn
@@ -1838,13 +1675,7 @@
 :: huishenghuiying.com
 0.0.0.0 xia.huishenghuiying.com
 :: xia.huishenghuiying.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ I ✅ <<<<<<<<<<<<<<
-
-
-
 # >>>>>>>>>>>>>>> ✅ J ✅ <<<<<<<<<<<<<<
 # > 金融界
 0.0.0.0 same.jrj.com.cn
@@ -1857,12 +1688,10 @@
 :: same03.jrj.com.cn
 0.0.0.0 8.jrj.com
 :: 8.jrj.com
-
 # > 驾校一点通
 0.0.0.0 richmanapi.jxedt.com
 0.0.0.0 richmanmain.jxedt.com
 0.0.0.0 richmanrules.jxedt.com
-
 # > 金山词霸
 0.0.0.0 ad-stat.ksosoft.com
 0.0.0.0 img.auction-ads.wpscdn.cn
@@ -1872,7 +1701,6 @@
 0.0.0.0 mobad.ijinshan.com
 0.0.0.0 ups.ksmobile.net
 0.0.0.0 ws.ksmobile.net
-
 # > 金山系 (Kingsoft)
 0.0.0.0 an.m.liebao.cn
 :: an.m.liebao.cn
@@ -1890,7 +1718,6 @@
 :: ic.wps.cn
 0.0.0.0 ios-informationplatform.wps.cn
 :: ios-informationplatform.wps.cn
-0.0.0.0 minfo.wps.cn
 :: minfo.wps.cn
 0.0.0.0 mostat.wps.cn
 :: mostat.wps.cn
@@ -1902,11 +1729,9 @@
 :: img1.pcfg.cache.wps.cn
 0.0.0.0 crashes.mo.wps.cn
 :: crashes.mo.wps.cn
-0.0.0.0 img.auction-ads.wpscdn.cn
 :: img.auction-ads.wpscdn.cn
 0.0.0.0 mo.res.wpscdn.cn
 :: mo.res.wpscdn.cn
-0.0.0.0 mobad.ijinshan.com
 :: mobad.ijinshan.com
 0.0.0.0 mlb.did.ijinshan.com
 :: mlb.did.ijinshan.com
@@ -1930,7 +1755,6 @@
 :: d.union.ijinshan.com
 0.0.0.0 dl.union.ijinshan.com
 :: dl.union.ijinshan.com
-0.0.0.0 counter.kingsoft.com
 :: counter.kingsoft.com
 0.0.0.0 bu1.duba.com
 :: bu1.duba.com
@@ -1940,11 +1764,9 @@
 :: docer.com
 0.0.0.0 iciba.com
 :: iciba.com
-
 # > 金立 (Gionee)
 0.0.0.0 pdl.gionee.com
 :: pdl.gionee.com
-
 # > 今日头条
 # 未识别规则：host-KEYWORD,clk.gentags.net, reject
 # 未识别规则：host-KEYWORD,dm.pstatp.com, reject
@@ -1976,7 +1798,6 @@
 :: pb3.pstatp.com
 0.0.0.0 s3a.pstatp.com
 :: s3a.pstatp.com
-
 # > 京东
 0.0.0.0 jzt.jd.com
 :: jzt.jd.com
@@ -2008,27 +1829,20 @@
 0.0.0.0 dns.jd.com
 # 未识别规则：IP-CIDR, 101.124.19.122/32, reject
 # 未识别规则：IP6-CIDR, 2402:db40:5100:1011::5/128, reject
-
 # > 建行生活
 # 内置饿了么外卖弹窗
 0.0.0.0 o2o-ad-log-gateway.alibaba.com
-
 # > 巨潮资讯
 0.0.0.0 ad.cninfo.com.cn
 :: ad.cninfo.com.cn
-
 # > 九游
 0.0.0.0 ad.9game.cn
 :: ad.9game.cn
-
-
-
 # >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
 # > Keep
 0.0.0.0 apm.gotokeep.com
 0.0.0.0 kad.gotokeep.com
 0.0.0.0 hc-ssp.sm.cn
-
 # > 酷6网
 0.0.0.0 st.vq.ku6.cn
 :: st.vq.ku6.cn
@@ -2044,7 +1858,6 @@
 :: vi1.ku6img.net
 0.0.0.0 vi2.ku6img.net
 :: vi2.ku6img.net
-
 # > 快速问医生
 0.0.0.0 ax.120ask.com
 :: ax.120ask.com
@@ -2056,13 +1869,11 @@
 :: bdjs.120askimages.com
 0.0.0.0 bdlm.120askimages.com
 :: bdlm.120askimages.com
-
 # > 快懂百科
 0.0.0.0 ehd.baike.com
 :: ehd.baike.com
 0.0.0.0 hdad.baike.com
 :: hdad.baike.com
-
 # > 快乐广播
 0.0.0.0 ad.hpplay.cn
 0.0.0.0 adc.hpplay.cn
@@ -2071,7 +1882,6 @@
 0.0.0.0 pin.hpplay.cn
 0.0.0.0 rp.hpplay.cn
 0.0.0.0 rpt.hpplay.cn
-
 # > 快手
 # 未识别规则：;host, js-ad.a.yximgs.com, reject
 0.0.0.0 e.kuaishou.com
@@ -2082,11 +1892,9 @@
 :: cm.ad.gifshow.com
 0.0.0.0 cm.kwad.com
 :: cm.kwad.com
-
 # > 快压zip
 0.0.0.0 kuaizip.com
 :: kuaizip.com
-
 # > 酷狗音乐
 0.0.0.0 adserviceretry.kugou.com
 0.0.0.0 ads.service.kugou.com
@@ -2095,8 +1903,6 @@
 0.0.0.0 kgmobilestat.kugou.com
 0.0.0.0 kgmobilestatbak.kugou.com
 0.0.0.0 mobilelog.kugou.com
-0.0.0.0 adsfile.bssdlbig.kugou.com
-0.0.0.0 pgdt.gtimg.com
 0.0.0.0 adsmind.gdtimg.com
 # 未识别规则：host-keyword, searchrecommend.kugou.com, reject
 # 未识别规则：host-keyword, nbcollectretry.kugou.com, reject
@@ -2157,25 +1963,18 @@
 :: update.mobile.kugou.com
 0.0.0.0 youxi.kugou.com
 :: youxi.kugou.com
-0.0.0.0 adserviceretry.kugou.com
 :: adserviceretry.kugou.com
-0.0.0.0 ads.service.kugou.com
 :: ads.service.kugou.com
-0.0.0.0 adsfile.bssdlbig.kugou.com
 :: adsfile.bssdlbig.kugou.com
 0.0.0.0 log.stat.kugou.com
 :: log.stat.kugou.com
 0.0.0.0 log.web.kugou.com
 :: log.web.kugou.com
-0.0.0.0 kgmobilestat.kugou.com
 :: kgmobilestat.kugou.com
-0.0.0.0 kgmobilestatbak.kugou.com
 :: kgmobilestatbak.kugou.com
-0.0.0.0 mobilelog.kugou.com
 :: mobilelog.kugou.com
 0.0.0.0 ad.kugou.com
 :: ad.kugou.com
-
 # > 酷我音乐
 0.0.0.0 mobilead.kuwo.cn
 0.0.0.0 rich.kuwo.cn
@@ -2201,18 +2000,12 @@
 :: wa.kuwo.cn
 0.0.0.0 webstat.kuwo.cn
 :: webstat.kuwo.cn
-0.0.0.0 mobilead.kuwo.cn
 :: mobilead.kuwo.cn
-0.0.0.0 rich.kuwo.cn
 :: rich.kuwo.cn
 0.0.0.0 ad.kuwo.cn
 :: ad.kuwo.cn
-
 # > 酷安
 # 广告联盟已包含
-
-
-
 # >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
 # > 乐居
 0.0.0.0 adm.leju.com
@@ -2221,7 +2014,6 @@
 :: src.leju.com
 0.0.0.0 staticadm.leju.com
 :: staticadm.leju.com
-
 # > 联想
 0.0.0.0 adapi.lenovogame.com
 :: adapi.lenovogame.com
@@ -2257,11 +2049,9 @@
 :: wth.lenovomm.com
 0.0.0.0 yx.lenovomm.com
 :: yx.lenovomm.com
-
 # > LinkedIn
 0.0.0.0 ads.linkedin.com
 :: ads.linkedin.com
-
 # > Lycos
 0.0.0.0 adbuyer3.lycos.com
 :: adbuyer3.lycos.com
@@ -2283,20 +2073,16 @@
 :: fe.lea.lycos.co.uk
 0.0.0.0 hit.webcentre.lycos.co.uk
 :: hit.webcentre.lycos.co.uk
-
 # > LinkWiFi
 0.0.0.0 a.wkanx.com
 0.0.0.0 cwx.lianwangtech.com
 0.0.0.0 c1wx.lianwangtech.com
-
 # > 蓝基因
 # 弹窗还在，需要手动关闭
 # 未识别规则：host-keyword, medicine.lanjiyin.com.cn, reject
-
 # > 两步路
 0.0.0.0 admobile.top
 :: admobile.top
-
 # > 乐视
 0.0.0.0 emma-414870e223.huodonghezi.com
 0.0.0.0 webp2p.letv.com
@@ -2335,17 +2121,10 @@
 :: cn.api.push.le.com
 0.0.0.0 guang.lesports.com
 :: guang.lesports.com
-
 # > 乐播投屏
-0.0.0.0 ad.hpplay.cn
 :: ad.hpplay.cn
-0.0.0.0 adeng.hpplay.cn
 :: adeng.hpplay.cn
-0.0.0.0 rp.hpplay.cn
 :: rp.hpplay.cn
-
-
-
 # >>>>>>>>>>>>>>> ✅ M ✅ <<<<<<<<<<<<<<
 # > MacKeeper
 0.0.0.0 mackeeper.com
@@ -2358,23 +2137,19 @@
 :: mackeeperapp.mackeeper.com
 0.0.0.0 zryydi.com
 :: zryydi.com
-
 # > Makeding (苏州思杰马克丁)
 0.0.0.0 cjmakeding.com
 :: cjmakeding.com
 0.0.0.0 makeding.com
 :: makeding.com
-
 # > 蘑菇街
 0.0.0.0 traffic.mogujie.com
 :: traffic.mogujie.com
-
 # > 猫扑 (Mop)
 0.0.0.0 pub.mop.com
 :: pub.mop.com
 0.0.0.0 union.mop.com
 :: union.mop.com
-
 # > Microsoft
 0.0.0.0 c.msn.com.cn
 :: c.msn.com.cn
@@ -2452,11 +2227,9 @@
 :: bingads.microsoft.com
 0.0.0.0 rads.msn.com
 :: rads.msn.com
-
 # > 妈妈网
 0.0.0.0 ad.mama.cn
 :: ad.mama.cn
-
 # > 美团
 0.0.0.0 flowplus.meituan.net
 0.0.0.0 analytics.meituan.net
@@ -2479,12 +2252,10 @@
 :: dreport.meituan.net
 0.0.0.0 d.meituan.net
 :: d.meituan.net
-
 # > 美颜相机
 # 去首页和轮播广告
 0.0.0.0 adui.tg.meitu.com
 0.0.0.0 aaid.uyunad.com
-
 # > 美图秀秀
 0.0.0.0 corp.meitu.com
 :: corp.meitu.com
@@ -2496,7 +2267,6 @@
 :: tuiguang.meitu.com
 0.0.0.0 xiuxiu.android.dl.meitu.com
 :: xiuxiu.android.dl.meitu.com
-0.0.0.0 adui.tg.meitu.com
 :: adui.tg.meitu.com
 0.0.0.0 rabbit.tg.meitu.com
 :: rabbit.tg.meitu.com
@@ -2510,10 +2280,8 @@
 :: mdc.meitustat.com
 0.0.0.0 rabbit.meitustat.com
 :: rabbit.meitustat.com
-
 # > 美柚
 0.0.0.0 ad.seeyouyima.com
-
 # > 魅族 (Meizu)
 0.0.0.0 api-flow.flyme.cn
 :: api-flow.flyme.cn
@@ -2557,21 +2325,16 @@
 :: upush.res.meizu.com
 0.0.0.0 aries.mzres.com
 :: aries.mzres.com
-
 # > 买单吧
-0.0.0.0 c-hzgt2.getui.com
-:: c-hzgt2.getui.com
 0.0.0.0 c-hzgt2.getui.com
 :: c-hzgt2.getui.com
 0.0.0.0 gs.getui.com
 :: gs.getui.com
-
 # > 民生银行
 # 未识别规则：host-keyword, cm-10-134.getui.com, reject
 # 未识别规则：host-keyword, sdk.open.talk.getui.com, reject
 # 未识别规则：host-keyword, cm-10-35.getui.com, reject
 # 未识别规则：host-keyword, c-hzgt2.getui.com, reject
-
 # > 墨迹天气
 # 未识别规则：host-KEYWORD,me.api.moji.com, reject
 # 未识别规则：host-KEYWORD,android.bugly.qq.com, reject
@@ -2593,7 +2356,6 @@
 :: cdn.moji002.com
 0.0.0.0 cdn2.moji002.com
 :: cdn2.moji002.com
-
 # > 咪咕视频
 0.0.0.0 ad.cmvideo.cn
 :: ad.cmvideo.cn
@@ -2604,10 +2366,8 @@
 0.0.0.0 ggic03.miguvideo.com
 0.0.0.0 ggmk.miguvideo.com
 0.0.0.0 ggadoffline.miguvideo.com
-
 # > 米家
 0.0.0.0 sdkconfig.ad.xiaomi.com
-
 # > 芒果TV
 0.0.0.0 dflow.bz.mgtv.com
 0.0.0.0 encounter.bz.mgtv.com
@@ -2655,9 +2415,6 @@
 :: y.da.mgtv.com
 0.0.0.0 da.mgtv.com
 :: da.mgtv.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ N ✅ <<<<<<<<<<<<<<
 # > Naver
 0.0.0.0 ad.naver.com
@@ -2668,7 +2425,6 @@
 :: adcreative.naver.com
 0.0.0.0 adimg3.search.naver.net
 :: adimg3.search.naver.net
-
 # > New Relic
 0.0.0.0 newrelic.com
 :: newrelic.com
@@ -2676,14 +2432,10 @@
 :: js-agent.newrelic.com
 0.0.0.0 bam.nr-data.net
 :: bam.nr-data.net
-
-
-
 # >>>>>>>>>>>>>>> ✅ O ✅ <<<<<<<<<<<<<<
 # > Openmultimedia
 0.0.0.0 ad.openmultimedia.biz
 :: ad.openmultimedia.biz
-
 # > Optimix（奥迪美）
 0.0.0.0 bx.optimix.asia
 :: bx.optimix.asia
@@ -2695,7 +2447,6 @@
 :: s03.optimix.asia
 0.0.0.0 optimix.cn
 :: optimix.cn
-
 # > Oupeng (欧朋)
 0.0.0.0 ezine.oupeng.com
 :: ezine.oupeng.com
@@ -2709,7 +2460,6 @@
 :: c.bxb.oupeng.com
 0.0.0.0 r.bxb.oupeng.com
 :: r.bxb.oupeng.com
-
 # > Outfit7（会说话的汤姆猫）
 0.0.0.0 apps.outfit7.com
 :: apps.outfit7.com
@@ -2721,19 +2471,14 @@
 :: cdn-gcs.outfit7.com
 0.0.0.0 events-api.outfit7.net
 :: events-api.outfit7.net
-
 # > OPPO
 0.0.0.0 adsfs.oppomobile.com
 0.0.0.0 ads.oppomobile.com
 :: ads.oppomobile.com
-
 # > Outlook
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 mediation.adnxs.com
 0.0.0.0 sin3-ib.adnxs.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
 # > PPTV
 0.0.0.0 ads.aplus.pptv.com
@@ -2760,15 +2505,12 @@
 :: jp.as.pptv.com
 0.0.0.0 static.g.pptv.com
 :: static.g.pptv.com
-
 # > Photoable
 0.0.0.0 regist.fotoable.com
 0.0.0.0 cdn.adapi.fotoable.com
-
 # > PeanutWiFi
 0.0.0.0 adnew.wifi8.com
 0.0.0.0 adfile.wifi8.com
-
 # > 皮皮虾
 # 推荐视频不能预览
 # 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao-b.com, reject
@@ -2783,7 +2525,6 @@
 # 未识别规则：;host-keyword, 365yg.com, reject
 # 未识别规则：;host-keyword, ppx.byteimg.com, reject
 # 未识别规则：;host-keyword, i.snssdk.com, reject
-
 # > 澎湃新闻
 0.0.0.0 admonitor.thepaper.cn
 0.0.0.0 adpai.thepaper.cn
@@ -2792,9 +2533,6 @@
 :: ad.thepaper.cn
 0.0.0.0 imgad.thepaper.cn
 :: imgad.thepaper.cn
-
-
-
 # >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
 # > QQ音乐
 0.0.0.0 adstats.tencentmusic.com
@@ -2817,9 +2555,6 @@
 0.0.0.0 imtmp.net
 :: imtmp.net
 0.0.0.0 tmeadcomm.y.qq.com
-0.0.0.0 ad.tencentmusic.com
-0.0.0.0 adstats.tencentmusic.com
-0.0.0.0 tmead.y.qq.com
 0.0.0.0 rqd.qq.com
 :: rqd.qq.com
 0.0.0.0 wup.imtt.qq.com
@@ -2838,22 +2573,15 @@
 0.0.0.0 wallpaper-1258344696.file.myqcloud.com
 0.0.0.0 xs.gdt.qq.com
 # 未识别规则：IP-CIDR, 120.222.240.171/32, REJECT
-
 # > 蜻蜓FM
 0.0.0.0 ad.qingting.fm
 0.0.0.0 adlaunch.qingting.fm
 0.0.0.0 ad-cdn.qingting.fm
-
 # > 七猫小说
 0.0.0.0 cdn-new-ad.wtzw.com
 0.0.0.0 a-remad.qm989.com
-0.0.0.0 mobads.baidu.com
-0.0.0.0 gdt.qq.com
-:: gdt.qq.com
 0.0.0.0 qzs.gdtimg.com
 0.0.0.0 mobads-pre-config.cdn.bcebos.com
-0.0.0.0 pgdt.ugdtimg.com
-
 # > 汽车之家
 # 未识别规则：host-keyword, adm3.autoimg.cn, reject
 # 未识别规则：;host-keyword, audid-api.taobao.com, reject
@@ -2868,21 +2596,14 @@
 0.0.0.0 adm1.autoimg.cn
 0.0.0.0 adm2.autoimg.cn
 0.0.0.0 adm3.autoimg.cn
-0.0.0.0 adm0.autoimg.cn
 :: adm0.autoimg.cn
-0.0.0.0 adm1.autoimg.cn
 :: adm1.autoimg.cn
-0.0.0.0 adm2.autoimg.cn
 :: adm2.autoimg.cn
-0.0.0.0 adm3.autoimg.cn
 :: adm3.autoimg.cn
 0.0.0.0 33.autohome.com.cn
 :: 33.autohome.com.cn
-0.0.0.0 adproxy.autohome.com.cn
 :: adproxy.autohome.com.cn
-0.0.0.0 al.autohome.com.cn
 :: al.autohome.com.cn
-0.0.0.0 applogapi.autohome.com.cn
 :: applogapi.autohome.com.cn
 0.0.0.0 c.autohome.com.cn
 :: c.autohome.com.cn
@@ -2896,7 +2617,6 @@
 :: pcmx.autohome.com.cn
 0.0.0.0 pvx.autohome.com.cn
 :: pvx.autohome.com.cn
-0.0.0.0 rd.autohome.com.cn
 :: rd.autohome.com.cn
 0.0.0.0 rdx.autohome.com.cn
 :: rdx.autohome.com.cn
@@ -2910,15 +2630,11 @@
 :: push.app.autohome.com.cn
 0.0.0.0 h.pcd.autohome.com.cn
 :: h.pcd.autohome.com.cn
-
 # > 齐鲁网
 0.0.0.0 g3.iqilu.com
 :: g3.iqilu.com
 0.0.0.0 g4.iqilu.com
 :: g4.iqilu.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ R ✅ <<<<<<<<<<<<<<
 # > 人人视频
 0.0.0.0 ad.rr.tv
@@ -2935,15 +2651,11 @@
 :: shaft.jebe.renren.com
 0.0.0.0 xray.jebe.renren.com
 :: xray.jebe.renren.com
-
 # > 人民网
 0.0.0.0 pmm.people.com.cn
 :: pmm.people.com.cn
 0.0.0.0 a1.peoplecdn.cn
 :: a1.peoplecdn.cn
-
-
-
 # >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
 # > Sape
 0.0.0.0 sape.ru
@@ -2954,7 +2666,6 @@
 :: dispenser-rtb.sape.ru
 0.0.0.0 ssp-rtb.sape.ru
 :: ssp-rtb.sape.ru
-
 # > Soul
 0.0.0.0 soul-ad.soulapp.cn
 0.0.0.0 ad-r.soulapp.cn
@@ -2966,15 +2677,12 @@
 # 未识别规则：IP-CIDR, 47.99.42.29/32, REJECT
 # 未识别规则：IP-CIDR, 120.27.235.201/32, REJECT
 # 未识别规则：IP-CIDR, 121.196.197.147/32, REJECT
-
 # > Snapchat
 0.0.0.0 ads.snapchat.com
 0.0.0.0 adsapi.snapchat.com
-
 # > 盛趣游戏
 0.0.0.0 adrs.sdo.com
 :: adrs.sdo.com
-
 # > 苏宁易购
 0.0.0.0 show.suning.beer
 :: show.suning.beer
@@ -2986,7 +2694,6 @@
 :: ssac.suning.com
 0.0.0.0 tad.suning.com
 :: tad.suning.com
-
 # > 搜狐
 0.0.0.0 ad.sohu.com
 :: ad.sohu.com
@@ -3003,7 +2710,6 @@
 :: cpc.sohu.com
 0.0.0.0 go.sohu.com
 :: go.sohu.com
-0.0.0.0 hui.sohu.com
 :: hui.sohu.com
 0.0.0.0 images.sohu.com
 :: images.sohu.com
@@ -3033,7 +2739,6 @@
 :: 3rd.t.sohu.com
 0.0.0.0 888.tv.sohu.com
 :: 888.tv.sohu.com
-
 # > 搜狗
 # 未识别规则：;host, indivi-cdn.shouji.sogou.com, reject
 0.0.0.0 epro.sogou.com
@@ -3075,8 +2780,6 @@
 # 屏蔽京东和搜狗收集信息 @jFrecht
 0.0.0.0 jdqd.jd.com
 :: jdqd.jd.com
-0.0.0.0 shouji.sougou.com
-:: shouji.sougou.com
 0.0.0.0 cpc.sogou.com
 :: cpc.sogou.com
 0.0.0.0 fair.sogou.com
@@ -3191,22 +2894,17 @@
 :: inte.theta.sogoucdn.com
 0.0.0.0 dl.wan.sogoucdn.com
 :: dl.wan.sogoucdn.com
-
 # > 搜狗输入法
 # 未识别规则：;host-keyword, business-cdn.shouji.sogou.com, reject
 0.0.0.0 push-service-ios.sginput.qq.com
 :: push-service-ios.sginput.qq.com
-
 # > 深圳通微信小程序
 0.0.0.0 wxsnsdythumb.wxs.qq.com
 :: wxsnsdythumb.wxs.qq.com
-
 # > 收钱吧
 # 买单小程序去广告
 0.0.0.0 ads-shopping.shouqianba.com
-
 # > 什么值得买
-0.0.0.0 aaid.uyunad.com
 0.0.0.0 acs4baichuan.m.taobao.com
 0.0.0.0 adashxgc.ut.taobao.com
 0.0.0.0 analytics-api.smzdm.com
@@ -3218,7 +2916,6 @@
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 res-ga.smzdm.com
 :: res-ga.smzdm.com
-
 # > 手机中国
 0.0.0.0 pic.cnmo-img.com.cn
 :: pic.cnmo-img.com.cn
@@ -3226,7 +2923,6 @@
 :: icon.cnmo.com
 0.0.0.0 js.cnmo.com
 :: js.cnmo.com
-
 # > 数盟 (Shuzilm)
 0.0.0.0 shuzilm.cn
 :: shuzilm.cn
@@ -3238,21 +2934,15 @@
 :: dai.shuzilm.cn
 0.0.0.0 stream.shuzilm.cn
 :: stream.shuzilm.cn
-
 # > 闪萌
 0.0.0.0 ad.weshineapp.com
 :: ad.weshineapp.com
-
 # > 世纪佳缘
 0.0.0.0 ad.jiayuan.com
 :: ad.jiayuan.com
-
 # > 书旗小说
 0.0.0.0 ut2.shuqistat.com
 :: ut2.shuqistat.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
 # > Tanwan (贪玩)
 0.0.0.0 mytanwan.com
@@ -3279,7 +2969,6 @@
 :: hv.code.tanwanyx.com
 0.0.0.0 xd.code.tanwanyx.com
 :: xd.code.tanwanyx.com
-
 # > 淘淘搜
 0.0.0.0 img.taotaosou.cn
 :: img.taotaosou.cn
@@ -3289,7 +2978,6 @@
 :: re.taotaosou.com
 0.0.0.0 show.kc.taotaosou.com
 :: show.kc.taotaosou.com
-
 # > Tumblr
 0.0.0.0 92x.tumblr.com
 :: 92x.tumblr.com
@@ -3297,19 +2985,16 @@
 :: its-dori.tumblr.com
 0.0.0.0 31.media.tumblr.com
 :: 31.media.tumblr.com
-
 # > Twitch
 0.0.0.0 fan.twitch.tv
 :: fan.twitch.tv
 0.0.0.0 spade.twitch.tv
 :: spade.twitch.tv
-
 # > Turn
 0.0.0.0 ad.turn.com
 :: ad.turn.com
 0.0.0.0 d.turn.com
 :: d.turn.com
-
 # > Twitter
 0.0.0.0 ads-twitter.com
 :: ads-twitter.com
@@ -3323,14 +3008,11 @@
 :: syndication-o.twitter.com
 0.0.0.0 urls.api.twitter.com
 :: urls.api.twitter.com
-
 # > TubeMax
 0.0.0.0 adjust.com
 :: adjust.com
 0.0.0.0 applvn.com
 :: applvn.com
-0.0.0.0 app-measurement.com
-:: app-measurement.com
 0.0.0.0 pangle.io
 :: pangle.io
 0.0.0.0 applovin.com
@@ -3341,7 +3023,6 @@
 :: adsmoloco.com
 0.0.0.0 adcanvas.com
 :: adcanvas.com
-
 # > Talkatone
 0.0.0.0 tappx.com
 :: tappx.com
@@ -3381,8 +3062,6 @@
 :: inner-active.mobi
 0.0.0.0 richmob.cn
 :: richmob.cn
-0.0.0.0 amazon-adsystem.com
-:: amazon-adsystem.com
 0.0.0.0 ads.pubmatic.com
 :: ads.pubmatic.com
 0.0.0.0 bidder.criteo.com
@@ -3397,28 +3076,18 @@
 :: ads.inmobi.com
 0.0.0.0 akamaized.net
 :: akamaized.net
-0.0.0.0 spadsync.com
-:: spadsync.com
-0.0.0.0 tpc.googlesyndication.com
-:: tpc.googlesyndication.com
-0.0.0.0 googleadsserving.cn
-:: googleadsserving.cn
 0.0.0.0 googleads.g.doubleclick.net
 :: googleads.g.doubleclick.net
-0.0.0.0 inner-active.mobi
-:: inner-active.mobi
 0.0.0.0 4dvertible.com
 :: 4dvertible.com
 0.0.0.0 smadex.com
 :: smadex.com
-
 # > 天神
 0.0.0.0 track.tenjin.com
 0.0.0.0 track.tenjin.io
 0.0.0.0 errlog.umeng.com
 0.0.0.0 lf9-cdn-tos.bytegecko.com
 0.0.0.0 novel.pangolin-sdk-toutiao.com
-
 # > 淘宝
 0.0.0.0 apoll.m.taobao.com
 :: apoll.m.taobao.com
@@ -3458,17 +3127,14 @@
 :: textlink.simba.taobao.com
 0.0.0.0 unitacs.m.taobao.com
 :: unitacs.m.taobao.com
-0.0.0.0 acs4baichuan.m.taobao.com
 :: acs4baichuan.m.taobao.com
 0.0.0.0 adashbc.ut.taobao.com
 :: adashbc.ut.taobao.com
 0.0.0.0 adash-c.ut.taobao.com
 :: adash-c.ut.taobao.com
-0.0.0.0 adashxgc.ut.taobao.com
 :: adashxgc.ut.taobao.com
 0.0.0.0 adashx4yt.m.taobao.com
 :: adashx4yt.m.taobao.com
-0.0.0.0 tunion-api.m.taobao.com
 :: tunion-api.m.taobao.com
 0.0.0.0 tns.simba.taobao.com
 :: tns.simba.taobao.com
@@ -3484,7 +3150,6 @@
 :: m-adash.m.taobao.com
 0.0.0.0 adashbc.m.taobao.com
 :: adashbc.m.taobao.com
-
 # >  腾讯系
 0.0.0.0 activeqq.3g.qq.com
 :: activeqq.3g.qq.com
@@ -3534,49 +3199,16 @@
 :: astrategy.beacon.qq.com
 0.0.0.0 rp.crasheye.cn
 :: rp.crasheye.cn
-0.0.0.0 cmshow.gtimg.cn
-:: cmshow.gtimg.cn
-0.0.0.0 discuz.gtimg.cn
-:: discuz.gtimg.cn
-0.0.0.0 gu.qlogo.cn
-:: gu.qlogo.cn
-0.0.0.0 py.qlogo.cn
-:: py.qlogo.cn
-0.0.0.0 py2.qlogo.cn
-:: py2.qlogo.cn
-0.0.0.0 beacon.gtimg.com
-:: beacon.gtimg.com
-0.0.0.0 bla.gtimg.com
-:: bla.gtimg.com
-0.0.0.0 lb.gtimg.com
-:: lb.gtimg.com
-0.0.0.0 pgdt.gtimg.com
-:: pgdt.gtimg.com
-0.0.0.0 ra.gtimg.com
-:: ra.gtimg.com
-0.0.0.0 splashqqlive.gtimg.com
-:: splashqqlive.gtimg.com
-0.0.0.0 swa.gtimg.com
-:: swa.gtimg.com
-0.0.0.0 tui.gtimg.com
-:: tui.gtimg.com
-0.0.0.0 wa.gtimg.com
-:: wa.gtimg.com
-0.0.0.0 wb.gtimg.com
-:: wb.gtimg.com
-
 # > 腾讯智慧
 0.0.0.0 tencentmind.com
 :: tencentmind.com
 0.0.0.0 p.tencentmind.com
 :: p.tencentmind.com
-
 # > 同花顺
 0.0.0.0 adm.10jqka.com.cn
 0.0.0.0 stat.10jqka.com.cn
 0.0.0.0 ad.thsi.cn
 :: ad.thsi.cn
-
 # > 迅雷
 0.0.0.0 adsp.xunlei.com
 :: adsp.xunlei.com
@@ -3610,10 +3242,8 @@
 :: test.api.xlmc.sandai.net
 0.0.0.0 pre.api.tw06.xlmc.sandai.net
 :: pre.api.tw06.xlmc.sandai.net
-
 # > 团油
 # 未识别规则：host-keyword, img1.czb365.com, reject
-
 # > 同盾
 0.0.0.0 fraudmetrix.cn
 :: fraudmetrix.cn
@@ -3623,7 +3253,6 @@
 :: fptest.fraudmetrix.cn
 0.0.0.0 statictest.fraudmetrix.cn
 :: statictest.fraudmetrix.cn
-
 # > 太平洋电脑
 0.0.0.0 iad0ssl.pcauto.com.cn
 :: iad0ssl.pcauto.com.cn
@@ -3649,7 +3278,6 @@
 :: imgad0.pconline.com.cn
 0.0.0.0 ivy.pconline.com.cn
 :: ivy.pconline.com.cn
-
 # > 天天看看
 0.0.0.0 biz5.kankan.com
 :: biz5.kankan.com
@@ -3665,16 +3293,12 @@
 :: cpm.cm.kankan.com
 0.0.0.0 count.cpm.cm.kankan.com
 :: count.cpm.cm.kankan.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
 # > Urban Airship
 0.0.0.0 urbanairship.com
 :: urbanairship.com
 0.0.0.0 combine.urbanairship.com
 :: combine.urbanairship.com
-
 # > UC浏览器
 0.0.0.0 safe.ucweb.com
 0.0.0.0 px.ucweb.com
@@ -3759,8 +3383,6 @@
 :: api.mp.uc.cn
 0.0.0.0 api.open.uc.cn
 :: api.open.uc.cn
-0.0.0.0 applog.uc.cn
-:: applog.uc.cn
 0.0.0.0 applogios.uc.cn
 :: applogios.uc.cn
 0.0.0.0 bench.uc.cn
@@ -3782,8 +3404,6 @@
 0.0.0.0 puds.test.uae.uc.cn
 :: puds.test.uae.uc.cn
 # 未识别规则：;host-suffix, t.uc.cn, reject
-0.0.0.0 track.uc.cn
-:: track.uc.cn
 0.0.0.0 wmedia-track.uc.cn
 :: wmedia-track.uc.cn
 0.0.0.0 woodpecker.uc.cn
@@ -3792,7 +3412,6 @@
 0.0.0.0 mercury-sdk.snssdk.com
 0.0.0.0 tbm.snssdk.com
 0.0.0.0 toblog.ctobsnssdk.com
-0.0.0.0 tnc3-aliec2.snssdk.com
 0.0.0.0 kwurl.ucweb.com
 :: kwurl.ucweb.com
 0.0.0.0 uc9.ucweb.com
@@ -3823,13 +3442,9 @@
 :: vs8.gzcu.u3.ucweb.com
 0.0.0.0 slot.union.ucweb.com
 :: slot.union.ucweb.com
-
 # > Unity Ads
 0.0.0.0 config.unityads.unity3d.com
 :: config.unityads.unity3d.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ V ✅ <<<<<<<<<<<<<<
 # > Vivo
 0.0.0.0 adlog.vivo.com.cn
@@ -3841,19 +3456,14 @@
 0.0.0.0 vcardsdkservice.vivo.com.cn
 # 未识别规则：host-keyword, stsdk.vivo.com.cn, reject
 # 未识别规则：host-keyword, stsdk.vivoglobal.com, reject
-
 # > VIVO商城
 # 未识别规则：host-keyword, paradisestatic.vivo.com.cn, reject
-
-
-
 # >>>>>>>>>>>>>>> ✅ W ✅ <<<<<<<<<<<<<<
 # > Whale Cloud (鲸云)
 0.0.0.0 whalecloud.com
 :: whalecloud.com
 0.0.0.0 feedback.whalecloud.com
 :: feedback.whalecloud.com
-
 # > Waps（无线广告交易中心）
 0.0.0.0 waps.cn
 :: waps.cn
@@ -3873,7 +3483,6 @@
 :: wapscdn.wapx.cn
 0.0.0.0 wapx.com
 :: wapx.com
-
 # > Wostore (联通沃商店)
 0.0.0.0 appspromote.wostore.cn
 :: appspromote.wostore.cn
@@ -3885,7 +3494,6 @@
 :: unipaydl.wostore.cn
 0.0.0.0 unipayupg.wostore.cn
 :: unipayupg.wostore.cn
-
 # > WiFi万能钥匙
 # 未识别规则：host-keyword, app.51y5.net, reject
 # 未识别规则：host-keyword, apiinit.amap.com, reject
@@ -3911,7 +3519,6 @@
 :: mi.gdt.qq.com
 # 去除导航栏免费短剧
 0.0.0.0 taichi.51y5.net
-
 # > 网易
 0.0.0.0 dsp.youdao.com
 :: dsp.youdao.com
@@ -3946,19 +3553,15 @@
 :: fa.163.com
 0.0.0.0 g.163.com
 :: g.163.com
-0.0.0.0 g1.163.com
 :: g1.163.com
-0.0.0.0 nex.163.com
 :: nex.163.com
 0.0.0.0 popme.163.com
 :: popme.163.com
 0.0.0.0 temp.163.com
 :: temp.163.com
-0.0.0.0 n.3g.163.com
 :: n.3g.163.com
 0.0.0.0 gb.corp.163.com
 :: gb.corp.163.com
-0.0.0.0 iad.g.163.com
 :: iad.g.163.com
 0.0.0.0 rec.g.163.com
 :: rec.g.163.com
@@ -3972,7 +3575,6 @@
 :: r.mail.163.com
 0.0.0.0 push.yuedu.163.com
 :: push.yuedu.163.com
-0.0.0.0 ad.bn.netease.com
 :: ad.bn.netease.com
 0.0.0.0 mr.da.netease.com
 :: mr.da.netease.com
@@ -3998,11 +3600,8 @@
 :: push.126.net
 0.0.0.0 b.bst.126.net
 :: b.bst.126.net
-0.0.0.0 admusicpic.music.126.net
 :: admusicpic.music.126.net
-0.0.0.0 iadmusicmat.music.126.net
 :: iadmusicmat.music.126.net
-0.0.0.0 iadmusicmatvideo.music.126.net
 :: iadmusicmatvideo.music.126.net
 0.0.0.0 android.push.126.net
 :: android.push.126.net
@@ -4010,7 +3609,6 @@
 :: news.push.126.net
 0.0.0.0 webstat.ws.126.net
 :: webstat.ws.126.net
-0.0.0.0 yt-adp.ws.126.net
 :: yt-adp.ws.126.net
 0.0.0.0 wanproxy.127.net
 :: wanproxy.127.net
@@ -4018,7 +3616,6 @@
 :: haitaoad.nosdn.127.net
 0.0.0.0 iadmatvideo.nosdn.127.net
 :: iadmatvideo.nosdn.127.net
-0.0.0.0 yt-adp.nosdn.127.net
 :: yt-adp.nosdn.127.net
 0.0.0.0 ir.mail.yeah.net
 :: ir.mail.yeah.net
@@ -4036,9 +3633,7 @@
 :: dsp-impr.youdao.com
 0.0.0.0 dsp-impr2.youdao.com
 :: dsp-impr2.youdao.com
-0.0.0.0 gorgon.youdao.com
 :: gorgon.youdao.com
-0.0.0.0 impservice.youdao.com
 :: impservice.youdao.com
 0.0.0.0 impservice2.youdao.com
 :: impservice2.youdao.com
@@ -4072,7 +3667,6 @@
 :: tb104x.corp.youdao.com
 0.0.0.0 clkservice2.dict.youdao.com
 :: clkservice2.dict.youdao.com
-0.0.0.0 impservice.dictapp.youdao.com
 :: impservice.dictapp.youdao.com
 0.0.0.0 impservice-test.dictapp.youdao.com
 :: impservice-test.dictapp.youdao.com
@@ -4084,22 +3678,18 @@
 :: clkservice.union.youdao.com
 0.0.0.0 log.yex.youdao.com
 :: log.yex.youdao.com
-
 # > 网易云
 # 此条会导致"淘宝->成就中心->淘宝人生"进不去
 # 未识别规则：;host-keyword, ossgw.alicdn.com, reject
-
 # > 歪麦霸王餐
 # 去开屏
 0.0.0.0 ad.gameley.com
 :: ad.gameley.com
 0.0.0.0 zlsdk.1rtb.net
 :: zlsdk.1rtb.net
-
 # > 豌豆荚
 0.0.0.0 push.wandoujia.com
 :: push.wandoujia.com
-
 # > 唯品会
 0.0.0.0 n-st.vip.com
 :: n-st.vip.com
@@ -4107,21 +3697,17 @@
 :: api.union.vip.com
 0.0.0.0 ms.vipstatic.com
 :: ms.vipstatic.com
-
 # > 威锋
 # 广告联盟已包含
 #host-suffix, aoodoo.feng.com
 #host-suffix, push.feng.com
 #host-suffix, aoodoo.weiphone.com
-
-
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 # > 讯飞输入法
 # 未识别规则：host-keyword, ossp.voicecloud.cn, reject
 # 未识别规则：host-keyword, bj.imp.voiceads.cn, reject
 # 未识别规则：host-keyword, m.panda.voiceads.cn, reject
 # 未识别规则：host-keyword, iflyad.bj.openstorage.cn, reject
-
 # > 喜马拉雅
 0.0.0.0 adsehera.ximalaya.com
 0.0.0.0 adse.wsa.ximalaya.com
@@ -4137,13 +3723,11 @@
 :: open.ximalaya.com
 0.0.0.0 upos-app.ximalaya.com
 :: upos-app.ximalaya.com
-
 # > 小红书
 0.0.0.0 ads-img-qc.xhscdn.com
 0.0.0.0 ads-video-al.xhscdn.com
 0.0.0.0 ads-video-qc.xhscdn.com
 0.0.0.0 t-ads.xiaohongshu.com
-
 # > 小米
 ||*XiaoQiang*$important
 0.0.0.0 ad.mi.com
@@ -4258,16 +3842,12 @@
 :: api.jr.mi.com
 0.0.0.0 a.union.mi.com
 :: a.union.mi.com
-
 # > 小小影视
 0.0.0.0 39d83s.com
-
 # > 小利生活
 # 未识别规则：host-keyword, mpos-pic.helipay.com, reject
-
 # > 小爱音箱
 0.0.0.0 mistat.xiaomi.com
-
 # > 晓晓优选
 0.0.0.0 fancyapi.com
 :: fancyapi.com
@@ -4296,7 +3876,6 @@
 0.0.0.0 shunchangzhixing.com
 :: shunchangzhixing.com
 # 未识别规则：IP-CIDR, 114.132.165.205/32, REJECT
-
 # > 新浪
 0.0.0.0 ad.sina.com.cn
 :: ad.sina.com.cn
@@ -4378,84 +3957,6 @@
 :: count.video.sina.com.cn
 0.0.0.0 sinaaliyun.cn
 :: sinaaliyun.cn
-0.0.0.0 ad.sina.com.cn
-:: ad.sina.com.cn
-0.0.0.0 ad4.sina.com.cn
-:: ad4.sina.com.cn
-0.0.0.0 adbox.sina.com.cn
-:: adbox.sina.com.cn
-0.0.0.0 counter.sina.com.cn
-:: counter.sina.com.cn
-0.0.0.0 current.sina.com.cn
-:: current.sina.com.cn
-0.0.0.0 d0.sina.com.cn
-:: d0.sina.com.cn
-0.0.0.0 d00.sina.com.cn
-:: d00.sina.com.cn
-0.0.0.0 d1.sina.com.cn
-:: d1.sina.com.cn
-0.0.0.0 d2.sina.com.cn
-:: d2.sina.com.cn
-0.0.0.0 d3.sina.com.cn
-:: d3.sina.com.cn
-0.0.0.0 d4.sina.com.cn
-:: d4.sina.com.cn
-0.0.0.0 d5.sina.com.cn
-:: d5.sina.com.cn
-0.0.0.0 d6.sina.com.cn
-:: d6.sina.com.cn
-0.0.0.0 d7.sina.com.cn
-:: d7.sina.com.cn
-0.0.0.0 d8.sina.com.cn
-:: d8.sina.com.cn
-0.0.0.0 d9.sina.com.cn
-:: d9.sina.com.cn
-0.0.0.0 dcads.sina.com.cn
-:: dcads.sina.com.cn
-0.0.0.0 p4p.sina.com.cn
-:: p4p.sina.com.cn
-0.0.0.0 pfp.sina.com.cn
-:: pfp.sina.com.cn
-0.0.0.0 rm.sina.com.cn
-:: rm.sina.com.cn
-0.0.0.0 sax.sina.com.cn
-:: sax.sina.com.cn
-0.0.0.0 saxn.sina.com.cn
-:: saxn.sina.com.cn
-0.0.0.0 saxs.sina.com.cn
-:: saxs.sina.com.cn
-0.0.0.0 sbeacon.sina.com.cn
-:: sbeacon.sina.com.cn
-0.0.0.0 slog.sina.com.cn
-:: slog.sina.com.cn
-0.0.0.0 woocall.sina.com.cn
-:: woocall.sina.com.cn
-0.0.0.0 img.amp.ad.sina.com.cn
-:: img.amp.ad.sina.com.cn
-0.0.0.0 img.adbox.sina.com.cn
-:: img.adbox.sina.com.cn
-0.0.0.0 m.beacon.sina.com.cn
-:: m.beacon.sina.com.cn
-0.0.0.0 r.dmp.sina.com.cn
-:: r.dmp.sina.com.cn
-0.0.0.0 int.dpool.sina.com.cn
-:: int.dpool.sina.com.cn
-0.0.0.0 mg.games.sina.com.cn
-:: mg.games.sina.com.cn
-0.0.0.0 adm.leju.sina.com.cn
-:: adm.leju.sina.com.cn
-0.0.0.0 staticadm.leju.sina.com.cn
-:: staticadm.leju.sina.com.cn
-0.0.0.0 cre.mix.sina.com.cn
-:: cre.mix.sina.com.cn
-0.0.0.0 interest.mix.sina.com.cn
-:: interest.mix.sina.com.cn
-0.0.0.0 s.img.mix.sina.com.cn
-:: s.img.mix.sina.com.cn
-0.0.0.0 motu.p4p.sina.com.cn
-:: motu.p4p.sina.com.cn
-0.0.0.0 count.video.sina.com.cn
-:: count.video.sina.com.cn
 0.0.0.0 2016.sina.cn
 :: 2016.sina.cn
 0.0.0.0 cre-dp.sina.cn
@@ -4532,13 +4033,11 @@
 :: oascentral.sina.com.hk
 0.0.0.0 dd.iask.cn
 :: dd.iask.cn
-
 # > 新华网
 0.0.0.0 tmisc.home.news.cn
 :: tmisc.home.news.cn
 0.0.0.0 webd.home.news.cn
 :: webd.home.news.cn
-
 # > 新民网
 0.0.0.0 iads.xinmin.cn
 :: iads.xinmin.cn
@@ -4546,7 +4045,6 @@
 :: total.xinmin.cn
 0.0.0.0 www2.xinmin.cn
 :: www2.xinmin.cn
-
 # > 寻医问药
 0.0.0.0 a.xywy.com
 :: a.xywy.com
@@ -4564,15 +4062,11 @@
 :: stat-y.xywy.com
 0.0.0.0 stat-z.xywy.com
 :: stat-z.xywy.com
-
 # > 雪球
 0.0.0.0 ad.xueqiu.com
 :: ad.xueqiu.com
 # 可以去掉倒计时，但是误杀很多图片，默认关闭
 # host-keyword, xqimg.imedao.com, reject
-
-
-
 # >>>>>>>>>>>>>>> ✅ Y ✅ <<<<<<<<<<<<<<
 # > Yahoo
 0.0.0.0 adss.yahoo.com
@@ -4652,7 +4146,6 @@
 0.0.0.0 ads.finance.yahoo.com
 0.0.0.0 ads.yahoo.com
 0.0.0.0 ads.yahoo.de
-
 # > 一点资讯
 0.0.0.0 imagelx.yidianzixun.com
 :: imagelx.yidianzixun.com
@@ -4664,7 +4157,6 @@
 :: oppo.yidianzixun.com
 0.0.0.0 s.yidianzixun.com
 :: s.yidianzixun.com
-
 # > 音悦Tai
 0.0.0.0 shop.yinyuetai.com
 :: shop.yinyuetai.com
@@ -4676,7 +4168,6 @@
 :: t.collect.yinyuetai.com
 0.0.0.0 client.stats.yinyuetai.com
 :: client.stats.yinyuetai.com
-
 # > 游迅网
 0.0.0.0 ccr.yxdown.com
 :: ccr.yxdown.com
@@ -4684,15 +4175,12 @@
 :: gg.yxdown.com
 0.0.0.0 ggr.yxdown.com
 :: ggr.yxdown.com
-
 # > YY直播平台
 0.0.0.0 gt.yy.com
 :: gt.yy.com
-
 # > 亚信科技
 0.0.0.0 ad.asiainfo.com
 :: ad.asiainfo.com
-
 # > 悠易互通
 0.0.0.0 yoyi.com.cn
 :: yoyi.com.cn
@@ -4732,7 +4220,6 @@
 :: g.d.yoyi.tv
 0.0.0.0 t.d.yoyi.tv
 :: t.d.yoyi.tv
-
 # > 云闪付
 0.0.0.0 ads.95516.com
 0.0.0.0 tysdk.95516.com
@@ -4741,11 +4228,9 @@
 0.0.0.0 sdk-conf.getui.com
 0.0.0.0 switch.cup.com.cn
 0.0.0.0 ads.cup.com.cn
-
 # > 云之家
 0.0.0.0 ad.yunzhijia.com
 :: ad.yunzhijia.com
-
 # > 优酷
 0.0.0.0 partner.uc.cn
 :: partner.uc.cn
@@ -4833,13 +4318,11 @@
 # host-suffix, wan.youku.com, reject
 # host-suffix, ykatr.youku.com, reject
 # host-suffix, ykrec.youku.com, reject
-
 # > 游民星空
 0.0.0.0 ja.gamersky.com
 :: ja.gamersky.com
 0.0.0.0 ja1.gamersky.com
 :: ja1.gamersky.com
-
 # > 易车
 0.0.0.0 adx.yiche.com
 0.0.0.0 log.ycapp.yiche.com
@@ -4851,7 +4334,6 @@
 :: gimg.bitauto.com
 0.0.0.0 gstat.bitauto.com
 :: gstat.bitauto.com
-
 # > 易查
 0.0.0.0 yicha.cn
 :: yicha.cn
@@ -4859,7 +4341,6 @@
 :: adsmart.yicha.cn
 0.0.0.0 tuiguang.yicha.cn
 :: tuiguang.yicha.cn
-
 # > 有米
 0.0.0.0 wumii.cn
 :: wumii.cn
@@ -4881,7 +4362,6 @@
 :: t.youmi.net
 0.0.0.0 aos.wall.youmi.net
 :: aos.wall.youmi.net
-
 # > 央视网
 0.0.0.0 galaxy.bjcathay.com
 0.0.0.0 mdrecv.app.cntvwb.cn
@@ -4915,13 +4395,9 @@
 :: mishop.pandora.xiaomi.com
 0.0.0.0 cws-cctv.conviva.com
 :: cws-cctv.conviva.com
-0.0.0.0 mdrecv.app.cntvwb.cn
 :: mdrecv.app.cntvwb.cn
-0.0.0.0 sdapprecv.app.cntvwb.cn
 :: sdapprecv.app.cntvwb.cn
-0.0.0.0 vdapprecv.app.cntvwb.cn
 :: vdapprecv.app.cntvwb.cn
-
 # > 央视影音 (CBox)
 0.0.0.0 adxserver.ad.cmvideo.cn
 :: adxserver.ad.cmvideo.cn
@@ -4929,10 +4405,8 @@
 :: dspserver.ad.cmvideo.cn
 0.0.0.0 openstorage.ad.cmvideo.cn
 :: openstorage.ad.cmvideo.cn
-
 # > 一刻相册
 # 广告联盟已包含
-
 # > 元聚网络（漫画岛，追书神器，甜瓜小说）
 0.0.0.0 d.1391.com
 :: d.1391.com
@@ -4952,13 +4426,11 @@
 :: mhjk.1391.com
 0.0.0.0 sqtpks3.1391.com
 :: sqtpks3.1391.com
-
 # > 艺龙
 0.0.0.0 d.elong.cn
 :: d.elong.cn
 0.0.0.0 mhuodong.elong.com
 :: mhuodong.elong.com
-
 # > 悠视网
 0.0.0.0 g.uusee.com
 :: g.uusee.com
@@ -4966,13 +4438,9 @@
 :: pop.uusee.com
 0.0.0.0 traffic.uusee.com
 :: traffic.uusee.com
-
 # > 游久网
 0.0.0.0 gg.uuu9.com
 :: gg.uuu9.com
-
-
-
 # >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
 # > ZAKER新闻
 0.0.0.0 adm.myzaker.com
@@ -4981,7 +4449,6 @@
 :: ggs.myzaker.com
 0.0.0.0 push-android.myzaker.com
 :: push-android.myzaker.com
-
 # > 知乎
 # 未识别规则：USER-AGENT,AVOS*, reject
 0.0.0.0 appcloud.zhihu.com
@@ -4992,7 +4459,6 @@
 0.0.0.0 118.89.204.198
 # 未识别规则：IP-CIDR, 118.89.204.198/32, reject
 # 未识别规则：IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
-
 # > 中关村
 0.0.0.0 apppv.zol.com.cn
 :: apppv.zol.com.cn
@@ -5030,14 +4496,11 @@
 :: pic.zol-img.com.cn
 0.0.0.0 api.zol.com
 :: api.zol.com
-
 # > 中国移动
 # 未识别规则：IP-CIDR, 120.240.95.37/32, reject
-
 # > 中国联通
 0.0.0.0 m1.ad.10010.com
 :: m1.ad.10010.com
-
 # > 中国电信
 0.0.0.0 ad.21cn.com
 0.0.0.0 ad.k.21cn.com
@@ -5045,7 +4508,6 @@
 0.0.0.0 adshows.21cn.com
 # 未识别规则：IP-CIDR, 122.229.8.47/32, reject
 # 未识别规则：IP-CIDR, 122.229.29.89/32, reject
-
 # > 中信银行
 # 未识别规则：;host-suffix, sis.jpush.io, reject
 # 未识别规则：;host-suffix, s.jpush.cn, reject
@@ -5053,7 +4515,6 @@
 # 未识别规则：;host-suffix, im64.jpush.cn, reject
 # 未识别规则：;host-suffix, im.jpush.cn, reject
 # 未识别规则：;host-suffix, jpush.html5.qq.com, reject
-
 # > 中华万年历
 # 未识别规则：host-keyword, lkme.cc, reject
 # 未识别规则：host-keyword, api.freed.so, reject
@@ -5069,7 +4530,6 @@
 :: ad.51wnl-cq.com
 0.0.0.0 adextra.51wnl-cq.com
 :: adextra.51wnl-cq.com
-
 # > 中华网
 0.0.0.0 union.china.com.cn
 :: union.china.com.cn
@@ -5085,13 +4545,11 @@
 :: sssvd.china.com
 0.0.0.0 rank.hit.china.com
 :: rank.hit.china.com
-
 # > 中国日报
 0.0.0.0 same.chinadaily.com.cn
 :: same.chinadaily.com.cn
 0.0.0.0 usercollection.chinadaily.com.cn
 :: usercollection.chinadaily.com.cn
-
 # > 中国国际广播电视网络台（CIBN）
 # host-suffix, api.adv.ott.cibntv.net, reject
 # host-suffix, adinf.cp11.ott.cibntv.net, reject
@@ -5111,17 +4569,14 @@
 # host-suffix, de.as.cp61.ott.cibntv.net, reject
 # host-suffix, lives.l.cp81.ott.cibntv.net, reject
 # host-suffix, news-l.play.cp81.ott.cibntv.net, reject
-
 # > 中国平安
 0.0.0.0 events.pingan.com
 :: events.pingan.com
-
 # > 真不卡
 0.0.0.0 ttayy.cn
 :: ttayy.cn
 0.0.0.0 zhengxiaoliu.top
 :: zhengxiaoliu.top
-
 # > 字节跳动
 0.0.0.0 ad.zijieapi.com
 0.0.0.0 applog.zijieapi.com
@@ -5143,36 +4598,13 @@
 :: temai.snssdk.com
 0.0.0.0 xlog.snssdk.com
 :: xlog.snssdk.com
-0.0.0.0 ad.toutiao.com
-:: ad.toutiao.com
-0.0.0.0 dm.toutiao.com
-:: dm.toutiao.com
-0.0.0.0 dsp.toutiao.com
-:: dsp.toutiao.com
-0.0.0.0 nativeapp.toutiao.com
-:: nativeapp.toutiao.com
-0.0.0.0 partner.toutiao.com
-:: partner.toutiao.com
-0.0.0.0 track.toutiao.com
-:: track.toutiao.com
-0.0.0.0 dm.pstatp.com
-:: dm.pstatp.com
-0.0.0.0 pb3.pstatp.com
-:: pb3.pstatp.com
-0.0.0.0 s3a.pstatp.com
-:: s3a.pstatp.com
-
 # > 作业帮
 0.0.0.0 bu01.zybang.com
 :: bu01.zybang.com
 0.0.0.0 bu02.zybang.com
 :: bu02.zybang.com
-
 # > 招钱进宝
 # 广告联盟已包含
-
-
-
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
 # > 广告联盟
 # 若有问题自行设置白名单
@@ -5199,8 +4631,6 @@
 :: igexin.com
 0.0.0.0 log.aliyuncs.com
 :: log.aliyuncs.com
-0.0.0.0 zlsdk.1rtb.net
-:: zlsdk.1rtb.net
 0.0.0.0 cdntips.net
 :: cdntips.net
 0.0.0.0 tfogc.com
@@ -5215,114 +4645,90 @@
 :: adadapted.com
 0.0.0.0 ads.adadapted.com
 :: ads.adadapted.com
-
 # AdChina
 0.0.0.0 adchina.com
 :: adchina.com
 0.0.0.0 adchina.io
 :: adchina.io
-
 # AddThis
 0.0.0.0 addthis.com
 :: addthis.com
 0.0.0.0 addthisedge.com
 :: addthisedge.com
-
 # Adform
 ||*adform*$important
-
 # Adhouyi (广告后台)
 0.0.0.0 ad.adhouyi.cn
 :: ad.adhouyi.cn
 0.0.0.0 adhouyi.com
 :: adhouyi.com
-
 # Adinall
 0.0.0.0 adinall.com
 :: adinall.com
-
 # Adition
 0.0.0.0 ad8.adfarm1.adition.com
 :: ad8.adfarm1.adition.com
 0.0.0.0 dsp.adfarm1.adition.com
 :: dsp.adfarm1.adition.com
-
 # Adjust
 0.0.0.0 adjust.io
 :: adjust.io
-
 # Admarvel
 0.0.0.0 admarvel.com
 :: admarvel.com
-
 # AdRoll
 0.0.0.0 adroll.com
 :: adroll.com
-
 # Adtaily
 0.0.0.0 adtaily.com
 :: adtaily.com
-
 # Adups
 0.0.0.0 fota4.adups.cn
 :: fota4.adups.cn
 0.0.0.0 adups.com
 :: adups.com
-
 # Adview
 0.0.0.0 adview.cn
 :: adview.cn
-
 # Adwo
 0.0.0.0 adwo.com
 :: adwo.com
-
 # Adzerk
 0.0.0.0 adzerk.net
 :: adzerk.net
-
 # Ad-m.asia
 0.0.0.0 sync-dsp.ad-m.asia
 :: sync-dsp.ad-m.asia
-
 # AdColony
 0.0.0.0 adcolony.com
 :: adcolony.com
-
 # AerServ
 0.0.0.0 aerserv.com
 :: aerserv.com
-
 # Airpush
 0.0.0.0 airpush.com
 :: airpush.com
-
 # App-Adforce
 0.0.0.0 app-adforce.jp
 :: app-adforce.jp
-
 # Appadhoc
 0.0.0.0 appadhoc.com
 :: appadhoc.com
 0.0.0.0 sdk.appadhoc.com
 :: sdk.appadhoc.com
-
 # AppsFlyer
 0.0.0.0 appsflyer.com
 :: appsflyer.com
-
 # Appdriver
 0.0.0.0 appdriver.cn
 :: appdriver.cn
 0.0.0.0 appdriver.com.cn
 :: appdriver.com.cn
-
 # Cacafly
 0.0.0.0 ad.cacafly.com
 :: ad.cacafly.com
 0.0.0.0 cacafly.net
 :: cacafly.net
-
 # Casale Media
 0.0.0.0 casalemedia.com
 :: casalemedia.com
@@ -5330,21 +4736,17 @@
 :: as.casalemedia.com
 0.0.0.0 ssum.casalemedia.com
 :: ssum.casalemedia.com
-
 # Chartboost
 0.0.0.0 chartboost.com
 :: chartboost.com
-
 # Clicki
 0.0.0.0 clicki.cn
 :: clicki.cn
-
 # CNZZ
 0.0.0.0 cnzz.com
 :: cnzz.com
 0.0.0.0 s96.cnzz.com
 :: s96.cnzz.com
-
 # Criteo
 0.0.0.0 criteo.net
 :: criteo.net
@@ -5356,15 +4758,12 @@
 :: cas.criteo.com
 0.0.0.0 dis.criteo.com
 :: dis.criteo.com
-0.0.0.0 gum.criteo.com
-:: gum.criteo.com
 0.0.0.0 rtax.criteo.com
 :: rtax.criteo.com
 0.0.0.0 widget.criteo.com
 :: widget.criteo.com
 0.0.0.0 dis.us.criteo.com
 :: dis.us.criteo.com
-
 # comScore
 0.0.0.0 scorecardresearch.com
 :: scorecardresearch.com
@@ -5374,7 +4773,6 @@
 :: sb.scorecardresearch.com
 0.0.0.0 udm.scorecardresearch.com
 :: udm.scorecardresearch.com
-
 # Dianjoy
 0.0.0.0 dianjoy.com
 :: dianjoy.com
@@ -5382,7 +4780,6 @@
 :: a.dianjoy.com
 0.0.0.0 fast-cdn.dianjoy.com
 :: fast-cdn.dianjoy.com
-
 # Dianru
 0.0.0.0 dianru.com
 :: dianru.com
@@ -5390,24 +4787,20 @@
 :: api.dianru.com
 0.0.0.0 api.android.dianru.com
 :: api.android.dianru.com
-
 # dtscout
 ||*dtscout*$important
 0.0.0.0 dtscout.com
 :: dtscout.com
-
 # Exoclick
 0.0.0.0 main.exoclick.com
 :: main.exoclick.com
 0.0.0.0 syndication.exoclick.com
 :: syndication.exoclick.com
-
 # Exosrv
 0.0.0.0 exosrv.com
 :: exosrv.com
 0.0.0.0 ads.exosrv.com
 :: ads.exosrv.com
-
 # Flurry
 0.0.0.0 flurry.com
 :: flurry.com
@@ -5419,11 +4812,9 @@
 :: proton.flurry.com
 0.0.0.0 flurry.cachefly.net
 :: flurry.cachefly.net
-
 # Guomob (果盟)
 0.0.0.0 guomob.com
 :: guomob.com
-
 # GrowingIO
 0.0.0.0 giocdn.com
 :: giocdn.com
@@ -5439,11 +4830,9 @@
 :: t.growingio.com
 0.0.0.0 tags.growingio.com
 :: tags.growingio.com
-
 # iClick
 0.0.0.0 mfan.iclick.com.cn
 :: mfan.iclick.com.cn
-
 # Innity
 0.0.0.0 innity.com
 :: innity.com
@@ -5459,7 +4848,6 @@
 :: cdn.media.innity.net
 0.0.0.0 ssl-cdn.media.innity.net
 :: ssl-cdn.media.innity.net
-
 # Inveno
 0.0.0.0 business.inveno.com
 :: business.inveno.com
@@ -5467,7 +4855,6 @@
 :: malacca.inveno.com
 0.0.0.0 zuimeitianqi.inveno.com
 :: zuimeitianqi.inveno.com
-
 # InMobi
 0.0.0.0 inmobi.cn
 :: inmobi.cn
@@ -5479,7 +4866,6 @@
 :: inmobi.net
 0.0.0.0 inmobicdn.net
 :: inmobicdn.net
-
 # IronSource
 0.0.0.0 ironsrc.com
 :: ironsrc.com
@@ -5487,11 +4873,9 @@
 :: supersonic.com
 0.0.0.0 supersonicads.com
 :: supersonicads.com
-
 # iPinYou (品友互动)
 0.0.0.0 ipinyou.com
 :: ipinyou.com
-
 # Jesgoo
 0.0.0.0 jesgoo.com
 :: jesgoo.com
@@ -5499,7 +4883,6 @@
 :: cdn.jesgoo.com
 0.0.0.0 rcv.jesgoo.com
 :: rcv.jesgoo.com
-
 # JuicyAds
 0.0.0.0 juicyads.com
 :: juicyads.com
@@ -5509,7 +4892,6 @@
 :: adserver.juicyads.com
 0.0.0.0 img.jizzads.com
 :: img.jizzads.com
-
 # Kejet
 0.0.0.0 kejet.com
 :: kejet.com
@@ -5541,7 +4923,6 @@
 :: m.kejet.net
 0.0.0.0 rtb-p.kejet.net
 :: rtb-p.kejet.net
-
 # Keyrun
 0.0.0.0 keyrun.cn
 :: keyrun.cn
@@ -5549,25 +4930,20 @@
 :: c1.keyrun.cn
 0.0.0.0 keyrun.com
 :: keyrun.com
-
 # Kissmetrics
 0.0.0.0 kissmetrics.com
 :: kissmetrics.com
-
 # Krux
 0.0.0.0 krux.net
 :: krux.net
-
 # 酷云互动
 0.0.0.0 config.kuyun.com
 :: config.kuyun.com
 0.0.0.0 logonext.tv.kuyun.com
 :: logonext.tv.kuyun.com
-
 # Kochava
 0.0.0.0 kochava.com
 :: kochava.com
-
 # Leadbolt
 0.0.0.0 leadbolt.net
 :: leadbolt.net
@@ -5587,11 +4963,9 @@
 :: leadboltmobile.net
 0.0.0.0 ad.leadboltmobile.net
 :: ad.leadboltmobile.net
-
 # Localytics
 0.0.0.0 localytics.com
 :: localytics.com
-
 # 亿动广告传媒
 0.0.0.0 madserving.com
 :: madserving.com
@@ -5613,7 +4987,6 @@
 :: imp.pdb.madserving.com
 0.0.0.0 madhouse.cn
 :: madhouse.cn
-
 # Marketgid
 0.0.0.0 marketgid.com
 :: marketgid.com
@@ -5629,11 +5002,9 @@
 :: jsc.marketgid.com
 0.0.0.0 wsp.marketgid.com
 :: wsp.marketgid.com
-
 # 聚胜万合
 0.0.0.0 mediav.com
 :: mediav.com
-
 # MGID
 0.0.0.0 mgid.com
 :: mgid.com
@@ -5659,7 +5030,6 @@
 :: aa.goodsblock.mgid.com
 0.0.0.0 ab.goodsblock.mgid.com
 :: ab.goodsblock.mgid.com
-
 # Millennial Media
 0.0.0.0 millennialmedia.com
 :: millennialmedia.com
@@ -5667,11 +5037,9 @@
 :: cdn.millennialmedia.com
 0.0.0.0 images.millennialmedia.com
 :: images.millennialmedia.com
-
 # Mixpanel
 0.0.0.0 mxpnl.com
 :: mxpnl.com
-
 # Moat
 0.0.0.0 moatads.com
 :: moatads.com
@@ -5683,7 +5051,6 @@
 :: px.moatads.com
 0.0.0.0 z.moatads.com
 :: z.moatads.com
-
 # 创智汇聚
 0.0.0.0 cca.mob.com
 :: cca.mob.com
@@ -5699,17 +5066,14 @@
 :: api.exc.mob.com
 0.0.0.0 api.share.mob.com
 :: api.share.mob.com
-
 # Mobfox
 0.0.0.0 mobfox.com
 :: mobfox.com
 0.0.0.0 my.mobfox.com
 :: my.mobfox.com
-
 # 魔窗
 0.0.0.0 magicwindow.cn
 :: magicwindow.cn
-
 # Mathtag
 ||*mathtag*$important
 0.0.0.0 mathtag.com
@@ -5718,24 +5082,19 @@
 :: pixel.mathtag.com
 0.0.0.0 sync.mathtag.com
 :: sync.mathtag.com
-
 # 艾德思奇（adSage）
 0.0.0.0 mobisage.cn
 :: mobisage.cn
 0.0.0.0 config.mobisage.cn
 :: config.mobisage.cn
-
 # MoPub（Twitter 公司旗下的移动广告服务平台）
 0.0.0.0 mopub.com
 :: mopub.com
-
 # NetworkBench (听云)
 0.0.0.0 networkbench.com
 :: networkbench.com
-
 # NicoNico
 0.0.0.0 ads.nicovideo.jp
-
 # Onetad
 0.0.0.0 onetad.com
 :: onetad.com
@@ -5781,19 +5140,15 @@
 :: ww9.onetad.com
 0.0.0.0 wwv.onetad.com
 :: wwv.onetad.com
-
 # OpenX
 0.0.0.0 openx.net
 :: openx.net
-
 # Optimizely
 0.0.0.0 optimizelyapis.com
 :: optimizelyapis.com
-
 # Oracle
 0.0.0.0 bluekai.com
 :: bluekai.com
-
 # Pagechoice
 0.0.0.0 pagechoice.com
 :: pagechoice.com
@@ -5809,7 +5164,6 @@
 :: motu.pagechoice.net
 0.0.0.0 sit.pagechoice.net
 :: sit.pagechoice.net
-
 # Plista
 0.0.0.0 plista.com
 :: plista.com
@@ -5817,11 +5171,9 @@
 :: click-cn.plista.com
 0.0.0.0 farm-cn.plista.com
 :: farm-cn.plista.com
-
 # Pubnative
 0.0.0.0 pubnative.net
 :: pubnative.net
-
 # PopAds
 0.0.0.0 popads.net
 :: popads.net
@@ -5831,11 +5183,9 @@
 :: c2.popads.net
 0.0.0.0 serve.popads.net
 :: serve.popads.net
-
 # PubMatic
 0.0.0.0 pubmatic.com
 :: pubmatic.com
-
 # Qtmojo
 0.0.0.0 qtmojo.cn
 :: qtmojo.cn
@@ -5847,7 +5197,6 @@
 :: wmcdn.qtmojo.cn
 0.0.0.0 qtmojo.com
 :: qtmojo.com
-
 # Qumi (趣米)
 0.0.0.0 qumi.com
 :: qumi.com
@@ -5857,7 +5206,6 @@
 :: cut.qumi.com
 0.0.0.0 exp.qumi.com
 :: exp.qumi.com
-
 # Quantcast
 0.0.0.0 quantcount.com
 :: quantcount.com
@@ -5871,7 +5219,6 @@
 :: pixel.quantserve.com
 0.0.0.0 secure.quantserve.com
 :: secure.quantserve.com
-
 # Rayjump
 0.0.0.0 rayjump.com
 :: rayjump.com
@@ -5879,7 +5226,6 @@
 :: net.rayjump.com
 0.0.0.0 setting.rayjump.com
 :: setting.rayjump.com
-
 # Rubicon Project
 0.0.0.0 rubiconproject.com
 :: rubiconproject.com
@@ -5903,7 +5249,6 @@
 :: token.rubiconproject.com
 0.0.0.0 usync.aws.rubiconproject.com
 :: usync.aws.rubiconproject.com
-
 # Smart AdServer
 0.0.0.0 smartadserver.com
 :: smartadserver.com
@@ -5915,7 +5260,6 @@
 :: ww881.smartadserver.com
 0.0.0.0 www6.smartadserver.com
 :: www6.smartadserver.com
-
 # Snapmobile
 0.0.0.0 snap.snapmobile.asia
 :: snap.snapmobile.asia
@@ -5923,7 +5267,6 @@
 :: snapmobileasia.net
 0.0.0.0 selfie.snapmobileasia.net
 :: selfie.snapmobileasia.net
-
 # StatCounter
 0.0.0.0 statcounter.com
 :: statcounter.com
@@ -5935,7 +5278,6 @@
 :: c2.statcounter.com
 0.0.0.0 secure.statcounter.com
 :: secure.statcounter.com
-
 # Segment
 0.0.0.0 segment.com
 :: segment.com
@@ -5945,11 +5287,9 @@
 :: cdn-settings.segment.com
 0.0.0.0 mobile-service.segment.com
 :: mobile-service.segment.com
-
 # Sigmob
 0.0.0.0 adservice.sigmob.cn
 :: adservice.sigmob.cn
-
 # Sizmek
 0.0.0.0 serving-sys.com
 :: serving-sys.com
@@ -5969,11 +5309,7 @@
 :: secure-ds.serving-sys.com
 0.0.0.0 us.bs.serving-sys.com
 :: us.bs.serving-sys.com
-
 # Smaato
-0.0.0.0 smaato.net
-:: smaato.net
-
 # StartApp
 0.0.0.0 startapp.com
 :: startapp.com
@@ -5991,17 +5327,14 @@
 :: images.startappservice.com
 0.0.0.0 req.startappservice.com
 :: req.startappservice.com
-
 # Taptica
 0.0.0.0 clk.taptica.com
 :: clk.taptica.com
-
 # TGBus
 0.0.0.0 vista.tgbusdata.cn
 :: vista.tgbusdata.cn
 0.0.0.0 vista.tgbus.com
 :: vista.tgbus.com
-
 # Touclick
 0.0.0.0 touclick.com
 :: touclick.com
@@ -6009,7 +5342,6 @@
 :: cap.touclick.com
 0.0.0.0 ver.touclick.com
 :: ver.touclick.com
-
 # Trafficfactory
 0.0.0.0 trafficfactory.biz
 :: trafficfactory.biz
@@ -6017,7 +5349,6 @@
 :: media.trafficfactory.biz
 0.0.0.0 rpc-php.trafficfactory.biz
 :: rpc-php.trafficfactory.biz
-
 # Trafficjunky
 0.0.0.0 trafficjunky.com
 :: trafficjunky.com
@@ -6027,7 +5358,6 @@
 :: media.trafficjunky.net
 0.0.0.0 vz-cdn.trafficjunky.net
 :: vz-cdn.trafficjunky.net
-
 # TalkingData
 0.0.0.0 talkingdata.com
 :: talkingdata.com
@@ -6043,13 +5373,11 @@
 :: u.talkingdata.net
 0.0.0.0 cpatrk.net
 :: cpatrk.net
-
 # Tapad
 0.0.0.0 tapad.com
 :: tapad.com
 0.0.0.0 pixel.tapad.com
 :: pixel.tapad.com
-
 # Tapjoy
 0.0.0.0 tapjoy.cn
 :: tapjoy.cn
@@ -6059,7 +5387,6 @@
 :: tapjoyads.com
 0.0.0.0 ws.tapjoyads.com
 :: ws.tapjoyads.com
-
 # 推啊 (Tuia)
 0.0.0.0 tuia.cn
 :: tuia.cn
@@ -6067,7 +5394,6 @@
 :: engine.tuia.cn
 0.0.0.0 yun.tuia.cn
 :: yun.tuia.cn
-
 # VigLink
 0.0.0.0 viglink.com
 :: viglink.com
@@ -6081,7 +5407,6 @@
 0.0.0.0 ns3.viglink.com
 0.0.0.0 ns4.viglink.com
 0.0.0.0 qa.viglink.com
-
 # Voiceads
 0.0.0.0 agr.voiceads.cn
 :: agr.voiceads.cn
@@ -6089,11 +5414,9 @@
 :: ws.voiceads.cn
 0.0.0.0 voiceads.com
 :: voiceads.com
-
 # Vungle
 0.0.0.0 vungle.cn
 :: vungle.cn
-
 # Vpon
 0.0.0.0 vpon.com
 :: vpon.com
@@ -6115,21 +5438,17 @@
 :: cn.pub.vpon.com
 0.0.0.0 tw.pub.vpon.com
 :: tw.pub.vpon.com
-
 # Yandex
 0.0.0.0 st.yandexadexchange.net
 :: st.yandexadexchange.net
 0.0.0.0 ads.yandex.com
 :: ads.yandex.com
-
 # Yengo
 0.0.0.0 st.yengo.com
 :: st.yengo.com
-
 # 亿起发
 0.0.0.0 yiqifa.com
 :: yiqifa.com
-
 # 优效平台
 0.0.0.0 youxiaoad.com
 :: youxiaoad.com
@@ -6141,7 +5460,6 @@
 :: ssp.youxiaoad.com
 0.0.0.0 sspapi.youxiaoad.com
 :: sspapi.youxiaoad.com
-
 # 指点传媒
 0.0.0.0 zhidian3g.cn
 :: zhidian3g.cn
@@ -6149,10 +5467,8 @@
 :: ad.zhidian3g.cn
 0.0.0.0 soft.zhidian3g.cn
 :: soft.zhidian3g.cn
-
 # 诸葛智能
 0.0.0.0 zgsdk.zhugeio.com
-
 # Zedo
 0.0.0.0 zedo.com
 :: zedo.com
