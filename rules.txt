@@ -2,5 +2,4 @@
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/filter.list
 #苹果系统更新
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/blockAppleUpdate.list
-#腾讯视频去广告
-https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/TencentVideo.list
+
