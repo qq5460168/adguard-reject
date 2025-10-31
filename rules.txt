@@ -1,0 +1,2 @@
+#广告拦截合集奶思
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/filter.list
