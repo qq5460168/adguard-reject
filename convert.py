@@ -66,27 +66,27 @@ def merge_and_convert(all_rules: list, output_file: str):
             adguard_rules.append(line)
             continue
         
-        # 1. 匹配 URL 规则（提取域名）
+        # 1. 匹配 URL 规则（提取域名，忽略路径）
         url_match = re.match(r'url,\s*(https?|wss):\/\/([\w\.\-]+)(\/[^\s,]*)?,\s*reject', line, re.I)
         if url_match:
             domain = url_match.group(2).strip()
-            adguard_rules.append(f"||{domain}^")  # 统一为||域名^格式
+            adguard_rules.append(f"||{domain}^")  # 统一为||域名^
             converted_count += 1
             continue
         
-        # 2. 匹配 host-suffix 规则（直接使用域名）
+        # 2. 匹配 host-suffix 规则（直接转换为||域名^）
         suffix_match = re.match(r'host-suffix,\s*([\w\.\-]+),\s*reject', line, re.I)
         if suffix_match:
             domain = suffix_match.group(1).strip()
-            adguard_rules.append(f"||{domain}^")  # 统一为||域名^格式
+            adguard_rules.append(f"||{domain}^")  # 统一为||域名^
             converted_count += 1
             continue
         
-        # 3. 匹配 host-keyword 规则（将关键词作为域名片段处理）
-        keyword_match = re.match(r'host-keyword,\s*([\w\-]+),\s*reject', line, re.I)
+        # 3. 匹配 host-keyword 规则（支持含.的关键词，转换为||域名^）
+        keyword_match = re.match(r'host-keyword,\s*([^,]+),\s*reject', line, re.I)  # 修正正则支持特殊字符
         if keyword_match:
-            keyword = keyword_match.group(1).strip()
-            adguard_rules.append(f"||*{keyword}*$important")  # 关键词规则保留原有格式（因无法直接转换为纯域名）
+            domain = keyword_match.group(1).strip()
+            adguard_rules.append(f"||{domain}^")  # 统一为||域名^
             converted_count += 1
             continue
         
