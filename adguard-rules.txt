@@ -1,0 +1,6162 @@
+# ===============================
+# 自动拉取+合并+转换自 QuantumultX 在线规则
+# 规则来源配置：rules.txt
+# 支持规则类型：URL/host-suffix/host-keyword + reject
+# 转换工具：quantumultx-to-adguard-url-config
+# ===============================
+
+#!name=广告拦截合集-不要设置策略偏好
+#!desc=(F)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装APP，拦截广告才会生效！
+#!author=奶思
+#!homepage=https://github.com/fmz200/wool_scripts
+#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/filter.list
+#!tg-channel=https://t.me/inaisi
+#!date=2025-10-03 21:55:00
+#!support=约9760行
+#############################################
+# "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
+# "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
+# "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
+# "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
+# "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
+# 1.2.3.4/24      /24表示网络的子网掩码长度，即前24位是网络部分，后8位是主机部分。这种表示法常用于描述特定范围内的IP地址
+# 6.7.8.9/32      /32表示整个32位的IP地址都用于表示这一个地址，即单独的一个IP地址
+#############################################
+
+
+
+# >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
+# > 12123
+0.0.0.0 v3.fstats.xyz
+:: v3.fstats.xyz
+0.0.0.0 wss.haoyundmn.com
+:: wss.haoyundmn.com
+0.0.0.0 new.xiongzhangad.com
+:: new.xiongzhangad.com
+0.0.0.0 alexametrics.com
+:: alexametrics.com
+||*in-page-push*$important
+
+# > 17173（网络游戏门户网站）
+0.0.0.0 ad.17173.com
+:: ad.17173.com
+0.0.0.0 cvda.17173.com
+:: cvda.17173.com
+0.0.0.0 log1.17173.com
+:: log1.17173.com
+0.0.0.0 vda.17173.com
+:: vda.17173.com
+0.0.0.0 s.17173cdn.com
+:: s.17173cdn.com
+
+# > 178游戏网
+0.0.0.0 market.178.com
+:: market.178.com
+0.0.0.0 tuiguang.178.com
+:: tuiguang.178.com
+
+# > 18183游戏网
+0.0.0.0 img1.18183.com
+:: img1.18183.com
+0.0.0.0 eezdx.erc.18183.com
+:: eezdx.erc.18183.com
+0.0.0.0 zpe.klre.18183.com
+:: zpe.klre.18183.com
+
+# > 1905电影网
+0.0.0.0 mlog.m1905.cn
+:: mlog.m1905.cn
+0.0.0.0 vodlog.m1905.cn
+:: vodlog.m1905.cn
+0.0.0.0 afp.m1905.com
+:: afp.m1905.com
+0.0.0.0 counter.m1905.com
+:: counter.m1905.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ 2 ✅ <<<<<<<<<<<<<<
+# > 2345网址导航
+0.0.0.0 dl.2345.com
+:: dl.2345.com
+0.0.0.0 download.2345.com
+:: download.2345.com
+0.0.0.0 ggcode.2345.com
+:: ggcode.2345.com
+0.0.0.0 houtai.2345.com
+:: houtai.2345.com
+0.0.0.0 jifen.2345.com
+:: jifen.2345.com
+0.0.0.0 minipage.2345.com
+:: minipage.2345.com
+0.0.0.0 wan.2345.com
+:: wan.2345.com
+0.0.0.0 zhushou.2345.com
+:: zhushou.2345.com
+0.0.0.0 tg.jifen.2345.com
+:: tg.jifen.2345.com
+0.0.0.0 update.minipage.2345.com
+:: update.minipage.2345.com
+0.0.0.0 g.wan.2345.com
+:: g.wan.2345.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ 3 ✅ <<<<<<<<<<<<<<
+# > 360
+0.0.0.0 pjogndc8ixoidna.360doc.cn
+:: pjogndc8ixoidna.360doc.cn
+0.0.0.0 w5sac788c1.360doc.cn
+:: w5sac788c1.360doc.cn
+0.0.0.0 360shopping.com.cn
+:: 360shopping.com.cn
+0.0.0.0 cps.360buy.com
+:: cps.360buy.com
+0.0.0.0 eclick.360doc.com
+:: eclick.360doc.com
+0.0.0.0 ad.360in.com
+:: ad.360in.com
+0.0.0.0 dl.360safe.com
+:: dl.360safe.com
+0.0.0.0 kuaikan.netmon.360safe.com
+:: kuaikan.netmon.360safe.com
+0.0.0.0 ini.update.360safe.com
+:: ini.update.360safe.com
+0.0.0.0 display.360totalsecurity.com
+:: display.360totalsecurity.com
+0.0.0.0 hot.m.shouji.360tpcdn.com
+:: hot.m.shouji.360tpcdn.com
+0.0.0.0 ad.360yield.com
+:: ad.360yield.com
+0.0.0.0 guess.h.qhimg.com
+:: guess.h.qhimg.com
+0.0.0.0 top.h.qhimg.com
+:: top.h.qhimg.com
+0.0.0.0 jspassport.ssl.qhimg.com
+:: jspassport.ssl.qhimg.com
+0.0.0.0 top.h.qhmsg.com
+:: top.h.qhmsg.com
+0.0.0.0 hs.qhupdate.com
+:: hs.qhupdate.com
+0.0.0.0 res.qhupdate.com
+:: res.qhupdate.com
+0.0.0.0 s.qhupdate.com
+:: s.qhupdate.com
+0.0.0.0 haostat.qihoo.com
+:: haostat.qihoo.com
+0.0.0.0 sh.qihoo.com
+:: sh.qihoo.com
+0.0.0.0 s.sh.qihoo.com
+:: s.sh.qihoo.com
+0.0.0.0 spro.so.com
+:: spro.so.com
+0.0.0.0 mbrowser.news.so.com
+:: mbrowser.news.so.com
+0.0.0.0 tran.news.so.com
+:: tran.news.so.com
+
+# > 365日历
+0.0.0.0 ad.365rili.com
+:: ad.365rili.com
+
+# > 39健康网
+0.0.0.0 app-g.39.net
+:: app-g.39.net
+0.0.0.0 d.39.net
+:: d.39.net
+0.0.0.0 dpvc.39.net
+:: dpvc.39.net
+0.0.0.0 thetestpage.39.net
+:: thetestpage.39.net
+
+
+
+# >>>>>>>>>>>>>>> ✅ 4 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 5 ✅ <<<<<<<<<<<<<<
+# > 51CTO学堂
+0.0.0.0 gg.51cto.com
+:: gg.51cto.com
+0.0.0.0 gg2.51cto.com
+:: gg2.51cto.com
+0.0.0.0 gg3.51cto.com
+:: gg3.51cto.com
+
+# > 58同城
+# 未识别规则：host, track.58.com, reject
+# 未识别规则：host, tracklog.58.com, reject
+0.0.0.0 58mingri.cn
+:: 58mingri.cn
+0.0.0.0 58mingtian.cn
+:: 58mingtian.cn
+0.0.0.0 sc.58mingtian.cn
+:: sc.58mingtian.cn
+0.0.0.0 t1.58cdn.com.cn
+:: t1.58cdn.com.cn
+0.0.0.0 t2.58cdn.com.cn
+:: t2.58cdn.com.cn
+0.0.0.0 t3.58cdn.com.cn
+:: t3.58cdn.com.cn
+0.0.0.0 adshow.58.com
+:: adshow.58.com
+0.0.0.0 brandshow.58.com
+:: brandshow.58.com
+0.0.0.0 jing.58.com
+:: jing.58.com
+0.0.0.0 jumpluna.58.com
+:: jumpluna.58.com
+0.0.0.0 news.58.com
+:: news.58.com
+0.0.0.0 track.58.com
+:: track.58.com
+0.0.0.0 tracklog.58.com
+:: tracklog.58.com
+0.0.0.0 zzpush.58.com
+:: zzpush.58.com
+0.0.0.0 jump.luna.58.com
+:: jump.luna.58.com
+
+
+# > 58汽车
+0.0.0.0 58.xgo.com.cn
+:: 58.xgo.com.cn
+0.0.0.0 imp.xgo.com.cn
+:: imp.xgo.com.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ 6 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 7 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 8 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 9 ✅ <<<<<<<<<<<<<<
+# 9to5Mac
+# 网页版去广告
+0.0.0.0 ad-delivery.net
+:: ad-delivery.net
+0.0.0.0 spot.im
+:: spot.im
+0.0.0.0 revjet.com
+:: revjet.com
+0.0.0.0 dotomi.com
+:: dotomi.com
+0.0.0.0 intentiq.com
+:: intentiq.com
+0.0.0.0 temu.com
+:: temu.com
+0.0.0.0 adsafeprotected.com
+:: adsafeprotected.com
+0.0.0.0 optable.co
+:: optable.co
+0.0.0.0 stackadapt.com
+:: stackadapt.com
+0.0.0.0 gumgum.com
+:: gumgum.com
+0.0.0.0 kargo.com
+:: kargo.com
+0.0.0.0 a-mo.net
+:: a-mo.net
+0.0.0.0 3lift.com
+:: 3lift.com
+0.0.0.0 bidswitch.net
+:: bidswitch.net
+0.0.0.0 ninthdecimal.com
+:: ninthdecimal.com
+0.0.0.0 turn.com
+:: turn.com
+0.0.0.0 33across.com
+:: 33across.com
+0.0.0.0 aidemsrv.com
+:: aidemsrv.com
+0.0.0.0 js7k.com
+:: js7k.com
+0.0.0.0 sharethrough.com
+:: sharethrough.com
+0.0.0.0 1rx.io
+:: 1rx.io
+0.0.0.0 tynt.com
+:: tynt.com
+0.0.0.0 a47b.com
+:: a47b.com
+0.0.0.0 teads.tv
+:: teads.tv
+0.0.0.0 logger.adthrive.com
+:: logger.adthrive.com
+0.0.0.0 ads.stickyadstv.com
+:: ads.stickyadstv.com
+0.0.0.0 adnxs.com
+:: adnxs.com
+0.0.0.0 presage.io
+:: presage.io
+0.0.0.0 mradx.net
+:: mradx.net
+
+
+
+# >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
+# > Adobe
+0.0.0.0 3dns-2.adobe.com
+:: 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
+:: 3dns-3.adobe.com
+0.0.0.0 activate.adobe.com
+:: activate.adobe.com
+0.0.0.0 activate-sea.adobe.com
+:: activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
+:: activate-sjc0.adobe.com
+0.0.0.0 adobe-dns.adobe.com
+:: adobe-dns.adobe.com
+0.0.0.0 adobe-dns-2.adobe.com
+:: adobe-dns-2.adobe.com
+0.0.0.0 adobe-dns-3.adobe.com
+:: adobe-dns-3.adobe.com
+0.0.0.0 ereg.adobe.com
+:: ereg.adobe.com
+0.0.0.0 get3.adobe.com
+:: get3.adobe.com
+0.0.0.0 hl2rcv.adobe.com
+:: hl2rcv.adobe.com
+0.0.0.0 practivate.adobe.com
+:: practivate.adobe.com
+0.0.0.0 wip3.adobe.com
+:: wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
+:: wwis-dubc1-vip60.adobe.com
+0.0.0.0 lm.licenses.adobe.com
+:: lm.licenses.adobe.com
+0.0.0.0 na2m-pr.licenses.adobe.com
+:: na2m-pr.licenses.adobe.com
+0.0.0.0 na1r.services.adobe.com
+:: na1r.services.adobe.com
+0.0.0.0 hlrcv.stage.adobe.com
+:: hlrcv.stage.adobe.com
+0.0.0.0 activate.wip3.adobe.com
+:: activate.wip3.adobe.com
+0.0.0.0 ereg.wip3.adobe.com
+:: ereg.wip3.adobe.com
+0.0.0.0 lmlicenses.wip4.adobe.com
+:: lmlicenses.wip4.adobe.com
+# Marketo
+0.0.0.0 marketo.com
+:: marketo.com
+0.0.0.0 asia.marketo.com
+:: asia.marketo.com
+0.0.0.0 pages2.marketo.com
+:: pages2.marketo.com
+0.0.0.0 marketo.net
+:: marketo.net
+0.0.0.0 munchkin.marketo.net
+:: munchkin.marketo.net
+
+# > Adobe Flash China Special Edition
+# 未识别规则：host, geo2.adobe.com, reject
+
+# > Akamai
+0.0.0.0 appnext-a.akamaihd.net
+:: appnext-a.akamaihd.net
+0.0.0.0 lbstatic-a.akamaihd.net
+:: lbstatic-a.akamaihd.net
+0.0.0.0 toots-a.akamaihd.net
+:: toots-a.akamaihd.net
+
+# > Apple
+# 未识别规则：host, advertising.apple.com, reject
+# 未识别规则：host, api-adservices.apple.com, reject
+# 未识别规则：host, apple.comscoreresearch.com, reject
+# 未识别规则：host, banners.itunes.apple.com, reject
+# 未识别规则：host, iad.apple.com, reject
+# 未识别规则：host, iadcontent.apple.com, reject
+# 未识别规则：host, iadctest.qwapi.com, reject
+# 未识别规则：host, iadmoo.apple.com, reject
+# 未识别规则：host, iadworkbench.apple.com, reject
+# 未识别规则：host, launch.apple.com, reject
+# 未识别规则：host, metrics.apple.com, reject
+# 未识别规则：host, qwapi.apple.com, reject
+# 未识别规则：host, securemetrics.apple.com, reject
+# 未识别规则：host, webproxy-advp.iad-apple.com, reject
+# 未识别规则：host, webproxy-advp.iad-apple.com.akadns.net, reject
+0.0.0.0 advp.apple.com
+:: advp.apple.com
+0.0.0.0 iadsdk.apple.com
+:: iadsdk.apple.com
+# 安全浏览限制解除
+# 未识别规则：host, lookup.api.bsb.baidu.com, reject
+# 未识别规则：host, proxy.safebrowsing.apple, reject
+# 未识别规则：host, safebrowsing.g.applimg.com, reject
+# 未识别规则：host, safebrowsing.googleapis.com, reject
+# 未识别规则：host, safebrowsing.urlsec.qq.com, reject
+# 未识别规则：host, token.safebrowsing.apple, reject
+# 未识别规则：host, vs6.bj2ct.u3.ucweb.com, reject
+0.0.0.0 safebrowsing.apple
+:: safebrowsing.apple
+0.0.0.0 u3.ucweb.com
+:: u3.ucweb.com
+
+# > Amazon
+0.0.0.0 amazon-adsystem.com
+:: amazon-adsystem.com
+0.0.0.0 mads.amazon.com
+:: mads.amazon.com
+0.0.0.0 sdb.amazonaws.com
+:: sdb.amazonaws.com
+0.0.0.0 airpushmarketing.s3.amazonaws.com
+:: airpushmarketing.s3.amazonaws.com
+0.0.0.0 epowernetworktrackerimages.s3.amazonaws.com
+:: epowernetworktrackerimages.s3.amazonaws.com
+0.0.0.0 gateways.s3.amazonaws.com
+:: gateways.s3.amazonaws.com
+0.0.0.0 kbnetworkz.s3.amazonaws.com
+:: kbnetworkz.s3.amazonaws.com
+0.0.0.0 secretmedia.s3.amazonaws.com
+:: secretmedia.s3.amazonaws.com
+0.0.0.0 smblock.s3.amazonaws.com
+:: smblock.s3.amazonaws.com
+0.0.0.0 whistleout.s3.amazonaws.com
+:: whistleout.s3.amazonaws.com
+
+# > AOL（美国在线）
+0.0.0.0 adinfo.aol.com
+:: adinfo.aol.com
+0.0.0.0 dynamic.aol.com
+:: dynamic.aol.com
+0.0.0.0 free.aol.com
+:: free.aol.com
+0.0.0.0 mads.aol.com
+:: mads.aol.com
+0.0.0.0 cdn.komentary.aol.com
+:: cdn.komentary.aol.com
+
+# > 爱拍
+0.0.0.0 apas.aipai.com
+:: apas.aipai.com
+0.0.0.0 atiws.aipai.com
+:: atiws.aipai.com
+0.0.0.0 mlog.aipai.com
+:: mlog.aipai.com
+
+# > 爱卡汽车网
+0.0.0.0 d0.xcar.com.cn
+:: d0.xcar.com.cn
+0.0.0.0 dw.xcar.com.cn
+:: dw.xcar.com.cn
+0.0.0.0 pv.xcar.com.cn
+:: pv.xcar.com.cn
+
+# > 阿里系
+# host-suffix, alistatic.cn, reject
+# host-suffix, cnzz.cn, reject
+# host-suffix, sinaaliyun.cn, reject
+# host-suffix, taobaoaliyun.cn, reject
+# host-suffix, taobayun.cn, reject
+# host-suffix, ucaliyun.cn, reject
+# host-suffix, p4p.1688.com, reject
+# host-suffix, aecpm.alicdn.com, reject
+# host-suffix, afp.alicdn.com, reject
+# host-suffix, afpmm.alicdn.com, reject
+# host-suffix, asearch.alicdn.com, reject
+# host-suffix, atanx.alicdn.com, reject
+# host-suffix, atanx2.alicdn.com, reject
+# host-suffix, gen.alicdn.com, reject
+# host-suffix, gma.alicdn.com, reject
+# host-suffix, nbsdk-baichuan.alicdn.com, reject
+# host-suffix, strip.alicdn.com, reject
+# host-suffix, unidesk.alicdn.com, reject
+# host-suffix, g.aligames.com, reject
+# host-suffix, optimus-ads.amap.com.w.alikunlun.com, reject
+# host-suffix, osfota.cdn.aliyun.com, reject
+# host-suffix, oa-panther.data.aliyun.com, reject
+# host-suffix, dressimage.img-cn-beijing.aliyuncs.com, reject
+# host-suffix, adash.man.aliyuncs.com, reject
+# host-suffix, ooss.oss.aliyuncs.com, reject
+# host-suffix, cc58.oss-cn-beijing.aliyuncs.com, reject
+# host-suffix, img-dsp.oss-cn-beijing.aliyuncs.com, reject
+# host-suffix, xz-development.oss-cn-beijing.aliyuncs.com, reject
+# host-suffix, com-eonsun-owl.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, com-eonsun-owl-user.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, cdn-ads.oss-cn-shanghai.aliyuncs.com, reject
+# host-suffix, jiayi1.oss-cn-shanghai.aliyuncs.com, reject
+# host-suffix, aliyuncss.com, reject
+# host-suffix, aliyunxin.com, reject
+# host-suffix, p4psearch.china.alibaba.com, reject
+# host-suffix, crm-eve.b2b.alibaba-inc.com, reject
+# host-suffix, huichuan-mc.sm.cn, reject
+# host-suffix, image.zzd.sm.cn, reject
+# host-suffix, tanx.com, reject
+# host-suffix, mmstat.com, reject
+# host-suffix, ac.mmstat.com, reject
+# host-suffix, go.mmstat.com, reject
+# host-suffix, gxb.mmstat.com, reject
+# host-suffix, hz.mmstat.com, reject
+# host-suffix, p3p.mmstat.com, reject
+# host-suffix, res.mmstat.com, reject
+# host-suffix, yt.mmstat.com, reject
+# host-suffix, tbaocdn.com, reject
+# host-suffix, strip.taobaocdn.com, reject
+# host-suffix, alog.umeng.co, reject
+# host-suffix, alog.umeng.com, reject
+# host-suffix, alogs.umeng.com, reject
+# host-suffix, ar.umeng.com, reject
+# host-suffix, errlog.umeng.com, reject
+# host-suffix, plbslog.umeng.com, reject
+# host-suffix, ulogs.umeng.com, reject
+# host-suffix, alog.umengcloud.com, reject
+# host-suffix, alogs.umengcloud.com, reject
+# host-suffix, ulogs.umengcloud.com, reject
+# host-suffix, hao.uc.cn, reject
+# host-suffix, woodpecker.uc.cn, reject
+# host-suffix, api.mp.uc.cn, reject
+# host-suffix, api.open.uc.cn, reject
+# host-suffix, puds.test.uae.uc.cn, reject
+# host-suffix, picture.duokan.com, reject
+# host-suffix, v2.fm.n.duokanbox.com, reject
+# host-suffix, actives.youku.com, reject
+# host-suffix, dmapp.youku.com, reject
+# host-suffix, hz.youku.com, reject
+# host-suffix, lstat.youku.com, reject
+# host-suffix, mobilemsg.youku.com, reject
+# host-suffix, msg.youku.com, reject
+# host-suffix, myes.youku.com, reject
+# host-suffix, passport-log.youku.com, reject
+# host-suffix, stat.youku.com, reject
+# host-suffix, tdrec.youku.com, reject
+# host-suffix, wan.youku.com, reject
+# host-suffix, ykatr.youku.com, reject
+# host-suffix, ykrec.youku.com, reject
+# host-suffix, ad.api.3g.youku.com, reject
+# host-suffix, a-dxk.play.api.3g.youku.com, reject
+# host-suffix, store.tv.api.3g.youku.com, reject
+# host-suffix, store.xl.api.3g.youku.com, reject
+# host-suffix, das.api.youku.com, reject
+# host-suffix, val.api.youku.com, reject
+# host-suffix, ipm.atm.youku.com, reject
+# host-suffix, service.danmu.youku.com, reject
+# host-suffix, dl.g.youku.com, reject
+# host-suffix, p.l.youku.com, reject
+# host-suffix, r.l.youku.com, reject
+# host-suffix, v.l.youku.com, reject
+# host-suffix, urchin.lstat.youku.com, reject
+# host-suffix, dev-push.m.youku.com, reject
+# host-suffix, push.m.youku.com, reject
+# host-suffix, sdk.m.youku.com, reject
+# host-suffix, ad.mobile.youku.com, reject
+# host-suffix, das.mobile.youku.com, reject
+# host-suffix, gamex.mobile.youku.com, reject
+# host-suffix, ad.api.mobile.youku.com, reject
+# host-suffix, sdk.api.gamex.mobile.youku.com, reject
+# host-suffix, test.ott.youku.com, reject
+# host-suffix, s.p.youku.com, reject
+# host-suffix, hudong.pl.youku.com, reject
+# host-suffix, huodong.pl.youku.com, reject
+# host-suffix, b.smartvideo.youku.com, reject
+# host-suffix, huodong.vip.youku.com, reject
+# host-suffix, c.yes.youku.com, reject
+# host-suffix, m.yes.youku.com, reject
+# host-suffix, app-monitor.ele.me, reject
+# host-suffix, client-api.ele.me, reject
+# host-suffix, grand.ele.me, reject
+# host-suffix, mobile-pubt.ele.me, reject
+# host-suffix, newton-api.ele.me, reject
+
+# > 阿里云
+# 未识别规则：IP-CIDR, 203.107.1.1/24, reject
+
+# > 爱奇艺
+# 未识别规则：host, api.iqiyi.com, reject
+# 未识别规则：host, cr-status.iqiyi.com, reject
+# 未识别规则：host, f74f7f7765f8a2f6.ngaa.net.cn, reject
+# 未识别规则：host, ef-dongfeng.tanx.com, reject
+# 未识别规则：host, iqiyim.adtrack.enlightent.cn, reject
+# 未识别规则：host, dig.bdurl.net, reject
+# 未识别规则：host, t7z.cupid.iqiyi.com, reject
+# 未识别规则：host, t7z.cupid.ptqy.gitv.tv, reject
+0.0.0.0 cupid.iqiyi.com
+:: cupid.iqiyi.com
+0.0.0.0 t7z.cupid.iqiyi.com
+:: t7z.cupid.iqiyi.com
+0.0.0.0 static-s.iqiyi.com
+:: static-s.iqiyi.com
+0.0.0.0 a.ckm.iqiyi.com
+:: a.ckm.iqiyi.com
+0.0.0.0 ad.m.iqiyi.com
+:: ad.m.iqiyi.com
+0.0.0.0 afp.iqiyi.com
+:: afp.iqiyi.com
+0.0.0.0 api.cupid.iqiyi.com
+:: api.cupid.iqiyi.com
+0.0.0.0 api.cupid.qiyi.com
+:: api.cupid.qiyi.com
+0.0.0.0 c.uaa.iqiyi.com
+:: c.uaa.iqiyi.com
+0.0.0.0 cloudpush.iqiyi.com
+:: cloudpush.iqiyi.com
+0.0.0.0 cm.passport.iqiyi.com
+:: cm.passport.iqiyi.com
+0.0.0.0 count.game.pps.tv
+:: count.game.pps.tv
+0.0.0.0 cupid.iqiyi.com
+:: cupid.iqiyi.com
+0.0.0.0 emoticon.sns.iqiyi.com
+:: emoticon.sns.iqiyi.com
+0.0.0.0 gamecenter.iqiyi.com
+:: gamecenter.iqiyi.com
+0.0.0.0 mbdlog.iqiyi.com
+:: mbdlog.iqiyi.com
+0.0.0.0 msg.iqiyi.com
+:: msg.iqiyi.com
+0.0.0.0 msg.video.qiyi.com
+:: msg.video.qiyi.com
+0.0.0.0 msg2.video.qiyi.com
+:: msg2.video.qiyi.com
+0.0.0.0 static.g.iqiyi.com
+:: static.g.iqiyi.com
+0.0.0.0 static.g.ppstream.com
+:: static.g.ppstream.com
+0.0.0.0 store.iqiyi.com
+:: store.iqiyi.com
+0.0.0.0 tracker.sns.iqiyi.com
+:: tracker.sns.iqiyi.com
+0.0.0.0 yuedu.iqiyi.com
+:: yuedu.iqiyi.com
+0.0.0.0 msga.cupid.iqiyi.com
+:: msga.cupid.iqiyi.com
+0.0.0.0 nl.notice.iqiyi.com
+:: nl.notice.iqiyi.com
+0.0.0.0 nl.rcd.iqiyi.com
+:: nl.rcd.iqiyi.com
+0.0.0.0 notice.iqiyi.com
+:: notice.iqiyi.com
+0.0.0.0 noxagile.duapp.com
+:: noxagile.duapp.com
+0.0.0.0 paopao.iqiyi.com
+:: paopao.iqiyi.com
+0.0.0.0 policy.video.iqiyi.com
+:: policy.video.iqiyi.com
+0.0.0.0 ifacelog.iqiyi.com
+:: ifacelog.iqiyi.com
+# 未识别规则：IP-CIDR, 203.107.63.154/32, reject
+# 未识别规则：IP-CIDR, 101.227.97.240/32, reject
+# 未识别规则：IP-CIDR, 101.227.200.11/32, reject
+# 未识别规则：IP-CIDR, 101.227.200.28/32, reject
+# 未识别规则：IP-CIDR, 124.192.153.42/32, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ B ✅ <<<<<<<<<<<<<<
+# > bshare
+0.0.0.0 bshare.cn
+:: bshare.cn
+0.0.0.0 bshare.optimix.asia
+:: bshare.optimix.asia
+
+# > Braze
+0.0.0.0 iad.appboy.com
+:: iad.appboy.com
+0.0.0.0 iad-03.appboy.com
+:: iad-03.appboy.com
+0.0.0.0 iad-01.braze.com
+:: iad-01.braze.com
+0.0.0.0 iad-02.braze.com
+:: iad-02.braze.com
+0.0.0.0 iad-03.braze.com
+:: iad-03.braze.com
+0.0.0.0 iad-04.braze.com
+:: iad-04.braze.com
+0.0.0.0 iad-05.braze.com
+:: iad-05.braze.com
+0.0.0.0 iad-06.braze.com
+:: iad-06.braze.com
+0.0.0.0 iad-08.braze.com
+:: iad-08.braze.com
+
+# > 百度
+0.0.0.0 duapps.com
+:: duapps.com
+0.0.0.0 cpro.baidu.com
+:: cpro.baidu.com
+0.0.0.0 pos.baidu.com
+:: pos.baidu.com
+# 未识别规则：host, afd.baidu.com, reject
+# 未识别规则：host, als.baidu.com, reject
+# 未识别规则：host, duclick.baidu.com, reject
+# 未识别规则：host, mobads.baidu.com, reject
+# 未识别规则：host, mobads-logs.baidu.com, reject
+# 未识别规则：host, nadvideo2.baidu.com, reject
+# 未识别规则：host, nsclick.baidu.com, reject
+0.0.0.0 bce.baidu.com
+:: bce.baidu.com
+0.0.0.0 bar.baidu.com
+:: bar.baidu.com
+0.0.0.0 baiduyubaidu.com
+:: baiduyubaidu.com
+0.0.0.0 baidutv.baidu.com
+:: baidutv.baidu.com
+0.0.0.0 baichuan.baidu.com
+:: baichuan.baidu.com
+0.0.0.0 appc.baidu.com
+:: appc.baidu.com
+0.0.0.0 anquan.baidu.com
+:: anquan.baidu.com
+0.0.0.0 adscdn.baidu.com
+:: adscdn.baidu.com
+0.0.0.0 adm.baidu.com
+:: adm.baidu.com
+0.0.0.0 ad.player.baidu.com
+:: ad.player.baidu.com
+0.0.0.0 a.baidu.com
+:: a.baidu.com
+0.0.0.0 antivirus.baidu.com
+:: antivirus.baidu.com
+0.0.0.0 baifen.music.baidu.com
+:: baifen.music.baidu.com
+0.0.0.0 banlv.baidu.com
+:: banlv.baidu.com
+0.0.0.0 cm.baidu.com
+:: cm.baidu.com
+0.0.0.0 cpro.zhidao.baidu.com
+:: cpro.zhidao.baidu.com
+0.0.0.0 cleaner.baidu.com
+:: cleaner.baidu.com
+0.0.0.0 cjhq.baidu.com
+:: cjhq.baidu.com
+0.0.0.0 cb.baidu.com
+:: cb.baidu.com
+0.0.0.0 c.baidu.com
+:: c.baidu.com
+0.0.0.0 btlaunch.baidu.com
+:: btlaunch.baidu.com
+0.0.0.0 bdplus.baidu.com
+:: bdplus.baidu.com
+0.0.0.0 cbjs.baidu.com
+:: cbjs.baidu.com
+0.0.0.0 cpro2.baidu.com
+:: cpro2.baidu.com
+0.0.0.0 cpu-admin.baidu.com
+:: cpu-admin.baidu.com
+0.0.0.0 10086.cn.baidu.cdn.yiwk.com
+:: 10086.cn.baidu.cdn.yiwk.com
+0.0.0.0 360baidus.com
+:: 360baidus.com
+0.0.0.0 app.ibaiducdn.com
+:: app.ibaiducdn.com
+0.0.0.0 baidu.cybcyw.com
+:: baidu.cybcyw.com
+0.0.0.0 baidu.dsp.tansuotv.com
+:: baidu.dsp.tansuotv.com
+0.0.0.0 baidu.greenxf.cn
+:: baidu.greenxf.cn
+0.0.0.0 baidu.jz5u.net
+:: baidu.jz5u.net
+0.0.0.0 baiduace.com
+:: baiduace.com
+0.0.0.0 baidujs.cnys.com
+:: baidujs.cnys.com
+0.0.0.0 baidulao.com
+:: baidulao.com
+0.0.0.0 baidut.github.io
+:: baidut.github.io
+0.0.0.0 baidu-union-js.xiachufang.com
+:: baidu-union-js.xiachufang.com
+0.0.0.0 baidu-union-pos.xiachufang.com
+:: baidu-union-pos.xiachufang.com
+0.0.0.0 baiduzhidahao.cc
+:: baiduzhidahao.cc
+0.0.0.0 cpro.baidu.cn
+:: cpro.baidu.cn
+0.0.0.0 crs.baidu.com
+:: crs.baidu.com
+0.0.0.0 datax.baidu.com
+:: datax.baidu.com
+0.0.0.0 dl.client.baidu.com
+:: dl.client.baidu.com
+0.0.0.0 dl.ops.baidu.com
+:: dl.ops.baidu.com
+0.0.0.0 dl1sw.baidu.com
+:: dl1sw.baidu.com
+0.0.0.0 dl2.bav.baidu.com
+:: dl2.bav.baidu.com
+0.0.0.0 dlsw.baidu.com
+:: dlsw.baidu.com
+0.0.0.0 dlsw.br.baidu.com
+:: dlsw.br.baidu.com
+0.0.0.0 dl-vip.bav.baidu.com
+:: dl-vip.bav.baidu.com
+0.0.0.0 dl-vip.pcfaster.baidu.co.th
+:: dl-vip.pcfaster.baidu.co.th
+0.0.0.0 download.bav.baidu.com
+:: download.bav.baidu.com
+0.0.0.0 download.sd.baidu.com
+:: download.sd.baidu.com
+0.0.0.0 drmcmm.baidu.com
+:: drmcmm.baidu.com
+0.0.0.0 duiwai.baidu.com
+:: duiwai.baidu.com
+0.0.0.0 dxp.baidu.com
+:: dxp.baidu.com
+0.0.0.0 dzl.baidu.com
+:: dzl.baidu.com
+0.0.0.0 e.baidu.com
+:: e.baidu.com
+0.0.0.0 eclick.baidu.com
+:: eclick.baidu.com
+0.0.0.0 eiv.baidu.com
+:: eiv.baidu.com
+0.0.0.0 em.baidu.com
+:: em.baidu.com
+0.0.0.0 entry.baidu.com
+:: entry.baidu.com
+0.0.0.0 ers.baidu.com
+:: ers.baidu.com
+0.0.0.0 fclick.baidu.com
+:: fclick.baidu.com
+0.0.0.0 feed.baidu.com
+:: feed.baidu.com
+0.0.0.0 fexclick.baidu.com
+:: fexclick.baidu.com
+0.0.0.0 g.baidu.com
+:: g.baidu.com
+0.0.0.0 gimg.baidu.com
+:: gimg.baidu.com
+0.0.0.0 guanjia.baidu.com
+:: guanjia.baidu.com
+0.0.0.0 hc.baidu.com
+:: hc.baidu.com
+0.0.0.0 hdj.baidu.com
+:: hdj.baidu.com
+0.0.0.0 hpd.baidu.com
+:: hpd.baidu.com
+0.0.0.0 idm-su.baidu.com
+:: idm-su.baidu.com
+0.0.0.0 iebar.baidu.com
+:: iebar.baidu.com
+0.0.0.0 ikcode.baidu.com
+:: ikcode.baidu.com
+0.0.0.0 iwanad.baidu.com
+:: iwanad.baidu.com
+0.0.0.0 j.br.baidu.com
+:: j.br.baidu.com
+0.0.0.0 jb.mbaidu.top
+:: jb.mbaidu.top
+0.0.0.0 js.mbaidu.top
+:: js.mbaidu.top
+0.0.0.0 kstj.baidu.com
+:: kstj.baidu.com
+0.0.0.0 m.baidu.com.yiqisee.cn
+:: m.baidu.com.yiqisee.cn
+0.0.0.0 m.baidu.com.zhiduo.org
+:: m.baidu.com.zhiduo.org
+0.0.0.0 m1.baidu.com
+:: m1.baidu.com
+0.0.0.0 ma.baidu.com
+:: ma.baidu.com
+0.0.0.0 mpro.baidu.com
+:: mpro.baidu.com
+0.0.0.0 msite.baidu.com
+:: msite.baidu.com
+0.0.0.0 mssp.baidu.com
+:: mssp.baidu.com
+0.0.0.0 mtj.baidu.com
+:: mtj.baidu.com
+0.0.0.0 neirong.baidu.com
+:: neirong.baidu.com
+0.0.0.0 nlog.baidu.com
+:: nlog.baidu.com
+0.0.0.0 nsclickvideo.baidu.com
+:: nsclickvideo.baidu.com
+0.0.0.0 openrcv.baidu.com
+:: openrcv.baidu.com
+0.0.0.0 paimgcdn.baidu.com
+:: paimgcdn.baidu.com
+0.0.0.0 pc.videoclick.baidu.com
+:: pc.videoclick.baidu.com
+0.0.0.0 push.zhanzhang.baidu.com
+:: push.zhanzhang.baidu.com
+0.0.0.0 qianclick.baidu.com
+:: qianclick.baidu.com
+0.0.0.0 release.baidu.com
+:: release.baidu.com
+0.0.0.0 river.zhidao.baidu.com
+:: river.zhidao.baidu.com
+0.0.0.0 rj.baidu.com
+:: rj.baidu.com
+0.0.0.0 rplog.baidu.com
+:: rplog.baidu.com
+0.0.0.0 s.baidu.com
+:: s.baidu.com
+0.0.0.0 sclick.baidu.com
+:: sclick.baidu.com
+0.0.0.0 sestat.baidu.com
+:: sestat.baidu.com
+0.0.0.0 shadu.baidu.com
+:: shadu.baidu.com
+0.0.0.0 sobar.baidu.com
+:: sobar.baidu.com
+0.0.0.0 sobartop.baidu.com
+:: sobartop.baidu.com
+0.0.0.0 spcode.baidu.com
+:: spcode.baidu.com
+0.0.0.0 tk.baidu.com
+:: tk.baidu.com
+0.0.0.0 tkweb.baidu.com
+:: tkweb.baidu.com
+0.0.0.0 toolbar.baidu.com
+:: toolbar.baidu.com
+0.0.0.0 tuijian.baidu.com
+:: tuijian.baidu.com
+0.0.0.0 tuisong.baidu.com
+:: tuisong.baidu.com
+0.0.0.0 ucstat.baidu.com
+:: ucstat.baidu.com
+0.0.0.0 ulic.baidu.com
+:: ulic.baidu.com
+0.0.0.0 ulog.imap.baidu.com
+:: ulog.imap.baidu.com
+0.0.0.0 union.baidu.com
+:: union.baidu.com
+0.0.0.0 union.baidustatic.guannin.com
+:: union.baidustatic.guannin.com
+0.0.0.0 unionimage.baidu.com
+:: unionimage.baidu.com
+0.0.0.0 utility.baidu.com
+:: utility.baidu.com
+0.0.0.0 utk.baidu.com
+:: utk.baidu.com
+0.0.0.0 videopush.baidu.com
+:: videopush.baidu.com
+0.0.0.0 w.gdown.baidu.com
+:: w.gdown.baidu.com
+0.0.0.0 w.x.baidu.com
+:: w.x.baidu.com
+0.0.0.0 wangmeng.baidu.com
+:: wangmeng.baidu.com
+0.0.0.0 weishi.baidu.com
+:: weishi.baidu.com
+0.0.0.0 wisepush.video.baidu.com
+:: wisepush.video.baidu.com
+0.0.0.0 wm.baidu.com
+:: wm.baidu.com
+0.0.0.0 yingxiao.baidu.com
+:: yingxiao.baidu.com
+0.0.0.0 znsv.baidu.com
+:: znsv.baidu.com
+0.0.0.0 baidustatic.com
+:: baidustatic.com
+0.0.0.0 als.baidu.com
+:: als.baidu.com
+0.0.0.0 duclick.baidu.com
+:: duclick.baidu.com
+0.0.0.0 hm.baidu.com
+:: hm.baidu.com
+0.0.0.0 hmma.baidu.com
+:: hmma.baidu.com
+0.0.0.0 mobads.baidu.com
+:: mobads.baidu.com
+0.0.0.0 mobads-logs.baidu.com
+:: mobads-logs.baidu.com
+0.0.0.0 nsclick.baidu.com
+:: nsclick.baidu.com
+# 未识别规则：host, hm.baidu.com, reject
+# 未识别规则：host, hmma.baidu.com, reject
+0.0.0.0 bdtongfei.cn
+:: bdtongfei.cn
+0.0.0.0 mobads.baidu.com
+:: mobads.baidu.com
+0.0.0.0 ecma.bdimg.com
+:: ecma.bdimg.com
+0.0.0.0 ecmb.bdimg.com
+:: ecmb.bdimg.com
+0.0.0.0 ecmc.bdimg.com
+:: ecmc.bdimg.com
+0.0.0.0 pups.bdimg.com
+:: pups.bdimg.com
+0.0.0.0 su.bdimg.com
+:: su.bdimg.com
+0.0.0.0 mipcache.bdstatic.com
+:: mipcache.bdstatic.com
+0.0.0.0 su.bdstatic.com
+:: su.bdstatic.com
+0.0.0.0 zz.bdstatic.com
+:: zz.bdstatic.com
+0.0.0.0 bcebos.com
+:: bcebos.com
+0.0.0.0 baidustatic.com
+:: baidustatic.com
+0.0.0.0 duapps.com
+:: duapps.com
+
+# > 百度地图
+# 未识别规则：host, afd.baidu.com, reject
+# 未识别规则：host, afdconf.baidu.com, reject
+# 未识别规则：host, httpdns.baidubce.com, reject
+# 未识别规则：host, lc.map.baidu.com, reject
+
+# > 百度贴吧
+# 屏蔽域名dns查询
+# 未识别规则：IP-CIDR, 180.76.76.200/32, reject
+
+# > 百词斩
+# 未识别规则：host, advertise.baicizhan.com, reject
+# 未识别规则：host, advertise.baicizhan.org, reject
+
+# > 百姓网
+0.0.0.0 admx.baixing.com
+:: admx.baixing.com
+0.0.0.0 tu.baixing.com
+:: tu.baixing.com
+0.0.0.0 d.admx.baixing.com
+:: d.admx.baixing.com
+0.0.0.0 bd-js.baixing.net
+:: bd-js.baixing.net
+0.0.0.0 bd-s.baixing.net
+:: bd-s.baixing.net
+0.0.0.0 script-bd.baixing.net
+:: script-bd.baixing.net
+
+# > 爆米花
+0.0.0.0 a.baomihua.com
+:: a.baomihua.com
+0.0.0.0 djs.baomihua.com
+:: djs.baomihua.com
+0.0.0.0 resource.baomihua.com
+:: resource.baomihua.com
+
+# > 百意
+0.0.0.0 bayimob.com
+:: bayimob.com
+0.0.0.0 hdggcdn.bayimob.com
+:: hdggcdn.bayimob.com
+0.0.0.0 interaction.bayimob.com
+:: interaction.bayimob.com
+
+# > BBC
+0.0.0.0 visualscience.external.bbc.co.uk
+:: visualscience.external.bbc.co.uk
+
+# > Bing
+0.0.0.0 bat.bing.com
+:: bat.bing.com
+0.0.0.0 c.bing.com
+:: c.bing.com
+
+# > 笔趣阁
+0.0.0.0 j.biquge520.cc
+:: j.biquge520.cc
+0.0.0.0 m.biquge5200.cc
+:: m.biquge5200.cc
+0.0.0.0 tt.biquge.la
+:: tt.biquge.la
+
+# > 宝宝树
+0.0.0.0 titan.babytree.com
+:: titan.babytree.com
+0.0.0.0 titan01.babytree.com
+:: titan01.babytree.com
+
+# > 暴风影音
+0.0.0.0 active.baofeng.com
+:: active.baofeng.com
+0.0.0.0 logger.baofeng.com
+:: logger.baofeng.com
+0.0.0.0 midinfo.baofeng.com
+:: midinfo.baofeng.com
+0.0.0.0 p2pmid.baofeng.com
+:: p2pmid.baofeng.com
+0.0.0.0 data.danmu.baofeng.com
+:: data.danmu.baofeng.com
+0.0.0.0 co.dtech.baofeng.com
+:: co.dtech.baofeng.com
+0.0.0.0 eventlog.hd.baofeng.com
+:: eventlog.hd.baofeng.com
+0.0.0.0 pvlog.hd.baofeng.com
+:: pvlog.hd.baofeng.com
+0.0.0.0 action.logger.baofeng.com
+:: action.logger.baofeng.com
+0.0.0.0 duration.logger.baofeng.com
+:: duration.logger.baofeng.com
+0.0.0.0 houyi.logger.baofeng.com
+:: houyi.logger.baofeng.com
+0.0.0.0 storm.logger.baofeng.com
+:: storm.logger.baofeng.com
+0.0.0.0 tips.logger.baofeng.com
+:: tips.logger.baofeng.com
+0.0.0.0 tree.logger.baofeng.com
+:: tree.logger.baofeng.com
+0.0.0.0 sclog.moviebox.baofeng.com
+:: sclog.moviebox.baofeng.com
+0.0.0.0 timelog.moviebox.baofeng.com
+:: timelog.moviebox.baofeng.com
+0.0.0.0 vvlog.moviebox.baofeng.com
+:: vvlog.moviebox.baofeng.com
+0.0.0.0 breeze.olclient.baofeng.com
+:: breeze.olclient.baofeng.com
+0.0.0.0 coop.pop.baofeng.com
+:: coop.pop.baofeng.com
+0.0.0.0 androidlog.shouji.baofeng.com
+:: androidlog.shouji.baofeng.com
+0.0.0.0 iphonelog.shouji.baofeng.com
+:: iphonelog.shouji.baofeng.com
+0.0.0.0 dailylog.storm.baofeng.com
+:: dailylog.storm.baofeng.com
+0.0.0.0 logger.treexml.baofeng.com
+:: logger.treexml.baofeng.com
+0.0.0.0 config.baofeng.net
+:: config.baofeng.net
+0.0.0.0 houyi.baofeng.net
+:: houyi.baofeng.net
+0.0.0.0 listlog.baofeng.net
+:: listlog.baofeng.net
+0.0.0.0 loading.baofeng5.baofeng.net
+:: loading.baofeng5.baofeng.net
+0.0.0.0 onlinetips.baofeng5.baofeng.net
+:: onlinetips.baofeng5.baofeng.net
+0.0.0.0 app.houyi.baofeng.net
+:: app.houyi.baofeng.net
+0.0.0.0 ck.houyi.baofeng.net
+:: ck.houyi.baofeng.net
+0.0.0.0 corner.houyi.baofeng.net
+:: corner.houyi.baofeng.net
+0.0.0.0 d3f.houyi.baofeng.net
+:: d3f.houyi.baofeng.net
+0.0.0.0 mid.houyi.baofeng.net
+:: mid.houyi.baofeng.net
+0.0.0.0 parser.houyi.baofeng.net
+:: parser.houyi.baofeng.net
+0.0.0.0 wbwl.houyi.baofeng.net
+:: wbwl.houyi.baofeng.net
+0.0.0.0 web.houyi.baofeng.net
+:: web.houyi.baofeng.net
+0.0.0.0 wl.houyi.baofeng.net
+:: wl.houyi.baofeng.net
+0.0.0.0 wx.houyi.baofeng.net
+:: wx.houyi.baofeng.net
+0.0.0.0 xs.houyi.baofeng.net
+:: xs.houyi.baofeng.net
+0.0.0.0 nclog.mars.baofeng.net
+:: nclog.mars.baofeng.net
+0.0.0.0 clicklog.moviebox.baofeng.net
+:: clicklog.moviebox.baofeng.net
+0.0.0.0 pvlog.moviebox.baofeng.net
+:: pvlog.moviebox.baofeng.net
+0.0.0.0 rec.moviebox.baofeng.net
+:: rec.moviebox.baofeng.net
+0.0.0.0 nclog.pad.baofeng.net
+:: nclog.pad.baofeng.net
+0.0.0.0 jfm4.pop.baofeng.net
+:: jfm4.pop.baofeng.net
+
+# > 奔图
+0.0.0.0 ad.pantum.com
+:: ad.pantum.com
+
+# > 崩坏3
+0.0.0.0 ad.bh3.com
+:: ad.bh3.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ C ✅ <<<<<<<<<<<<<<
+# > 财新网
+0.0.0.0 apollo.caixin.com
+:: apollo.caixin.com
+0.0.0.0 logstat.caixin.com
+:: logstat.caixin.com
+0.0.0.0 promote.caixin.com
+:: promote.caixin.com
+
+# > CNN
+0.0.0.0 customad.cnn.com
+:: customad.cnn.com
+0.0.0.0 gdyn.cnn.com
+:: gdyn.cnn.com
+0.0.0.0 metrics.cnn.com
+:: metrics.cnn.com
+0.0.0.0 cnn.dyn.cnn.com
+:: cnn.dyn.cnn.com
+0.0.0.0 i.l.cnn.net
+:: i.l.cnn.net
+
+# > CSDN
+0.0.0.0 ad.csdn.net
+:: ad.csdn.net
+0.0.0.0 counter.csdn.net
+:: counter.csdn.net
+0.0.0.0 dc.csdn.net
+:: dc.csdn.net
+0.0.0.0 dc2.csdn.net
+:: dc2.csdn.net
+0.0.0.0 medal.blog.csdn.net
+:: medal.blog.csdn.net
+
+# > C&J Marketing
+# https://www.zhihu.com/question/46746200
+# 苏州思杰马克丁软件有限公司
+0.0.0.0 alienskins.cn
+:: alienskins.cn
+0.0.0.0 anydeskchina.cn
+:: anydeskchina.cn
+0.0.0.0 betterzipcn.com
+:: betterzipcn.com
+0.0.0.0 dongmansoft.com
+:: dongmansoft.com
+0.0.0.0 earmasterchina.cn
+:: earmasterchina.cn
+0.0.0.0 folxchina.cn
+:: folxchina.cn
+0.0.0.0 hypeapp.cn
+:: hypeapp.cn
+0.0.0.0 idmchina.net
+:: idmchina.net
+0.0.0.0 imazingchina.com
+:: imazingchina.com
+0.0.0.0 luping.net.cn
+:: luping.net.cn
+0.0.0.0 mindmanager.cn
+:: mindmanager.cn
+0.0.0.0 officesoftcn.com
+:: officesoftcn.com
+0.0.0.0 photozoomchina.com
+:: photozoomchina.com
+0.0.0.0 xitongqingli.com
+:: xitongqingli.com
+
+# > Camera360
+# 未识别规则：host, dispatcher.360in.com, reject
+# 未识别规则：host, ad.360in.com, reject
+# 未识别规则：host, exp.360in.com, reject
+
+# > 创维
+0.0.0.0 hoisin.coocaa.com
+:: hoisin.coocaa.com
+0.0.0.0 hoisin.coocaatv.com
+:: hoisin.coocaatv.com
+# 未识别规则：host, data-hoisin.coocaa.com, reject
+
+# > 车来了
+0.0.0.0 atrace.chelaile.net.cn
+:: atrace.chelaile.net.cn
+# 未识别规则：host, logs.chelaile.net.cn, reject
+# 未识别规则：host, ad.chelaile.net.cn, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
+# > 当当网
+0.0.0.0 a.dangdang.com
+:: a.dangdang.com
+0.0.0.0 schprompt.dangdang.com
+:: schprompt.dangdang.com
+0.0.0.0 t.dangdang.com
+:: t.dangdang.com
+
+# > 斗鱼直播
+0.0.0.0 wan.douyu.com
+:: wan.douyu.com
+0.0.0.0 g.wan.douyu.com
+:: g.wan.douyu.com
+0.0.0.0 dotcounter.douyutv.com
+:: dotcounter.douyutv.com
+
+# > Dr.Peng
+# IP-CIDR, 10.72.25.0/24, reject
+# 未识别规则：IP-CIDR, 211.161.101.110/32, reject
+
+# > 叮嗒出行
+# 未识别规则：host-keyword, image.bianxianmao.com, reject
+
+# > 滴滴青桔
+# 支付界面图片有误杀
+# 未识别规则：;host-keyword, pt-starimg.didistatic.com, reject
+# 未识别规则：ip-cidr, 203.107.1.1/24, reject
+
+# > 懂车帝
+# 未识别规则：host-keyword, p3-pack.byteimg.com, reject
+# 未识别规则：host-keyword, p6-pack.byteimg.com, reject
+
+# > 懂球帝
+# 未识别规则：host-keyword, apimg.qunliao.info, reject
+
+# > 抖音
+# 未识别规则：host-keyword, bds.snssdk.com, reject
+# 未识别规则：host-keyword, p3.pstatp.com, reject
+
+# > 多多视频
+0.0.0.0 bayescom.com
+:: bayescom.com
+
+# > 豆瓣
+0.0.0.0 erebor.douban.com
+:: erebor.douban.com
+0.0.0.0 ad.doubanio.com
+:: ad.doubanio.com
+
+# > 朵朵校友圈
+# 微信小程序去广告
+0.0.0.0 ad.duoduo.link
+:: ad.duoduo.link
+
+# > 盯盯拍
+# 广告联盟已包含
+
+# > 叮咚买菜
+# 未识别规则：host, trackercollect.ddxq.mobi, reject
+# 未识别规则：host, ddfs-public.ddimg.mobi, reject
+# 未识别规则：host, rttrack.ddxq.mobi, reject
+
+# > 东方网
+0.0.0.0 afpimages.eastday.com
+:: afpimages.eastday.com
+0.0.0.0 jiaoben.eastday.com
+:: jiaoben.eastday.com
+0.0.0.0 mini.eastday.com
+:: mini.eastday.com
+0.0.0.0 tt123.eastday.com
+:: tt123.eastday.com
+0.0.0.0 tt321.eastday.com
+:: tt321.eastday.com
+0.0.0.0 afpimages.eastday
+:: afpimages.eastday
+
+# > 东方财富
+0.0.0.0 bduserlog.eastmoney.com
+:: bduserlog.eastmoney.com
+0.0.0.0 js4.eastmoney.com
+:: js4.eastmoney.com
+0.0.0.0 same.eastmoney.com
+:: same.eastmoney.com
+
+# > 电脑之家
+0.0.0.0 btn.pchome.net
+:: btn.pchome.net
+0.0.0.0 js-1.pchome.net
+:: js-1.pchome.net
+0.0.0.0 pf.pchome.net
+:: pf.pchome.net
+0.0.0.0 pf-2.pchome.net
+:: pf-2.pchome.net
+0.0.0.0 ad.pchome.com.tw
+:: ad.pchome.com.tw
+0.0.0.0 adcl.pchome.com.tw
+:: adcl.pchome.com.tw
+
+
+
+# >>>>>>>>>>>>>>> ✅ E ✅ <<<<<<<<<<<<<<
+# > 饿了么
+0.0.0.0 app-monitor.ele.me
+:: app-monitor.ele.me
+0.0.0.0 client-api.ele.me
+:: client-api.ele.me
+0.0.0.0 grand.ele.me
+:: grand.ele.me
+0.0.0.0 mobile-pubt.ele.me
+:: mobile-pubt.ele.me
+0.0.0.0 newton-api.ele.me
+:: newton-api.ele.me
+
+
+
+# >>>>>>>>>>>>>>> ✅ F ✅ <<<<<<<<<<<<<<
+# > Facebook
+0.0.0.0 facebookma.cn
+:: facebookma.cn
+0.0.0.0 atdmt.com
+:: atdmt.com
+0.0.0.0 staticxx.facebook.com
+:: staticxx.facebook.com
+
+# > 番茄小说
+# 未识别规则：host, i-lq.snssdk.com, REJECT
+# 未识别规则：host, dig.bdurl.net, REJECT
+# 未识别规则：host, activity-ag.awemeughun.com, REJECT
+# 未识别规则：host, mcs.snssdk.com, REJECT
+# 未识别规则：host, tnc3-alisc1.snssdk.com, REJECT
+# 未识别规则：host, security-lq.snssdk.com, REJECT
+# 未识别规则：host, tnc3-aliec2.snssdk.com, REJECT
+#host, is.snssdk.com, REJECT
+#host, i.snssdk.com, REJECT
+# 未识别规则：host, v6-novelapp.ixigua.com, REJECT
+0.0.0.0 novelapp.ixigua.com
+:: novelapp.ixigua.com
+0.0.0.0 default.ixigua.com
+:: default.ixigua.com
+# 未识别规则：host, msync-im1-vip6-std.easemob.com, REJECT
+# 未识别规则：host, apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
+# 未识别规则：host, api.iegadp.qq.com, REJECT
+0.0.0.0 byteorge.com
+:: byteorge.com
+# 下面两条误杀严重导致懂车帝无法正常使用
+#host-suffix, bytegoofy.com, REJECT
+#host-suffix, bytedance.com, REJECT
+# 未识别规则：IP-CIDR, 49.71.37.101/32, REJECT
+# 未识别规则：IP-CIDR, 117.71.105.23/32, REJECT
+# 未识别规则：IP-CIDR, 218.94.207.205/32, REJECT
+# 未识别规则：IP-CIDR, 117.92.229.188/32, REJECT
+# 未识别规则：IP-CIDR, 101.36.166.16/32, REJECT
+# 未识别规则：IP-CIDR, 180.96.2.114/32, REJECT
+
+# > 风行网
+0.0.0.0 pb.funshion.net.cn
+:: pb.funshion.net.cn
+0.0.0.0 ad.funshion.org.cn
+:: ad.funshion.org.cn
+0.0.0.0 adk.funshion.com
+:: adk.funshion.com
+0.0.0.0 adm.funshion.com
+:: adm.funshion.com
+0.0.0.0 conf.funshion.com
+:: conf.funshion.com
+0.0.0.0 pub.funshion.com
+:: pub.funshion.com
+0.0.0.0 vas.funshion.com
+:: vas.funshion.com
+0.0.0.0 vs.funshion.com
+:: vs.funshion.com
+0.0.0.0 aa0.pub.funshion.com
+:: aa0.pub.funshion.com
+0.0.0.0 aa1.pub.funshion.com
+:: aa1.pub.funshion.com
+0.0.0.0 rt.funshion.net
+:: rt.funshion.net
+
+# > 凤凰新媒体
+0.0.0.0 stadig.ifeng.com
+:: stadig.ifeng.com
+0.0.0.0 stadig0.ifeng.com
+:: stadig0.ifeng.com
+0.0.0.0 exp.3g.ifeng.com
+:: exp.3g.ifeng.com
+0.0.0.0 ifengad.3g.ifeng.com
+:: ifengad.3g.ifeng.com
+0.0.0.0 dmpclick.deliver.ifeng.com
+:: dmpclick.deliver.ifeng.com
+0.0.0.0 dol.deliver.ifeng.com
+:: dol.deliver.ifeng.com
+0.0.0.0 dolphin.deliver.ifeng.com
+:: dolphin.deliver.ifeng.com
+0.0.0.0 ids.deliver.ifeng.com
+:: ids.deliver.ifeng.com
+0.0.0.0 ids1.deliver.ifeng.com
+:: ids1.deliver.ifeng.com
+0.0.0.0 iis1.deliver.ifeng.com
+:: iis1.deliver.ifeng.com
+0.0.0.0 iis3g.deliver.ifeng.com
+:: iis3g.deliver.ifeng.com
+0.0.0.0 mfp.deliver.ifeng.com
+:: mfp.deliver.ifeng.com
+0.0.0.0 api.iapps.ifeng.com
+:: api.iapps.ifeng.com
+0.0.0.0 api.newad.ifeng.com
+:: api.newad.ifeng.com
+0.0.0.0 cz.ifeng0.com
+:: cz.ifeng0.com
+0.0.0.0 c0.ifengimg.com
+:: c0.ifengimg.com
+0.0.0.0 c1.ifengimg.com
+:: c1.ifengimg.com
+
+# > 房天下 (Soufun)
+0.0.0.0 click1n.soufun.com
+:: click1n.soufun.com
+0.0.0.0 countubn.light.soufun.com
+:: countubn.light.soufun.com
+
+# > 飞常准
+# 未识别规则：host, adv-adlog.variflight.com, reject
+# 未识别规则：host, adv-ads.variflight.com, reject
+# 未识别规则：host, app-ad.variflight.com, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
+# > 勾正数据（GozenData）
+# https://www.v2ex.com/t/772523
+0.0.0.0 gozendata.com
+:: gozendata.com
+0.0.0.0 gzads.com
+:: gzads.com
+0.0.0.0 gz-data.com
+:: gz-data.com
+
+# > Go.com
+0.0.0.0 ad.go.com
+:: ad.go.com
+0.0.0.0 adimages.go.com
+:: adimages.go.com
+0.0.0.0 ngads.go.com
+:: ngads.go.com
+0.0.0.0 w88.go.com
+:: w88.go.com
+0.0.0.0 verdict.abc.go.com
+:: verdict.abc.go.com
+0.0.0.0 oascentral.abclocal.go.com
+:: oascentral.abclocal.go.com
+0.0.0.0 dcapps.disney.go.com
+:: dcapps.disney.go.com
+0.0.0.0 adsatt.espn.go.com
+:: adsatt.espn.go.com
+0.0.0.0 seavideo-ak.espn.go.com
+:: seavideo-ak.espn.go.com
+
+# > 购物党
+0.0.0.0 browser.gwdang.com
+:: browser.gwdang.com
+0.0.0.0 router.gwdang.com
+:: router.gwdang.com
+
+# > Google
+0.0.0.0 google-analytics.com
+:: google-analytics.com
+# 未识别规则：host, safebrowsing.googleapis.com, reject
+0.0.0.0 doubleclick.net
+:: doubleclick.net
+0.0.0.0 googleadservices.com
+:: googleadservices.com
+0.0.0.0 googleadsserving.cn
+:: googleadsserving.cn
+0.0.0.0 googlesyndication.com
+:: googlesyndication.com
+0.0.0.0 googletagservices.com
+:: googletagservices.com
+0.0.0.0 googletagmanager.com
+:: googletagmanager.com
+0.0.0.0 video-ad-stats.googlesyndication.com
+:: video-ad-stats.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
+:: tpc.googlesyndication.com
+0.0.0.0 pagead.google.com
+:: pagead.google.com
+0.0.0.0 pagead.l.google.com
+:: pagead.l.google.com
+0.0.0.0 pagead2.googlesyndication.com
+:: pagead2.googlesyndication.com
+0.0.0.0 pagead-tpc.l.google.com
+:: pagead-tpc.l.google.com
+0.0.0.0 mobileads.google.com
+:: mobileads.google.com
+0.0.0.0 googlecommerce.com
+:: googlecommerce.com
+0.0.0.0 blaaaa12.googlecode.com
+:: blaaaa12.googlecode.com
+0.0.0.0 badad.googleplex.com
+:: badad.googleplex.com
+0.0.0.0 afs.googlesyndication.com
+:: afs.googlesyndication.com
+0.0.0.0 afd.l.google.com
+:: afd.l.google.com
+0.0.0.0 www.googleadservices.com
+:: www.googleadservices.com
+0.0.0.0 www.google-analytics.com
+:: www.google-analytics.com
+# 未识别规则：host, ads.youtube.com, reject
+0.0.0.0 cmshow.gtimg.cn
+:: cmshow.gtimg.cn
+0.0.0.0 discuz.gtimg.cn
+:: discuz.gtimg.cn
+0.0.0.0 gu.qlogo.cn
+:: gu.qlogo.cn
+0.0.0.0 py.qlogo.cn
+:: py.qlogo.cn
+0.0.0.0 py2.qlogo.cn
+:: py2.qlogo.cn
+0.0.0.0 app-measurement.com
+:: app-measurement.com
+0.0.0.0 admob.com
+:: admob.com
+0.0.0.0 crashlytics.com
+:: crashlytics.com
+0.0.0.0 pagespeed-mod
+:: pagespeed-mod
+0.0.0.0 csi.gstatic.com
+:: csi.gstatic.com
+0.0.0.0 beacon.gtimg.com
+:: beacon.gtimg.com
+0.0.0.0 bla.gtimg.com
+:: bla.gtimg.com
+0.0.0.0 lb.gtimg.com
+:: lb.gtimg.com
+0.0.0.0 pgdt.gtimg.com
+:: pgdt.gtimg.com
+0.0.0.0 ra.gtimg.com
+:: ra.gtimg.com
+0.0.0.0 splashqqlive.gtimg.com
+:: splashqqlive.gtimg.com
+0.0.0.0 swa.gtimg.com
+:: swa.gtimg.com
+0.0.0.0 tui.gtimg.com
+:: tui.gtimg.com
+0.0.0.0 wa.gtimg.com
+:: wa.gtimg.com
+0.0.0.0 wb.gtimg.com
+:: wb.gtimg.com
+0.0.0.0 e.crashlytics.com
+:: e.crashlytics.com
+0.0.0.0 setting.crashlytics.com
+:: setting.crashlytics.com
+0.0.0.0 settings.crashlytics.com
+:: settings.crashlytics.com
+0.0.0.0 gcdn.2mdn.net
+:: gcdn.2mdn.net
+0.0.0.0 s0.2mdn.net
+:: s0.2mdn.net
+0.0.0.0 s1.2mdn.net
+:: s1.2mdn.net
+0.0.0.0 pgdt.ugdtimg.com
+:: pgdt.ugdtimg.com
+0.0.0.0 adclick.g.doublecklick.net
+:: adclick.g.doublecklick.net
+
+# > 赶集网
+0.0.0.0 jiaoben.ganji.cn
+:: jiaoben.ganji.cn
+0.0.0.0 wuliao.ganji.cn
+:: wuliao.ganji.cn
+0.0.0.0 ad.ganji.com
+:: ad.ganji.com
+0.0.0.0 ganjituiguang.ganji.com
+:: ganjituiguang.ganji.com
+0.0.0.0 sta.ganji.com
+:: sta.ganji.com
+0.0.0.0 tralog.ganji.com
+:: tralog.ganji.com
+
+# > 光大银行 阳光惠生活
+# 未识别规则：host-keyword, talk.bz.getui.com, reject
+
+# > 高德地图
+# 未识别规则：;host, restapi.amap.com, reject
+0.0.0.0 adiu.amap.com
+:: adiu.amap.com
+# 未识别规则：host, aboard.apilocate.amap.com, reject
+# 未识别规则：host, apiinit.amap.com, reject
+# 未识别规则：host, icloud-amap.com, reject
+# 未识别规则：host, logs.amap.com, reject
+0.0.0.0 dualstack-logs.amap.com
+:: dualstack-logs.amap.com
+0.0.0.0 logs.amap.com
+:: logs.amap.com
+0.0.0.0 optimus-ads.amap.com
+:: optimus-ads.amap.com
+0.0.0.0 page.amap.com
+:: page.amap.com
+# 未识别规则：host, optimus-ads.amap.com, reject
+# 未识别规则：host, optimus-ads.amap.com.w.alikunlun.com, reject
+0.0.0.0 shouji.sougou.com
+:: shouji.sougou.com
+# 未识别规则：host, u51.me, reject
+0.0.0.0 u51.me
+:: u51.me
+
+# > 广州地铁乘车码
+# 多个广告 感谢CtrlMusic🐓分享
+# 未识别规则：host, apis.alenable.com, reject
+
+# > 国美电器
+0.0.0.0 prom.gome.com.cn
+:: prom.gome.com.cn
+
+# > 国双 (Gridsum)
+0.0.0.0 gridsumdissector.cn
+:: gridsumdissector.cn
+0.0.0.0 recv-vd.gridsumdissector.cn
+:: recv-vd.gridsumdissector.cn
+0.0.0.0 gridsumdissector.com
+:: gridsumdissector.com
+0.0.0.0 cfg-md.gridsumdissector.com
+:: cfg-md.gridsumdissector.com
+0.0.0.0 cfg-vd.gridsumdissector.com
+:: cfg-vd.gridsumdissector.com
+0.0.0.0 diag-vd.gridsumdissector.com
+:: diag-vd.gridsumdissector.com
+0.0.0.0 diag-wd.gridsumdissector.com
+:: diag-wd.gridsumdissector.com
+0.0.0.0 geo.gridsumdissector.com
+:: geo.gridsumdissector.com
+0.0.0.0 impression.gridsumdissector.com
+:: impression.gridsumdissector.com
+0.0.0.0 recv-wd.gridsumdissector.com
+:: recv-wd.gridsumdissector.com
+0.0.0.0 sso-cas.gridsumdissector.com
+:: sso-cas.gridsumdissector.com
+0.0.0.0 g.gridsum.com
+:: g.gridsum.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ H ✅ <<<<<<<<<<<<<<
+# > Hao123
+# hao123上网导航
+0.0.0.0 hao123rt.com
+:: hao123rt.com
+0.0.0.0 1.hao123.com
+:: 1.hao123.com
+0.0.0.0 mini.hao123.com
+:: mini.hao123.com
+
+# > 和讯网
+0.0.0.0 hxsame.hexun.com
+:: hxsame.hexun.com
+0.0.0.0 itv.hexun.com
+:: itv.hexun.com
+0.0.0.0 utrack.hexun.com
+:: utrack.hexun.com
+0.0.0.0 hxjs.tool.hexun.com
+:: hxjs.tool.hexun.com
+
+# > 环球网
+0.0.0.0 boardx.huanqiu.com
+:: boardx.huanqiu.com
+0.0.0.0 interactive.huanqiu.com
+:: interactive.huanqiu.com
+0.0.0.0 ipengtai.huanqiu.com
+:: ipengtai.huanqiu.com
+
+# > HDO
+# 未识别规则：;host-suffix, applovin.com, reject
+# 未识别规则：;host-suffix, applvn.com, reject
+
+# > Huawei AspiegelBot
+# 未识别规则：IP-CIDR, 114.119.160.0/21, reject
+
+# > 华为商城
+0.0.0.0 hiad.vmall.com
+:: hiad.vmall.com
+0.0.0.0 ad.hicloud.com
+:: ad.hicloud.com
+
+# > 华数TV
+0.0.0.0 acsystem.wasu.cn
+:: acsystem.wasu.cn
+0.0.0.0 afp.wasu.cn
+:: afp.wasu.cn
+0.0.0.0 afpcreative.wasu.cn
+:: afpcreative.wasu.cn
+0.0.0.0 collector.wasu.cn
+:: collector.wasu.cn
+0.0.0.0 delivery.wasu.cn
+:: delivery.wasu.cn
+0.0.0.0 delivery-pc.wasu.cn
+:: delivery-pc.wasu.cn
+0.0.0.0 adsystem.wasu.tv
+:: adsystem.wasu.tv
+0.0.0.0 adwasu.tv
+:: adwasu.tv
+
+# > 湖南卫视
+0.0.0.0 da.hunantv.com
+:: da.hunantv.com
+0.0.0.0 log.hunantv.com
+:: log.hunantv.com
+0.0.0.0 v2.hunantv.com
+:: v2.hunantv.com
+0.0.0.0 click.hunantv.com
+:: click.hunantv.com
+0.0.0.0 mp4.res.hunantv.com
+:: mp4.res.hunantv.com
+0.0.0.0 res.hunantv.com
+:: res.hunantv.com
+0.0.0.0 x.da.hunantv.com
+:: x.da.hunantv.com
+0.0.0.0 x1.da.hunantv.com
+:: x1.da.hunantv.com
+0.0.0.0 y.da.hunantv.com
+:: y.da.hunantv.com
+0.0.0.0 log.v2.hunantv.com
+:: log.v2.hunantv.com
+0.0.0.0 v2.log.hunantv.com
+:: v2.log.hunantv.com
+
+# > 沪江网校
+0.0.0.0 mc.hujiang.com
+:: mc.hujiang.com
+
+# > 互传
+0.0.0.0 ad.apk.vivo.com.cn
+:: ad.apk.vivo.com.cn
+
+# > 虎扑
+0.0.0.0 adx.hupu.com
+:: adx.hupu.com
+0.0.0.0 adx-api.hupu.com
+:: adx-api.hupu.com
+0.0.0.0 goblin.hupu.com
+:: goblin.hupu.com
+0.0.0.0 orz.hupu.com
+:: orz.hupu.com
+0.0.0.0 cc.dace.hupu.com
+:: cc.dace.hupu.com
+
+# > 虎牙直播
+# 开屏广告
+# 未识别规则：host, pp-cdnfile2pcdn.msstatic.com, reject
+# 未识别规则：host, livewebbs2pcdn.msstatic.com, reject
+# 未识别规则：host, huyafile.msstatic.com, reject
+# 未识别规则：host, livewebbs2.msstatic.com, reject
+# 未识别规则：host, business.msstatic.com, reject
+0.0.0.0 v1d.szbdyd.com
+:: v1d.szbdyd.com
+0.0.0.0 3dm.huya.com
+:: 3dm.huya.com
+
+# > 哈啰
+# 大部分图片无法正常加载
+# 未识别规则：;host-keyword, assets.51downapp.cn, reject
+
+# > 黄油相机
+# 开屏广告 感谢#Dragon分享
+0.0.0.0 anythinktech.com
+:: anythinktech.com
+0.0.0.0 adkwai.com
+:: adkwai.com
+0.0.0.0 mob.com
+:: mob.com
+
+# > 好游快爆
+0.0.0.0 ad.3839.com
+:: ad.3839.com
+
+# > 会声会影
+0.0.0.0 huishenghuiying.com.cn
+:: huishenghuiying.com.cn
+0.0.0.0 huishenghuiying.com
+:: huishenghuiying.com
+0.0.0.0 xia.huishenghuiying.com
+:: xia.huishenghuiying.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ I ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ J ✅ <<<<<<<<<<<<<<
+# > 金融界
+0.0.0.0 same.jrj.com.cn
+:: same.jrj.com.cn
+0.0.0.0 same01.jrj.com.cn
+:: same01.jrj.com.cn
+0.0.0.0 same02.jrj.com.cn
+:: same02.jrj.com.cn
+0.0.0.0 same03.jrj.com.cn
+:: same03.jrj.com.cn
+0.0.0.0 8.jrj.com
+:: 8.jrj.com
+
+# > 驾校一点通
+# 未识别规则：host, richmanapi.jxedt.com, reject
+# 未识别规则：host, richmanmain.jxedt.com, reject
+# 未识别规则：host, richmanrules.jxedt.com, reject
+
+# > 金山词霸
+# 未识别规则：host, ad-stat.ksosoft.com, reject
+# 未识别规则：host, img.auction-ads.wpscdn.cn, reject
+# 未识别规则：host, counter.kingsoft.com, reject
+# 未识别规则：host, counter.ksosoft.com, reject
+# 未识别规则：host, minfo.wps.cn, reject
+# 未识别规则：host, mobad.ijinshan.com, reject
+# 未识别规则：host, ups.ksmobile.net, reject
+# 未识别规则：host, ws.ksmobile.net, reject
+
+# > 金山系 (Kingsoft)
+0.0.0.0 an.m.liebao.cn
+:: an.m.liebao.cn
+0.0.0.0 cr.m.liebao.cn
+:: cr.m.liebao.cn
+0.0.0.0 cms.an.m.liebao.cn
+:: cms.an.m.liebao.cn
+0.0.0.0 j.wan.liebao.cn
+:: j.wan.liebao.cn
+0.0.0.0 1.wps.cn
+:: 1.wps.cn
+0.0.0.0 android-lrcresource.wps.cn
+:: android-lrcresource.wps.cn
+0.0.0.0 ic.wps.cn
+:: ic.wps.cn
+0.0.0.0 ios-informationplatform.wps.cn
+:: ios-informationplatform.wps.cn
+0.0.0.0 minfo.wps.cn
+:: minfo.wps.cn
+0.0.0.0 mostat.wps.cn
+:: mostat.wps.cn
+0.0.0.0 moupdate10332052.wps.cn
+:: moupdate10332052.wps.cn
+0.0.0.0 pcfg.wps.cn
+:: pcfg.wps.cn
+0.0.0.0 img1.pcfg.cache.wps.cn
+:: img1.pcfg.cache.wps.cn
+0.0.0.0 crashes.mo.wps.cn
+:: crashes.mo.wps.cn
+0.0.0.0 img.auction-ads.wpscdn.cn
+:: img.auction-ads.wpscdn.cn
+0.0.0.0 mo.res.wpscdn.cn
+:: mo.res.wpscdn.cn
+0.0.0.0 mobad.ijinshan.com
+:: mobad.ijinshan.com
+0.0.0.0 mlb.did.ijinshan.com
+:: mlb.did.ijinshan.com
+0.0.0.0 apns.ios.ijinshan.com
+:: apns.ios.ijinshan.com
+0.0.0.0 cdnimg.liehu.ijinshan.com
+:: cdnimg.liehu.ijinshan.com
+0.0.0.0 bp.mobad.ijinshan.com
+:: bp.mobad.ijinshan.com
+0.0.0.0 rcv.mobad.ijinshan.com
+:: rcv.mobad.ijinshan.com
+0.0.0.0 sdk.mobad.ijinshan.com
+:: sdk.mobad.ijinshan.com
+0.0.0.0 unconf.mobad.ijinshan.com
+:: unconf.mobad.ijinshan.com
+0.0.0.0 rcmd.pop.ijinshan.com
+:: rcmd.pop.ijinshan.com
+0.0.0.0 pop.sjk.ijinshan.com
+:: pop.sjk.ijinshan.com
+0.0.0.0 d.union.ijinshan.com
+:: d.union.ijinshan.com
+0.0.0.0 dl.union.ijinshan.com
+:: dl.union.ijinshan.com
+0.0.0.0 counter.kingsoft.com
+:: counter.kingsoft.com
+0.0.0.0 bu1.duba.com
+:: bu1.duba.com
+0.0.0.0 bu2.duba.com
+:: bu2.duba.com
+0.0.0.0 docer.com
+:: docer.com
+0.0.0.0 iciba.com
+:: iciba.com
+
+# > 金立 (Gionee)
+0.0.0.0 pdl.gionee.com
+:: pdl.gionee.com
+
+# > 今日头条
+# 未识别规则：host-KEYWORD,clk.gentags.net, reject
+# 未识别规则：host-KEYWORD,dm.pstatp.com, reject
+# 未识别规则：host-KEYWORD,dm.bytedance.com, reject
+# 未识别规则：host-KEYWORD,uop.umeng.com, reject
+# 未识别规则：host-KEYWORD,m.suning.com, reject
+# 未识别规则：host-KEYWORD,adshare.toutiao.com, reject
+# 未识别规则：host-KEYWORD,tunion-api.m.taobao.com, reject
+# 未识别规则：host-KEYWORD,s1.pstatp.com, reject
+# 未识别规则：host-KEYWORD,s2.pstatp.com, reject
+# 未识别规则：host-KEYWORD,s3.pstatp.com, reject
+# 未识别规则：host-KEYWORD,a3.pstatp.com, reject
+# 未识别规则：host-KEYWORD,a3.bytecdn.cn, reject
+0.0.0.0 ad.toutiao.com
+:: ad.toutiao.com
+0.0.0.0 dm.toutiao.com
+:: dm.toutiao.com
+0.0.0.0 dsp.toutiao.com
+:: dsp.toutiao.com
+0.0.0.0 nativeapp.toutiao.com
+:: nativeapp.toutiao.com
+0.0.0.0 partner.toutiao.com
+:: partner.toutiao.com
+0.0.0.0 track.toutiao.com
+:: track.toutiao.com
+0.0.0.0 dm.pstatp.com
+:: dm.pstatp.com
+0.0.0.0 pb3.pstatp.com
+:: pb3.pstatp.com
+0.0.0.0 s3a.pstatp.com
+:: s3a.pstatp.com
+
+# > 京东
+0.0.0.0 jzt.jd.com
+:: jzt.jd.com
+0.0.0.0 img-x.jd.com
+:: img-x.jd.com
+0.0.0.0 du.jd.com
+:: du.jd.com
+0.0.0.0 c-nfa.jd.com
+:: c-nfa.jd.com
+0.0.0.0 cm.jd.com
+:: cm.jd.com
+0.0.0.0 jddebug.com
+:: jddebug.com
+0.0.0.0 policy.jd.com
+:: policy.jd.com
+0.0.0.0 kepler.jd.com
+:: kepler.jd.com
+0.0.0.0 bdsp.x.jd.com
+:: bdsp.x.jd.com
+0.0.0.0 keplerapi.jd.com
+:: keplerapi.jd.com
+0.0.0.0 mapi.m.jd.com
+:: mapi.m.jd.com
+0.0.0.0 ad.3.cn
+:: ad.3.cn
+0.0.0.0 jd.c-ptsp.com.cn
+:: jd.c-ptsp.com.cn
+# 屏蔽DNS
+# 未识别规则：host, dns.jd.com, reject
+# 未识别规则：IP-CIDR, 101.124.19.122/32, reject
+# 未识别规则：IP6-CIDR, 2402:db40:5100:1011::5/128, reject
+
+# > 建行生活
+# 内置饿了么外卖弹窗
+# 未识别规则：host, o2o-ad-log-gateway.alibaba.com, reject
+
+# > 巨潮资讯
+0.0.0.0 ad.cninfo.com.cn
+:: ad.cninfo.com.cn
+
+# > 九游
+0.0.0.0 ad.9game.cn
+:: ad.9game.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
+# > Keep
+# 未识别规则：host, apm.gotokeep.com, reject
+# 未识别规则：host, kad.gotokeep.com, reject
+# 未识别规则：host, hc-ssp.sm.cn, reject
+
+# > 酷6网
+0.0.0.0 st.vq.ku6.cn
+:: st.vq.ku6.cn
+0.0.0.0 addata.ku6.com
+:: addata.ku6.com
+0.0.0.0 pvdata.ku6.com
+:: pvdata.ku6.com
+0.0.0.0 static.ku6.com
+:: static.ku6.com
+0.0.0.0 gug.ku6cdn.com
+:: gug.ku6cdn.com
+0.0.0.0 vi1.ku6img.net
+:: vi1.ku6img.net
+0.0.0.0 vi2.ku6img.net
+:: vi2.ku6img.net
+
+# > 快速问医生
+0.0.0.0 ax.120ask.com
+:: ax.120ask.com
+0.0.0.0 eclick.120ask.com
+:: eclick.120ask.com
+0.0.0.0 x.120ask.com
+:: x.120ask.com
+0.0.0.0 bdjs.120askimages.com
+:: bdjs.120askimages.com
+0.0.0.0 bdlm.120askimages.com
+:: bdlm.120askimages.com
+
+# > 快懂百科
+0.0.0.0 ehd.baike.com
+:: ehd.baike.com
+0.0.0.0 hdad.baike.com
+:: hdad.baike.com
+
+# > 快乐广播
+# 未识别规则：host, ad.hpplay.cn, reject
+# 未识别规则：host, adc.hpplay.cn, reject
+# 未识别规则：host, adcdn.hpplay.cn, reject
+# 未识别规则：host, adeng.hpplay.cn, reject
+# 未识别规则：host, pin.hpplay.cn, reject
+# 未识别规则：host, rp.hpplay.cn, reject
+# 未识别规则：host, rpt.hpplay.cn, reject
+
+# > 快手
+# 未识别规则：;host, js-ad.a.yximgs.com, reject
+0.0.0.0 e.kuaishou.com
+:: e.kuaishou.com
+0.0.0.0 cm.downloader.commercial.kuaishou.com
+:: cm.downloader.commercial.kuaishou.com
+0.0.0.0 cm.ad.gifshow.com
+:: cm.ad.gifshow.com
+0.0.0.0 cm.kwad.com
+:: cm.kwad.com
+
+# > 快压zip
+0.0.0.0 kuaizip.com
+:: kuaizip.com
+
+# > 酷狗音乐
+# 未识别规则：host, adserviceretry.kugou.com, reject
+# 未识别规则：host, ads.service.kugou.com, reject
+# 未识别规则：host, adsfile.bssdlbig.kugou.com, reject
+# 未识别规则：host, g.koowo.com, reject
+# 未识别规则：host, kgmobilestat.kugou.com, reject
+# 未识别规则：host, kgmobilestatbak.kugou.com, reject
+# 未识别规则：host, mobilelog.kugou.com, reject
+# 未识别规则：host, adsfile.bssdlbig.kugou.com, reject
+# 未识别规则：host, pgdt.gtimg.com, reject
+# 未识别规则：host, adsmind.gdtimg.com, reject
+# 未识别规则：host-keyword, searchrecommend.kugou.com, reject
+# 未识别规则：host-keyword, nbcollectretry.kugou.com, reject
+# 未识别规则：host-keyword, rtmretry.kugou.com, reject
+# 未识别规则：host-keyword, rt-m.kugou.com, reject
+# 未识别规则：host-keyword, nbcollect.kugou.com, reject
+# 未识别规则：host-keyword, c1img.ali.kugou.com, reject
+# 未识别规则：host-keyword, kgstaticdlbssdlbig.tx.kugou.com, reject
+# 未识别规则：host-keyword, adsfilebssdlbig.ali.kugou.com, reject
+# 未识别规则：host-keyword, splashimgbssdl.yun.kugou.com, reject
+# 未识别规则：host-keyword, adservice.kugou.com, reject
+# 未识别规则：host-keyword, kgipadstat.kugou.com, reject
+# 未识别规则：host-keyword, kgipadstatbak.kugou.com, reject
+# 未识别规则：host-keyword, logwebs.kugou.com, reject
+# 未识别规则：host-keyword, tracker.kugou.com, reject
+# 未识别规则：host-keyword, trackercdnbj.kugou.com, reject
+0.0.0.0 oth.eve.mdt.qq.com
+:: oth.eve.mdt.qq.com
+0.0.0.0 channel.fanxing.kugou.com
+:: channel.fanxing.kugou.com
+0.0.0.0 d.kugou.com
+:: d.kugou.com
+0.0.0.0 downmobile.kugou.com
+:: downmobile.kugou.com
+0.0.0.0 gad.kugou.com
+:: gad.kugou.com
+0.0.0.0 game.kugou.com
+:: game.kugou.com
+0.0.0.0 gamebox.kugou.com
+:: gamebox.kugou.com
+0.0.0.0 gcapi.sy.kugou.com
+:: gcapi.sy.kugou.com
+0.0.0.0 gg.kugou.com
+:: gg.kugou.com
+0.0.0.0 install.kugou.com
+:: install.kugou.com
+0.0.0.0 install2.kugou.com
+:: install2.kugou.com
+0.0.0.0 minidcsc.kugou.com
+:: minidcsc.kugou.com
+0.0.0.0 mo.kugou.com
+:: mo.kugou.com
+0.0.0.0 msg.mobile.kugou.com
+:: msg.mobile.kugou.com
+0.0.0.0 mvads.kugou.com
+:: mvads.kugou.com
+0.0.0.0 p.kugou.com
+:: p.kugou.com
+0.0.0.0 push.mobile.kugou.com
+:: push.mobile.kugou.com
+0.0.0.0 rtmonitor.kugou.com
+:: rtmonitor.kugou.com
+0.0.0.0 sdn.kugou.com
+:: sdn.kugou.com
+0.0.0.0 song.fanxing.kugou.com
+:: song.fanxing.kugou.com
+0.0.0.0 update.mobile.kugou.com
+:: update.mobile.kugou.com
+0.0.0.0 youxi.kugou.com
+:: youxi.kugou.com
+0.0.0.0 adserviceretry.kugou.com
+:: adserviceretry.kugou.com
+0.0.0.0 ads.service.kugou.com
+:: ads.service.kugou.com
+0.0.0.0 adsfile.bssdlbig.kugou.com
+:: adsfile.bssdlbig.kugou.com
+0.0.0.0 log.stat.kugou.com
+:: log.stat.kugou.com
+0.0.0.0 log.web.kugou.com
+:: log.web.kugou.com
+0.0.0.0 kgmobilestat.kugou.com
+:: kgmobilestat.kugou.com
+0.0.0.0 kgmobilestatbak.kugou.com
+:: kgmobilestatbak.kugou.com
+0.0.0.0 mobilelog.kugou.com
+:: mobilelog.kugou.com
+0.0.0.0 ad.kugou.com
+:: ad.kugou.com
+
+# > 酷我音乐
+# 未识别规则：host, mobilead.kuwo.cn, reject
+# 未识别规则：host, rich.kuwo.cn, reject
+# 未识别规则：host-keyword, rich.kuwo.cn, reject
+# 未识别规则：host-keyword, mobilead.kuwo.cn, reject
+0.0.0.0 c.kuwo.cn
+:: c.kuwo.cn
+0.0.0.0 deliver.kuwo.cn
+:: deliver.kuwo.cn
+0.0.0.0 game.kuwo.cn
+:: game.kuwo.cn
+0.0.0.0 kuwoyy.com
+:: kuwoyy.com
+0.0.0.0 kwmsg.kuwo.cn
+:: kwmsg.kuwo.cn
+0.0.0.0 msclick2.kuwo.cn
+:: msclick2.kuwo.cn
+0.0.0.0 msphoneclick.kuwo.cn
+:: msphoneclick.kuwo.cn
+0.0.0.0 updatepage.kuwo.cn
+:: updatepage.kuwo.cn
+0.0.0.0 wa.kuwo.cn
+:: wa.kuwo.cn
+0.0.0.0 webstat.kuwo.cn
+:: webstat.kuwo.cn
+0.0.0.0 mobilead.kuwo.cn
+:: mobilead.kuwo.cn
+0.0.0.0 rich.kuwo.cn
+:: rich.kuwo.cn
+0.0.0.0 ad.kuwo.cn
+:: ad.kuwo.cn
+
+# > 酷安
+# 广告联盟已包含
+
+
+
+# >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
+# > 乐居
+0.0.0.0 adm.leju.com
+:: adm.leju.com
+0.0.0.0 src.leju.com
+:: src.leju.com
+0.0.0.0 staticadm.leju.com
+:: staticadm.leju.com
+
+# > 联想
+0.0.0.0 adapi.lenovogame.com
+:: adapi.lenovogame.com
+0.0.0.0 adcore.lenovomm.com
+:: adcore.lenovomm.com
+0.0.0.0 ams.lenovomm.com
+:: ams.lenovomm.com
+0.0.0.0 fsr.lenovomm.com
+:: fsr.lenovomm.com
+0.0.0.0 fus.lenovomm.com
+:: fus.lenovomm.com
+0.0.0.0 imfsr.lenovomm.com
+:: imfsr.lenovomm.com
+0.0.0.0 lds.lenovomm.com
+:: lds.lenovomm.com
+0.0.0.0 mfsr.lenovomm.com
+:: mfsr.lenovomm.com
+0.0.0.0 pbs.lenovomm.com
+:: pbs.lenovomm.com
+0.0.0.0 prw.lenovomm.com
+:: prw.lenovomm.com
+0.0.0.0 psb.lenovomm.com
+:: psb.lenovomm.com
+0.0.0.0 pushapi.lenovomm.com
+:: pushapi.lenovomm.com
+0.0.0.0 sdac.lenovomm.com
+:: sdac.lenovomm.com
+0.0.0.0 susapi.lenovomm.com
+:: susapi.lenovomm.com
+0.0.0.0 uss-pid.lenovomm.com
+:: uss-pid.lenovomm.com
+0.0.0.0 wth.lenovomm.com
+:: wth.lenovomm.com
+0.0.0.0 yx.lenovomm.com
+:: yx.lenovomm.com
+
+# > LinkedIn
+0.0.0.0 ads.linkedin.com
+:: ads.linkedin.com
+
+# > Lycos
+0.0.0.0 adbuyer3.lycos.com
+:: adbuyer3.lycos.com
+0.0.0.0 cm8.lycos.com
+:: cm8.lycos.com
+0.0.0.0 oascentral.lycos.com
+:: oascentral.lycos.com
+0.0.0.0 ratings.lycos.com
+:: ratings.lycos.com
+0.0.0.0 client.sidesearch.lycos.com
+:: client.sidesearch.lycos.com
+0.0.0.0 install.sidesearch.lycos.com
+:: install.sidesearch.lycos.com
+0.0.0.0 guestworld.tripod.lycos.com
+:: guestworld.tripod.lycos.com
+0.0.0.0 titan.guestworld.tripod.lycos.com
+:: titan.guestworld.tripod.lycos.com
+0.0.0.0 fe.lea.lycos.co.uk
+:: fe.lea.lycos.co.uk
+0.0.0.0 hit.webcentre.lycos.co.uk
+:: hit.webcentre.lycos.co.uk
+
+# > LinkWiFi
+# 未识别规则：host, a.wkanx.com, reject
+# 未识别规则：host, cwx.lianwangtech.com, reject
+# 未识别规则：host, c1wx.lianwangtech.com, reject
+
+# > 蓝基因
+# 弹窗还在，需要手动关闭
+# 未识别规则：host-keyword, medicine.lanjiyin.com.cn, reject
+
+# > 两步路
+0.0.0.0 admobile.top
+:: admobile.top
+
+# > 乐视
+# 未识别规则：host, emma-414870e223.huodonghezi.com, reject
+0.0.0.0 webp2p.letv.com
+:: webp2p.letv.com
+0.0.0.0 ark.letv.com
+:: ark.letv.com
+0.0.0.0 dc.letv.com
+:: dc.letv.com
+0.0.0.0 fz.letv.com
+:: fz.letv.com
+0.0.0.0 g3.letv.com
+:: g3.letv.com
+0.0.0.0 minisite.letv.com
+:: minisite.letv.com
+0.0.0.0 pro.letv.com
+:: pro.letv.com
+0.0.0.0 stat.letv.com
+:: stat.letv.com
+0.0.0.0 pro.hoye.letv.com
+:: pro.hoye.letv.com
+0.0.0.0 msg.m.letv.com
+:: msg.m.letv.com
+0.0.0.0 static.app.m.letv.com
+:: static.app.m.letv.com
+0.0.0.0 n.mark.letv.com
+:: n.mark.letv.com
+0.0.0.0 1.letvlive.com
+:: 1.letvlive.com
+0.0.0.0 2.letvlive.com
+:: 2.letvlive.com
+0.0.0.0 api.game.letvstore.com
+:: api.game.letvstore.com
+0.0.0.0 api.push.le.com
+:: api.push.le.com
+0.0.0.0 cn.api.push.le.com
+:: cn.api.push.le.com
+0.0.0.0 guang.lesports.com
+:: guang.lesports.com
+
+# > 乐播投屏
+0.0.0.0 ad.hpplay.cn
+:: ad.hpplay.cn
+0.0.0.0 adeng.hpplay.cn
+:: adeng.hpplay.cn
+0.0.0.0 rp.hpplay.cn
+:: rp.hpplay.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ M ✅ <<<<<<<<<<<<<<
+# > MacKeeper
+0.0.0.0 mackeeper.com
+:: mackeeper.com
+0.0.0.0 download.mackeeper.com
+:: download.mackeeper.com
+0.0.0.0 event.mackeeper.com
+:: event.mackeeper.com
+0.0.0.0 mackeeperapp.mackeeper.com
+:: mackeeperapp.mackeeper.com
+0.0.0.0 zryydi.com
+:: zryydi.com
+
+# > Makeding (苏州思杰马克丁)
+0.0.0.0 cjmakeding.com
+:: cjmakeding.com
+0.0.0.0 makeding.com
+:: makeding.com
+
+# > 蘑菇街
+0.0.0.0 traffic.mogujie.com
+:: traffic.mogujie.com
+
+# > 猫扑 (Mop)
+0.0.0.0 pub.mop.com
+:: pub.mop.com
+0.0.0.0 union.mop.com
+:: union.mop.com
+
+# > Microsoft
+0.0.0.0 c.msn.com.cn
+:: c.msn.com.cn
+0.0.0.0 crl.microsoft.com
+:: crl.microsoft.com
+0.0.0.0 ieonline.microsoft.com
+:: ieonline.microsoft.com
+0.0.0.0 rad.microsoft.com
+:: rad.microsoft.com
+0.0.0.0 watson.microsoft.com
+:: watson.microsoft.com
+0.0.0.0 ac2.msn.com
+:: ac2.msn.com
+0.0.0.0 ac3.msn.com
+:: ac3.msn.com
+0.0.0.0 adsyndication.msn.com
+:: adsyndication.msn.com
+0.0.0.0 c.msn.com
+:: c.msn.com
+0.0.0.0 h.msn.com
+:: h.msn.com
+0.0.0.0 mobileads.msn.com
+:: mobileads.msn.com
+0.0.0.0 otf.msn.com
+:: otf.msn.com
+0.0.0.0 popup.msn.com
+:: popup.msn.com
+0.0.0.0 r.msn.com
+:: r.msn.com
+0.0.0.0 rad.msn.com
+:: rad.msn.com
+0.0.0.0 rmads.msn.com
+:: rmads.msn.com
+0.0.0.0 toolbar.msn.com
+:: toolbar.msn.com
+0.0.0.0 udc.msn.com
+:: udc.msn.com
+0.0.0.0 unicast.msn.com
+:: unicast.msn.com
+0.0.0.0 a.ads1.msn.com
+:: a.ads1.msn.com
+0.0.0.0 b.ads1.msn.com
+:: b.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+:: a.ads2.msn.com
+0.0.0.0 rmads.eu.msn.com
+:: rmads.eu.msn.com
+0.0.0.0 0.r.msn.com
+:: 0.r.msn.com
+0.0.0.0 catalog.video.msn.com
+:: catalog.video.msn.com
+0.0.0.0 c.live.com
+:: c.live.com
+0.0.0.0 rad.live.com
+:: rad.live.com
+0.0.0.0 watson.live.com
+:: watson.live.com
+0.0.0.0 msads.net
+:: msads.net
+0.0.0.0 ads1.msads.net
+:: ads1.msads.net
+0.0.0.0 ads2.msads.net
+:: ads2.msads.net
+0.0.0.0 global.msads.net
+:: global.msads.net
+0.0.0.0 a.global.msads.net
+:: a.global.msads.net
+0.0.0.0 ads.msn.com
+:: ads.msn.com
+0.0.0.0 ads1.msn.com
+:: ads1.msn.com
+0.0.0.0 ads2.msn.com
+:: ads2.msn.com
+0.0.0.0 bingads.microsoft.com
+:: bingads.microsoft.com
+0.0.0.0 rads.msn.com
+:: rads.msn.com
+
+# > 妈妈网
+0.0.0.0 ad.mama.cn
+:: ad.mama.cn
+
+# > 美团
+# 未识别规则：host, flowplus.meituan.net, reject
+0.0.0.0 analytics.meituan.net
+:: analytics.meituan.net
+0.0.0.0 meituan.xn
+:: meituan.xn
+0.0.0.0 meituan.yoga
+:: meituan.yoga
+0.0.0.0 meituangov.cn
+:: meituangov.cn
+0.0.0.0 report.meituan.com
+:: report.meituan.com
+0.0.0.0 wmlog.meituan.com
+:: wmlog.meituan.com
+0.0.0.0 ad.e.waimai.sankuai.com
+:: ad.e.waimai.sankuai.com
+0.0.0.0 mads.meituan.com
+:: mads.meituan.com
+0.0.0.0 dreport.meituan.net
+:: dreport.meituan.net
+0.0.0.0 d.meituan.net
+:: d.meituan.net
+
+# > 美颜相机
+# 去首页和轮播广告
+# 未识别规则：host, adui.tg.meitu.com, reject
+# 未识别规则：host, aaid.uyunad.com, reject
+
+# > 美图秀秀
+0.0.0.0 corp.meitu.com
+:: corp.meitu.com
+0.0.0.0 gg.meitu.com
+:: gg.meitu.com
+0.0.0.0 message.meitu.com
+:: message.meitu.com
+0.0.0.0 tuiguang.meitu.com
+:: tuiguang.meitu.com
+0.0.0.0 xiuxiu.android.dl.meitu.com
+:: xiuxiu.android.dl.meitu.com
+0.0.0.0 adui.tg.meitu.com
+:: adui.tg.meitu.com
+0.0.0.0 rabbit.tg.meitu.com
+:: rabbit.tg.meitu.com
+0.0.0.0 meitubeauty.meitudata.com
+:: meitubeauty.meitudata.com
+0.0.0.0 xiuxiu.mobile.meitudata.com
+:: xiuxiu.mobile.meitudata.com
+0.0.0.0 dc.meitustat.com
+:: dc.meitustat.com
+0.0.0.0 mdc.meitustat.com
+:: mdc.meitustat.com
+0.0.0.0 rabbit.meitustat.com
+:: rabbit.meitustat.com
+
+# > 美柚
+# 未识别规则：host, ad.seeyouyima.com, reject
+
+# > 魅族 (Meizu)
+0.0.0.0 api-flow.flyme.cn
+:: api-flow.flyme.cn
+0.0.0.0 bro.flyme.cn
+:: bro.flyme.cn
+0.0.0.0 t-e.flyme.cn
+:: t-e.flyme.cn
+0.0.0.0 t-flow.flyme.cn
+:: t-flow.flyme.cn
+0.0.0.0 aider-res.meizu.com
+:: aider-res.meizu.com
+0.0.0.0 api-game.meizu.com
+:: api-game.meizu.com
+0.0.0.0 api-push.meizu.com
+:: api-push.meizu.com
+0.0.0.0 cal.meizu.com
+:: cal.meizu.com
+0.0.0.0 game-res.meizu.com
+:: game-res.meizu.com
+0.0.0.0 infocenter.meizu.com
+:: infocenter.meizu.com
+0.0.0.0 openapi-news.meizu.com
+:: openapi-news.meizu.com
+0.0.0.0 reader.meizu.com
+:: reader.meizu.com
+0.0.0.0 tongji-res1.meizu.com
+:: tongji-res1.meizu.com
+0.0.0.0 uxip.meizu.com
+:: uxip.meizu.com
+0.0.0.0 umid.orion.meizu.com
+:: umid.orion.meizu.com
+0.0.0.0 ebook.res.meizu.com
+:: ebook.res.meizu.com
+0.0.0.0 game.res.meizu.com
+:: game.res.meizu.com
+0.0.0.0 push.res.meizu.com
+:: push.res.meizu.com
+0.0.0.0 reader.res.meizu.com
+:: reader.res.meizu.com
+0.0.0.0 upush.res.meizu.com
+:: upush.res.meizu.com
+0.0.0.0 aries.mzres.com
+:: aries.mzres.com
+
+# > 买单吧
+0.0.0.0 c-hzgt2.getui.com
+:: c-hzgt2.getui.com
+0.0.0.0 c-hzgt2.getui.com
+:: c-hzgt2.getui.com
+0.0.0.0 gs.getui.com
+:: gs.getui.com
+
+# > 民生银行
+# 未识别规则：host-keyword, cm-10-134.getui.com, reject
+# 未识别规则：host-keyword, sdk.open.talk.getui.com, reject
+# 未识别规则：host-keyword, cm-10-35.getui.com, reject
+# 未识别规则：host-keyword, c-hzgt2.getui.com, reject
+
+# > 墨迹天气
+# 未识别规则：host-KEYWORD,me.api.moji.com, reject
+# 未识别规则：host-KEYWORD,android.bugly.qq.com, reject
+# 未识别规则：host-KEYWORD,av1.xdrig.com, reject
+# 未识别规则：host-KEYWORD,adash.man.aliyuncs.com, reject
+# 未识别规则：host, ad.api.moji.com, reject
+# 未识别规则：host, adlaunch.moji.com, reject
+# 未识别规则：host, ads.mojicdn.com, reject
+# 未识别规则：host, v1.log.moji.com, reject
+0.0.0.0 cdn.moji.com
+:: cdn.moji.com
+0.0.0.0 fds.api.moji.com
+:: fds.api.moji.com
+0.0.0.0 app.moji001.com
+:: app.moji001.com
+0.0.0.0 ugc.moji001.com
+:: ugc.moji001.com
+0.0.0.0 cdn.moji002.com
+:: cdn.moji002.com
+0.0.0.0 cdn2.moji002.com
+:: cdn2.moji002.com
+
+# > 咪咕视频
+0.0.0.0 ad.cmvideo.cn
+:: ad.cmvideo.cn
+# 未识别规则：host, ggc.cmvideo.cn, reject
+# 未识别规则：host, ggv.cmvideo.cn, reject
+# 未识别规则：host, ggx.cmvideo.cn, reject
+# 未识别规则：host, ggx03.miguvideo.com, reject
+# 未识别规则：host, ggic03.miguvideo.com, reject
+# 未识别规则：host, ggmk.miguvideo.com, reject
+# 未识别规则：host, ggadoffline.miguvideo.com, reject
+
+# > 米家
+# 未识别规则：host, sdkconfig.ad.xiaomi.com, reject
+
+# > 芒果TV
+# 未识别规则：host, dflow.bz.mgtv.com, reject
+# 未识别规则：host, encounter.bz.mgtv.com, reject
+# 未识别规则：host, floor.bz.mgtv.com, reject
+# 未识别规则：host, img.da.mgtv.com, reject
+# 未识别规则：host, layer.bz.mgtv.com, reject
+# 未识别规则：host, mob.bz.mgtv.com, reject
+# 未识别规则：host, mobile.da.mgtv.com, reject
+# 未识别规则：host, rc-topic-api.bz.mgtv.com, reject
+# 未识别规则：host, v2.da.mgtv.com, reject
+# 未识别规则：host, video.da.mgtv.com, reject
+# 未识别规则：host, vip.bz.mgtv.com, reject
+# 未识别规则：host, ys.da.mgtv.com, reject
+0.0.0.0 mobile2.da.mgtv.com
+:: mobile2.da.mgtv.com
+0.0.0.0 cdn.cmop.mgtv.com
+:: cdn.cmop.mgtv.com
+0.0.0.0 cmop.mgtv.com
+:: cmop.mgtv.com
+0.0.0.0 imgaliyun.da.mgtv.com
+:: imgaliyun.da.mgtv.com
+0.0.0.0 imgaliyun.res.mgtv.com
+:: imgaliyun.res.mgtv.com
+0.0.0.0 m2.da.mgtv.com
+:: m2.da.mgtv.com
+0.0.0.0 mobaliyun.res.mgtv.com
+:: mobaliyun.res.mgtv.com
+0.0.0.0 pc.da.mgtv.com
+:: pc.da.mgtv.com
+0.0.0.0 pc1.da.mgtv.com
+:: pc1.da.mgtv.com
+0.0.0.0 pcvideoaliyun.titan.mgtv.com
+:: pcvideoaliyun.titan.mgtv.com
+0.0.0.0 pcvideoyd.titan.mgtv.com
+:: pcvideoyd.titan.mgtv.com
+0.0.0.0 pcweb.v1.mgtv.com
+:: pcweb.v1.mgtv.com
+0.0.0.0 py.da.mgtv.com
+:: py.da.mgtv.com
+0.0.0.0 web.da.mgtv.com
+:: web.da.mgtv.com
+0.0.0.0 x.da.mgtv.com
+:: x.da.mgtv.com
+0.0.0.0 y.da.mgtv.com
+:: y.da.mgtv.com
+0.0.0.0 da.mgtv.com
+:: da.mgtv.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ N ✅ <<<<<<<<<<<<<<
+# > Naver
+0.0.0.0 ad.naver.com
+:: ad.naver.com
+0.0.0.0 adcr.naver.com
+:: adcr.naver.com
+0.0.0.0 adcreative.naver.com
+:: adcreative.naver.com
+0.0.0.0 adimg3.search.naver.net
+:: adimg3.search.naver.net
+
+# > New Relic
+0.0.0.0 newrelic.com
+:: newrelic.com
+0.0.0.0 js-agent.newrelic.com
+:: js-agent.newrelic.com
+0.0.0.0 bam.nr-data.net
+:: bam.nr-data.net
+
+
+
+# >>>>>>>>>>>>>>> ✅ O ✅ <<<<<<<<<<<<<<
+# > Openmultimedia
+0.0.0.0 ad.openmultimedia.biz
+:: ad.openmultimedia.biz
+
+# > Optimix（奥迪美）
+0.0.0.0 bx.optimix.asia
+:: bx.optimix.asia
+0.0.0.0 bx01.optimix.asia
+:: bx01.optimix.asia
+0.0.0.0 c03.optimix.asia
+:: c03.optimix.asia
+0.0.0.0 s03.optimix.asia
+:: s03.optimix.asia
+0.0.0.0 optimix.cn
+:: optimix.cn
+
+# > Oupeng (欧朋)
+0.0.0.0 ezine.oupeng.com
+:: ezine.oupeng.com
+0.0.0.0 img-ad.oupeng.com
+:: img-ad.oupeng.com
+0.0.0.0 notify.oupeng.com
+:: notify.oupeng.com
+0.0.0.0 startup.oupeng.com
+:: startup.oupeng.com
+0.0.0.0 c.bxb.oupeng.com
+:: c.bxb.oupeng.com
+0.0.0.0 r.bxb.oupeng.com
+:: r.bxb.oupeng.com
+
+# > Outfit7（会说话的汤姆猫）
+0.0.0.0 apps.outfit7.com
+:: apps.outfit7.com
+0.0.0.0 apps2.outfit7.com
+:: apps2.outfit7.com
+0.0.0.0 cdn.outfit7.com
+:: cdn.outfit7.com
+0.0.0.0 cdn-gcs.outfit7.com
+:: cdn-gcs.outfit7.com
+0.0.0.0 events-api.outfit7.net
+:: events-api.outfit7.net
+
+# > OPPO
+# 未识别规则：host, adsfs.oppomobile.com, reject
+0.0.0.0 ads.oppomobile.com
+:: ads.oppomobile.com
+
+# > Outlook
+# 未识别规则：host, acdn.adnxs.com, reject
+# 未识别规则：host, mediation.adnxs.com, reject
+# 未识别规则：host, sin3-ib.adnxs.com, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
+# > PPTV
+# 未识别规则：host, ads.aplus.pptv.com, reject
+# 未识别规则：host, ads.aplusapi.pptv.com, reject
+# 未识别规则：host, asimgs.pplive.cn, reject
+# 未识别规则：host, de.as.pptv.com, reject
+0.0.0.0 afp.pplive.com
+:: afp.pplive.com
+0.0.0.0 gas.data.pplive.com
+:: gas.data.pplive.com
+0.0.0.0 plt.data.pplive.com
+:: plt.data.pplive.com
+0.0.0.0 web.data.pplive.com
+:: web.data.pplive.com
+0.0.0.0 pp2.pptv.com
+:: pp2.pptv.com
+0.0.0.0 stat.pptv.com
+:: stat.pptv.com
+0.0.0.0 app.aplus.pptv.com
+:: app.aplus.pptv.com
+0.0.0.0 as.aplus.pptv.com
+:: as.aplus.pptv.com
+0.0.0.0 jp.as.pptv.com
+:: jp.as.pptv.com
+0.0.0.0 static.g.pptv.com
+:: static.g.pptv.com
+
+# > Photoable
+# 未识别规则：host, regist.fotoable.com, reject
+# 未识别规则：host, cdn.adapi.fotoable.com, reject
+
+# > PeanutWiFi
+# 未识别规则：host, adnew.wifi8.com, reject
+# 未识别规则：host, adfile.wifi8.com, reject
+
+# > 皮皮虾
+# 推荐视频不能预览
+# 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao-b.com, reject
+# 未识别规则：host-keyword, log-api.pangolin-sdk-toutiao.com, reject
+# 未识别规则：host-keyword, api-access.pangolin-sdk-toutiao.com, reject
+# 未识别规则：;host-keyword, snssdk.com, reject
+# 未识别规则：;host-keyword, mssdk.bytedance.com, reject
+# 未识别规则：;host-keyword, api.ribaoapi.com, reject
+# 未识别规则：;host-keyword, apps.bytesfield.com, reject
+# 未识别规则：;host-keyword, bytesmanager.com, reject
+# 未识别规则：;host-keyword, mssdk-bu.bytedance.com, reject
+# 未识别规则：;host-keyword, 365yg.com, reject
+# 未识别规则：;host-keyword, ppx.byteimg.com, reject
+# 未识别规则：;host-keyword, i.snssdk.com, reject
+
+# > 澎湃新闻
+# 未识别规则：host, admonitor.thepaper.cn, reject
+# 未识别规则：host, adpai.thepaper.cn, reject
+# 未识别规则：host, imgadpai.thepaper.cn, reject
+0.0.0.0 ad.thepaper.cn
+:: ad.thepaper.cn
+0.0.0.0 imgad.thepaper.cn
+:: imgad.thepaper.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
+# > QQ音乐
+# 未识别规则：host, adstats.tencentmusic.com, REJECT
+# 未识别规则：host, ad.tencentmusic.com, REJECT
+# 未识别规则：host, adcdn.tencentmusic.com, REJECT
+# 未识别规则：host, adcdn6.tencentmusic.com, REJECT
+# 未识别规则：host, adexpo.tencentmusic.com, REJECT
+# 未识别规则：host, adclick.tencentmusic.com, REJECT
+# 未识别规则：host, otheve.beacon.qq.com, REJECT
+# 未识别规则：host, monitor.music.qq.com, REJECT
+# 未识别规则：host, stat.y.qq.com, REJECT
+# 未识别规则：host, tmead.y.qq.com, REJECT
+# 未识别规则：host, oth.str.mdt.qq.com, REJECT
+# 未识别规则：host, h.trace.qq.com, REJECT
+# 未识别规则：host, sdk.e.qq.com, REJECT
+# 未识别规则：host, p.l.qq.com, REJECT
+# 未识别规则：host, us.l.qq.com, REJECT
+# 未识别规则：host, tangram.e.qq.com, REJECT
+# 未识别规则：host, tmeadbak.y.qq.com, REJECT
+0.0.0.0 imtmp.net
+:: imtmp.net
+# 未识别规则：host, tmeadcomm.y.qq.com, reject
+# 未识别规则：host, ad.tencentmusic.com, reject
+# 未识别规则：host, adstats.tencentmusic.com, reject
+# 未识别规则：host, tmead.y.qq.com, reject
+0.0.0.0 rqd.qq.com
+:: rqd.qq.com
+0.0.0.0 wup.imtt.qq.com
+:: wup.imtt.qq.com
+0.0.0.0 gdt.qq.com
+:: gdt.qq.com
+0.0.0.0 android.rqd.qq.com
+:: android.rqd.qq.com
+0.0.0.0 e.qq.com
+:: e.qq.com
+0.0.0.0 beacon.qq.com
+:: beacon.qq.com
+0.0.0.0 v.gdt.qq.com
+:: v.gdt.qq.com
+# 未识别规则：host, amsweb-cdn-gz-1258344696.file.myqcloud.com, REJECT
+# 未识别规则：host, wallpaper-1258344696.file.myqcloud.com, REJECT
+# 未识别规则：host, xs.gdt.qq.com, reject
+# 未识别规则：IP-CIDR, 120.222.240.171/32, REJECT
+
+# > 蜻蜓FM
+# 未识别规则：host, ad.qingting.fm, reject
+# 未识别规则：host, adlaunch.qingting.fm, reject
+# 未识别规则：host, ad-cdn.qingting.fm, reject
+
+# > 七猫小说
+# 未识别规则：host, cdn-new-ad.wtzw.com, REJECT
+# 未识别规则：host, a-remad.qm989.com, REJECT
+# 未识别规则：host, mobads.baidu.com, REJECT
+0.0.0.0 gdt.qq.com
+:: gdt.qq.com
+# 未识别规则：host, qzs.gdtimg.com, REJECT
+# 未识别规则：host, mobads-pre-config.cdn.bcebos.com, REJECT
+# 未识别规则：host, pgdt.ugdtimg.com, REJECT
+
+# > 汽车之家
+# 未识别规则：host-keyword, adm3.autoimg.cn, reject
+# 未识别规则：;host-keyword, audid-api.taobao.com, reject
+# 未识别规则：host-keyword, collectionpv.che168.com, reject
+# 未识别规则：host-keyword, adproxy.autohome.com, reject
+# 未识别规则：host-keyword, applogapi.autohome.com, reject
+# 未识别规则：host, adproxy.autohome.com.cn, reject
+# 未识别规则：host, rd.autohome.com.cn, reject
+# 未识别规则：host, al.autohome.com.cn, reject
+# 未识别规则：host, applogapi.autohome.com.cn, reject
+# 未识别规则：host, adm0.autoimg.cn, reject
+# 未识别规则：host, adm1.autoimg.cn, reject
+# 未识别规则：host, adm2.autoimg.cn, reject
+# 未识别规则：host, adm3.autoimg.cn, reject
+0.0.0.0 adm0.autoimg.cn
+:: adm0.autoimg.cn
+0.0.0.0 adm1.autoimg.cn
+:: adm1.autoimg.cn
+0.0.0.0 adm2.autoimg.cn
+:: adm2.autoimg.cn
+0.0.0.0 adm3.autoimg.cn
+:: adm3.autoimg.cn
+0.0.0.0 33.autohome.com.cn
+:: 33.autohome.com.cn
+0.0.0.0 adproxy.autohome.com.cn
+:: adproxy.autohome.com.cn
+0.0.0.0 al.autohome.com.cn
+:: al.autohome.com.cn
+0.0.0.0 applogapi.autohome.com.cn
+:: applogapi.autohome.com.cn
+0.0.0.0 c.autohome.com.cn
+:: c.autohome.com.cn
+0.0.0.0 cmx.autohome.com.cn
+:: cmx.autohome.com.cn
+0.0.0.0 dspmnt.autohome.com.cn
+:: dspmnt.autohome.com.cn
+0.0.0.0 pcd.autohome.com.cn
+:: pcd.autohome.com.cn
+0.0.0.0 pcmx.autohome.com.cn
+:: pcmx.autohome.com.cn
+0.0.0.0 pvx.autohome.com.cn
+:: pvx.autohome.com.cn
+0.0.0.0 rd.autohome.com.cn
+:: rd.autohome.com.cn
+0.0.0.0 rdx.autohome.com.cn
+:: rdx.autohome.com.cn
+0.0.0.0 pv.alert.autohome.com.cn
+:: pv.alert.autohome.com.cn
+0.0.0.0 activity.app.autohome.com.cn
+:: activity.app.autohome.com.cn
+0.0.0.0 public.app.autohome.com.cn
+:: public.app.autohome.com.cn
+0.0.0.0 push.app.autohome.com.cn
+:: push.app.autohome.com.cn
+0.0.0.0 h.pcd.autohome.com.cn
+:: h.pcd.autohome.com.cn
+
+# > 齐鲁网
+0.0.0.0 g3.iqilu.com
+:: g3.iqilu.com
+0.0.0.0 g4.iqilu.com
+:: g4.iqilu.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ R ✅ <<<<<<<<<<<<<<
+# > 人人视频
+0.0.0.0 ad.rr.tv
+:: ad.rr.tv
+0.0.0.0 ebp.renren.com
+:: ebp.renren.com
+0.0.0.0 jebe.renren.com
+:: jebe.renren.com
+0.0.0.0 bolt.jebe.renren.com
+:: bolt.jebe.renren.com
+0.0.0.0 cupid.jebe.renren.com
+:: cupid.jebe.renren.com
+0.0.0.0 shaft.jebe.renren.com
+:: shaft.jebe.renren.com
+0.0.0.0 xray.jebe.renren.com
+:: xray.jebe.renren.com
+
+# > 人民网
+0.0.0.0 pmm.people.com.cn
+:: pmm.people.com.cn
+0.0.0.0 a1.peoplecdn.cn
+:: a1.peoplecdn.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
+# > Sape
+0.0.0.0 sape.ru
+:: sape.ru
+0.0.0.0 cdn-rtb.sape.ru
+:: cdn-rtb.sape.ru
+0.0.0.0 dispenser-rtb.sape.ru
+:: dispenser-rtb.sape.ru
+0.0.0.0 ssp-rtb.sape.ru
+:: ssp-rtb.sape.ru
+
+# > Soul
+# 未识别规则：host, soul-ad.soulapp.cn, reject
+# 未识别规则：host, ad-r.soulapp.cn, reject
+# 未识别规则：host, ad-reward.soulapp.cn, reject
+0.0.0.0 cdn.soulapp.cn
+:: cdn.soulapp.cn
+# 未识别规则：IP-CIDR, 47.56.131.76/32, REJECT
+# 未识别规则：IP-CIDR, 47.97.215.55/32, REJECT
+# 未识别规则：IP-CIDR, 47.99.42.29/32, REJECT
+# 未识别规则：IP-CIDR, 120.27.235.201/32, REJECT
+# 未识别规则：IP-CIDR, 121.196.197.147/32, REJECT
+
+# > Snapchat
+# 未识别规则：host, ads.snapchat.com, reject
+# 未识别规则：host, adsapi.snapchat.com, reject
+
+# > 盛趣游戏
+0.0.0.0 adrs.sdo.com
+:: adrs.sdo.com
+
+# > 苏宁易购
+0.0.0.0 show.suning.beer
+:: show.suning.beer
+0.0.0.0 apm.suning.cn
+:: apm.suning.cn
+0.0.0.0 mads.suning.com
+:: mads.suning.com
+0.0.0.0 ssac.suning.com
+:: ssac.suning.com
+0.0.0.0 tad.suning.com
+:: tad.suning.com
+
+# > 搜狐
+0.0.0.0 ad.sohu.com
+:: ad.sohu.com
+0.0.0.0 ads.sohu.com
+:: ads.sohu.com
+0.0.0.0 aty.sohu.com
+:: aty.sohu.com
+# 未识别规则：host, hui.sohu.com, reject
+0.0.0.0 adnet.sohu.com
+:: adnet.sohu.com
+0.0.0.0 corp.sohu.com
+:: corp.sohu.com
+0.0.0.0 cpc.sohu.com
+:: cpc.sohu.com
+0.0.0.0 go.sohu.com
+:: go.sohu.com
+0.0.0.0 hui.sohu.com
+:: hui.sohu.com
+0.0.0.0 images.sohu.com
+:: images.sohu.com
+0.0.0.0 suvset.sohu.com
+:: suvset.sohu.com
+0.0.0.0 track.sohu.com
+:: track.sohu.com
+0.0.0.0 doc.go.sohu.com
+:: doc.go.sohu.com
+0.0.0.0 i.go.sohu.com
+:: i.go.sohu.com
+0.0.0.0 imp.go.sohu.com
+:: imp.go.sohu.com
+0.0.0.0 s.go.sohu.com
+:: s.go.sohu.com
+0.0.0.0 t.go.sohu.com
+:: t.go.sohu.com
+0.0.0.0 txt.go.sohu.com
+:: txt.go.sohu.com
+0.0.0.0 x1.go.sohu.com
+:: x1.go.sohu.com
+0.0.0.0 xls.go.sohu.com
+:: xls.go.sohu.com
+0.0.0.0 ad.mail.sohu.com
+:: ad.mail.sohu.com
+0.0.0.0 3rd.t.sohu.com
+:: 3rd.t.sohu.com
+0.0.0.0 888.tv.sohu.com
+:: 888.tv.sohu.com
+
+# > 搜狗
+# 未识别规则：;host, indivi-cdn.shouji.sogou.com, reject
+0.0.0.0 epro.sogou.com
+:: epro.sogou.com
+0.0.0.0 golden1.sogou.com
+:: golden1.sogou.com
+0.0.0.0 inte.sogou.com
+:: inte.sogou.com
+0.0.0.0 inte.sogoucdn.com
+:: inte.sogoucdn.com
+0.0.0.0 lu.sogoucdn.com
+:: lu.sogoucdn.com
+0.0.0.0 theta.sogoucdn.com
+:: theta.sogoucdn.com
+0.0.0.0 uranus.sogou.com
+:: uranus.sogou.com
+0.0.0.0 123.sogou.com
+:: 123.sogou.com
+0.0.0.0 a1click.cpc.sogou.com
+:: a1click.cpc.sogou.com
+0.0.0.0 adsence.sogou.com
+:: adsence.sogou.com
+0.0.0.0 adstream.123.sogoucdn.com
+:: adstream.123.sogoucdn.com
+0.0.0.0 amfi.gou.sogou.com
+:: amfi.gou.sogou.com
+0.0.0.0 art.theta.sogoucdn.com
+:: art.theta.sogoucdn.com
+0.0.0.0 athena.wan.sogou.com
+:: athena.wan.sogou.com
+0.0.0.0 bazinga.mse.sogou.com
+:: bazinga.mse.sogou.com
+0.0.0.0 bite.theta.sogoucdn.com
+:: bite.theta.sogoucdn.com
+0.0.0.0 brand.sogou.com
+:: brand.sogou.com
+0.0.0.0 bsiet.husky.sogou.com
+:: bsiet.husky.sogou.com
+# 屏蔽京东和搜狗收集信息 @jFrecht
+0.0.0.0 jdqd.jd.com
+:: jdqd.jd.com
+0.0.0.0 shouji.sougou.com
+:: shouji.sougou.com
+0.0.0.0 cpc.sogou.com
+:: cpc.sogou.com
+0.0.0.0 fair.sogou.com
+:: fair.sogou.com
+0.0.0.0 files2.sogou.com
+:: files2.sogou.com
+0.0.0.0 goto.sogou.com
+:: goto.sogou.com
+0.0.0.0 iwan.sogou.com
+:: iwan.sogou.com
+0.0.0.0 lu.sogou.com
+:: lu.sogou.com
+0.0.0.0 p3p.sogou.com
+:: p3p.sogou.com
+0.0.0.0 pb.sogou.com
+:: pb.sogou.com
+0.0.0.0 pbd.sogou.com
+:: pbd.sogou.com
+0.0.0.0 pv.sogou.com
+:: pv.sogou.com
+0.0.0.0 union.sogou.com
+:: union.sogou.com
+0.0.0.0 wan.sogou.com
+:: wan.sogou.com
+0.0.0.0 wangmeng.sogou.com
+:: wangmeng.sogou.com
+0.0.0.0 web.sogou.com
+:: web.sogou.com
+0.0.0.0 ping.acc.sogou.com
+:: ping.acc.sogou.com
+0.0.0.0 cjroq.bealge.sogou.com
+:: cjroq.bealge.sogou.com
+0.0.0.0 qhl.bealge.sogou.com
+:: qhl.bealge.sogou.com
+0.0.0.0 mini.cpc.sogou.com
+:: mini.cpc.sogou.com
+0.0.0.0 rd.e.sogou.com
+:: rd.e.sogou.com
+0.0.0.0 service.epro.sogou.com
+:: service.epro.sogou.com
+0.0.0.0 wuliao.epro.sogou.com
+:: wuliao.epro.sogou.com
+0.0.0.0 ejzr.golden1.sogou.com
+:: ejzr.golden1.sogou.com
+0.0.0.0 jsnp.golden1.sogou.com
+:: jsnp.golden1.sogou.com
+0.0.0.0 pjyu.golden1.sogou.com
+:: pjyu.golden1.sogou.com
+0.0.0.0 psfq.gou.sogou.com
+:: psfq.gou.sogou.com
+0.0.0.0 gxe.husky.sogou.com
+:: gxe.husky.sogou.com
+0.0.0.0 eff.inte.sogou.com
+:: eff.inte.sogou.com
+0.0.0.0 p.inte.sogou.com
+:: p.inte.sogou.com
+0.0.0.0 vps.inte.sogou.com
+:: vps.inte.sogou.com
+0.0.0.0 rmoeu.mercury.sogou.com
+:: rmoeu.mercury.sogou.com
+0.0.0.0 sw.mobile.sogou.com
+:: sw.mobile.sogou.com
+0.0.0.0 image.p4p.sogou.com
+:: image.p4p.sogou.com
+0.0.0.0 info.pinyin.sogou.com
+:: info.pinyin.sogou.com
+0.0.0.0 ping.pinyin.sogou.com
+:: ping.pinyin.sogou.com
+0.0.0.0 pcxzo.pluto.sogou.com
+:: pcxzo.pluto.sogou.com
+0.0.0.0 qxm.pluto.sogou.com
+:: qxm.pluto.sogou.com
+0.0.0.0 config.push.sogou.com
+:: config.push.sogou.com
+0.0.0.0 pull.push.sogou.com
+:: pull.push.sogou.com
+0.0.0.0 feed.theta.sogou.com
+:: feed.theta.sogou.com
+0.0.0.0 rjgw.theta.sogou.com
+:: rjgw.theta.sogou.com
+0.0.0.0 fych.uranus.sogou.com
+:: fych.uranus.sogou.com
+0.0.0.0 ktivn.uranus.sogou.com
+:: ktivn.uranus.sogou.com
+0.0.0.0 osc.uranus.sogou.com
+:: osc.uranus.sogou.com
+0.0.0.0 xtruh.uranus.sogou.com
+:: xtruh.uranus.sogou.com
+0.0.0.0 img.wan.sogou.com
+:: img.wan.sogou.com
+0.0.0.0 ht.www.sogou.com
+:: ht.www.sogou.com
+0.0.0.0 download.zhushou.sogou.com
+:: download.zhushou.sogou.com
+0.0.0.0 galaxy.sogoucdn.com
+:: galaxy.sogoucdn.com
+0.0.0.0 jpg.inte.sogoucdn.com
+:: jpg.inte.sogoucdn.com
+0.0.0.0 moka.inte.sogoucdn.com
+:: moka.inte.sogoucdn.com
+0.0.0.0 omg.inte.sogoucdn.com
+:: omg.inte.sogoucdn.com
+0.0.0.0 wds.inte.sogoucdn.com
+:: wds.inte.sogoucdn.com
+0.0.0.0 cdn.lu.sogoucdn.com
+:: cdn.lu.sogoucdn.com
+0.0.0.0 gif.lu.sogoucdn.com
+:: gif.lu.sogoucdn.com
+0.0.0.0 png.lu.sogoucdn.com
+:: png.lu.sogoucdn.com
+0.0.0.0 inte.theta.sogoucdn.com
+:: inte.theta.sogoucdn.com
+0.0.0.0 dl.wan.sogoucdn.com
+:: dl.wan.sogoucdn.com
+
+# > 搜狗输入法
+# 未识别规则：;host-keyword, business-cdn.shouji.sogou.com, reject
+0.0.0.0 push-service-ios.sginput.qq.com
+:: push-service-ios.sginput.qq.com
+
+# > 深圳通微信小程序
+0.0.0.0 wxsnsdythumb.wxs.qq.com
+:: wxsnsdythumb.wxs.qq.com
+
+# > 收钱吧
+# 买单小程序去广告
+# 未识别规则：host, ads-shopping.shouqianba.com, reject
+
+# > 什么值得买
+# 未识别规则：host, aaid.uyunad.com, REJECT
+# 未识别规则：host, acs4baichuan.m.taobao.com, REJECT
+# 未识别规则：host, adashxgc.ut.taobao.com, REJECT
+# 未识别规则：host, analytics-api.smzdm.com, REJECT
+# 未识别规则：host, baichuan-sdk.alicdn.com, REJECT
+# 未识别规则：host, dgstatic.jd.com, REJECT
+# 未识别规则：host, msg.umengcloud.com, REJECT
+# 未识别规则：host, sec.umeng.com, REJECT
+# 未识别规则：host, ulogs.umeng.com, REJECT
+# 未识别规则：host, ynuf.aliapp.org, REJECT
+0.0.0.0 res-ga.smzdm.com
+:: res-ga.smzdm.com
+
+# > 手机中国
+0.0.0.0 pic.cnmo-img.com.cn
+:: pic.cnmo-img.com.cn
+0.0.0.0 icon.cnmo.com
+:: icon.cnmo.com
+0.0.0.0 js.cnmo.com
+:: js.cnmo.com
+
+# > 数盟 (Shuzilm)
+0.0.0.0 shuzilm.cn
+:: shuzilm.cn
+0.0.0.0 api.shuzilm.cn
+:: api.shuzilm.cn
+0.0.0.0 daa.shuzilm.cn
+:: daa.shuzilm.cn
+0.0.0.0 dai.shuzilm.cn
+:: dai.shuzilm.cn
+0.0.0.0 stream.shuzilm.cn
+:: stream.shuzilm.cn
+
+# > 闪萌
+0.0.0.0 ad.weshineapp.com
+:: ad.weshineapp.com
+
+# > 世纪佳缘
+0.0.0.0 ad.jiayuan.com
+:: ad.jiayuan.com
+
+# > 书旗小说
+0.0.0.0 ut2.shuqistat.com
+:: ut2.shuqistat.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
+# > Tanwan (贪玩)
+0.0.0.0 mytanwan.com
+:: mytanwan.com
+0.0.0.0 tanwanyx.com
+:: tanwanyx.com
+0.0.0.0 app.tanwan.com
+:: app.tanwan.com
+0.0.0.0 wap.tanwan.com
+:: wap.tanwan.com
+0.0.0.0 gafxa.code.mytanwan.com
+:: gafxa.code.mytanwan.com
+0.0.0.0 ldpgl.code.mytanwan.com
+:: ldpgl.code.mytanwan.com
+0.0.0.0 pop.code.mytanwan.com
+:: pop.code.mytanwan.com
+0.0.0.0 sy.code.mytanwan.com
+:: sy.code.mytanwan.com
+0.0.0.0 sy.flash.mytanwan.com
+:: sy.flash.mytanwan.com
+0.0.0.0 b.code.tanwanyx.com
+:: b.code.tanwanyx.com
+0.0.0.0 hv.code.tanwanyx.com
+:: hv.code.tanwanyx.com
+0.0.0.0 xd.code.tanwanyx.com
+:: xd.code.tanwanyx.com
+
+# > 淘淘搜
+0.0.0.0 img.taotaosou.cn
+:: img.taotaosou.cn
+0.0.0.0 img01.taotaosou.cn
+:: img01.taotaosou.cn
+0.0.0.0 re.taotaosou.com
+:: re.taotaosou.com
+0.0.0.0 show.kc.taotaosou.com
+:: show.kc.taotaosou.com
+
+# > Tumblr
+0.0.0.0 92x.tumblr.com
+:: 92x.tumblr.com
+0.0.0.0 its-dori.tumblr.com
+:: its-dori.tumblr.com
+0.0.0.0 31.media.tumblr.com
+:: 31.media.tumblr.com
+
+# > Twitch
+0.0.0.0 fan.twitch.tv
+:: fan.twitch.tv
+0.0.0.0 spade.twitch.tv
+:: spade.twitch.tv
+
+# > Turn
+0.0.0.0 ad.turn.com
+:: ad.turn.com
+0.0.0.0 d.turn.com
+:: d.turn.com
+
+# > Twitter
+0.0.0.0 ads-twitter.com
+:: ads-twitter.com
+0.0.0.0 p.twitter.com
+:: p.twitter.com
+0.0.0.0 scribe.twitter.com
+:: scribe.twitter.com
+0.0.0.0 syndication.twitter.com
+:: syndication.twitter.com
+0.0.0.0 syndication-o.twitter.com
+:: syndication-o.twitter.com
+0.0.0.0 urls.api.twitter.com
+:: urls.api.twitter.com
+
+# > TubeMax
+0.0.0.0 adjust.com
+:: adjust.com
+0.0.0.0 applvn.com
+:: applvn.com
+0.0.0.0 app-measurement.com
+:: app-measurement.com
+0.0.0.0 pangle.io
+:: pangle.io
+0.0.0.0 applovin.com
+:: applovin.com
+0.0.0.0 appier.net
+:: appier.net
+0.0.0.0 adsmoloco.com
+:: adsmoloco.com
+0.0.0.0 adcanvas.com
+:: adcanvas.com
+
+# > Talkatone
+0.0.0.0 tappx.com
+:: tappx.com
+0.0.0.0 impression.link
+:: impression.link
+0.0.0.0 jampp.com
+:: jampp.com
+0.0.0.0 adrta.com
+:: adrta.com
+0.0.0.0 googlesyndication-cn.com
+:: googlesyndication-cn.com
+0.0.0.0 doubleclick-cn.net
+:: doubleclick-cn.net
+0.0.0.0 fonts.gstatic.cn
+:: fonts.gstatic.cn
+0.0.0.0 pomodoromedia.com
+:: pomodoromedia.com
+0.0.0.0 zemanta.com
+:: zemanta.com
+0.0.0.0 mobilefuse.com
+:: mobilefuse.com
+0.0.0.0 outbrainimg.com
+:: outbrainimg.com
+0.0.0.0 trustarc.com
+:: trustarc.com
+0.0.0.0 truste.com
+:: truste.com
+0.0.0.0 adsrvr.org
+:: adsrvr.org
+0.0.0.0 outbrain.com
+:: outbrain.com
+0.0.0.0 inhousedsp.com
+:: inhousedsp.com
+0.0.0.0 i.sng.link
+:: i.sng.link
+0.0.0.0 inner-active.mobi
+:: inner-active.mobi
+0.0.0.0 richmob.cn
+:: richmob.cn
+0.0.0.0 amazon-adsystem.com
+:: amazon-adsystem.com
+0.0.0.0 ads.pubmatic.com
+:: ads.pubmatic.com
+0.0.0.0 bidder.criteo.com
+:: bidder.criteo.com
+0.0.0.0 gum.criteo.com
+:: gum.criteo.com
+0.0.0.0 smaato.net
+:: smaato.net
+0.0.0.0 spadsync.com
+:: spadsync.com
+0.0.0.0 ads.inmobi.com
+:: ads.inmobi.com
+0.0.0.0 akamaized.net
+:: akamaized.net
+0.0.0.0 spadsync.com
+:: spadsync.com
+0.0.0.0 tpc.googlesyndication.com
+:: tpc.googlesyndication.com
+0.0.0.0 googleadsserving.cn
+:: googleadsserving.cn
+0.0.0.0 googleads.g.doubleclick.net
+:: googleads.g.doubleclick.net
+0.0.0.0 inner-active.mobi
+:: inner-active.mobi
+0.0.0.0 4dvertible.com
+:: 4dvertible.com
+0.0.0.0 smadex.com
+:: smadex.com
+
+# > 天神
+# 未识别规则：host, track.tenjin.com, reject
+# 未识别规则：host, track.tenjin.io, reject
+# 未识别规则：host, errlog.umeng.com, reject
+# 未识别规则：host, lf9-cdn-tos.bytegecko.com, reject
+# 未识别规则：host, novel.pangolin-sdk-toutiao.com, reject
+
+# > 淘宝
+0.0.0.0 apoll.m.taobao.com
+:: apoll.m.taobao.com
+0.0.0.0 h-adashx.ut.taobao.com
+:: h-adashx.ut.taobao.com
+0.0.0.0 w.m.taobao.com
+:: w.m.taobao.com
+# 未识别规则：host, tunion-api.m.taobao.com, reject
+# host-suffix, ai.m.taobao.com, reject
+0.0.0.0 re.m.taobao.com
+:: re.m.taobao.com
+0.0.0.0 agoodm.m.taobao.com
+:: agoodm.m.taobao.com
+0.0.0.0 ai.taobao.com
+:: ai.taobao.com
+0.0.0.0 api.waptest.taobao.com
+:: api.waptest.taobao.com
+0.0.0.0 dsp.simba.taobao.com
+:: dsp.simba.taobao.com
+0.0.0.0 fav.simba.taobao.com
+:: fav.simba.taobao.com
+0.0.0.0 m.simba.taobao.com
+:: m.simba.taobao.com
+0.0.0.0 mclick.simba.taobao.com
+:: mclick.simba.taobao.com
+0.0.0.0 re.taobao.com
+:: re.taobao.com
+0.0.0.0 redirect.simba.taobao.com
+:: redirect.simba.taobao.com
+0.0.0.0 simba.m.taobao.com
+:: simba.m.taobao.com
+0.0.0.0 srd.simba.taobao.com
+:: srd.simba.taobao.com
+0.0.0.0 temai.taobao.com
+:: temai.taobao.com
+0.0.0.0 textlink.simba.taobao.com
+:: textlink.simba.taobao.com
+0.0.0.0 unitacs.m.taobao.com
+:: unitacs.m.taobao.com
+0.0.0.0 acs4baichuan.m.taobao.com
+:: acs4baichuan.m.taobao.com
+0.0.0.0 adashbc.ut.taobao.com
+:: adashbc.ut.taobao.com
+0.0.0.0 adash-c.ut.taobao.com
+:: adash-c.ut.taobao.com
+0.0.0.0 adashxgc.ut.taobao.com
+:: adashxgc.ut.taobao.com
+0.0.0.0 adashx4yt.m.taobao.com
+:: adashx4yt.m.taobao.com
+0.0.0.0 tunion-api.m.taobao.com
+:: tunion-api.m.taobao.com
+0.0.0.0 tns.simba.taobao.com
+:: tns.simba.taobao.com
+0.0.0.0 click.mz.simba.taobao.com
+:: click.mz.simba.taobao.com
+0.0.0.0 click.simba.taobao.com
+:: click.simba.taobao.com
+0.0.0.0 click.tz.simba.taobao.com
+:: click.tz.simba.taobao.com
+0.0.0.0 stat.simba.taobao.com
+:: stat.simba.taobao.com
+0.0.0.0 m-adash.m.taobao.com
+:: m-adash.m.taobao.com
+0.0.0.0 adashbc.m.taobao.com
+:: adashbc.m.taobao.com
+
+# >  腾讯系
+0.0.0.0 activeqq.3g.qq.com
+:: activeqq.3g.qq.com
+0.0.0.0 ad.qq.com
+:: ad.qq.com
+0.0.0.0 adping.qq.com
+:: adping.qq.com
+0.0.0.0 adpm.app.qq.com
+:: adpm.app.qq.com
+0.0.0.0 adrdir.qq.com
+:: adrdir.qq.com
+0.0.0.0 adsclick.qq.com
+:: adsclick.qq.com
+0.0.0.0 adsense.html5.qq.com
+:: adsense.html5.qq.com
+0.0.0.0 adsfile.qq.com
+:: adsfile.qq.com
+0.0.0.0 adsgroup.qq.com
+:: adsgroup.qq.com
+0.0.0.0 adshmct.qq.com
+:: adshmct.qq.com
+0.0.0.0 adshmmsg.qq.com
+:: adshmmsg.qq.com
+0.0.0.0 adslvfile.qq.com
+:: adslvfile.qq.com
+0.0.0.0 adslvseed.qq.com
+:: adslvseed.qq.com
+0.0.0.0 adsolution.imtt.qq.com
+:: adsolution.imtt.qq.com
+0.0.0.0 adsqqclick.qq.com
+:: adsqqclick.qq.com
+0.0.0.0 adstextview.qq.com
+:: adstextview.qq.com
+0.0.0.0 adsview.qq.com
+:: adsview.qq.com
+0.0.0.0 adsview2.qq.com
+:: adsview2.qq.com
+0.0.0.0 adv.app.qq.com
+:: adv.app.qq.com
+0.0.0.0 adver.qq.com
+:: adver.qq.com
+0.0.0.0 aeventlog.beacon.qq.com
+:: aeventlog.beacon.qq.com
+0.0.0.0 analy.qq.com
+:: analy.qq.com
+0.0.0.0 astrategy.beacon.qq.com
+:: astrategy.beacon.qq.com
+0.0.0.0 rp.crasheye.cn
+:: rp.crasheye.cn
+0.0.0.0 cmshow.gtimg.cn
+:: cmshow.gtimg.cn
+0.0.0.0 discuz.gtimg.cn
+:: discuz.gtimg.cn
+0.0.0.0 gu.qlogo.cn
+:: gu.qlogo.cn
+0.0.0.0 py.qlogo.cn
+:: py.qlogo.cn
+0.0.0.0 py2.qlogo.cn
+:: py2.qlogo.cn
+0.0.0.0 beacon.gtimg.com
+:: beacon.gtimg.com
+0.0.0.0 bla.gtimg.com
+:: bla.gtimg.com
+0.0.0.0 lb.gtimg.com
+:: lb.gtimg.com
+0.0.0.0 pgdt.gtimg.com
+:: pgdt.gtimg.com
+0.0.0.0 ra.gtimg.com
+:: ra.gtimg.com
+0.0.0.0 splashqqlive.gtimg.com
+:: splashqqlive.gtimg.com
+0.0.0.0 swa.gtimg.com
+:: swa.gtimg.com
+0.0.0.0 tui.gtimg.com
+:: tui.gtimg.com
+0.0.0.0 wa.gtimg.com
+:: wa.gtimg.com
+0.0.0.0 wb.gtimg.com
+:: wb.gtimg.com
+
+# > 腾讯智慧
+0.0.0.0 tencentmind.com
+:: tencentmind.com
+0.0.0.0 p.tencentmind.com
+:: p.tencentmind.com
+
+# > 同花顺
+# 未识别规则：host, adm.10jqka.com.cn, reject
+# 未识别规则：host, stat.10jqka.com.cn, reject
+0.0.0.0 ad.thsi.cn
+:: ad.thsi.cn
+
+# > 迅雷
+0.0.0.0 adsp.xunlei.com
+:: adsp.xunlei.com
+0.0.0.0 static-xl9-ssl.xunlei.com
+:: static-xl9-ssl.xunlei.com
+0.0.0.0 biz.live.xunlei.com
+:: biz.live.xunlei.com
+0.0.0.0 ct.niu.xunlei.com
+:: ct.niu.xunlei.com
+0.0.0.0 mou.niu.xunlei.com
+:: mou.niu.xunlei.com
+0.0.0.0 scene.vip.xunlei.com
+:: scene.vip.xunlei.com
+0.0.0.0 tw13b093.sandai.net
+:: tw13b093.sandai.net
+0.0.0.0 xlmc.sandai.net
+:: xlmc.sandai.net
+0.0.0.0 cpm.cm.sandai.net
+:: cpm.cm.sandai.net
+0.0.0.0 master.wap.dphub.sandai.net
+:: master.wap.dphub.sandai.net
+0.0.0.0 idx.m.hub.sandai.net
+:: idx.m.hub.sandai.net
+0.0.0.0 liveupdate.mac.sandai.net
+:: liveupdate.mac.sandai.net
+0.0.0.0 hub5pn.wap.sandai.net
+:: hub5pn.wap.sandai.net
+0.0.0.0 etl.xlmc.sandai.net
+:: etl.xlmc.sandai.net
+0.0.0.0 test.api.xlmc.sandai.net
+:: test.api.xlmc.sandai.net
+0.0.0.0 pre.api.tw06.xlmc.sandai.net
+:: pre.api.tw06.xlmc.sandai.net
+
+# > 团油
+# 未识别规则：host-keyword, img1.czb365.com, reject
+
+# > 同盾
+0.0.0.0 fraudmetrix.cn
+:: fraudmetrix.cn
+0.0.0.0 fp.fraudmetrix.cn
+:: fp.fraudmetrix.cn
+0.0.0.0 fptest.fraudmetrix.cn
+:: fptest.fraudmetrix.cn
+0.0.0.0 statictest.fraudmetrix.cn
+:: statictest.fraudmetrix.cn
+
+# > 太平洋电脑
+0.0.0.0 iad0ssl.pcauto.com.cn
+:: iad0ssl.pcauto.com.cn
+0.0.0.0 imgad0.pcauto.com.cn
+:: imgad0.pcauto.com.cn
+0.0.0.0 ivy.pcauto.com.cn
+:: ivy.pcauto.com.cn
+0.0.0.0 ivy.pcbaby.com.cn
+:: ivy.pcbaby.com.cn
+0.0.0.0 ivy.pchouse.com.cn
+:: ivy.pchouse.com.cn
+0.0.0.0 ivy.pclady.com.cn
+:: ivy.pclady.com.cn
+0.0.0.0 ad-analysis.pconline.com.cn
+:: ad-analysis.pconline.com.cn
+0.0.0.0 count5.pconline.com.cn
+:: count5.pconline.com.cn
+0.0.0.0 count6.pconline.com.cn
+:: count6.pconline.com.cn
+0.0.0.0 iad0ssl.pconline.com.cn
+:: iad0ssl.pconline.com.cn
+0.0.0.0 imgad0.pconline.com.cn
+:: imgad0.pconline.com.cn
+0.0.0.0 ivy.pconline.com.cn
+:: ivy.pconline.com.cn
+
+# > 天天看看
+0.0.0.0 biz5.kankan.com
+:: biz5.kankan.com
+0.0.0.0 distf.kankan.com
+:: distf.kankan.com
+0.0.0.0 float.kankan.com
+:: float.kankan.com
+0.0.0.0 kkpgv.kankan.com
+:: kkpgv.kankan.com
+0.0.0.0 kkpgv2.kankan.com
+:: kkpgv2.kankan.com
+0.0.0.0 cpm.cm.kankan.com
+:: cpm.cm.kankan.com
+0.0.0.0 count.cpm.cm.kankan.com
+:: count.cpm.cm.kankan.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
+# > Urban Airship
+0.0.0.0 urbanairship.com
+:: urbanairship.com
+0.0.0.0 combine.urbanairship.com
+:: combine.urbanairship.com
+
+# > UC浏览器
+# 未识别规则：host, safe.ucweb.com, reject
+# 未识别规则：host, px.ucweb.com, reject
+# 未识别规则：host, navigis.uc.cn, reject
+# 未识别规则：host, order.sm.cn, reject
+# 未识别规则：host, ucdc-upaas.uc.cn, reject
+# 未识别规则：host, access.open.uc.cn, reject
+# 未识别规则：host, uc.ucweb.com, reject
+# 未识别规则：host, emoji.uc.cn, reject
+# 未识别规则：host, ssp-partner.alibaba.com, reject
+# 未识别规则：host, voice-service.uc.cn, reject
+# 未识别规则：host, v.uc.cn, reject
+# 未识别规则：host, coral.uc.cn, reject
+# 未识别规则：host, wolong-dsp.sm.cn, reject
+# 未识别规则：host, cartoonapi.uc.cn, reject
+# 未识别规则：host, umessage-online-zb.uc.cn, reject
+# 未识别规则：host, api.c.uc.cn, reject
+# 未识别规则：host, aid.m.taobao.com, reject
+# 未识别规则：host, cms.uc.cn, reject
+# 未识别规则：host, applog-perf.uc.cn, reject
+0.0.0.0 clickc.admaster.com.cn
+:: clickc.admaster.com.cn
+0.0.0.0 fans.m.tmall.com
+:: fans.m.tmall.com
+0.0.0.0 r1.ykimg.com
+:: r1.ykimg.com
+0.0.0.0 v.admaster.com.cn
+:: v.admaster.com.cn
+0.0.0.0 v2.reachmax.cn
+:: v2.reachmax.cn
+0.0.0.0 server.m.pp.cn
+:: server.m.pp.cn
+0.0.0.0 puds.ucweb.com
+:: puds.ucweb.com
+0.0.0.0 wgo.mmstat.com
+:: wgo.mmstat.com
+0.0.0.0 log.cs.pp.cn
+:: log.cs.pp.cn
+0.0.0.0 applog.uc.cn
+:: applog.uc.cn
+0.0.0.0 afpapi.alimama.com
+:: afpapi.alimama.com
+0.0.0.0 a.9game.cn
+:: a.9game.cn
+0.0.0.0 track.uc.cn
+:: track.uc.cn
+0.0.0.0 adtrack.ucweb.com
+:: adtrack.ucweb.com
+0.0.0.0 utp-dmp.ucweb.com
+:: utp-dmp.ucweb.com
+0.0.0.0 utp.ucweb.com
+:: utp.ucweb.com
+0.0.0.0 huichuan.sm.cn
+:: huichuan.sm.cn
+0.0.0.0 ynuf.alipay.com
+:: ynuf.alipay.com
+0.0.0.0 pdds.ucweb.com
+:: pdds.ucweb.com
+0.0.0.0 js.union-wifi.com
+:: js.union-wifi.com
+0.0.0.0 qmlog.cn
+:: qmlog.cn
+0.0.0.0 cpu.baidu.com
+:: cpu.baidu.com
+0.0.0.0 caclick.baidu.com
+:: caclick.baidu.com
+0.0.0.0 rescn.u3.ucweb.com
+:: rescn.u3.ucweb.com
+# 未识别规则：host, feedback.uc.cn, reject
+# 未识别规则：host, gj.applog.uc.cn, reject
+# 未识别规则：host, gj.track.uc.cn, reject
+# 未识别规则：host, gjapplog.uc.cn, reject
+# 未识别规则：host, gjtrack.uc.cn, reject
+# 未识别规则：host, holmeshelptest.uc.cn, reject
+0.0.0.0 ads.uc.cn
+:: ads.uc.cn
+0.0.0.0 adslot.uc.cn
+:: adslot.uc.cn
+0.0.0.0 alissl.ucdl.pp.uc.cn
+:: alissl.ucdl.pp.uc.cn
+0.0.0.0 api.mp.uc.cn
+:: api.mp.uc.cn
+0.0.0.0 api.open.uc.cn
+:: api.open.uc.cn
+0.0.0.0 applog.uc.cn
+:: applog.uc.cn
+0.0.0.0 applogios.uc.cn
+:: applogios.uc.cn
+0.0.0.0 bench.uc.cn
+:: bench.uc.cn
+0.0.0.0 client.tv.uc.cn
+:: client.tv.uc.cn
+0.0.0.0 coral-task.uc.cn
+:: coral-task.uc.cn
+0.0.0.0 dispatcher.upmc.uc.cn
+:: dispatcher.upmc.uc.cn
+0.0.0.0 hcadv.video.ums.uc.cn
+:: hcadv.video.ums.uc.cn
+0.0.0.0 hao.uc.cn
+:: hao.uc.cn
+0.0.0.0 lobmuc.cn
+:: lobmuc.cn
+0.0.0.0 open-uc.cn
+:: open-uc.cn
+0.0.0.0 puds.test.uae.uc.cn
+:: puds.test.uae.uc.cn
+# 未识别规则：;host-suffix, t.uc.cn, reject
+0.0.0.0 track.uc.cn
+:: track.uc.cn
+0.0.0.0 wmedia-track.uc.cn
+:: wmedia-track.uc.cn
+0.0.0.0 woodpecker.uc.cn
+:: woodpecker.uc.cn
+# 未识别规则：host, gecko-pangle-lf.snssdk.com, reject
+# 未识别规则：host, mercury-sdk.snssdk.com, reject
+# 未识别规则：host, tbm.snssdk.com, reject
+# 未识别规则：host, toblog.ctobsnssdk.com, reject
+# 未识别规则：host, tnc3-aliec2.snssdk.com, reject
+0.0.0.0 kwurl.ucweb.com
+:: kwurl.ucweb.com
+0.0.0.0 uc9.ucweb.com
+:: uc9.ucweb.com
+0.0.0.0 ucus.ucweb.com
+:: ucus.ucweb.com
+0.0.0.0 up4.ucweb.com
+:: up4.ucweb.com
+0.0.0.0 wap3.ucweb.com
+:: wap3.ucweb.com
+0.0.0.0 adn.insight.ucweb.com
+:: adn.insight.ucweb.com
+0.0.0.0 hk.napi.ucweb.com
+:: hk.napi.ucweb.com
+0.0.0.0 sea.napi.ucweb.com
+:: sea.napi.ucweb.com
+0.0.0.0 bjcu.u3.ucweb.com
+:: bjcu.u3.ucweb.com
+0.0.0.0 vs8.gzct.u3.ucweb.com
+:: vs8.gzct.u3.ucweb.com
+0.0.0.0 vs19.gzcu.u3.ucweb.com
+:: vs19.gzcu.u3.ucweb.com
+0.0.0.0 vs2.gzcu.u3.ucweb.com
+:: vs2.gzcu.u3.ucweb.com
+0.0.0.0 vs7.gzcu.u3.ucweb.com
+:: vs7.gzcu.u3.ucweb.com
+0.0.0.0 vs8.gzcu.u3.ucweb.com
+:: vs8.gzcu.u3.ucweb.com
+0.0.0.0 slot.union.ucweb.com
+:: slot.union.ucweb.com
+
+# > Unity Ads
+0.0.0.0 config.unityads.unity3d.com
+:: config.unityads.unity3d.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ V ✅ <<<<<<<<<<<<<<
+# > Vivo
+# 未识别规则：host, adlog.vivo.com.cn, reject
+# 未识别规则：host, adreq.vivo.com.cn, reject
+# 未识别规则：host, ads-marketing-vivofs.vivo.com.cn, reject
+# 未识别规则：host, adsdk.vivo.com.cn, reject
+# 未识别规则：host, adsstatic.vivo.com.cn, reject
+# 未识别规则：host, adxlog.vivo.com.cn, reject
+# 未识别规则：host, vcardsdkservice.vivo.com.cn, reject
+# 未识别规则：host-keyword, stsdk.vivo.com.cn, reject
+# 未识别规则：host-keyword, stsdk.vivoglobal.com, reject
+
+# > VIVO商城
+# 未识别规则：host-keyword, paradisestatic.vivo.com.cn, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ W ✅ <<<<<<<<<<<<<<
+# > Whale Cloud (鲸云)
+0.0.0.0 whalecloud.com
+:: whalecloud.com
+0.0.0.0 feedback.whalecloud.com
+:: feedback.whalecloud.com
+
+# > Waps（无线广告交易中心）
+0.0.0.0 waps.cn
+:: waps.cn
+0.0.0.0 app.waps.cn
+:: app.waps.cn
+0.0.0.0 wapx.cn
+:: wapx.cn
+0.0.0.0 app.wapx.cn
+:: app.wapx.cn
+0.0.0.0 appcdn.wapx.cn
+:: appcdn.wapx.cn
+0.0.0.0 imgcdn.wapx.cn
+:: imgcdn.wapx.cn
+0.0.0.0 push.wapx.cn
+:: push.wapx.cn
+0.0.0.0 wapscdn.wapx.cn
+:: wapscdn.wapx.cn
+0.0.0.0 wapx.com
+:: wapx.com
+
+# > Wostore (联通沃商店)
+0.0.0.0 appspromote.wostore.cn
+:: appspromote.wostore.cn
+0.0.0.0 secpay.wostore.cn
+:: secpay.wostore.cn
+0.0.0.0 unilog.wostore.cn
+:: unilog.wostore.cn
+0.0.0.0 unipaydl.wostore.cn
+:: unipaydl.wostore.cn
+0.0.0.0 unipayupg.wostore.cn
+:: unipayupg.wostore.cn
+
+# > WiFi万能钥匙
+# 未识别规则：host-keyword, app.51y5.net, reject
+# 未识别规则：host-keyword, apiinit.amap.com, reject
+# 未识别规则：host-keyword, c.51y5.net, reject
+# 未识别规则：host-keyword, msg.push.51y5.net, reject
+# 未识别规则：host-keyword, a.wkanx.com, reject
+# 未识别规则：host-keyword, c.wkanx.com, reject
+# 未识别规则：host-keyword, c1.wkanx.com, reject
+# 未识别规则：host-keyword, ap.51y5.net, reject
+# 未识别规则：host-keyword, dc.51y5.net, reject
+# 未识别规则：host-keyword, push-dc.51y5.net, reject
+# 未识别规则：host-keyword, news-log.51y5.net, reject
+# 未识别规则：host-keyword, login.push.51y5.net, reject
+# 未识别规则：host-keyword, news.51y5.net, reject
+# 未识别规则：host-keyword, cds.51y5.net, reject
+# 未识别规则：host-keyword, insurance.lianwifi.com, reject
+# 未识别规则：host-keyword, config.51y5.net, reject
+# 未识别规则：host-keyword, static.wkanx.com, reject
+# 未识别规则：host-keyword, config.y5en.com, reject
+# 万能钥匙专业版
+# 感谢【All in 梭哈】分享
+0.0.0.0 mi.gdt.qq.com
+:: mi.gdt.qq.com
+# 去除导航栏免费短剧
+# 未识别规则：host, taichi.51y5.net, reject
+
+# > 网易
+0.0.0.0 dsp.youdao.com
+:: dsp.youdao.com
+0.0.0.0 union.youdao.com
+:: union.youdao.com
+# 未识别规则：host, ad.bn.netease.com, reject
+# 未识别规则：host, ad.yixin.im, reject
+# 未识别规则：host, admusicpic.music.126.net, reject
+# 未识别规则：host, g1.163.com, reject
+# 未识别规则：host, gorgon.youdao.com, reject
+# 未识别规则：host, iad.g.163.com, reject
+# 未识别规则：host, iadmat.nosdn.127.net, reject
+# 未识别规则：host, iadmusicmat.music.126.net, reject
+# 未识别规则：host, iadmusicmatvideo.music.126.net, reject
+# 未识别规则：host, impservice.dictapp.youdao.com, reject
+# 未识别规则：host, impservice.youdao.com, reject
+# 未识别规则：host, n.3g.163.com, reject
+# 未识别规则：host, nex.163.com, reject
+# 未识别规则：host, yt-adp.nosdn.127.net, reject
+# 未识别规则：host, yt-adp.ws.126.net, reject
+0.0.0.0 ir.mail.126.com
+:: ir.mail.126.com
+0.0.0.0 adgeo.163.com
+:: adgeo.163.com
+0.0.0.0 bobo.163.com
+:: bobo.163.com
+0.0.0.0 crashlytics.163.com
+:: crashlytics.163.com
+0.0.0.0 e-p4p.163.com
+:: e-p4p.163.com
+0.0.0.0 fa.163.com
+:: fa.163.com
+0.0.0.0 g.163.com
+:: g.163.com
+0.0.0.0 g1.163.com
+:: g1.163.com
+0.0.0.0 nex.163.com
+:: nex.163.com
+0.0.0.0 popme.163.com
+:: popme.163.com
+0.0.0.0 temp.163.com
+:: temp.163.com
+0.0.0.0 n.3g.163.com
+:: n.3g.163.com
+0.0.0.0 gb.corp.163.com
+:: gb.corp.163.com
+0.0.0.0 iad.g.163.com
+:: iad.g.163.com
+0.0.0.0 rec.g.163.com
+:: rec.g.163.com
+0.0.0.0 count.mail.163.com
+:: count.mail.163.com
+0.0.0.0 ir.mail.163.com
+:: ir.mail.163.com
+0.0.0.0 irpmt.mail.163.com
+:: irpmt.mail.163.com
+0.0.0.0 r.mail.163.com
+:: r.mail.163.com
+0.0.0.0 push.yuedu.163.com
+:: push.yuedu.163.com
+0.0.0.0 ad.bn.netease.com
+:: ad.bn.netease.com
+0.0.0.0 mr.da.netease.com
+:: mr.da.netease.com
+0.0.0.0 pr.da.netease.com
+:: pr.da.netease.com
+0.0.0.0 rd.da.netease.com
+:: rd.da.netease.com
+0.0.0.0 wr.da.netease.com
+:: wr.da.netease.com
+0.0.0.0 img1.126.net
+:: img1.126.net
+0.0.0.0 img2.126.net
+:: img2.126.net
+0.0.0.0 img3.126.net
+:: img3.126.net
+0.0.0.0 img6.126.net
+:: img6.126.net
+0.0.0.0 mimg.126.net
+:: mimg.126.net
+0.0.0.0 pimg1.126.net
+:: pimg1.126.net
+0.0.0.0 push.126.net
+:: push.126.net
+0.0.0.0 b.bst.126.net
+:: b.bst.126.net
+0.0.0.0 admusicpic.music.126.net
+:: admusicpic.music.126.net
+0.0.0.0 iadmusicmat.music.126.net
+:: iadmusicmat.music.126.net
+0.0.0.0 iadmusicmatvideo.music.126.net
+:: iadmusicmatvideo.music.126.net
+0.0.0.0 android.push.126.net
+:: android.push.126.net
+0.0.0.0 news.push.126.net
+:: news.push.126.net
+0.0.0.0 webstat.ws.126.net
+:: webstat.ws.126.net
+0.0.0.0 yt-adp.ws.126.net
+:: yt-adp.ws.126.net
+0.0.0.0 wanproxy.127.net
+:: wanproxy.127.net
+0.0.0.0 haitaoad.nosdn.127.net
+:: haitaoad.nosdn.127.net
+0.0.0.0 iadmatvideo.nosdn.127.net
+:: iadmatvideo.nosdn.127.net
+0.0.0.0 yt-adp.nosdn.127.net
+:: yt-adp.nosdn.127.net
+0.0.0.0 ir.mail.yeah.net
+:: ir.mail.yeah.net
+0.0.0.0 a.youdao.com
+:: a.youdao.com
+0.0.0.0 c.youdao.com
+:: c.youdao.com
+0.0.0.0 clkservice.youdao.com
+:: clkservice.youdao.com
+0.0.0.0 conv.youdao.com
+:: conv.youdao.com
+0.0.0.0 dsp-click.youdao.com
+:: dsp-click.youdao.com
+0.0.0.0 dsp-impr.youdao.com
+:: dsp-impr.youdao.com
+0.0.0.0 dsp-impr2.youdao.com
+:: dsp-impr2.youdao.com
+0.0.0.0 gorgon.youdao.com
+:: gorgon.youdao.com
+0.0.0.0 impservice.youdao.com
+:: impservice.youdao.com
+0.0.0.0 impservice2.youdao.com
+:: impservice2.youdao.com
+0.0.0.0 log-yex.youdao.com
+:: log-yex.youdao.com
+0.0.0.0 rlogs.youdao.com
+:: rlogs.youdao.com
+0.0.0.0 ydpushserver.youdao.com
+:: ydpushserver.youdao.com
+0.0.0.0 b.clkservice.youdao.com
+:: b.clkservice.youdao.com
+0.0.0.0 d.clkservice.youdao.com
+:: d.clkservice.youdao.com
+0.0.0.0 i.clkservice.youdao.com
+:: i.clkservice.youdao.com
+0.0.0.0 m.clkservice.youdao.com
+:: m.clkservice.youdao.com
+0.0.0.0 p.clkservice.youdao.com
+:: p.clkservice.youdao.com
+0.0.0.0 s.clkservice.youdao.com
+:: s.clkservice.youdao.com
+0.0.0.0 nc004x.corp.youdao.com
+:: nc004x.corp.youdao.com
+0.0.0.0 nc045x.corp.youdao.com
+:: nc045x.corp.youdao.com
+0.0.0.0 qt002x.corp.youdao.com
+:: qt002x.corp.youdao.com
+0.0.0.0 tb060x.corp.youdao.com
+:: tb060x.corp.youdao.com
+0.0.0.0 tb104x.corp.youdao.com
+:: tb104x.corp.youdao.com
+0.0.0.0 clkservice2.dict.youdao.com
+:: clkservice2.dict.youdao.com
+0.0.0.0 impservice.dictapp.youdao.com
+:: impservice.dictapp.youdao.com
+0.0.0.0 impservice-test.dictapp.youdao.com
+:: impservice-test.dictapp.youdao.com
+0.0.0.0 impservicetest.dictapp.youdao.com
+:: impservicetest.dictapp.youdao.com
+0.0.0.0 clkservice.mail.youdao.com
+:: clkservice.mail.youdao.com
+0.0.0.0 clkservice.union.youdao.com
+:: clkservice.union.youdao.com
+0.0.0.0 log.yex.youdao.com
+:: log.yex.youdao.com
+
+# > 网易云
+# 此条会导致"淘宝->成就中心->淘宝人生"进不去
+# 未识别规则：;host-keyword, ossgw.alicdn.com, reject
+
+# > 歪麦霸王餐
+# 去开屏
+0.0.0.0 ad.gameley.com
+:: ad.gameley.com
+0.0.0.0 zlsdk.1rtb.net
+:: zlsdk.1rtb.net
+
+# > 豌豆荚
+0.0.0.0 push.wandoujia.com
+:: push.wandoujia.com
+
+# > 唯品会
+0.0.0.0 n-st.vip.com
+:: n-st.vip.com
+0.0.0.0 api.union.vip.com
+:: api.union.vip.com
+0.0.0.0 ms.vipstatic.com
+:: ms.vipstatic.com
+
+# > 威锋
+# 广告联盟已包含
+#host-suffix, aoodoo.feng.com
+#host-suffix, push.feng.com
+#host-suffix, aoodoo.weiphone.com
+
+
+# >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
+# > 讯飞输入法
+# 未识别规则：host-keyword, ossp.voicecloud.cn, reject
+# 未识别规则：host-keyword, bj.imp.voiceads.cn, reject
+# 未识别规则：host-keyword, m.panda.voiceads.cn, reject
+# 未识别规则：host-keyword, iflyad.bj.openstorage.cn, reject
+
+# > 喜马拉雅
+# 未识别规则：host, adsehera.ximalaya.com, REJECT
+# 未识别规则：host, adse.wsa.ximalaya.com, REJECT
+# 未识别规则：host, adbehavior.ximalaya.com, REJECT
+# 未识别规则：host, adbehavior.wsa.ximalaya.com, REJECT
+0.0.0.0 ad.ximalaya.com
+:: ad.ximalaya.com
+0.0.0.0 adse.ximalaya.com
+:: adse.ximalaya.com
+0.0.0.0 adse-v2.ximalaya.com
+:: adse-v2.ximalaya.com
+0.0.0.0 open.ximalaya.com
+:: open.ximalaya.com
+0.0.0.0 upos-app.ximalaya.com
+:: upos-app.ximalaya.com
+
+# > 小红书
+# 未识别规则：host, ads-img-qc.xhscdn.com, reject
+# 未识别规则：host, ads-video-al.xhscdn.com, reject
+# 未识别规则：host, ads-video-qc.xhscdn.com, reject
+# 未识别规则：host, t-ads.xiaohongshu.com, reject
+
+# > 小米
+||*XiaoQiang*$important
+0.0.0.0 ad.mi.com
+:: ad.mi.com
+0.0.0.0 ad1.xiaomi.com
+:: ad1.xiaomi.com
+0.0.0.0 admob.xiaomi.com
+:: admob.xiaomi.com
+0.0.0.0 shenghuo.xiaomi.com
+:: shenghuo.xiaomi.com
+0.0.0.0 xmpush.xiaomi.com
+:: xmpush.xiaomi.com
+0.0.0.0 image.box.xiaomi.com
+:: image.box.xiaomi.com
+0.0.0.0 notice.game.xiaomi.com
+:: notice.game.xiaomi.com
+0.0.0.0 ppurifier.game.xiaomi.com
+:: ppurifier.game.xiaomi.com
+0.0.0.0 ad.intl.xiaomi.com
+:: ad.intl.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+:: sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 wtradv.market.xiaomi.com
+:: wtradv.market.xiaomi.com
+0.0.0.0 abtest.mistat.xiaomi.com
+:: abtest.mistat.xiaomi.com
+0.0.0.0 data.mistat.xiaomi.com
+:: data.mistat.xiaomi.com
+0.0.0.0 storeconfig.mistat.xiaomi.com
+:: storeconfig.mistat.xiaomi.com
+0.0.0.0 bss.pandora.xiaomi.com
+:: bss.pandora.xiaomi.com
+0.0.0.0 dvb.pandora.xiaomi.com
+:: dvb.pandora.xiaomi.com
+0.0.0.0 jellyfish.pandora.xiaomi.com
+:: jellyfish.pandora.xiaomi.com
+0.0.0.0 m.bss.pandora.xiaomi.com
+:: m.bss.pandora.xiaomi.com
+0.0.0.0 resolver.gslb.mi-idc.com
+:: resolver.gslb.mi-idc.com
+0.0.0.0 f3.mi-stat.gslb.mi-idc.com
+:: f3.mi-stat.gslb.mi-idc.com
+0.0.0.0 app01.nodes.gslb.mi-idc.com
+:: app01.nodes.gslb.mi-idc.com
+0.0.0.0 app02.nodes.gslb.mi-idc.com
+:: app02.nodes.gslb.mi-idc.com
+0.0.0.0 tracking.miui.com
+:: tracking.miui.com
+0.0.0.0 hot.browser.miui.com
+:: hot.browser.miui.com
+0.0.0.0 r.browser.miui.com
+:: r.browser.miui.com
+0.0.0.0 reader.browser.miui.com
+:: reader.browser.miui.com
+0.0.0.0 security.browser.miui.com
+:: security.browser.miui.com
+0.0.0.0 calopenupdate.comm.miui.com
+:: calopenupdate.comm.miui.com
+0.0.0.0 tracking.intl.miui.com
+:: tracking.intl.miui.com
+0.0.0.0 adv.sec.intl.miui.com
+:: adv.sec.intl.miui.com
+0.0.0.0 adv.sec.miui.com
+:: adv.sec.miui.com
+0.0.0.0 api.sec.miui.com
+:: api.sec.miui.com
+0.0.0.0 info.sec.miui.com
+:: info.sec.miui.com
+0.0.0.0 proxy.sec.miui.com
+:: proxy.sec.miui.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+:: logupdate.avlyun.sec.miui.com
+0.0.0.0 update.avlyun.sec.miui.com
+:: update.avlyun.sec.miui.com
+0.0.0.0 etl.xlmc.sec.miui.com
+:: etl.xlmc.sec.miui.com
+0.0.0.0 adinfo.ra1.xlmc.sec.miui.com
+:: adinfo.ra1.xlmc.sec.miui.com
+0.0.0.0 api.ra2.xlmc.sec.miui.com
+:: api.ra2.xlmc.sec.miui.com
+0.0.0.0 api.tw06.xlmc.sec.miui.com
+:: api.tw06.xlmc.sec.miui.com
+0.0.0.0 metok.sys.miui.com
+:: metok.sys.miui.com
+0.0.0.0 api.xk.miui.com
+:: api.xk.miui.com
+0.0.0.0 fb.xk.miui.com
+:: fb.xk.miui.com
+0.0.0.0 lxcdn.dl.files.xiaomi.net
+:: lxcdn.dl.files.xiaomi.net
+0.0.0.0 pdc.micloud.xiaomi.net
+:: pdc.micloud.xiaomi.net
+0.0.0.0 migrate.driveapi.micloud.xiaomi.net
+:: migrate.driveapi.micloud.xiaomi.net
+0.0.0.0 resolver.msg.xiaomi.net
+:: resolver.msg.xiaomi.net
+0.0.0.0 mlog.search.xiaomi.net
+:: mlog.search.xiaomi.net
+0.0.0.0 staging.admin.e.mi.com
+:: staging.admin.e.mi.com
+0.0.0.0 migc.g.mi.com
+:: migc.g.mi.com
+0.0.0.0 migcreport.g.mi.com
+:: migcreport.g.mi.com
+0.0.0.0 mis.g.mi.com
+:: mis.g.mi.com
+0.0.0.0 mivideo.g.mi.com
+:: mivideo.g.mi.com
+0.0.0.0 a.hl.mi.com
+:: a.hl.mi.com
+0.0.0.0 api.jr.mi.com
+:: api.jr.mi.com
+0.0.0.0 a.union.mi.com
+:: a.union.mi.com
+
+# > 小小影视
+# 未识别规则：host, 39d83s.com, reject
+
+# > 小利生活
+# 未识别规则：host-keyword, mpos-pic.helipay.com, reject
+
+# > 小爱音箱
+# 未识别规则：host, mistat.xiaomi.com, reject
+
+# > 晓晓优选
+0.0.0.0 fancyapi.com
+:: fancyapi.com
+0.0.0.0 ad.richmob.cn
+:: ad.richmob.cn
+0.0.0.0 api-htp.beizi.biz
+:: api-htp.beizi.biz
+0.0.0.0 yfanads.com
+:: yfanads.com
+0.0.0.0 1rtb.net
+:: 1rtb.net
+0.0.0.0 adwangmai.com
+:: adwangmai.com
+0.0.0.0 yunxinfw.com
+:: yunxinfw.com
+0.0.0.0 bridgeoos.com
+:: bridgeoos.com
+0.0.0.0 cloooud.com
+:: cloooud.com
+0.0.0.0 baihemob.com
+:: baihemob.com
+0.0.0.0 ad.bwton.com
+:: ad.bwton.com
+0.0.0.0 api.wxcjgg.cn
+:: api.wxcjgg.cn
+0.0.0.0 shunchangzhixing.com
+:: shunchangzhixing.com
+# 未识别规则：IP-CIDR, 114.132.165.205/32, REJECT
+
+# > 新浪
+0.0.0.0 ad.sina.com.cn
+:: ad.sina.com.cn
+0.0.0.0 ad4.sina.com.cn
+:: ad4.sina.com.cn
+0.0.0.0 adbox.sina.com.cn
+:: adbox.sina.com.cn
+0.0.0.0 counter.sina.com.cn
+:: counter.sina.com.cn
+0.0.0.0 current.sina.com.cn
+:: current.sina.com.cn
+0.0.0.0 d0.sina.com.cn
+:: d0.sina.com.cn
+0.0.0.0 d00.sina.com.cn
+:: d00.sina.com.cn
+0.0.0.0 d1.sina.com.cn
+:: d1.sina.com.cn
+0.0.0.0 d2.sina.com.cn
+:: d2.sina.com.cn
+0.0.0.0 d3.sina.com.cn
+:: d3.sina.com.cn
+0.0.0.0 d4.sina.com.cn
+:: d4.sina.com.cn
+0.0.0.0 d5.sina.com.cn
+:: d5.sina.com.cn
+0.0.0.0 d6.sina.com.cn
+:: d6.sina.com.cn
+0.0.0.0 d7.sina.com.cn
+:: d7.sina.com.cn
+0.0.0.0 d8.sina.com.cn
+:: d8.sina.com.cn
+0.0.0.0 d9.sina.com.cn
+:: d9.sina.com.cn
+0.0.0.0 dcads.sina.com.cn
+:: dcads.sina.com.cn
+0.0.0.0 p4p.sina.com.cn
+:: p4p.sina.com.cn
+0.0.0.0 pfp.sina.com.cn
+:: pfp.sina.com.cn
+0.0.0.0 rm.sina.com.cn
+:: rm.sina.com.cn
+0.0.0.0 sax.sina.com.cn
+:: sax.sina.com.cn
+0.0.0.0 saxn.sina.com.cn
+:: saxn.sina.com.cn
+0.0.0.0 saxs.sina.com.cn
+:: saxs.sina.com.cn
+0.0.0.0 sbeacon.sina.com.cn
+:: sbeacon.sina.com.cn
+0.0.0.0 slog.sina.com.cn
+:: slog.sina.com.cn
+0.0.0.0 woocall.sina.com.cn
+:: woocall.sina.com.cn
+0.0.0.0 img.amp.ad.sina.com.cn
+:: img.amp.ad.sina.com.cn
+0.0.0.0 img.adbox.sina.com.cn
+:: img.adbox.sina.com.cn
+0.0.0.0 m.beacon.sina.com.cn
+:: m.beacon.sina.com.cn
+0.0.0.0 r.dmp.sina.com.cn
+:: r.dmp.sina.com.cn
+0.0.0.0 int.dpool.sina.com.cn
+:: int.dpool.sina.com.cn
+0.0.0.0 mg.games.sina.com.cn
+:: mg.games.sina.com.cn
+0.0.0.0 adm.leju.sina.com.cn
+:: adm.leju.sina.com.cn
+0.0.0.0 staticadm.leju.sina.com.cn
+:: staticadm.leju.sina.com.cn
+0.0.0.0 cre.mix.sina.com.cn
+:: cre.mix.sina.com.cn
+0.0.0.0 interest.mix.sina.com.cn
+:: interest.mix.sina.com.cn
+0.0.0.0 s.img.mix.sina.com.cn
+:: s.img.mix.sina.com.cn
+0.0.0.0 motu.p4p.sina.com.cn
+:: motu.p4p.sina.com.cn
+0.0.0.0 count.video.sina.com.cn
+:: count.video.sina.com.cn
+0.0.0.0 sinaaliyun.cn
+:: sinaaliyun.cn
+0.0.0.0 ad.sina.com.cn
+:: ad.sina.com.cn
+0.0.0.0 ad4.sina.com.cn
+:: ad4.sina.com.cn
+0.0.0.0 adbox.sina.com.cn
+:: adbox.sina.com.cn
+0.0.0.0 counter.sina.com.cn
+:: counter.sina.com.cn
+0.0.0.0 current.sina.com.cn
+:: current.sina.com.cn
+0.0.0.0 d0.sina.com.cn
+:: d0.sina.com.cn
+0.0.0.0 d00.sina.com.cn
+:: d00.sina.com.cn
+0.0.0.0 d1.sina.com.cn
+:: d1.sina.com.cn
+0.0.0.0 d2.sina.com.cn
+:: d2.sina.com.cn
+0.0.0.0 d3.sina.com.cn
+:: d3.sina.com.cn
+0.0.0.0 d4.sina.com.cn
+:: d4.sina.com.cn
+0.0.0.0 d5.sina.com.cn
+:: d5.sina.com.cn
+0.0.0.0 d6.sina.com.cn
+:: d6.sina.com.cn
+0.0.0.0 d7.sina.com.cn
+:: d7.sina.com.cn
+0.0.0.0 d8.sina.com.cn
+:: d8.sina.com.cn
+0.0.0.0 d9.sina.com.cn
+:: d9.sina.com.cn
+0.0.0.0 dcads.sina.com.cn
+:: dcads.sina.com.cn
+0.0.0.0 p4p.sina.com.cn
+:: p4p.sina.com.cn
+0.0.0.0 pfp.sina.com.cn
+:: pfp.sina.com.cn
+0.0.0.0 rm.sina.com.cn
+:: rm.sina.com.cn
+0.0.0.0 sax.sina.com.cn
+:: sax.sina.com.cn
+0.0.0.0 saxn.sina.com.cn
+:: saxn.sina.com.cn
+0.0.0.0 saxs.sina.com.cn
+:: saxs.sina.com.cn
+0.0.0.0 sbeacon.sina.com.cn
+:: sbeacon.sina.com.cn
+0.0.0.0 slog.sina.com.cn
+:: slog.sina.com.cn
+0.0.0.0 woocall.sina.com.cn
+:: woocall.sina.com.cn
+0.0.0.0 img.amp.ad.sina.com.cn
+:: img.amp.ad.sina.com.cn
+0.0.0.0 img.adbox.sina.com.cn
+:: img.adbox.sina.com.cn
+0.0.0.0 m.beacon.sina.com.cn
+:: m.beacon.sina.com.cn
+0.0.0.0 r.dmp.sina.com.cn
+:: r.dmp.sina.com.cn
+0.0.0.0 int.dpool.sina.com.cn
+:: int.dpool.sina.com.cn
+0.0.0.0 mg.games.sina.com.cn
+:: mg.games.sina.com.cn
+0.0.0.0 adm.leju.sina.com.cn
+:: adm.leju.sina.com.cn
+0.0.0.0 staticadm.leju.sina.com.cn
+:: staticadm.leju.sina.com.cn
+0.0.0.0 cre.mix.sina.com.cn
+:: cre.mix.sina.com.cn
+0.0.0.0 interest.mix.sina.com.cn
+:: interest.mix.sina.com.cn
+0.0.0.0 s.img.mix.sina.com.cn
+:: s.img.mix.sina.com.cn
+0.0.0.0 motu.p4p.sina.com.cn
+:: motu.p4p.sina.com.cn
+0.0.0.0 count.video.sina.com.cn
+:: count.video.sina.com.cn
+0.0.0.0 2016.sina.cn
+:: 2016.sina.cn
+0.0.0.0 cre-dp.sina.cn
+:: cre-dp.sina.cn
+0.0.0.0 dmp.sina.cn
+:: dmp.sina.cn
+0.0.0.0 palmnews.sina.cn
+:: palmnews.sina.cn
+0.0.0.0 sapi.sina.cn
+:: sapi.sina.cn
+0.0.0.0 slog.sina.cn
+:: slog.sina.cn
+0.0.0.0 api.apps.sina.cn
+:: api.apps.sina.cn
+0.0.0.0 cre.dp.sina.cn
+:: cre.dp.sina.cn
+0.0.0.0 dl.kjava.sina.cn
+:: dl.kjava.sina.cn
+0.0.0.0 adimg.mobile.sina.cn
+:: adimg.mobile.sina.cn
+0.0.0.0 contentrecommend-out.mobile.sina.cn
+:: contentrecommend-out.mobile.sina.cn
+0.0.0.0 pay.mobile.sina.cn
+:: pay.mobile.sina.cn
+0.0.0.0 sdkapp.mobile.sina.cn
+:: sdkapp.mobile.sina.cn
+0.0.0.0 sdkclick.mobile.sina.cn
+:: sdkclick.mobile.sina.cn
+0.0.0.0 trends.mobile.sina.cn
+:: trends.mobile.sina.cn
+0.0.0.0 wapwbclick.mobile.sina.cn
+:: wapwbclick.mobile.sina.cn
+0.0.0.0 wbapp.mobile.sina.cn
+:: wbapp.mobile.sina.cn
+0.0.0.0 wbclick.mobile.sina.cn
+:: wbclick.mobile.sina.cn
+0.0.0.0 wbpctips.mobile.sina.cn
+:: wbpctips.mobile.sina.cn
+0.0.0.0 u1.img.mobile.sina.cn
+:: u1.img.mobile.sina.cn
+0.0.0.0 d0.sinaimg.cn
+:: d0.sinaimg.cn
+0.0.0.0 d1.sinaimg.cn
+:: d1.sinaimg.cn
+0.0.0.0 d2.sinaimg.cn
+:: d2.sinaimg.cn
+0.0.0.0 d3.sinaimg.cn
+:: d3.sinaimg.cn
+0.0.0.0 d6.sinaimg.cn
+:: d6.sinaimg.cn
+0.0.0.0 d7.sinaimg.cn
+:: d7.sinaimg.cn
+0.0.0.0 d8.sinaimg.cn
+:: d8.sinaimg.cn
+0.0.0.0 newspush.sinajs.cn
+:: newspush.sinajs.cn
+0.0.0.0 rs.sinajs.cn
+:: rs.sinajs.cn
+0.0.0.0 tjs.sjs.sinajs.cn
+:: tjs.sjs.sinajs.cn
+0.0.0.0 sinaalicdn.com
+:: sinaalicdn.com
+0.0.0.0 oascentral.sina.com
+:: oascentral.sina.com
+0.0.0.0 pfpip.sina.com
+:: pfpip.sina.com
+0.0.0.0 73.sinawap.com
+:: 73.sinawap.com
+0.0.0.0 s3.pfp.sina.net
+:: s3.pfp.sina.net
+0.0.0.0 adimages.sina.com.hk
+:: adimages.sina.com.hk
+0.0.0.0 oascentral.sina.com.hk
+:: oascentral.sina.com.hk
+0.0.0.0 dd.iask.cn
+:: dd.iask.cn
+
+# > 新华网
+0.0.0.0 tmisc.home.news.cn
+:: tmisc.home.news.cn
+0.0.0.0 webd.home.news.cn
+:: webd.home.news.cn
+
+# > 新民网
+0.0.0.0 iads.xinmin.cn
+:: iads.xinmin.cn
+0.0.0.0 total.xinmin.cn
+:: total.xinmin.cn
+0.0.0.0 www2.xinmin.cn
+:: www2.xinmin.cn
+
+# > 寻医问药
+0.0.0.0 a.xywy.com
+:: a.xywy.com
+0.0.0.0 bdmjs.xywy.com
+:: bdmjs.xywy.com
+0.0.0.0 bdmm.xywy.com
+:: bdmm.xywy.com
+0.0.0.0 gg.xywy.com
+:: gg.xywy.com
+0.0.0.0 hao123.xywy.com
+:: hao123.xywy.com
+0.0.0.0 page.xywy.com
+:: page.xywy.com
+0.0.0.0 stat-y.xywy.com
+:: stat-y.xywy.com
+0.0.0.0 stat-z.xywy.com
+:: stat-z.xywy.com
+
+# > 雪球
+0.0.0.0 ad.xueqiu.com
+:: ad.xueqiu.com
+# 可以去掉倒计时，但是误杀很多图片，默认关闭
+# host-keyword, xqimg.imedao.com, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ Y ✅ <<<<<<<<<<<<<<
+# > Yahoo
+0.0.0.0 adss.yahoo.com
+:: adss.yahoo.com
+0.0.0.0 beap-bc.yahoo.com
+:: beap-bc.yahoo.com
+0.0.0.0 comet.yahoo.com
+:: comet.yahoo.com
+0.0.0.0 geo.yahoo.com
+:: geo.yahoo.com
+0.0.0.0 marketingsolutions.yahoo.com
+:: marketingsolutions.yahoo.com
+0.0.0.0 p3p.yahoo.com
+:: p3p.yahoo.com
+0.0.0.0 themis.yahoo.com
+:: themis.yahoo.com
+0.0.0.0 ysm.yahoo.com
+:: ysm.yahoo.com
+0.0.0.0 us.adserver.yahoo.com
+:: us.adserver.yahoo.com
+0.0.0.0 beap.adss.yahoo.com
+:: beap.adss.yahoo.com
+0.0.0.0 clicks.beap.bc.yahoo.com
+:: clicks.beap.bc.yahoo.com
+0.0.0.0 aliunion.cn.yahoo.com
+:: aliunion.cn.yahoo.com
+0.0.0.0 cm.p4p.cn.yahoo.com
+:: cm.p4p.cn.yahoo.com
+0.0.0.0 n.gemini.yahoo.com
+:: n.gemini.yahoo.com
+0.0.0.0 doubleplay-conf-yql.media.yahoo.com
+:: doubleplay-conf-yql.media.yahoo.com
+0.0.0.0 ws.progrss.yahoo.com
+:: ws.progrss.yahoo.com
+0.0.0.0 analytics.query.yahoo.com
+:: analytics.query.yahoo.com
+0.0.0.0 locdrop.query.yahoo.com
+:: locdrop.query.yahoo.com
+0.0.0.0 onepush.query.yahoo.com
+:: onepush.query.yahoo.com
+0.0.0.0 iframe.travel.yahoo.com
+:: iframe.travel.yahoo.com
+0.0.0.0 m.yap.yahoo.com
+:: m.yap.yahoo.com
+0.0.0.0 pr.ybp.yahoo.com
+:: pr.ybp.yahoo.com
+0.0.0.0 pr-bh.ybp.yahoo.com
+:: pr-bh.ybp.yahoo.com
+0.0.0.0 js-apac-ss.ysm.yahoo.com
+:: js-apac-ss.ysm.yahoo.com
+0.0.0.0 w.homes.yahoo.net
+:: w.homes.yahoo.net
+0.0.0.0 yieldmanager.com
+:: yieldmanager.com
+0.0.0.0 ard.yahoo.co.jp
+:: ard.yahoo.co.jp
+0.0.0.0 yads.yahoo.co.jp
+:: yads.yahoo.co.jp
+0.0.0.0 yeas.yahoo.co.jp
+:: yeas.yahoo.co.jp
+0.0.0.0 rd.ane.yahoo.co.jp
+:: rd.ane.yahoo.co.jp
+0.0.0.0 bc.geocities.yahoo.co.jp
+:: bc.geocities.yahoo.co.jp
+0.0.0.0 im.ov.yahoo.co.jp
+:: im.ov.yahoo.co.jp
+0.0.0.0 adserver.yahoo.com
+:: adserver.yahoo.com
+0.0.0.0 adspecs.yahoo.com
+:: adspecs.yahoo.com
+0.0.0.0 advertising.yahoo.com
+:: advertising.yahoo.com
+0.0.0.0 gemini.yahoo.com
+:: gemini.yahoo.com
+# 未识别规则：host, admarketing.yahoo.net, reject
+# 未识别规则：host, ads.auctions.yahoo.com, reject
+# 未识别规则：host, ads.finance.yahoo.com, reject
+# 未识别规则：host, ads.yahoo.com, reject
+# 未识别规则：host, ads.yahoo.de, reject
+
+# > 一点资讯
+0.0.0.0 imagelx.yidianzixun.com
+:: imagelx.yidianzixun.com
+0.0.0.0 l.yidianzixun.com
+:: l.yidianzixun.com
+0.0.0.0 lx-upload-log.yidianzixun.com
+:: lx-upload-log.yidianzixun.com
+0.0.0.0 oppo.yidianzixun.com
+:: oppo.yidianzixun.com
+0.0.0.0 s.yidianzixun.com
+:: s.yidianzixun.com
+
+# > 音悦Tai
+0.0.0.0 shop.yinyuetai.com
+:: shop.yinyuetai.com
+0.0.0.0 statisticsv2.yinyuetai.com
+:: statisticsv2.yinyuetai.com
+0.0.0.0 shop.admin.yinyuetai.com
+:: shop.admin.yinyuetai.com
+0.0.0.0 t.collect.yinyuetai.com
+:: t.collect.yinyuetai.com
+0.0.0.0 client.stats.yinyuetai.com
+:: client.stats.yinyuetai.com
+
+# > 游迅网
+0.0.0.0 ccr.yxdown.com
+:: ccr.yxdown.com
+0.0.0.0 gg.yxdown.com
+:: gg.yxdown.com
+0.0.0.0 ggr.yxdown.com
+:: ggr.yxdown.com
+
+# > YY直播平台
+0.0.0.0 gt.yy.com
+:: gt.yy.com
+
+# > 亚信科技
+0.0.0.0 ad.asiainfo.com
+:: ad.asiainfo.com
+
+# > 悠易互通
+0.0.0.0 yoyi.com.cn
+:: yoyi.com.cn
+0.0.0.0 aim.yoyi.com.cn
+:: aim.yoyi.com.cn
+0.0.0.0 air.yoyi.com.cn
+:: air.yoyi.com.cn
+0.0.0.0 amps.yoyi.com.cn
+:: amps.yoyi.com.cn
+0.0.0.0 atm.yoyi.com.cn
+:: atm.yoyi.com.cn
+0.0.0.0 d.yoyi.com.cn
+:: d.yoyi.com.cn
+0.0.0.0 databank.yoyi.com.cn
+:: databank.yoyi.com.cn
+0.0.0.0 m.yoyi.com.cn
+:: m.yoyi.com.cn
+0.0.0.0 mapping.yoyi.com.cn
+:: mapping.yoyi.com.cn
+0.0.0.0 databank.air.yoyi.com.cn
+:: databank.air.yoyi.com.cn
+0.0.0.0 log2.air.yoyi.com.cn
+:: log2.air.yoyi.com.cn
+0.0.0.0 g.rs.yoyi.com.cn
+:: g.rs.yoyi.com.cn
+0.0.0.0 h.sora.yoyi.com.cn
+:: h.sora.yoyi.com.cn
+0.0.0.0 z.sora.yoyi.com.cn
+:: z.sora.yoyi.com.cn
+0.0.0.0 yoyi.tv
+:: yoyi.tv
+0.0.0.0 d.yoyi.tv
+:: d.yoyi.tv
+0.0.0.0 js.yoyi.tv
+:: js.yoyi.tv
+0.0.0.0 g.d.yoyi.tv
+:: g.d.yoyi.tv
+0.0.0.0 t.d.yoyi.tv
+:: t.d.yoyi.tv
+
+# > 云闪付
+# 未识别规则：host, ads.95516.com, reject
+# 未识别规则：host, tysdk.95516.com, reject
+# 未识别规则：host, cm-10-138.getui.com, reject
+# 未识别规则：host, sdk.open.talk.getui.net, reject
+# 未识别规则：host, sdk-conf.getui.com, reject
+# 未识别规则：host, switch.cup.com.cn, reject
+# 未识别规则：host, ads.cup.com.cn, reject
+
+# > 云之家
+0.0.0.0 ad.yunzhijia.com
+:: ad.yunzhijia.com
+
+# > 优酷
+0.0.0.0 partner.uc.cn
+:: partner.uc.cn
+0.0.0.0 ubixioe.com
+:: ubixioe.com
+0.0.0.0 uczzd.cn
+:: uczzd.cn
+0.0.0.0 ranfenghd.com
+:: ranfenghd.com
+0.0.0.0 zconfig.alibabausercontent.com
+:: zconfig.alibabausercontent.com
+0.0.0.0 bgg.baidu.com
+:: bgg.baidu.com
+# host-suffix, gdt.qq.com, reject
+# host-suffix, sdk.e.qq.com, reject
+# host-suffix, mazu.m.qq.com, reject
+# host-suffix, snowflake.qq.com, reject
+# host-suffix, acz.youku.com, reject
+0.0.0.0 adx-core.youku.com
+:: adx-core.youku.com
+0.0.0.0 adx-open-service.youku.com
+:: adx-open-service.youku.com
+0.0.0.0 rhdc-acs.youku.com
+:: rhdc-acs.youku.com
+# host-suffix, cad.youku.com, reject
+# host-suffix, sjarvis.taobao.com, reject
+# 未识别规则：DOMAIN, httpdns.alicdn.com, reject
+# 未识别规则：DOMAIN, adsmind.ugdtimg.com, reject
+# 未识别规则：DOMAIN, amdc.m.youku.com, reject
+# 未识别规则：DOMAIN, apiv4-iyes.youku.com, reject
+# DOMAIN, iyes.youku.com, reject
+# DOMAIN, mc.atm.youku.com, reject
+# 未识别规则：DOMAIN, yk-ssp.ad.youku.com, reject
+# 未识别规则：DOMAIN, ykad-data.youku.com, reject
+# 未识别规则：DOMAIN, ad.mobile.youku.com, reject
+0.0.0.0 ad.api.3g.tudou.com
+:: ad.api.3g.tudou.com
+0.0.0.0 ad.api.3g.youku.com
+:: ad.api.3g.youku.com
+0.0.0.0 ad.api.mobile.youku.com
+:: ad.api.mobile.youku.com
+0.0.0.0 gamex.mobile.youku.com
+:: gamex.mobile.youku.com
+# host-suffix, actives.youku.com, reject
+# host-suffix, store.tv.api.3g.youku.com, reject
+# host-suffix, store.xl.api.3g.youku.com, reject
+# host-suffix, a-dxk.play.api.3g.youku.com, reject
+# host-suffix, b.smartvideo.youku.com, reject
+# host-suffix, c.yes.youku.com, reject
+# host-suffix, das.api.youku.com, reject
+# host-suffix, das.mobile.youku.com, reject
+# host-suffix, dev-push.m.youku.com, reject
+# host-suffix, push.m.youku.com, reject
+# host-suffix, sdk.m.youku.com, reject
+# host-suffix, dl.g.youku.com, reject
+# host-suffix, dmapp.youku.com, reject
+# host-suffix, hudong.pl.youku.com, reject
+# host-suffix, huodong.pl.youku.com, reject
+# host-suffix, huodong.vip.youku.com, reject
+# host-suffix, hz.youku.com, reject
+# host-suffix, lstat.youku.com, reject
+# host-suffix, m.yes.youku.com, reject
+# host-suffix ,mobilemsg.youku.com, reject
+# host-suffix, msg.youku.com, reject
+# host-suffix, myes.youku.com, reject
+0.0.0.0 p.l.youku.com
+:: p.l.youku.com
+0.0.0.0 r.l.youku.com
+:: r.l.youku.com
+0.0.0.0 v.l.youku.com
+:: v.l.youku.com
+0.0.0.0 l.ykimg.com
+:: l.ykimg.com
+0.0.0.0 p-log.ykimg.com
+:: p-log.ykimg.com
+0.0.0.0 s.p.youku.com
+:: s.p.youku.com
+0.0.0.0 tdrec.youku.com
+:: tdrec.youku.com
+0.0.0.0 test.ott.youku.com
+:: test.ott.youku.com
+# host-suffix, stat.youku.com, reject
+# host-suffix, urchin.lstat.youku.com, reject
+# host-suffix, val.api.youku.com, reject
+# host-suffix, wan.youku.com, reject
+# host-suffix, ykatr.youku.com, reject
+# host-suffix, ykrec.youku.com, reject
+
+# > 游民星空
+0.0.0.0 ja.gamersky.com
+:: ja.gamersky.com
+0.0.0.0 ja1.gamersky.com
+:: ja1.gamersky.com
+
+# > 易车
+# 未识别规则：host, adx.yiche.com, reject
+# 未识别规则：host, log.ycapp.yiche.com, reject
+0.0.0.0 bglog.bitauto.com
+:: bglog.bitauto.com
+0.0.0.0 g.bitauto.com
+:: g.bitauto.com
+0.0.0.0 gimg.bitauto.com
+:: gimg.bitauto.com
+0.0.0.0 gstat.bitauto.com
+:: gstat.bitauto.com
+
+# > 易查
+0.0.0.0 yicha.cn
+:: yicha.cn
+0.0.0.0 adsmart.yicha.cn
+:: adsmart.yicha.cn
+0.0.0.0 tuiguang.yicha.cn
+:: tuiguang.yicha.cn
+
+# > 有米
+0.0.0.0 wumii.cn
+:: wumii.cn
+0.0.0.0 wumii.com
+:: wumii.com
+0.0.0.0 app.wumii.com
+:: app.wumii.com
+0.0.0.0 youmi.net
+:: youmi.net
+0.0.0.0 au.youmi.net
+:: au.youmi.net
+0.0.0.0 notifiter.youmi.net
+:: notifiter.youmi.net
+0.0.0.0 r.youmi.net
+:: r.youmi.net
+0.0.0.0 s.youmi.net
+:: s.youmi.net
+0.0.0.0 t.youmi.net
+:: t.youmi.net
+0.0.0.0 aos.wall.youmi.net
+:: aos.wall.youmi.net
+
+# > 央视网
+# 未识别规则：host, galaxy.bjcathay.com, reject
+# 未识别规则：host, mdrecv.app.cntvwb.cn, reject
+# 未识别规则：host, sdapprecv.app.cntvwb.cn, reject
+# 未识别规则：host, vdapprecv.app.cntvwb.cn, reject
+0.0.0.0 a.cctv.com
+:: a.cctv.com
+0.0.0.0 ad.cntv.cn
+:: ad.cntv.cn
+0.0.0.0 ad.cctv.com
+:: ad.cctv.com
+0.0.0.0 ad-cdn.cctv.com
+:: ad-cdn.cctv.com
+0.0.0.0 ad-cdn_core.cctv.com
+:: ad-cdn_core.cctv.com
+0.0.0.0 ad_core.cctv.com
+:: ad_core.cctv.com
+0.0.0.0 ad_m.cctv.com
+:: ad_m.cctv.com
+0.0.0.0 adguanggao.eee114.com
+:: adguanggao.eee114.com
+0.0.0.0 afp.qiyi.com
+:: afp.qiyi.com
+0.0.0.0 cctv.adsunion.com
+:: cctv.adsunion.com
+0.0.0.0 d.cntv.cn
+:: d.cntv.cn
+0.0.0.0 de.pandora.xiaomi.com
+:: de.pandora.xiaomi.com
+0.0.0.0 mishop.pandora.xiaomi.com
+:: mishop.pandora.xiaomi.com
+0.0.0.0 cws-cctv.conviva.com
+:: cws-cctv.conviva.com
+0.0.0.0 mdrecv.app.cntvwb.cn
+:: mdrecv.app.cntvwb.cn
+0.0.0.0 sdapprecv.app.cntvwb.cn
+:: sdapprecv.app.cntvwb.cn
+0.0.0.0 vdapprecv.app.cntvwb.cn
+:: vdapprecv.app.cntvwb.cn
+
+# > 央视影音 (CBox)
+0.0.0.0 adxserver.ad.cmvideo.cn
+:: adxserver.ad.cmvideo.cn
+0.0.0.0 dspserver.ad.cmvideo.cn
+:: dspserver.ad.cmvideo.cn
+0.0.0.0 openstorage.ad.cmvideo.cn
+:: openstorage.ad.cmvideo.cn
+
+# > 一刻相册
+# 广告联盟已包含
+
+# > 元聚网络（漫画岛，追书神器，甜瓜小说）
+0.0.0.0 d.1391.com
+:: d.1391.com
+0.0.0.0 lyapi.1391.com
+:: lyapi.1391.com
+0.0.0.0 lyjk.1391.com
+:: lyjk.1391.com
+0.0.0.0 mhd.1391.com
+:: mhd.1391.com
+0.0.0.0 mhdpay.1391.com
+:: mhdpay.1391.com
+0.0.0.0 mhdtestks3.1391.com
+:: mhdtestks3.1391.com
+0.0.0.0 mhdufile.1391.com
+:: mhdufile.1391.com
+0.0.0.0 mhjk.1391.com
+:: mhjk.1391.com
+0.0.0.0 sqtpks3.1391.com
+:: sqtpks3.1391.com
+
+# > 艺龙
+0.0.0.0 d.elong.cn
+:: d.elong.cn
+0.0.0.0 mhuodong.elong.com
+:: mhuodong.elong.com
+
+# > 悠视网
+0.0.0.0 g.uusee.com
+:: g.uusee.com
+0.0.0.0 pop.uusee.com
+:: pop.uusee.com
+0.0.0.0 traffic.uusee.com
+:: traffic.uusee.com
+
+# > 游久网
+0.0.0.0 gg.uuu9.com
+:: gg.uuu9.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
+# > ZAKER新闻
+0.0.0.0 adm.myzaker.com
+:: adm.myzaker.com
+0.0.0.0 ggs.myzaker.com
+:: ggs.myzaker.com
+0.0.0.0 push-android.myzaker.com
+:: push-android.myzaker.com
+
+# > 知乎
+# 未识别规则：USER-AGENT,AVOS*, reject
+# 未识别规则：host, appcloud.zhihu.com, reject
+# 未识别规则：host, appcloud2.in.zhihu.com, reject
+# 未识别规则：host, mqtt.zhihu.com, reject
+# 未识别规则：host, sugar.zhihu.com, reject
+# 未识别规则：host, crash2.zhihu.com, reject
+# 未识别规则：host, 118.89.204.198, reject
+# 未识别规则：IP-CIDR, 118.89.204.198/32, reject
+# 未识别规则：IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+
+# > 中关村
+0.0.0.0 apppv.zol.com.cn
+:: apppv.zol.com.cn
+0.0.0.0 cpro.zol.com.cn
+:: cpro.zol.com.cn
+0.0.0.0 dynamic.zol.com.cn
+:: dynamic.zol.com.cn
+0.0.0.0 imp.zol.com.cn
+:: imp.zol.com.cn
+0.0.0.0 js.zol.com.cn
+:: js.zol.com.cn
+0.0.0.0 mstat.zol.com.cn
+:: mstat.zol.com.cn
+0.0.0.0 pv.zol.com.cn
+:: pv.zol.com.cn
+0.0.0.0 pvc.zol.com.cn
+:: pvc.zol.com.cn
+0.0.0.0 pvm.zol.com.cn
+:: pvm.zol.com.cn
+0.0.0.0 pvmsite.zol.com.cn
+:: pvmsite.zol.com.cn
+0.0.0.0 pvnapp.zol.com.cn
+:: pvnapp.zol.com.cn
+0.0.0.0 pvsite.zol.com.cn
+:: pvsite.zol.com.cn
+0.0.0.0 pvtest.zol.com.cn
+:: pvtest.zol.com.cn
+0.0.0.0 wappv.zol.com.cn
+:: wappv.zol.com.cn
+0.0.0.0 ydjs.zol.com.cn
+:: ydjs.zol.com.cn
+0.0.0.0 afp.zol-img.com.cn
+:: afp.zol-img.com.cn
+0.0.0.0 pic.zol-img.com.cn
+:: pic.zol-img.com.cn
+0.0.0.0 api.zol.com
+:: api.zol.com
+
+# > 中国移动
+# 未识别规则：IP-CIDR, 120.240.95.37/32, reject
+
+# > 中国联通
+0.0.0.0 m1.ad.10010.com
+:: m1.ad.10010.com
+
+# > 中国电信
+# 未识别规则：host, ad.21cn.com, reject
+# 未识别规则：host, ad.k.21cn.com, reject
+# 未识别规则：host, admarket.21cn.com, reject
+# 未识别规则：host, adshows.21cn.com, reject
+# 未识别规则：IP-CIDR, 122.229.8.47/32, reject
+# 未识别规则：IP-CIDR, 122.229.29.89/32, reject
+
+# > 中信银行
+# 未识别规则：;host-suffix, sis.jpush.io, reject
+# 未识别规则：;host-suffix, s.jpush.cn, reject
+# 未识别规则：;host-suffix, jpush.cn, reject
+# 未识别规则：;host-suffix, im64.jpush.cn, reject
+# 未识别规则：;host-suffix, im.jpush.cn, reject
+# 未识别规则：;host-suffix, jpush.html5.qq.com, reject
+
+# > 中华万年历
+# 未识别规则：host-keyword, lkme.cc, reject
+# 未识别规则：host-keyword, api.freed.so, reject
+# 未识别规则：host-keyword, log-dmp.suishenyun.cn, reject
+# 未识别规则：host-keyword, client-dmp.suishenyun.cn, reject
+# 未识别规则：host-keyword, pc.suishenyun.net, reject
+# 未识别规则：host-keyword, v0-client-lz.rili.cn, reject
+0.0.0.0 ad.51wnl.com
+:: ad.51wnl.com
+0.0.0.0 ad-android.51wnl.com
+:: ad-android.51wnl.com
+0.0.0.0 ad.51wnl-cq.com
+:: ad.51wnl-cq.com
+0.0.0.0 adextra.51wnl-cq.com
+:: adextra.51wnl-cq.com
+
+# > 中华网
+0.0.0.0 union.china.com.cn
+:: union.china.com.cn
+0.0.0.0 dvs.china.com
+:: dvs.china.com
+0.0.0.0 dvsend.china.com
+:: dvsend.china.com
+0.0.0.0 dvser.china.com
+:: dvser.china.com
+0.0.0.0 dvser02.china.com
+:: dvser02.china.com
+0.0.0.0 sssvd.china.com
+:: sssvd.china.com
+0.0.0.0 rank.hit.china.com
+:: rank.hit.china.com
+
+# > 中国日报
+0.0.0.0 same.chinadaily.com.cn
+:: same.chinadaily.com.cn
+0.0.0.0 usercollection.chinadaily.com.cn
+:: usercollection.chinadaily.com.cn
+
+# > 中国国际广播电视网络台（CIBN）
+# host-suffix, api.adv.ott.cibntv.net, reject
+# host-suffix, adinf.cp11.ott.cibntv.net, reject
+# host-suffix, adstat.cp11.ott.cibntv.net, reject
+# host-suffix, apklog.cp11.ott.cibntv.net, reject
+# host-suffix, cachenotice.cp11.ott.cibntv.net, reject
+# host-suffix, ark.cp21.ott.cibntv.net, reject
+# host-suffix, dc.cp21.ott.cibntv.net, reject
+# host-suffix, atm.cp31.ott.cibntv.net, reject
+# host-suffix, ipm.atm.cp31.ott.cibntv.net, reject
+# host-suffix, val.atm.cp31.ott.cibntv.net, reject
+# host-suffix, valf.atm.cp31.ott.cibntv.net, reject
+# host-suffix, aty.cp45.ott.cibntv.net, reject
+# host-suffix, agn.aty.cp45.ott.cibntv.net, reject
+# host-suffix, m.aty.cp45.ott.cibntv.net, reject
+# host-suffix, mmg.aty.cp45.ott.cibntv.net, reject
+# host-suffix, de.as.cp61.ott.cibntv.net, reject
+# host-suffix, lives.l.cp81.ott.cibntv.net, reject
+# host-suffix, news-l.play.cp81.ott.cibntv.net, reject
+
+# > 中国平安
+0.0.0.0 events.pingan.com
+:: events.pingan.com
+
+# > 真不卡
+0.0.0.0 ttayy.cn
+:: ttayy.cn
+0.0.0.0 zhengxiaoliu.top
+:: zhengxiaoliu.top
+
+# > 字节跳动
+# 未识别规则：host, ad.zijieapi.com, reject
+# 未识别规则：host, applog.zijieapi.com, reject
+0.0.0.0 -normal-lq.zijieapi.com
+:: -normal-lq.zijieapi.com
+0.0.0.0 dm.bytedance.com
+:: dm.bytedance.com
+0.0.0.0 xlog-va.byteoversea.com
+:: xlog-va.byteoversea.com
+0.0.0.0 tosv.byted.org
+:: tosv.byted.org
+0.0.0.0 tosv.boe.byted.org
+:: tosv.boe.byted.org
+0.0.0.0 extlog.snssdk.com
+:: extlog.snssdk.com
+0.0.0.0 sdfp.snssdk.com
+:: sdfp.snssdk.com
+0.0.0.0 temai.snssdk.com
+:: temai.snssdk.com
+0.0.0.0 xlog.snssdk.com
+:: xlog.snssdk.com
+0.0.0.0 ad.toutiao.com
+:: ad.toutiao.com
+0.0.0.0 dm.toutiao.com
+:: dm.toutiao.com
+0.0.0.0 dsp.toutiao.com
+:: dsp.toutiao.com
+0.0.0.0 nativeapp.toutiao.com
+:: nativeapp.toutiao.com
+0.0.0.0 partner.toutiao.com
+:: partner.toutiao.com
+0.0.0.0 track.toutiao.com
+:: track.toutiao.com
+0.0.0.0 dm.pstatp.com
+:: dm.pstatp.com
+0.0.0.0 pb3.pstatp.com
+:: pb3.pstatp.com
+0.0.0.0 s3a.pstatp.com
+:: s3a.pstatp.com
+
+# > 作业帮
+0.0.0.0 bu01.zybang.com
+:: bu01.zybang.com
+0.0.0.0 bu02.zybang.com
+:: bu02.zybang.com
+
+# > 招钱进宝
+# 广告联盟已包含
+
+
+
+# >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
+# > 广告联盟
+# 若有问题自行设置白名单
+0.0.0.0 miaozhen.com
+:: miaozhen.com
+0.0.0.0 ad-sign.byteimg.com
+:: ad-sign.byteimg.com
+0.0.0.0 tos.pstatp.com
+:: tos.pstatp.com
+# 未识别规则：host-keyword, asiad.byteactivity, reject
+||*pangolin-sdk-toutiao*$important
+||*pglstatp-toutiao*$important
+0.0.0.0 pangolin.snssdk.com
+:: pangolin.snssdk.com
+0.0.0.0 video-cn.snssdk.com
+:: video-cn.snssdk.com
+0.0.0.0 getui.com
+:: getui.com
+0.0.0.0 getui.net
+:: getui.net
+0.0.0.0 gepush.com
+:: gepush.com
+0.0.0.0 igexin.com
+:: igexin.com
+0.0.0.0 log.aliyuncs.com
+:: log.aliyuncs.com
+0.0.0.0 zlsdk.1rtb.net
+:: zlsdk.1rtb.net
+0.0.0.0 cdntips.net
+:: cdntips.net
+0.0.0.0 tfogc.com
+:: tfogc.com
+#host-keyword, volc, reject
+||*umeng*$important
+# Ad-Stir
+0.0.0.0 ad-stir.com
+:: ad-stir.com
+# Adadapted
+0.0.0.0 adadapted.com
+:: adadapted.com
+0.0.0.0 ads.adadapted.com
+:: ads.adadapted.com
+
+# AdChina
+0.0.0.0 adchina.com
+:: adchina.com
+0.0.0.0 adchina.io
+:: adchina.io
+
+# AddThis
+0.0.0.0 addthis.com
+:: addthis.com
+0.0.0.0 addthisedge.com
+:: addthisedge.com
+
+# Adform
+||*adform*$important
+
+# Adhouyi (广告后台)
+0.0.0.0 ad.adhouyi.cn
+:: ad.adhouyi.cn
+0.0.0.0 adhouyi.com
+:: adhouyi.com
+
+# Adinall
+0.0.0.0 adinall.com
+:: adinall.com
+
+# Adition
+0.0.0.0 ad8.adfarm1.adition.com
+:: ad8.adfarm1.adition.com
+0.0.0.0 dsp.adfarm1.adition.com
+:: dsp.adfarm1.adition.com
+
+# Adjust
+0.0.0.0 adjust.io
+:: adjust.io
+
+# Admarvel
+0.0.0.0 admarvel.com
+:: admarvel.com
+
+# AdRoll
+0.0.0.0 adroll.com
+:: adroll.com
+
+# Adtaily
+0.0.0.0 adtaily.com
+:: adtaily.com
+
+# Adups
+0.0.0.0 fota4.adups.cn
+:: fota4.adups.cn
+0.0.0.0 adups.com
+:: adups.com
+
+# Adview
+0.0.0.0 adview.cn
+:: adview.cn
+
+# Adwo
+0.0.0.0 adwo.com
+:: adwo.com
+
+# Adzerk
+0.0.0.0 adzerk.net
+:: adzerk.net
+
+# Ad-m.asia
+0.0.0.0 sync-dsp.ad-m.asia
+:: sync-dsp.ad-m.asia
+
+# AdColony
+0.0.0.0 adcolony.com
+:: adcolony.com
+
+# AerServ
+0.0.0.0 aerserv.com
+:: aerserv.com
+
+# Airpush
+0.0.0.0 airpush.com
+:: airpush.com
+
+# App-Adforce
+0.0.0.0 app-adforce.jp
+:: app-adforce.jp
+
+# Appadhoc
+0.0.0.0 appadhoc.com
+:: appadhoc.com
+0.0.0.0 sdk.appadhoc.com
+:: sdk.appadhoc.com
+
+# AppsFlyer
+0.0.0.0 appsflyer.com
+:: appsflyer.com
+
+# Appdriver
+0.0.0.0 appdriver.cn
+:: appdriver.cn
+0.0.0.0 appdriver.com.cn
+:: appdriver.com.cn
+
+# Cacafly
+0.0.0.0 ad.cacafly.com
+:: ad.cacafly.com
+0.0.0.0 cacafly.net
+:: cacafly.net
+
+# Casale Media
+0.0.0.0 casalemedia.com
+:: casalemedia.com
+0.0.0.0 as.casalemedia.com
+:: as.casalemedia.com
+0.0.0.0 ssum.casalemedia.com
+:: ssum.casalemedia.com
+
+# Chartboost
+0.0.0.0 chartboost.com
+:: chartboost.com
+
+# Clicki
+0.0.0.0 clicki.cn
+:: clicki.cn
+
+# CNZZ
+0.0.0.0 cnzz.com
+:: cnzz.com
+0.0.0.0 s96.cnzz.com
+:: s96.cnzz.com
+
+# Criteo
+0.0.0.0 criteo.net
+:: criteo.net
+0.0.0.0 criteo.com
+:: criteo.com
+0.0.0.0 dis.crieto.com
+:: dis.crieto.com
+0.0.0.0 cas.criteo.com
+:: cas.criteo.com
+0.0.0.0 dis.criteo.com
+:: dis.criteo.com
+0.0.0.0 gum.criteo.com
+:: gum.criteo.com
+0.0.0.0 rtax.criteo.com
+:: rtax.criteo.com
+0.0.0.0 widget.criteo.com
+:: widget.criteo.com
+0.0.0.0 dis.us.criteo.com
+:: dis.us.criteo.com
+
+# comScore
+0.0.0.0 scorecardresearch.com
+:: scorecardresearch.com
+0.0.0.0 b.scorecardresearch.com
+:: b.scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
+:: sb.scorecardresearch.com
+0.0.0.0 udm.scorecardresearch.com
+:: udm.scorecardresearch.com
+
+# Dianjoy
+0.0.0.0 dianjoy.com
+:: dianjoy.com
+0.0.0.0 a.dianjoy.com
+:: a.dianjoy.com
+0.0.0.0 fast-cdn.dianjoy.com
+:: fast-cdn.dianjoy.com
+
+# Dianru
+0.0.0.0 dianru.com
+:: dianru.com
+0.0.0.0 api.dianru.com
+:: api.dianru.com
+0.0.0.0 api.android.dianru.com
+:: api.android.dianru.com
+
+# dtscout
+||*dtscout*$important
+0.0.0.0 dtscout.com
+:: dtscout.com
+
+# Exoclick
+0.0.0.0 main.exoclick.com
+:: main.exoclick.com
+0.0.0.0 syndication.exoclick.com
+:: syndication.exoclick.com
+
+# Exosrv
+0.0.0.0 exosrv.com
+:: exosrv.com
+0.0.0.0 ads.exosrv.com
+:: ads.exosrv.com
+
+# Flurry
+0.0.0.0 flurry.com
+:: flurry.com
+0.0.0.0 ad.flurry.com
+:: ad.flurry.com
+0.0.0.0 adlog.flurry.com
+:: adlog.flurry.com
+0.0.0.0 proton.flurry.com
+:: proton.flurry.com
+0.0.0.0 flurry.cachefly.net
+:: flurry.cachefly.net
+
+# Guomob (果盟)
+0.0.0.0 guomob.com
+:: guomob.com
+
+# GrowingIO
+0.0.0.0 giocdn.com
+:: giocdn.com
+0.0.0.0 growingio.com
+:: growingio.com
+0.0.0.0 api.growingio.com
+:: api.growingio.com
+0.0.0.0 apihk.growingio.com
+:: apihk.growingio.com
+0.0.0.0 crashapi.growingio.com
+:: crashapi.growingio.com
+0.0.0.0 t.growingio.com
+:: t.growingio.com
+0.0.0.0 tags.growingio.com
+:: tags.growingio.com
+
+# iClick
+0.0.0.0 mfan.iclick.com.cn
+:: mfan.iclick.com.cn
+
+# Innity
+0.0.0.0 innity.com
+:: innity.com
+0.0.0.0 avn.innity.com
+:: avn.innity.com
+0.0.0.0 cast.innity.com
+:: cast.innity.com
+0.0.0.0 innity.net
+:: innity.net
+0.0.0.0 cdn.innity.net
+:: cdn.innity.net
+0.0.0.0 cdn.media.innity.net
+:: cdn.media.innity.net
+0.0.0.0 ssl-cdn.media.innity.net
+:: ssl-cdn.media.innity.net
+
+# Inveno
+0.0.0.0 business.inveno.com
+:: business.inveno.com
+0.0.0.0 malacca.inveno.com
+:: malacca.inveno.com
+0.0.0.0 zuimeitianqi.inveno.com
+:: zuimeitianqi.inveno.com
+
+# InMobi
+0.0.0.0 inmobi.cn
+:: inmobi.cn
+0.0.0.0 inmobicdn.cn
+:: inmobicdn.cn
+0.0.0.0 inmobi.com
+:: inmobi.com
+0.0.0.0 inmobi.net
+:: inmobi.net
+0.0.0.0 inmobicdn.net
+:: inmobicdn.net
+
+# IronSource
+0.0.0.0 ironsrc.com
+:: ironsrc.com
+0.0.0.0 supersonic.com
+:: supersonic.com
+0.0.0.0 supersonicads.com
+:: supersonicads.com
+
+# iPinYou (品友互动)
+0.0.0.0 ipinyou.com
+:: ipinyou.com
+
+# Jesgoo
+0.0.0.0 jesgoo.com
+:: jesgoo.com
+0.0.0.0 cdn.jesgoo.com
+:: cdn.jesgoo.com
+0.0.0.0 rcv.jesgoo.com
+:: rcv.jesgoo.com
+
+# JuicyAds
+0.0.0.0 juicyads.com
+:: juicyads.com
+0.0.0.0 juicyads.in
+:: juicyads.in
+0.0.0.0 adserver.juicyads.com
+:: adserver.juicyads.com
+0.0.0.0 img.jizzads.com
+:: img.jizzads.com
+
+# Kejet
+0.0.0.0 kejet.com
+:: kejet.com
+0.0.0.0 as.kejet.com
+:: as.kejet.com
+0.0.0.0 code.kejet.com
+:: code.kejet.com
+0.0.0.0 dmacore.kejet.com
+:: dmacore.kejet.com
+0.0.0.0 kejet.net
+:: kejet.net
+0.0.0.0 as.kejet.net
+:: as.kejet.net
+0.0.0.0 aw.kejet.net
+:: aw.kejet.net
+0.0.0.0 ck.kejet.net
+:: ck.kejet.net
+0.0.0.0 cmarket.kejet.net
+:: cmarket.kejet.net
+0.0.0.0 dmacore.kejet.net
+:: dmacore.kejet.net
+0.0.0.0 dmp.kejet.net
+:: dmp.kejet.net
+0.0.0.0 ec.kejet.net
+:: ec.kejet.net
+0.0.0.0 hzdmacore.kejet.net
+:: hzdmacore.kejet.net
+0.0.0.0 m.kejet.net
+:: m.kejet.net
+0.0.0.0 rtb-p.kejet.net
+:: rtb-p.kejet.net
+
+# Keyrun
+0.0.0.0 keyrun.cn
+:: keyrun.cn
+0.0.0.0 c1.keyrun.cn
+:: c1.keyrun.cn
+0.0.0.0 keyrun.com
+:: keyrun.com
+
+# Kissmetrics
+0.0.0.0 kissmetrics.com
+:: kissmetrics.com
+
+# Krux
+0.0.0.0 krux.net
+:: krux.net
+
+# 酷云互动
+0.0.0.0 config.kuyun.com
+:: config.kuyun.com
+0.0.0.0 logonext.tv.kuyun.com
+:: logonext.tv.kuyun.com
+
+# Kochava
+0.0.0.0 kochava.com
+:: kochava.com
+
+# Leadbolt
+0.0.0.0 leadbolt.net
+:: leadbolt.net
+0.0.0.0 ad.leadbolt.net
+:: ad.leadbolt.net
+0.0.0.0 api.leadbolt.net
+:: api.leadbolt.net
+0.0.0.0 leadboltads.net
+:: leadboltads.net
+0.0.0.0 ad.leadboltads.net
+:: ad.leadboltads.net
+0.0.0.0 leadboltapps.net
+:: leadboltapps.net
+0.0.0.0 ad.leadboltapps.net
+:: ad.leadboltapps.net
+0.0.0.0 leadboltmobile.net
+:: leadboltmobile.net
+0.0.0.0 ad.leadboltmobile.net
+:: ad.leadboltmobile.net
+
+# Localytics
+0.0.0.0 localytics.com
+:: localytics.com
+
+# 亿动广告传媒
+0.0.0.0 madserving.com
+:: madserving.com
+0.0.0.0 ad.madserving.com
+:: ad.madserving.com
+0.0.0.0 adv.madserving.com
+:: adv.madserving.com
+0.0.0.0 appsrv1.madserving.com
+:: appsrv1.madserving.com
+0.0.0.0 appsrv4.madserving.com
+:: appsrv4.madserving.com
+0.0.0.0 clk.madserving.com
+:: clk.madserving.com
+0.0.0.0 imp.madserving.com
+:: imp.madserving.com
+0.0.0.0 clk.pdb.madserving.com
+:: clk.pdb.madserving.com
+0.0.0.0 imp.pdb.madserving.com
+:: imp.pdb.madserving.com
+0.0.0.0 madhouse.cn
+:: madhouse.cn
+
+# Marketgid
+0.0.0.0 marketgid.com
+:: marketgid.com
+0.0.0.0 ag-gb.marketgid.com
+:: ag-gb.marketgid.com
+0.0.0.0 cdn.marketgid.com
+:: cdn.marketgid.com
+0.0.0.0 counter.marketgid.com
+:: counter.marketgid.com
+0.0.0.0 imgg.marketgid.com
+:: imgg.marketgid.com
+0.0.0.0 jsc.marketgid.com
+:: jsc.marketgid.com
+0.0.0.0 wsp.marketgid.com
+:: wsp.marketgid.com
+
+# 聚胜万合
+0.0.0.0 mediav.com
+:: mediav.com
+
+# MGID
+0.0.0.0 mgid.com
+:: mgid.com
+0.0.0.0 aa-gb.mgid.com
+:: aa-gb.mgid.com
+0.0.0.0 ab-gb.mgid.com
+:: ab-gb.mgid.com
+0.0.0.0 ac-gb.mgid.com
+:: ac-gb.mgid.com
+0.0.0.0 ad-gb.mgid.com
+:: ad-gb.mgid.com
+0.0.0.0 ae-gb.mgid.com
+:: ae-gb.mgid.com
+0.0.0.0 aj-gb.mgid.com
+:: aj-gb.mgid.com
+0.0.0.0 imgg.mgid.com
+:: imgg.mgid.com
+0.0.0.0 jsc.mgid.com
+:: jsc.mgid.com
+0.0.0.0 usr.mgid.com
+:: usr.mgid.com
+0.0.0.0 aa.goodsblock.mgid.com
+:: aa.goodsblock.mgid.com
+0.0.0.0 ab.goodsblock.mgid.com
+:: ab.goodsblock.mgid.com
+
+# Millennial Media
+0.0.0.0 millennialmedia.com
+:: millennialmedia.com
+0.0.0.0 cdn.millennialmedia.com
+:: cdn.millennialmedia.com
+0.0.0.0 images.millennialmedia.com
+:: images.millennialmedia.com
+
+# Mixpanel
+0.0.0.0 mxpnl.com
+:: mxpnl.com
+
+# Moat
+0.0.0.0 moatads.com
+:: moatads.com
+0.0.0.0 geo.moatads.com
+:: geo.moatads.com
+0.0.0.0 js.moatads.com
+:: js.moatads.com
+0.0.0.0 px.moatads.com
+:: px.moatads.com
+0.0.0.0 z.moatads.com
+:: z.moatads.com
+
+# 创智汇聚
+0.0.0.0 cca.mob.com
+:: cca.mob.com
+0.0.0.0 api.cmt.mob.com
+:: api.cmt.mob.com
+0.0.0.0 c.data.mob.com
+:: c.data.mob.com
+0.0.0.0 devs.data.mob.com
+:: devs.data.mob.com
+0.0.0.0 m.data.mob.com
+:: m.data.mob.com
+0.0.0.0 api.exc.mob.com
+:: api.exc.mob.com
+0.0.0.0 api.share.mob.com
+:: api.share.mob.com
+
+# Mobfox
+0.0.0.0 mobfox.com
+:: mobfox.com
+0.0.0.0 my.mobfox.com
+:: my.mobfox.com
+
+# 魔窗
+0.0.0.0 magicwindow.cn
+:: magicwindow.cn
+
+# Mathtag
+||*mathtag*$important
+0.0.0.0 mathtag.com
+:: mathtag.com
+0.0.0.0 pixel.mathtag.com
+:: pixel.mathtag.com
+0.0.0.0 sync.mathtag.com
+:: sync.mathtag.com
+
+# 艾德思奇（adSage）
+0.0.0.0 mobisage.cn
+:: mobisage.cn
+0.0.0.0 config.mobisage.cn
+:: config.mobisage.cn
+
+# MoPub（Twitter 公司旗下的移动广告服务平台）
+0.0.0.0 mopub.com
+:: mopub.com
+
+# NetworkBench (听云)
+0.0.0.0 networkbench.com
+:: networkbench.com
+
+# NicoNico
+# 未识别规则：host, ads.nicovideo.jp, reject
+
+# Onetad
+0.0.0.0 onetad.com
+:: onetad.com
+0.0.0.0 code11.onetad.com
+:: code11.onetad.com
+0.0.0.0 code12.onetad.com
+:: code12.onetad.com
+0.0.0.0 pic1.onetad.com
+:: pic1.onetad.com
+0.0.0.0 pic2.onetad.com
+:: pic2.onetad.com
+0.0.0.0 pic3.onetad.com
+:: pic3.onetad.com
+0.0.0.0 pic8.onetad.com
+:: pic8.onetad.com
+0.0.0.0 ww10.onetad.com
+:: ww10.onetad.com
+0.0.0.0 ww101.onetad.com
+:: ww101.onetad.com
+0.0.0.0 ww11.onetad.com
+:: ww11.onetad.com
+0.0.0.0 ww12.onetad.com
+:: ww12.onetad.com
+0.0.0.0 ww13.onetad.com
+:: ww13.onetad.com
+0.0.0.0 ww202.onetad.com
+:: ww202.onetad.com
+0.0.0.0 ww34.onetad.com
+:: ww34.onetad.com
+0.0.0.0 ww346.onetad.com
+:: ww346.onetad.com
+0.0.0.0 ww360.onetad.com
+:: ww360.onetad.com
+0.0.0.0 ww363.onetad.com
+:: ww363.onetad.com
+0.0.0.0 ww366.onetad.com
+:: ww366.onetad.com
+0.0.0.0 ww78.onetad.com
+:: ww78.onetad.com
+0.0.0.0 ww8.onetad.com
+:: ww8.onetad.com
+0.0.0.0 ww9.onetad.com
+:: ww9.onetad.com
+0.0.0.0 wwv.onetad.com
+:: wwv.onetad.com
+
+# OpenX
+0.0.0.0 openx.net
+:: openx.net
+
+# Optimizely
+0.0.0.0 optimizelyapis.com
+:: optimizelyapis.com
+
+# Oracle
+0.0.0.0 bluekai.com
+:: bluekai.com
+
+# Pagechoice
+0.0.0.0 pagechoice.com
+:: pagechoice.com
+0.0.0.0 pagechoice.net
+:: pagechoice.net
+0.0.0.0 col.pagechoice.net
+:: col.pagechoice.net
+0.0.0.0 dap.pagechoice.net
+:: dap.pagechoice.net
+0.0.0.0 images.pagechoice.net
+:: images.pagechoice.net
+0.0.0.0 motu.pagechoice.net
+:: motu.pagechoice.net
+0.0.0.0 sit.pagechoice.net
+:: sit.pagechoice.net
+
+# Plista
+0.0.0.0 plista.com
+:: plista.com
+0.0.0.0 click-cn.plista.com
+:: click-cn.plista.com
+0.0.0.0 farm-cn.plista.com
+:: farm-cn.plista.com
+
+# Pubnative
+0.0.0.0 pubnative.net
+:: pubnative.net
+
+# PopAds
+0.0.0.0 popads.net
+:: popads.net
+0.0.0.0 c1.popads.net
+:: c1.popads.net
+0.0.0.0 c2.popads.net
+:: c2.popads.net
+0.0.0.0 serve.popads.net
+:: serve.popads.net
+
+# PubMatic
+0.0.0.0 pubmatic.com
+:: pubmatic.com
+
+# Qtmojo
+0.0.0.0 qtmojo.cn
+:: qtmojo.cn
+0.0.0.0 1.qtmojo.cn
+:: 1.qtmojo.cn
+0.0.0.0 creatim.qtmojo.cn
+:: creatim.qtmojo.cn
+0.0.0.0 wmcdn.qtmojo.cn
+:: wmcdn.qtmojo.cn
+0.0.0.0 qtmojo.com
+:: qtmojo.com
+
+# Qumi (趣米)
+0.0.0.0 qumi.com
+:: qumi.com
+0.0.0.0 apt.qumi.com
+:: apt.qumi.com
+0.0.0.0 cut.qumi.com
+:: cut.qumi.com
+0.0.0.0 exp.qumi.com
+:: exp.qumi.com
+
+# Quantcast
+0.0.0.0 quantcount.com
+:: quantcount.com
+0.0.0.0 quantserve.com
+:: quantserve.com
+0.0.0.0 cms.quantserve.com
+:: cms.quantserve.com
+0.0.0.0 edge.quantserve.com
+:: edge.quantserve.com
+0.0.0.0 pixel.quantserve.com
+:: pixel.quantserve.com
+0.0.0.0 secure.quantserve.com
+:: secure.quantserve.com
+
+# Rayjump
+0.0.0.0 rayjump.com
+:: rayjump.com
+0.0.0.0 net.rayjump.com
+:: net.rayjump.com
+0.0.0.0 setting.rayjump.com
+:: setting.rayjump.com
+
+# Rubicon Project
+0.0.0.0 rubiconproject.com
+:: rubiconproject.com
+0.0.0.0 beacon-us-sjc1.rubiconproject.com
+:: beacon-us-sjc1.rubiconproject.com
+0.0.0.0 eus.rubiconproject.com
+:: eus.rubiconproject.com
+0.0.0.0 optimized-by.rubiconproject.com
+:: optimized-by.rubiconproject.com
+0.0.0.0 pixel.rubiconproject.com
+:: pixel.rubiconproject.com
+0.0.0.0 secure-assets.rubiconproject.com
+:: secure-assets.rubiconproject.com
+0.0.0.0 tap.rubiconproject.com
+:: tap.rubiconproject.com
+0.0.0.0 tap-cdn.rubiconproject.com
+:: tap-cdn.rubiconproject.com
+0.0.0.0 tap-t.rubiconproject.com
+:: tap-t.rubiconproject.com
+0.0.0.0 token.rubiconproject.com
+:: token.rubiconproject.com
+0.0.0.0 usync.aws.rubiconproject.com
+:: usync.aws.rubiconproject.com
+
+# Smart AdServer
+0.0.0.0 smartadserver.com
+:: smartadserver.com
+0.0.0.0 cdn1.smartadserver.com
+:: cdn1.smartadserver.com
+0.0.0.0 ww251.smartadserver.com
+:: ww251.smartadserver.com
+0.0.0.0 ww881.smartadserver.com
+:: ww881.smartadserver.com
+0.0.0.0 www6.smartadserver.com
+:: www6.smartadserver.com
+
+# Snapmobile
+0.0.0.0 snap.snapmobile.asia
+:: snap.snapmobile.asia
+0.0.0.0 snapmobileasia.net
+:: snapmobileasia.net
+0.0.0.0 selfie.snapmobileasia.net
+:: selfie.snapmobileasia.net
+
+# StatCounter
+0.0.0.0 statcounter.com
+:: statcounter.com
+0.0.0.0 c.statcounter.com
+:: c.statcounter.com
+0.0.0.0 c1.statcounter.com
+:: c1.statcounter.com
+0.0.0.0 c2.statcounter.com
+:: c2.statcounter.com
+0.0.0.0 secure.statcounter.com
+:: secure.statcounter.com
+
+# Segment
+0.0.0.0 segment.com
+:: segment.com
+0.0.0.0 segment.io
+:: segment.io
+0.0.0.0 cdn-settings.segment.com
+:: cdn-settings.segment.com
+0.0.0.0 mobile-service.segment.com
+:: mobile-service.segment.com
+
+# Sigmob
+0.0.0.0 adservice.sigmob.cn
+:: adservice.sigmob.cn
+
+# Sizmek
+0.0.0.0 serving-sys.com
+:: serving-sys.com
+0.0.0.0 activity.serving-sys.com
+:: activity.serving-sys.com
+0.0.0.0 bs.serving-sys.com
+:: bs.serving-sys.com
+0.0.0.0 bsch.serving-sys.com
+:: bsch.serving-sys.com
+0.0.0.0 datacapture.serving-sys.com
+:: datacapture.serving-sys.com
+0.0.0.0 ds.serving-sys.com
+:: ds.serving-sys.com
+0.0.0.0 ds-ll.serving-sys.com
+:: ds-ll.serving-sys.com
+0.0.0.0 secure-ds.serving-sys.com
+:: secure-ds.serving-sys.com
+0.0.0.0 us.bs.serving-sys.com
+:: us.bs.serving-sys.com
+
+# Smaato
+0.0.0.0 smaato.net
+:: smaato.net
+
+# StartApp
+0.0.0.0 startapp.com
+:: startapp.com
+0.0.0.0 startappexchange.com
+:: startappexchange.com
+0.0.0.0 startappservice.com
+:: startappservice.com
+0.0.0.0 lp.startapp.com
+:: lp.startapp.com
+0.0.0.0 init.startappexchange.com
+:: init.startappexchange.com
+0.0.0.0 dts.akamai.startappexchange.com
+:: dts.akamai.startappexchange.com
+0.0.0.0 images.startappservice.com
+:: images.startappservice.com
+0.0.0.0 req.startappservice.com
+:: req.startappservice.com
+
+# Taptica
+0.0.0.0 clk.taptica.com
+:: clk.taptica.com
+
+# TGBus
+0.0.0.0 vista.tgbusdata.cn
+:: vista.tgbusdata.cn
+0.0.0.0 vista.tgbus.com
+:: vista.tgbus.com
+
+# Touclick
+0.0.0.0 touclick.com
+:: touclick.com
+0.0.0.0 cap.touclick.com
+:: cap.touclick.com
+0.0.0.0 ver.touclick.com
+:: ver.touclick.com
+
+# Trafficfactory
+0.0.0.0 trafficfactory.biz
+:: trafficfactory.biz
+0.0.0.0 media.trafficfactory.biz
+:: media.trafficfactory.biz
+0.0.0.0 rpc-php.trafficfactory.biz
+:: rpc-php.trafficfactory.biz
+
+# Trafficjunky
+0.0.0.0 trafficjunky.com
+:: trafficjunky.com
+0.0.0.0 trafficjunky.net
+:: trafficjunky.net
+0.0.0.0 media.trafficjunky.net
+:: media.trafficjunky.net
+0.0.0.0 vz-cdn.trafficjunky.net
+:: vz-cdn.trafficjunky.net
+
+# TalkingData
+0.0.0.0 talkingdata.com
+:: talkingdata.com
+0.0.0.0 talkingdata.net
+:: talkingdata.net
+0.0.0.0 tenddata.com
+:: tenddata.com
+0.0.0.0 gaandroid.talkingdata.net
+:: gaandroid.talkingdata.net
+0.0.0.0 tdcv3.talkingdata.net
+:: tdcv3.talkingdata.net
+0.0.0.0 u.talkingdata.net
+:: u.talkingdata.net
+0.0.0.0 cpatrk.net
+:: cpatrk.net
+
+# Tapad
+0.0.0.0 tapad.com
+:: tapad.com
+0.0.0.0 pixel.tapad.com
+:: pixel.tapad.com
+
+# Tapjoy
+0.0.0.0 tapjoy.cn
+:: tapjoy.cn
+0.0.0.0 tapjoy.com
+:: tapjoy.com
+0.0.0.0 tapjoyads.com
+:: tapjoyads.com
+0.0.0.0 ws.tapjoyads.com
+:: ws.tapjoyads.com
+
+# 推啊 (Tuia)
+0.0.0.0 tuia.cn
+:: tuia.cn
+0.0.0.0 engine.tuia.cn
+:: engine.tuia.cn
+0.0.0.0 yun.tuia.cn
+:: yun.tuia.cn
+
+# VigLink
+0.0.0.0 viglink.com
+:: viglink.com
+0.0.0.0 api.viglink.com
+:: api.viglink.com
+0.0.0.0 cdn.viglink.com
+:: cdn.viglink.com
+# 未识别规则：host, apicdn.viglink.com, reject
+# 未识别规则：host, mc.viglink.com, reject
+# 未识别规则：host, ns2.viglink.com, reject
+# 未识别规则：host, ns3.viglink.com, reject
+# 未识别规则：host, ns4.viglink.com, reject
+# 未识别规则：host, qa.viglink.com, reject
+
+# Voiceads
+0.0.0.0 agr.voiceads.cn
+:: agr.voiceads.cn
+0.0.0.0 ws.voiceads.cn
+:: ws.voiceads.cn
+0.0.0.0 voiceads.com
+:: voiceads.com
+
+# Vungle
+0.0.0.0 vungle.cn
+:: vungle.cn
+
+# Vpon
+0.0.0.0 vpon.com
+:: vpon.com
+0.0.0.0 beta.vpon.com
+:: beta.vpon.com
+0.0.0.0 biz.vpon.com
+:: biz.vpon.com
+0.0.0.0 fw.vpon.com
+:: fw.vpon.com
+0.0.0.0 jira.vpon.com
+:: jira.vpon.com
+0.0.0.0 m.vpon.com
+:: m.vpon.com
+0.0.0.0 tw.adon.vpon.com
+:: tw.adon.vpon.com
+0.0.0.0 tw.api.vpon.com
+:: tw.api.vpon.com
+0.0.0.0 cn.pub.vpon.com
+:: cn.pub.vpon.com
+0.0.0.0 tw.pub.vpon.com
+:: tw.pub.vpon.com
+
+# Yandex
+0.0.0.0 st.yandexadexchange.net
+:: st.yandexadexchange.net
+0.0.0.0 ads.yandex.com
+:: ads.yandex.com
+
+# Yengo
+0.0.0.0 st.yengo.com
+:: st.yengo.com
+
+# 亿起发
+0.0.0.0 yiqifa.com
+:: yiqifa.com
+
+# 优效平台
+0.0.0.0 youxiaoad.com
+:: youxiaoad.com
+0.0.0.0 api.youxiaoad.com
+:: api.youxiaoad.com
+0.0.0.0 source.youxiaoad.com
+:: source.youxiaoad.com
+0.0.0.0 ssp.youxiaoad.com
+:: ssp.youxiaoad.com
+0.0.0.0 sspapi.youxiaoad.com
+:: sspapi.youxiaoad.com
+
+# 指点传媒
+0.0.0.0 zhidian3g.cn
+:: zhidian3g.cn
+0.0.0.0 ad.zhidian3g.cn
+:: ad.zhidian3g.cn
+0.0.0.0 soft.zhidian3g.cn
+:: soft.zhidian3g.cn
+
+# 诸葛智能
+# 未识别规则：host, zgsdk.zhugeio.com, reject
+
+# Zedo
+0.0.0.0 zedo.com
+:: zedo.com
+0.0.0.0 d8.zedo.com
+:: d8.zedo.com
+0.0.0.0 z1.zedo.com
+:: z1.zedo.com
