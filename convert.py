@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 功能：读取 QuantumultX 规则 URL → 按指定格式转换目标规则 → 其他规则保持原样
+# 功能：读取 QuantumultX 规则 URL → 按指定格式转换目标规则（IPv6 不拦截）→ 其他规则保持原样
 import re
 import requests
 from typing import List
@@ -49,8 +49,8 @@ def fetch_rules(urls: List[str]) -> List[str]:
 
 def convert_target_rules(all_rules: List[str]) -> List[str]:
     """
-    按要求转换规则：
-    - host, 域名, reject → 0.0.0.0 域名（hosts 格式）
+    按要求转换规则（IPv6 不拦截）：
+    - host, 域名, reject → 0.0.0.0 域名（仅 IPv4 拦截，无 IPv6 规则）
     - host-suffix, 域名, reject → ||域名^（AdGuard 格式）
     - 其他规则保持不变
     """
@@ -65,32 +65,33 @@ def convert_target_rules(all_rules: List[str]) -> List[str]:
     for line in all_rules:
         line_stripped = line.strip()
         
-        # 匹配 host 规则
+        # 匹配 host 规则（仅生成 IPv4 拦截规则）
         host_match = host_pattern.match(line_stripped)
         if host_match:
             domain = host_match.group(1).strip()
-            converted_rules.append(f"0.0.0.0 {domain}")
+            converted_rules.append(f"0.0.0.0 {domain}")  # 仅 IPv4，不添加 :: 域名
             host_converted += 1
             continue
         
-        # 匹配 host-suffix 规则
+        # 匹配 host-suffix 规则（转换为 AdGuard 格式，不涉及 IPv6）
         suffix_match = suffix_pattern.match(line_stripped)
         if suffix_match:
             domain = suffix_match.group(1).strip()
-            converted_rules.append(f"||{domain}^")  # 转换为 AdGuard 格式
+            converted_rules.append(f"||{domain}^")  # AdGuard 格式，无 IPv6 相关
             suffix_converted += 1
             continue
         
         # 其他规则原样保留
         converted_rules.append(line)
     
-    # 添加头部说明
+    # 添加头部说明（明确标注 IPv6 不拦截）
     header = [
         "# ===============================",
-        "# 规则转换说明",
-        "# 1. host, 域名, reject → 0.0.0.0 域名（hosts 格式）",
+        "# 规则转换说明（IPv6 不拦截）",
+        "# 1. host, 域名, reject → 0.0.0.0 域名（仅 IPv4 拦截）",
         "# 2. host-suffix, 域名, reject → ||域名^（AdGuard 格式）",
-        "# 3. 其他类型规则保持原始格式不变",
+        "# 3. 不生成任何 IPv6 拦截规则（无 :: 域名 格式）",
+        "# 4. 其他类型规则保持原始格式不变",
         "# ===============================\n"
     ]
     return header + converted_rules, host_converted, suffix_converted
@@ -102,14 +103,15 @@ def write_output(rules: List[str], output_file: str, host_count: int, suffix_cou
             f.write('\n'.join(rules))
         
         total_converted = host_count + suffix_count
-        total_original = len(rules) - 6  # 扣除头部 6 行说明
+        total_original = len(rules) - 7  # 扣除头部 7 行说明
         
-        print(f"\n✅ 转换完成！")
+        print(f"\n✅ 转换完成！（IPv6 不拦截）")
         print(f"📊 统计：")
         print(f"   - 共处理原始规则：{total_original} 行")
-        print(f"   - 转换 host 规则：{host_count} 条（→ 0.0.0.0 域名）")
+        print(f"   - 转换 host 规则：{host_count} 条（→ 0.0.0.0 域名，仅 IPv4）")
         print(f"   - 转换 host-suffix 规则：{suffix_count} 条（→ ||域名^）")
         print(f"   - 总计转换：{total_converted} 条规则")
+        print(f"   - 备注：未生成任何 IPv6 拦截规则")
         print(f"📄 输出文件：{output_file}")
     except Exception as e:
         print(f"❌ 写入文件失败：{str(e)}")
@@ -120,7 +122,7 @@ if __name__ == "__main__":
     rule_urls = read_rule_urls(URL_CONFIG_FILE)
     # 步骤2：拉取所有规则
     all_rules = fetch_rules(rule_urls)
-    # 步骤3：按要求转换目标规则
+    # 步骤3：按要求转换目标规则（IPv6 不拦截）
     converted_rules, host_cnt, suffix_cnt = convert_target_rules(all_rules)
     # 步骤4：写入输出文件
     write_output(converted_rules, OUTPUT_FILE, host_cnt, suffix_cnt)
