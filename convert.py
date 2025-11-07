@@ -3,7 +3,10 @@
 """
 功能：读取 rules.txt 中的 QuantumultX 在线规则 URL → 批量拉取规则 → 合并并转换为 AdGuard / hosts 规则
 改进点：
-- 新增白名单支持，可过滤不需要的规则
+- 按用户要求：
+  - host, 域名, reject  -> 转为 hosts 格式: "0.0.0.0 域名"
+  - host-suffix, 域名, reject -> 转为 AdGuard URL 格式: "||域名^"
+  - host-keyword, 关键词, reject -> 转为 AdGuard URL 格式: "||关键词^"
 - 更健壮的正则，支持更宽松的域名/keyword 捕获（包括点和 Unicode）
 - 去除重复，保留注释行并在输出中标注未识别规则
 - 更友好的错误处理与统计信息
@@ -17,7 +20,7 @@ import os
 # 配置
 URL_CONFIG_FILE = "rules.txt"
 ADGUARD_OUTPUT_FILE = "adguard-rules.txt"
-WHITE_LIST_FILE = "white.txt"  # 新增白名单文件
+WHITE_LIST_FILE = "white.txt"  # 白名单文件
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 REQUEST_TIMEOUT = 30
 
@@ -61,8 +64,8 @@ def load_white_list() -> Set[str]:
         print(f"ℹ️  未找到白名单文件 {WHITE_LIST_FILE}，将不进行排除操作")
         return white_list
 
-    # 支持的白名单格式正则
-    adguard_white_pattern = re.compile(r'^@@\||?https?://)?([^|^$]+)')
+    # 修复正则表达式：将 |? 改为 (?: 正确表示非捕获组
+    adguard_white_pattern = re.compile(r'^@@\|\|(?:https?://)?([^|^$]+)')
     domain_pattern = re.compile(r'^([a-zA-Z0-9][a-zA-Z0-9.-]+[a-zA-Z0-9])$')
 
     try:
@@ -120,33 +123,14 @@ def fetch_single_url_rules(url: str) -> List[str]:
     """拉取单个 URL 的规则文本并按行返回（过滤空行）"""
     try:
         print(f"\n📥 正在拉取：{url}")
-        r = requests.get(
-            url,
-            timeout=REQUEST_TIMEOUT,
-            headers={"User-Agent": USER_AGENT},
-            allow_redirects=True
-        )
+        r = requests.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT}, allow_redirects=True)
         r.raise_for_status()
-        # 尝试多种编码解码，提高兼容性
-        encodings = ['utf-8-sig', 'gbk', 'latin-1']
-        text = None
-        for encoding in encodings:
-            try:
-                text = r.content.decode(encoding)
-                break
-            except UnicodeDecodeError:
-                continue
-        if text is None:
-            raise UnicodeDecodeError("无法解码规则内容")
-            
+        text = r.content.decode('utf-8-sig', errors='ignore')
         lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
         print(f"✅ 拉取成功：{len(lines)} 行有效规则")
         return lines
     except requests.exceptions.RequestException as e:
         print(f"⚠️  拉取失败：{url} -> {e}")
-        return []
-    except UnicodeDecodeError:
-        print(f"⚠️  解码失败：{url} 的内容无法正确解码")
         return []
 
 
@@ -154,6 +138,12 @@ def convert_rule_line(line: str):
     """
     将单行 QuantumultX 规则转换为目标规则。
     返回一个字符串（转换后的规则）或 None（未识别或不需要转换）。
+    转换规则（按用户要求）：
+      - host, 域名, reject -> "0.0.0.0 域名"
+      - host-suffix, 域名后缀, reject -> "||域名^"
+      - host-keyword, 关键词, reject -> "||关键词^"
+      - url, 协议://域名/路径, reject -> "||域名/路径^"（保留路径以提高精确度）
+    其它：注释行由调用者直接保留，未识别则返回 None。
     """
     s = line.strip()
 
@@ -161,6 +151,7 @@ def convert_rule_line(line: str):
     m = re.match(rf'host\s*,\s*{TOKEN_RE}\s*,\s*reject\s*$', s, re.I)
     if m:
         domain = m.group(1)
+        # 避免把通配符等奇怪字符串写入 hosts
         if domain in ('*', ''):
             return None
         return f"0.0.0.0 {domain}"
@@ -177,7 +168,7 @@ def convert_rule_line(line: str):
         keyword = m.group(1)
         return f"||{keyword}^"
 
-    # url,protocol://domain/... , reject  -> ||domain/path^
+    # url,protocol://domain/... , reject  -> ||domain/path^  （保留路径）
     m = re.match(rf'url\s*,\s*(?:((?:https?|wss?)://)?)([^\s\/,]+)(/[^\s,]*)?\s*,\s*reject\s*$', s, re.I)
     if m:
         domain = m.group(2)
@@ -222,14 +213,13 @@ def merge_and_convert(all_rules: List[str], output_file: str, white_list: Set[st
             out_lines.append(stripped)
             continue
 
-        # 只处理包含 reject 的规则
         if 'reject' not in stripped.lower():
             out_lines.append(f"# 跳过非 reject 规则：{stripped}")
             continue
 
         converted_rule = convert_rule_line(stripped)
         if converted_rule:
-            # 检查是否在白名单中
+            # 检查白名单
             if is_whitelisted(converted_rule, white_list):
                 whitelisted_count += 1
                 out_lines.append(f"# 已过滤白名单规则：{converted_rule}")
