@@ -1,7 +1,7 @@
 # ===============================
 # 自动拉取+合并+转换自 QuantumultX 在线规则
 # 规则来源配置：rules.txt
-# 白名单过滤：1 条规则
+# 白名单过滤：1766 条规则
 # 支持规则类型（已实现转换）：
 #  - host, 域名, reject  -> hosts: 0.0.0.0 域名
 #  - host-suffix, 域名后缀, reject -> AdGuard: ||域名^
@@ -75,15 +75,15 @@
 ||cps.360buy.com^
 ||eclick.360doc.com^
 ||ad.360in.com^
-||dl.360safe.com^
+# 已过滤白名单规则：||dl.360safe.com^
 ||kuaikan.netmon.360safe.com^
-||ini.update.360safe.com^
+# 已过滤白名单规则：||ini.update.360safe.com^
 ||display.360totalsecurity.com^
 ||hot.m.shouji.360tpcdn.com^
 ||ad.360yield.com^
 ||guess.h.qhimg.com^
 ||top.h.qhimg.com^
-||jspassport.ssl.qhimg.com^
+# 已过滤白名单规则：||jspassport.ssl.qhimg.com^
 ||top.h.qhmsg.com^
 ||hs.qhupdate.com^
 ||res.qhupdate.com^
@@ -119,12 +119,12 @@
 ||adshow.58.com^
 ||brandshow.58.com^
 ||jing.58.com^
-||jumpluna.58.com^
+# 已过滤白名单规则：||jumpluna.58.com^
 ||news.58.com^
 ||track.58.com^
 ||tracklog.58.com^
 ||zzpush.58.com^
-||jump.luna.58.com^
+# 已过滤白名单规则：||jump.luna.58.com^
 # > 58汽车
 ||58.xgo.com.cn^
 ||imp.xgo.com.cn^
@@ -173,7 +173,7 @@
 ||adobe-dns.adobe.com^
 ||adobe-dns-2.adobe.com^
 ||adobe-dns-3.adobe.com^
-||ereg.adobe.com^
+# 已过滤白名单规则：||ereg.adobe.com^
 ||get3.adobe.com^
 ||hl2rcv.adobe.com^
 ||practivate.adobe.com^
@@ -181,11 +181,11 @@
 ||wwis-dubc1-vip60.adobe.com^
 ||lm.licenses.adobe.com^
 ||na2m-pr.licenses.adobe.com^
-||na1r.services.adobe.com^
+# 已过滤白名单规则：||na1r.services.adobe.com^
 ||hlrcv.stage.adobe.com^
 ||activate.wip3.adobe.com^
-||ereg.wip3.adobe.com^
-||lmlicenses.wip4.adobe.com^
+# 已过滤白名单规则：||ereg.wip3.adobe.com^
+# 已过滤白名单规则：||lmlicenses.wip4.adobe.com^
 # Marketo
 ||marketo.com^
 ||asia.marketo.com^
@@ -223,9 +223,9 @@
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 safebrowsing.urlsec.qq.com
 0.0.0.0 token.safebrowsing.apple
-0.0.0.0 vs6.bj2ct.u3.ucweb.com
+# 已过滤白名单规则：0.0.0.0 vs6.bj2ct.u3.ucweb.com
 ||safebrowsing.apple^
-||u3.ucweb.com^
+# 已过滤白名单规则：||u3.ucweb.com^
 # > Amazon
 ||amazon-adsystem.com^
 ||mads.amazon.com^
@@ -375,26 +375,26 @@
 0.0.0.0 f74f7f7765f8a2f6.ngaa.net.cn
 0.0.0.0 ef-dongfeng.tanx.com
 0.0.0.0 iqiyim.adtrack.enlightent.cn
-0.0.0.0 dig.bdurl.net
-0.0.0.0 t7z.cupid.iqiyi.com
-0.0.0.0 t7z.cupid.ptqy.gitv.tv
+# 已过滤白名单规则：0.0.0.0 dig.bdurl.net
+# 已过滤白名单规则：0.0.0.0 t7z.cupid.iqiyi.com
+# 已过滤白名单规则：0.0.0.0 t7z.cupid.ptqy.gitv.tv
 ||cupid.iqiyi.com^
-||t7z.cupid.iqiyi.com^
-||static-s.iqiyi.com^
+# 已过滤白名单规则：||t7z.cupid.iqiyi.com^
+# 已过滤白名单规则：||static-s.iqiyi.com^
 ||a.ckm.iqiyi.com^
-||ad.m.iqiyi.com^
+# 已过滤白名单规则：||ad.m.iqiyi.com^
 ||afp.iqiyi.com^
 ||api.cupid.iqiyi.com^
 ||api.cupid.qiyi.com^
 ||c.uaa.iqiyi.com^
 ||cloudpush.iqiyi.com^
-||cm.passport.iqiyi.com^
+# 已过滤白名单规则：||cm.passport.iqiyi.com^
 ||count.game.pps.tv^
 ||emoticon.sns.iqiyi.com^
 ||gamecenter.iqiyi.com^
 ||mbdlog.iqiyi.com^
 ||msg.iqiyi.com^
-||msg.video.qiyi.com^
+# 已过滤白名单规则：||msg.video.qiyi.com^
 ||msg2.video.qiyi.com^
 ||static.g.iqiyi.com^
 ||static.g.ppstream.com^
@@ -429,17 +429,17 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 # > 百度
-||duapps.com^
+# 已过滤白名单规则：||duapps.com^
 ||cpro.baidu.com^
 ||pos.baidu.com^
 0.0.0.0 afd.baidu.com
-0.0.0.0 als.baidu.com
+# 已过滤白名单规则：0.0.0.0 als.baidu.com
 0.0.0.0 duclick.baidu.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 mobads-logs.baidu.com
 0.0.0.0 nadvideo2.baidu.com
-0.0.0.0 nsclick.baidu.com
-||bce.baidu.com^
+# 已过滤白名单规则：0.0.0.0 nsclick.baidu.com
+# 已过滤白名单规则：||bce.baidu.com^
 ||bar.baidu.com^
 ||baiduyubaidu.com^
 ||baidutv.baidu.com^
@@ -454,7 +454,7 @@
 ||baifen.music.baidu.com^
 ||banlv.baidu.com^
 ||cm.baidu.com^
-||cpro.zhidao.baidu.com^
+# 已过滤白名单规则：||cpro.zhidao.baidu.com^
 ||cleaner.baidu.com^
 ||cjhq.baidu.com^
 ||cb.baidu.com^
@@ -503,7 +503,7 @@
 ||ers.baidu.com^
 ||fclick.baidu.com^
 ||feed.baidu.com^
-||fexclick.baidu.com^
+# 已过滤白名单规则：||fexclick.baidu.com^
 ||g.baidu.com^
 ||gimg.baidu.com^
 ||guanjia.baidu.com^
@@ -535,7 +535,7 @@
 ||push.zhanzhang.baidu.com^
 ||qianclick.baidu.com^
 ||release.baidu.com^
-||river.zhidao.baidu.com^
+# 已过滤白名单规则：||river.zhidao.baidu.com^
 ||rj.baidu.com^
 ||rplog.baidu.com^
 ||s.baidu.com^
@@ -559,7 +559,7 @@
 ||utility.baidu.com^
 ||utk.baidu.com^
 ||videopush.baidu.com^
-||w.gdown.baidu.com^
+# 已过滤白名单规则：||w.gdown.baidu.com^
 ||w.x.baidu.com^
 ||wangmeng.baidu.com^
 ||weishi.baidu.com^
@@ -568,25 +568,26 @@
 ||yingxiao.baidu.com^
 ||znsv.baidu.com^
 ||baidustatic.com^
-||als.baidu.com^
+# 已过滤白名单规则：||als.baidu.com^
 ||duclick.baidu.com^
 ||hm.baidu.com^
 ||hmma.baidu.com^
 ||mobads.baidu.com^
 ||mobads-logs.baidu.com^
-||nsclick.baidu.com^
+# 已过滤白名单规则：||nsclick.baidu.com^
 0.0.0.0 hm.baidu.com
 0.0.0.0 hmma.baidu.com
 ||bdtongfei.cn^
 ||ecma.bdimg.com^
-||ecmb.bdimg.com^
+# 已过滤白名单规则：||ecmb.bdimg.com^
 ||ecmc.bdimg.com^
 ||pups.bdimg.com^
 ||su.bdimg.com^
-||mipcache.bdstatic.com^
+# 已过滤白名单规则：||mipcache.bdstatic.com^
 ||su.bdstatic.com^
 ||zz.bdstatic.com^
 # 已过滤白名单规则：||bcebos.com^
+# 已过滤白名单规则：||duapps.com^
 # > 百度地图
 0.0.0.0 afdconf.baidu.com
 0.0.0.0 httpdns.baidubce.com
@@ -598,9 +599,9 @@
 0.0.0.0 advertise.baicizhan.com
 0.0.0.0 advertise.baicizhan.org
 # > 百姓网
-||admx.baixing.com^
-||tu.baixing.com^
-||d.admx.baixing.com^
+# 已过滤白名单规则：||admx.baixing.com^
+# 已过滤白名单规则：||tu.baixing.com^
+# 已过滤白名单规则：||d.admx.baixing.com^
 ||bd-js.baixing.net^
 ||bd-s.baixing.net^
 ||script-bd.baixing.net^
@@ -615,8 +616,8 @@
 # > BBC
 ||visualscience.external.bbc.co.uk^
 # > Bing
-||bat.bing.com^
-||c.bing.com^
+# 已过滤白名单规则：||bat.bing.com^
+# 已过滤白名单规则：||c.bing.com^
 # > 笔趣阁
 ||j.biquge520.cc^
 ||m.biquge5200.cc^
@@ -789,14 +790,15 @@
 # > Facebook
 ||facebookma.cn^
 ||atdmt.com^
-||staticxx.facebook.com^
+# 已过滤白名单规则：||staticxx.facebook.com^
 # > 番茄小说
 0.0.0.0 i-lq.snssdk.com
+# 已过滤白名单规则：0.0.0.0 dig.bdurl.net
 0.0.0.0 activity-ag.awemeughun.com
-0.0.0.0 mcs.snssdk.com
+# 已过滤白名单规则：0.0.0.0 mcs.snssdk.com
 0.0.0.0 tnc3-alisc1.snssdk.com
 0.0.0.0 security-lq.snssdk.com
-0.0.0.0 tnc3-aliec2.snssdk.com
+# 已过滤白名单规则：0.0.0.0 tnc3-aliec2.snssdk.com
 #host, is.snssdk.com, REJECT
 #host, i.snssdk.com, REJECT
 0.0.0.0 v6-novelapp.ixigua.com
@@ -874,7 +876,7 @@
 # > Google
 ||google-analytics.com^
 ||doubleclick.net^
-||googleadservices.com^
+# 已过滤白名单规则：||googleadservices.com^
 ||googleadsserving.cn^
 ||googlesyndication.com^
 ||googletagservices.com^
@@ -891,19 +893,19 @@
 ||badad.googleplex.com^
 ||afs.googlesyndication.com^
 ||afd.l.google.com^
-||www.googleadservices.com^
+# 已过滤白名单规则：||www.googleadservices.com^
 ||www.google-analytics.com^
 0.0.0.0 ads.youtube.com
 ||cmshow.gtimg.cn^
 ||discuz.gtimg.cn^
-||gu.qlogo.cn^
-||py.qlogo.cn^
-||py2.qlogo.cn^
-||app-measurement.com^
+# 已过滤白名单规则：||gu.qlogo.cn^
+# 已过滤白名单规则：||py.qlogo.cn^
+# 已过滤白名单规则：||py2.qlogo.cn^
+# 已过滤白名单规则：||app-measurement.com^
 ||admob.com^
 ||crashlytics.com^
 ||pagespeed-mod^
-||csi.gstatic.com^
+# 已过滤白名单规则：||csi.gstatic.com^
 ||beacon.gtimg.com^
 ||bla.gtimg.com^
 ||lb.gtimg.com^
@@ -918,7 +920,7 @@
 ||setting.crashlytics.com^
 ||settings.crashlytics.com^
 ||gcdn.2mdn.net^
-||s0.2mdn.net^
+# 已过滤白名单规则：||s0.2mdn.net^
 ||s1.2mdn.net^
 ||pgdt.ugdtimg.com^
 ||adclick.g.doublecklick.net^
@@ -944,7 +946,7 @@
 ||page.amap.com^
 0.0.0.0 optimus-ads.amap.com
 0.0.0.0 optimus-ads.amap.com.w.alikunlun.com
-||shouji.sougou.com^
+# 已过滤白名单规则：||shouji.sougou.com^
 0.0.0.0 u51.me
 ||u51.me^
 # > 广州地铁乘车码
@@ -1033,7 +1035,7 @@
 # 未识别规则：;host-keyword, assets.51downapp.cn, reject
 # > 黄油相机
 # 开屏广告 感谢#Dragon分享
-||anythinktech.com^
+# 已过滤白名单规则：||anythinktech.com^
 ||adkwai.com^
 ||mob.com^
 # > 好游快爆
@@ -1106,14 +1108,14 @@
 ||uop.umeng.com^
 ||m.suning.com^
 ||adshare.toutiao.com^
-||tunion-api.m.taobao.com^
+# 已过滤白名单规则：||tunion-api.m.taobao.com^
 ||s1.pstatp.com^
 ||s2.pstatp.com^
-||s3.pstatp.com^
+# 已过滤白名单规则：||s3.pstatp.com^
 ||a3.pstatp.com^
 ||a3.bytecdn.cn^
 ||ad.toutiao.com^
-||dm.toutiao.com^
+# 已过滤白名单规则：||dm.toutiao.com^
 ||dsp.toutiao.com^
 ||nativeapp.toutiao.com^
 ||partner.toutiao.com^
@@ -1127,11 +1129,11 @@
 ||c-nfa.jd.com^
 ||cm.jd.com^
 ||jddebug.com^
-||policy.jd.com^
+# 已过滤白名单规则：||policy.jd.com^
 ||kepler.jd.com^
 ||bdsp.x.jd.com^
 ||keplerapi.jd.com^
-||mapi.m.jd.com^
+# 已过滤白名单规则：||mapi.m.jd.com^
 ||ad.3.cn^
 ||jd.c-ptsp.com.cn^
 # 屏蔽DNS
@@ -1149,7 +1151,7 @@
 # > Keep
 0.0.0.0 apm.gotokeep.com
 0.0.0.0 kad.gotokeep.com
-0.0.0.0 hc-ssp.sm.cn
+# 已过滤白名单规则：0.0.0.0 hc-ssp.sm.cn
 # > 酷6网
 ||st.vq.ku6.cn^
 ||addata.ku6.com^
@@ -1190,9 +1192,9 @@
 0.0.0.0 g.koowo.com
 0.0.0.0 kgmobilestat.kugou.com
 0.0.0.0 kgmobilestatbak.kugou.com
-0.0.0.0 mobilelog.kugou.com
+# 已过滤白名单规则：0.0.0.0 mobilelog.kugou.com
 0.0.0.0 pgdt.gtimg.com
-0.0.0.0 adsmind.gdtimg.com
+# 已过滤白名单规则：0.0.0.0 adsmind.gdtimg.com
 ||searchrecommend.kugou.com^
 ||nbcollectretry.kugou.com^
 ||rtmretry.kugou.com^
@@ -1237,7 +1239,7 @@
 ||log.web.kugou.com^
 ||kgmobilestat.kugou.com^
 ||kgmobilestatbak.kugou.com^
-||mobilelog.kugou.com^
+# 已过滤白名单规则：||mobilelog.kugou.com^
 ||ad.kugou.com^
 # > 酷我音乐
 0.0.0.0 mobilead.kuwo.cn
@@ -1392,7 +1394,7 @@
 ||wmlog.meituan.com^
 ||ad.e.waimai.sankuai.com^
 ||mads.meituan.com^
-||dreport.meituan.net^
+# 已过滤白名单规则：||dreport.meituan.net^
 ||d.meituan.net^
 # > 美颜相机
 # 去首页和轮播广告
@@ -1418,19 +1420,19 @@
 ||bro.flyme.cn^
 ||t-e.flyme.cn^
 ||t-flow.flyme.cn^
-||aider-res.meizu.com^
-||api-game.meizu.com^
-||api-push.meizu.com^
+# 已过滤白名单规则：||aider-res.meizu.com^
+# 已过滤白名单规则：||api-game.meizu.com^
+# 已过滤白名单规则：||api-push.meizu.com^
 ||cal.meizu.com^
 ||game-res.meizu.com^
 ||infocenter.meizu.com^
 ||openapi-news.meizu.com^
 ||reader.meizu.com^
 ||tongji-res1.meizu.com^
-||uxip.meizu.com^
+# 已过滤白名单规则：||uxip.meizu.com^
 ||umid.orion.meizu.com^
 ||ebook.res.meizu.com^
-||game.res.meizu.com^
+# 已过滤白名单规则：||game.res.meizu.com^
 ||push.res.meizu.com^
 ||reader.res.meizu.com^
 ||upush.res.meizu.com^
@@ -1490,7 +1492,7 @@
 ||mobaliyun.res.mgtv.com^
 ||pc.da.mgtv.com^
 ||pc1.da.mgtv.com^
-||pcvideoaliyun.titan.mgtv.com^
+# 已过滤白名单规则：||pcvideoaliyun.titan.mgtv.com^
 ||pcvideoyd.titan.mgtv.com^
 ||pcweb.v1.mgtv.com^
 ||py.da.mgtv.com^
@@ -1535,7 +1537,7 @@
 ||ads.oppomobile.com^
 # > Outlook
 0.0.0.0 acdn.adnxs.com
-0.0.0.0 mediation.adnxs.com
+# 已过滤白名单规则：0.0.0.0 mediation.adnxs.com
 0.0.0.0 sin3-ib.adnxs.com
 # >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
 # > PPTV
@@ -1587,26 +1589,27 @@
 0.0.0.0 adcdn6.tencentmusic.com
 0.0.0.0 adexpo.tencentmusic.com
 0.0.0.0 adclick.tencentmusic.com
-0.0.0.0 otheve.beacon.qq.com
+# 已过滤白名单规则：0.0.0.0 otheve.beacon.qq.com
 0.0.0.0 monitor.music.qq.com
-0.0.0.0 stat.y.qq.com
-0.0.0.0 tmead.y.qq.com
+# 已过滤白名单规则：0.0.0.0 stat.y.qq.com
+# 已过滤白名单规则：0.0.0.0 tmead.y.qq.com
 0.0.0.0 oth.str.mdt.qq.com
-0.0.0.0 h.trace.qq.com
+# 已过滤白名单规则：0.0.0.0 h.trace.qq.com
 0.0.0.0 sdk.e.qq.com
-0.0.0.0 p.l.qq.com
-0.0.0.0 us.l.qq.com
-0.0.0.0 tangram.e.qq.com
-0.0.0.0 tmeadbak.y.qq.com
+# 已过滤白名单规则：0.0.0.0 p.l.qq.com
+# 已过滤白名单规则：0.0.0.0 us.l.qq.com
+# 已过滤白名单规则：0.0.0.0 tangram.e.qq.com
+# 已过滤白名单规则：0.0.0.0 tmeadbak.y.qq.com
 ||imtmp.net^
-0.0.0.0 tmeadcomm.y.qq.com
+# 已过滤白名单规则：0.0.0.0 tmeadcomm.y.qq.com
+# 已过滤白名单规则：0.0.0.0 tmead.y.qq.com
 ||rqd.qq.com^
 ||wup.imtt.qq.com^
 ||gdt.qq.com^
 ||android.rqd.qq.com^
 ||e.qq.com^
 ||beacon.qq.com^
-||v.gdt.qq.com^
+# 已过滤白名单规则：||v.gdt.qq.com^
 0.0.0.0 amsweb-cdn-gz-1258344696.file.myqcloud.com
 0.0.0.0 wallpaper-1258344696.file.myqcloud.com
 0.0.0.0 xs.gdt.qq.com
@@ -1618,7 +1621,7 @@
 # > 七猫小说
 0.0.0.0 cdn-new-ad.wtzw.com
 0.0.0.0 a-remad.qm989.com
-0.0.0.0 qzs.gdtimg.com
+# 已过滤白名单规则：0.0.0.0 qzs.gdtimg.com
 # 已过滤白名单规则：0.0.0.0 mobads-pre-config.cdn.bcebos.com
 0.0.0.0 pgdt.ugdtimg.com
 # > 汽车之家
@@ -1709,7 +1712,7 @@
 ||hui.sohu.com^
 ||images.sohu.com^
 ||suvset.sohu.com^
-||track.sohu.com^
+# 已过滤白名单规则：||track.sohu.com^
 ||doc.go.sohu.com^
 ||i.go.sohu.com^
 ||imp.go.sohu.com^
@@ -1743,6 +1746,7 @@
 ||bsiet.husky.sogou.com^
 # 屏蔽京东和搜狗收集信息 @jFrecht
 ||jdqd.jd.com^
+# 已过滤白名单规则：||shouji.sougou.com^
 ||cpc.sogou.com^
 ||fair.sogou.com^
 ||files2.sogou.com^
@@ -1809,7 +1813,7 @@
 # 买单小程序去广告
 0.0.0.0 ads-shopping.shouqianba.com
 # > 什么值得买
-0.0.0.0 acs4baichuan.m.taobao.com
+# 已过滤白名单规则：0.0.0.0 acs4baichuan.m.taobao.com
 0.0.0.0 adashxgc.ut.taobao.com
 0.0.0.0 analytics-api.smzdm.com
 0.0.0.0 baichuan-sdk.alicdn.com
@@ -1866,14 +1870,15 @@
 ||d.turn.com^
 # > Twitter
 ||ads-twitter.com^
-||p.twitter.com^
-||scribe.twitter.com^
-||syndication.twitter.com^
-||syndication-o.twitter.com^
-||urls.api.twitter.com^
+# 已过滤白名单规则：||p.twitter.com^
+# 已过滤白名单规则：||scribe.twitter.com^
+# 已过滤白名单规则：||syndication.twitter.com^
+# 已过滤白名单规则：||syndication-o.twitter.com^
+# 已过滤白名单规则：||urls.api.twitter.com^
 # > TubeMax
 ||adjust.com^
 ||applvn.com^
+# 已过滤白名单规则：||app-measurement.com^
 ||pangle.io^
 ||applovin.com^
 ||appier.net^
@@ -1905,7 +1910,7 @@
 ||smaato.net^
 ||spadsync.com^
 ||ads.inmobi.com^
-||akamaized.net^
+# 已过滤白名单规则：||akamaized.net^
 ||googleads.g.doubleclick.net^
 ||4dvertible.com^
 ||smadex.com^
@@ -1917,9 +1922,9 @@
 0.0.0.0 novel.pangolin-sdk-toutiao.com
 # > 淘宝
 ||apoll.m.taobao.com^
-||h-adashx.ut.taobao.com^
+# 已过滤白名单规则：||h-adashx.ut.taobao.com^
 ||w.m.taobao.com^
-0.0.0.0 tunion-api.m.taobao.com
+# 已过滤白名单规则：0.0.0.0 tunion-api.m.taobao.com
 # host-suffix, ai.m.taobao.com, reject
 ||re.m.taobao.com^
 ||agoodm.m.taobao.com^
@@ -1936,14 +1941,15 @@
 ||temai.taobao.com^
 ||textlink.simba.taobao.com^
 ||unitacs.m.taobao.com^
-||acs4baichuan.m.taobao.com^
+# 已过滤白名单规则：||acs4baichuan.m.taobao.com^
 ||adashbc.ut.taobao.com^
 ||adash-c.ut.taobao.com^
 ||adashxgc.ut.taobao.com^
 ||adashx4yt.m.taobao.com^
+# 已过滤白名单规则：||tunion-api.m.taobao.com^
 ||tns.simba.taobao.com^
-||click.mz.simba.taobao.com^
-||click.simba.taobao.com^
+# 已过滤白名单规则：||click.mz.simba.taobao.com^
+# 已过滤白名单规则：||click.simba.taobao.com^
 ||click.tz.simba.taobao.com^
 ||stat.simba.taobao.com^
 ||m-adash.m.taobao.com^
@@ -1973,6 +1979,9 @@
 ||analy.qq.com^
 ||astrategy.beacon.qq.com^
 ||rp.crasheye.cn^
+# 已过滤白名单规则：||gu.qlogo.cn^
+# 已过滤白名单规则：||py.qlogo.cn^
+# 已过滤白名单规则：||py2.qlogo.cn^
 # > 腾讯智慧
 ||tencentmind.com^
 ||p.tencentmind.com^
@@ -1993,17 +2002,17 @@
 ||master.wap.dphub.sandai.net^
 ||idx.m.hub.sandai.net^
 ||liveupdate.mac.sandai.net^
-||hub5pn.wap.sandai.net^
+# 已过滤白名单规则：||hub5pn.wap.sandai.net^
 ||etl.xlmc.sandai.net^
 ||test.api.xlmc.sandai.net^
 ||pre.api.tw06.xlmc.sandai.net^
 # > 团油
 ||img1.czb365.com^
 # > 同盾
-||fraudmetrix.cn^
-||fp.fraudmetrix.cn^
-||fptest.fraudmetrix.cn^
-||statictest.fraudmetrix.cn^
+# 已过滤白名单规则：||fraudmetrix.cn^
+# 已过滤白名单规则：||fp.fraudmetrix.cn^
+# 已过滤白名单规则：||fptest.fraudmetrix.cn^
+# 已过滤白名单规则：||statictest.fraudmetrix.cn^
 # > 太平洋电脑
 ||iad0ssl.pcauto.com.cn^
 ||imgad0.pcauto.com.cn^
@@ -2030,19 +2039,19 @@
 ||urbanairship.com^
 ||combine.urbanairship.com^
 # > UC浏览器
-0.0.0.0 safe.ucweb.com
-0.0.0.0 px.ucweb.com
+# 已过滤白名单规则：0.0.0.0 safe.ucweb.com
+# 已过滤白名单规则：0.0.0.0 px.ucweb.com
 0.0.0.0 navigis.uc.cn
-0.0.0.0 order.sm.cn
+# 已过滤白名单规则：0.0.0.0 order.sm.cn
 0.0.0.0 ucdc-upaas.uc.cn
 0.0.0.0 access.open.uc.cn
-0.0.0.0 uc.ucweb.com
-0.0.0.0 emoji.uc.cn
+# 已过滤白名单规则：0.0.0.0 uc.ucweb.com
+# 已过滤白名单规则：0.0.0.0 emoji.uc.cn
 0.0.0.0 ssp-partner.alibaba.com
 0.0.0.0 voice-service.uc.cn
-0.0.0.0 v.uc.cn
+# 已过滤白名单规则：0.0.0.0 v.uc.cn
 0.0.0.0 coral.uc.cn
-0.0.0.0 wolong-dsp.sm.cn
+# 已过滤白名单规则：0.0.0.0 wolong-dsp.sm.cn
 0.0.0.0 cartoonapi.uc.cn
 0.0.0.0 umessage-online-zb.uc.cn
 0.0.0.0 api.c.uc.cn
@@ -2051,28 +2060,28 @@
 0.0.0.0 applog-perf.uc.cn
 ||clickc.admaster.com.cn^
 ||fans.m.tmall.com^
-||r1.ykimg.com^
+# 已过滤白名单规则：||r1.ykimg.com^
 ||v.admaster.com.cn^
 ||v2.reachmax.cn^
 ||server.m.pp.cn^
-||puds.ucweb.com^
-||wgo.mmstat.com^
+# 已过滤白名单规则：||puds.ucweb.com^
+# 已过滤白名单规则：||wgo.mmstat.com^
 ||log.cs.pp.cn^
 ||applog.uc.cn^
 ||afpapi.alimama.com^
-||a.9game.cn^
+# 已过滤白名单规则：||a.9game.cn^
 ||track.uc.cn^
-||adtrack.ucweb.com^
-||utp-dmp.ucweb.com^
-||utp.ucweb.com^
-||huichuan.sm.cn^
+# 已过滤白名单规则：||adtrack.ucweb.com^
+# 已过滤白名单规则：||utp-dmp.ucweb.com^
+# 已过滤白名单规则：||utp.ucweb.com^
+# 已过滤白名单规则：||huichuan.sm.cn^
 ||ynuf.alipay.com^
-||pdds.ucweb.com^
+# 已过滤白名单规则：||pdds.ucweb.com^
 ||js.union-wifi.com^
 ||qmlog.cn^
-||cpu.baidu.com^
+# 已过滤白名单规则：||cpu.baidu.com^
 ||caclick.baidu.com^
-||rescn.u3.ucweb.com^
+# 已过滤白名单规则：||rescn.u3.ucweb.com^
 0.0.0.0 feedback.uc.cn
 0.0.0.0 gj.applog.uc.cn
 0.0.0.0 gj.track.uc.cn
@@ -2081,9 +2090,9 @@
 0.0.0.0 holmeshelptest.uc.cn
 ||ads.uc.cn^
 ||adslot.uc.cn^
-||alissl.ucdl.pp.uc.cn^
+# 已过滤白名单规则：||alissl.ucdl.pp.uc.cn^
 ||api.mp.uc.cn^
-||api.open.uc.cn^
+# 已过滤白名单规则：||api.open.uc.cn^
 ||applogios.uc.cn^
 ||bench.uc.cn^
 ||client.tv.uc.cn^
@@ -2101,21 +2110,22 @@
 0.0.0.0 mercury-sdk.snssdk.com
 0.0.0.0 tbm.snssdk.com
 0.0.0.0 toblog.ctobsnssdk.com
-||kwurl.ucweb.com^
-||uc9.ucweb.com^
-||ucus.ucweb.com^
-||up4.ucweb.com^
-||wap3.ucweb.com^
-||adn.insight.ucweb.com^
-||hk.napi.ucweb.com^
-||sea.napi.ucweb.com^
-||bjcu.u3.ucweb.com^
-||vs8.gzct.u3.ucweb.com^
-||vs19.gzcu.u3.ucweb.com^
-||vs2.gzcu.u3.ucweb.com^
-||vs7.gzcu.u3.ucweb.com^
-||vs8.gzcu.u3.ucweb.com^
-||slot.union.ucweb.com^
+# 已过滤白名单规则：0.0.0.0 tnc3-aliec2.snssdk.com
+# 已过滤白名单规则：||kwurl.ucweb.com^
+# 已过滤白名单规则：||uc9.ucweb.com^
+# 已过滤白名单规则：||ucus.ucweb.com^
+# 已过滤白名单规则：||up4.ucweb.com^
+# 已过滤白名单规则：||wap3.ucweb.com^
+# 已过滤白名单规则：||adn.insight.ucweb.com^
+# 已过滤白名单规则：||hk.napi.ucweb.com^
+# 已过滤白名单规则：||sea.napi.ucweb.com^
+# 已过滤白名单规则：||bjcu.u3.ucweb.com^
+# 已过滤白名单规则：||vs8.gzct.u3.ucweb.com^
+# 已过滤白名单规则：||vs19.gzcu.u3.ucweb.com^
+# 已过滤白名单规则：||vs2.gzcu.u3.ucweb.com^
+# 已过滤白名单规则：||vs7.gzcu.u3.ucweb.com^
+# 已过滤白名单规则：||vs8.gzcu.u3.ucweb.com^
+# 已过滤白名单规则：||slot.union.ucweb.com^
 # > Unity Ads
 ||config.unityads.unity3d.com^
 # >>>>>>>>>>>>>>> ✅ V ✅ <<<<<<<<<<<<<<
@@ -2178,7 +2188,7 @@
 # > 网易
 ||dsp.youdao.com^
 ||union.youdao.com^
-0.0.0.0 ad.bn.netease.com
+# 已过滤白名单规则：0.0.0.0 ad.bn.netease.com
 0.0.0.0 ad.yixin.im
 0.0.0.0 admusicpic.music.126.net
 0.0.0.0 g1.163.com
@@ -2189,7 +2199,7 @@
 0.0.0.0 iadmusicmatvideo.music.126.net
 0.0.0.0 impservice.dictapp.youdao.com
 0.0.0.0 impservice.youdao.com
-0.0.0.0 n.3g.163.com
+# 已过滤白名单规则：0.0.0.0 n.3g.163.com
 0.0.0.0 nex.163.com
 0.0.0.0 yt-adp.nosdn.127.net
 0.0.0.0 yt-adp.ws.126.net
@@ -2204,20 +2214,20 @@
 ||nex.163.com^
 ||popme.163.com^
 ||temp.163.com^
-||n.3g.163.com^
+# 已过滤白名单规则：||n.3g.163.com^
 ||gb.corp.163.com^
 ||iad.g.163.com^
 ||rec.g.163.com^
-||count.mail.163.com^
-||ir.mail.163.com^
-||irpmt.mail.163.com^
-||r.mail.163.com^
+# 已过滤白名单规则：||count.mail.163.com^
+# 已过滤白名单规则：||ir.mail.163.com^
+# 已过滤白名单规则：||irpmt.mail.163.com^
+# 已过滤白名单规则：||r.mail.163.com^
 ||push.yuedu.163.com^
-||ad.bn.netease.com^
-||mr.da.netease.com^
-||pr.da.netease.com^
-||rd.da.netease.com^
-||wr.da.netease.com^
+# 已过滤白名单规则：||ad.bn.netease.com^
+# 已过滤白名单规则：||mr.da.netease.com^
+# 已过滤白名单规则：||pr.da.netease.com^
+# 已过滤白名单规则：||rd.da.netease.com^
+# 已过滤白名单规则：||wr.da.netease.com^
 ||img1.126.net^
 ||img2.126.net^
 ||img3.126.net^
@@ -2239,7 +2249,7 @@
 ||yt-adp.nosdn.127.net^
 ||ir.mail.yeah.net^
 ||a.youdao.com^
-||c.youdao.com^
+# 已过滤白名单规则：||c.youdao.com^
 ||clkservice.youdao.com^
 ||conv.youdao.com^
 ||dsp-click.youdao.com^
@@ -2280,8 +2290,8 @@
 ||push.wandoujia.com^
 # > 唯品会
 ||n-st.vip.com^
-||api.union.vip.com^
-||ms.vipstatic.com^
+# 已过滤白名单规则：||api.union.vip.com^
+# 已过滤白名单规则：||ms.vipstatic.com^
 # > 威锋
 # 广告联盟已包含
 #host-suffix, aoodoo.feng.com
@@ -2320,28 +2330,28 @@
 ||ppurifier.game.xiaomi.com^
 ||ad.intl.xiaomi.com^
 ||sdkconfig.ad.intl.xiaomi.com^
-||wtradv.market.xiaomi.com^
-||abtest.mistat.xiaomi.com^
-||data.mistat.xiaomi.com^
+# 已过滤白名单规则：||wtradv.market.xiaomi.com^
+# 已过滤白名单规则：||abtest.mistat.xiaomi.com^
+# 已过滤白名单规则：||data.mistat.xiaomi.com^
 ||storeconfig.mistat.xiaomi.com^
 ||bss.pandora.xiaomi.com^
 ||dvb.pandora.xiaomi.com^
 ||jellyfish.pandora.xiaomi.com^
 ||m.bss.pandora.xiaomi.com^
-||resolver.gslb.mi-idc.com^
+# 已过滤白名单规则：||resolver.gslb.mi-idc.com^
 ||f3.mi-stat.gslb.mi-idc.com^
 ||app01.nodes.gslb.mi-idc.com^
 ||app02.nodes.gslb.mi-idc.com^
 ||tracking.miui.com^
-||hot.browser.miui.com^
+# 已过滤白名单规则：||hot.browser.miui.com^
 ||r.browser.miui.com^
-||reader.browser.miui.com^
+# 已过滤白名单规则：||reader.browser.miui.com^
 ||security.browser.miui.com^
 ||calopenupdate.comm.miui.com^
 ||tracking.intl.miui.com^
 ||adv.sec.intl.miui.com^
-||adv.sec.miui.com^
-||api.sec.miui.com^
+# 已过滤白名单规则：||adv.sec.miui.com^
+# 已过滤白名单规则：||api.sec.miui.com^
 ||info.sec.miui.com^
 ||proxy.sec.miui.com^
 ||logupdate.avlyun.sec.miui.com^
@@ -2350,13 +2360,13 @@
 ||adinfo.ra1.xlmc.sec.miui.com^
 ||api.ra2.xlmc.sec.miui.com^
 ||api.tw06.xlmc.sec.miui.com^
-||metok.sys.miui.com^
+# 已过滤白名单规则：||metok.sys.miui.com^
 ||api.xk.miui.com^
 ||fb.xk.miui.com^
 ||lxcdn.dl.files.xiaomi.net^
-||pdc.micloud.xiaomi.net^
-||migrate.driveapi.micloud.xiaomi.net^
-||resolver.msg.xiaomi.net^
+# 已过滤白名单规则：||pdc.micloud.xiaomi.net^
+# 已过滤白名单规则：||migrate.driveapi.micloud.xiaomi.net^
+# 已过滤白名单规则：||resolver.msg.xiaomi.net^
 ||mlog.search.xiaomi.net^
 ||staging.admin.e.mi.com^
 ||migc.g.mi.com^
@@ -2364,7 +2374,7 @@
 ||mis.g.mi.com^
 ||mivideo.g.mi.com^
 ||a.hl.mi.com^
-||api.jr.mi.com^
+# 已过滤白名单规则：||api.jr.mi.com^
 ||a.union.mi.com^
 # > 小小影视
 0.0.0.0 39d83s.com
@@ -2408,7 +2418,7 @@
 ||p4p.sina.com.cn^
 ||pfp.sina.com.cn^
 ||rm.sina.com.cn^
-||sax.sina.com.cn^
+# 已过滤白名单规则：||sax.sina.com.cn^
 ||saxn.sina.com.cn^
 ||saxs.sina.com.cn^
 ||sbeacon.sina.com.cn^
@@ -2422,12 +2432,16 @@
 ||mg.games.sina.com.cn^
 ||adm.leju.sina.com.cn^
 ||staticadm.leju.sina.com.cn^
-||cre.mix.sina.com.cn^
-||interest.mix.sina.com.cn^
-||s.img.mix.sina.com.cn^
+# 已过滤白名单规则：||cre.mix.sina.com.cn^
+# 已过滤白名单规则：||interest.mix.sina.com.cn^
+# 已过滤白名单规则：||s.img.mix.sina.com.cn^
 ||motu.p4p.sina.com.cn^
 ||count.video.sina.com.cn^
 ||sinaaliyun.cn^
+# 已过滤白名单规则：||sax.sina.com.cn^
+# 已过滤白名单规则：||cre.mix.sina.com.cn^
+# 已过滤白名单规则：||interest.mix.sina.com.cn^
+# 已过滤白名单规则：||s.img.mix.sina.com.cn^
 ||2016.sina.cn^
 ||cre-dp.sina.cn^
 ||dmp.sina.cn^
@@ -2435,7 +2449,7 @@
 ||sapi.sina.cn^
 ||slog.sina.cn^
 ||api.apps.sina.cn^
-||cre.dp.sina.cn^
+# 已过滤白名单规则：||cre.dp.sina.cn^
 ||dl.kjava.sina.cn^
 ||adimg.mobile.sina.cn^
 ||contentrecommend-out.mobile.sina.cn^
@@ -2444,10 +2458,10 @@
 ||sdkclick.mobile.sina.cn^
 ||trends.mobile.sina.cn^
 ||wapwbclick.mobile.sina.cn^
-||wbapp.mobile.sina.cn^
+# 已过滤白名单规则：||wbapp.mobile.sina.cn^
 ||wbclick.mobile.sina.cn^
 ||wbpctips.mobile.sina.cn^
-||u1.img.mobile.sina.cn^
+# 已过滤白名单规则：||u1.img.mobile.sina.cn^
 ||d0.sinaimg.cn^
 ||d1.sinaimg.cn^
 ||d2.sinaimg.cn^
@@ -2465,7 +2479,7 @@
 ||s3.pfp.sina.net^
 ||adimages.sina.com.hk^
 ||oascentral.sina.com.hk^
-||dd.iask.cn^
+# 已过滤白名单规则：||dd.iask.cn^
 # > 新华网
 ||tmisc.home.news.cn^
 ||webd.home.news.cn^
@@ -2533,7 +2547,7 @@
 ||imagelx.yidianzixun.com^
 ||l.yidianzixun.com^
 ||lx-upload-log.yidianzixun.com^
-||oppo.yidianzixun.com^
+# 已过滤白名单规则：||oppo.yidianzixun.com^
 ||s.yidianzixun.com^
 # > 音悦Tai
 ||shop.yinyuetai.com^
@@ -2582,9 +2596,9 @@
 # > 优酷
 ||partner.uc.cn^
 ||ubixioe.com^
-||uczzd.cn^
+# 已过滤白名单规则：||uczzd.cn^
 ||ranfenghd.com^
-||zconfig.alibabausercontent.com^
+# 已过滤白名单规则：||zconfig.alibabausercontent.com^
 ||bgg.baidu.com^
 # host-suffix, gdt.qq.com, reject
 # host-suffix, sdk.e.qq.com, reject
@@ -2634,8 +2648,8 @@
 ||p.l.youku.com^
 ||r.l.youku.com^
 ||v.l.youku.com^
-||l.ykimg.com^
-||p-log.ykimg.com^
+# 已过滤白名单规则：||l.ykimg.com^
+# 已过滤白名单规则：||p-log.ykimg.com^
 ||s.p.youku.com^
 ||tdrec.youku.com^
 ||test.ott.youku.com^
@@ -2724,10 +2738,10 @@
 ||push-android.myzaker.com^
 # > 知乎
 # 未识别规则：USER-AGENT,AVOS*, reject
-0.0.0.0 appcloud.zhihu.com
+# 已过滤白名单规则：0.0.0.0 appcloud.zhihu.com
 0.0.0.0 appcloud2.in.zhihu.com
 0.0.0.0 mqtt.zhihu.com
-0.0.0.0 sugar.zhihu.com
+# 已过滤白名单规则：0.0.0.0 sugar.zhihu.com
 0.0.0.0 crash2.zhihu.com
 0.0.0.0 118.89.204.198
 # 未识别规则：IP-CIDR, 118.89.204.198/32, reject
@@ -2826,6 +2840,7 @@
 ||sdfp.snssdk.com^
 ||temai.snssdk.com^
 ||xlog.snssdk.com^
+# 已过滤白名单规则：||dm.toutiao.com^
 # > 作业帮
 ||bu01.zybang.com^
 ||bu02.zybang.com^
