@@ -585,7 +585,6 @@
 ||mipcache.bdstatic.com^
 ||su.bdstatic.com^
 ||zz.bdstatic.com^
-||bcebos.com^
 # > 百度地图
 0.0.0.0 afdconf.baidu.com
 0.0.0.0 httpdns.baidubce.com
