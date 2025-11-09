@@ -1,5 +1,8 @@
 name: 拉取 QuantumultX 规则 → 转换 AdGuard
 
+permissions:
+  contents: write  # 允许工作流写入仓库（用于自动提交）
+
 on:
   workflow_dispatch:  # 手动触发
   schedule:
@@ -11,9 +14,14 @@ on:
 jobs:
   convert:
     runs-on: ubuntu-latest
+    env:
+      PYTHONUNBUFFERED: 1
     steps:
       - name: 拉取仓库
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: 配置 Python
         uses: actions/setup-python@v5
@@ -25,6 +33,11 @@ jobs:
 
       - name: 拉取并转换规则
         run: python convert.py
+
+      - name: 显示生成文件差异（调试用）
+        run: |
+          git status --porcelain
+          git --no-pager diff --staged || true
 
       - name: 提交结果到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
