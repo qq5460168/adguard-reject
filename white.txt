@@ -1,16 +1,19 @@
 bcebos.com
 
-
-
+#麦软
+@@||www.mairuan.com^$important
+@@||mairuan.com^
+#实用工具箱
+@@||www.sygjx.com^
 #OxygenOS系统游戏空间
-@@||mini-game-gl.heytapmobile.com^$important
-@@||games-community-gl.heytapmobile.com^$important
+@@||mini-game-gl.heytapmobile.com^
+@@||games-community-gl.heytapmobile.com^
 #冷漠
-@@||jomodns.com^$important
+@@||jomodns.com^
 #清心云
-@@||bcelive.com^$important
+@@||bcelive.com^
 #动漫共和国视频封面
-@@||p4-ad.adukwai.com^$important
+@@||p4-ad.adukwai.com^
 #联通云盘…福利中心
 @@||m.jf.10010.com^
 #领跑抽奖
@@ -23,7 +26,7 @@ bcebos.com
 #高德地图工具箱图标
 @@||free-aos-cdn-image.amap.com^
 #高德地图商家图片
-@@||store.is.autonavi.com^$important
+@@||store.is.autonavi.com^
 #大师兄
 @@||anythinktech.com^
 #星空视频
@@ -290,7 +293,7 @@ bcebos.com
 #某些网页的图片加载
 @@||img.mp.itc.cn^
 #一些应用调用的高德api
-@@||webapi.amap.com^$important
+@@||webapi.amap.com^
 @@||aps.amap.com^
 @@||mpsapi.amap.com^
 #同程旅行
@@ -497,7 +500,7 @@ bcebos.com
 #soul支付
 @@||api-pay.soulapp.cn^
 #soul ai
-@@||api-chat.soulapp.cn^$important
+@@||api-chat.soulapp.cn^
 #脚本之家
 @@||img.jbzj.com^
 #西瓜视频图片
@@ -752,7 +755,7 @@ bcebos.com
 
 #↓ 百度系 ↓
 #小惠 生活服务助手
-@@||isite.baidu.com^$important
+@@||isite.baidu.com^
 #百度地图接口
 @@||api.map.baidu.com^
 #百度天气图标
@@ -983,6 +986,8 @@ bcebos.com
 @@||v.stream.qq.com^
 #腾讯健康系统
 @@||jiazhang.qq.com^
+#腾讯游戏协议
+@@||rule.tencent.com^
 #QQ收藏
 @@||sharechain.qq.com^
 #QQ互动标识图
@@ -990,7 +995,7 @@ bcebos.com
 #QQ空间精选照片
 @@||qzone-web-v2.cdn-go.cn^
 #QQ相关
-@@||info.zb.qq.com^$important
+@@||info.zb.qq.com^
 @@||npm.cdn-go.cn^
 @@||pub.idqqimg.com^
 @@||qq-web.cdn-go.cn^
@@ -1386,11 +1391,11 @@ bcebos.com
 # 抖音系
 
 #PC版抖音封面
-@@||p9-pc-sign.douyinpic.com^$important
+@@||p9-pc-sign.douyinpic.com^
 #APP 评论区图片
-@@||imagex.bytedanceapi.com^$important
+@@||imagex.bytedanceapi.com^
 #手机网页端抖音直播
-@@||webcast.amemv.com^$important
+@@||webcast.amemv.com^
 #App登录接口
 #拦截后登录提示「系统繁忙」
 @@||log.snssdk.com^
@@ -1517,7 +1522,7 @@ bcebos.com
 ##菜鸟裹裹
 @@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
 @@||na61-na62.wagbridge.alibaba.tanx.com^
-@@||w2.kskwai.com^$important
+@@||w2.kskwai.com^
 #账号与安全页面加载
 @@||my.cainiao.com^
 # 支付宝
@@ -1529,8 +1534,8 @@ bcebos.com
 #阿里巴巴购物
 @@||dj.1688.com^
 !阿里系
-@@||su.uc.cn^$important
-@@||pc-api.uc.cn^$important
+@@||su.uc.cn^
+@@||pc-api.uc.cn^
 @@||uczzd.cn^
 @@||cl2.webterren.com^
 @@||alissl.ucdl.pp.uc.cn^
