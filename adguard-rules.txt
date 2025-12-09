@@ -17,7 +17,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/filter.list
 #!tg-channel=https://t.me/inaisi
-#!date=2025-11-10 08:17:00
+#!date=2025-12-09 21:49:00
 #!support=约9760行
 #############################################
 # "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -799,8 +799,8 @@
 0.0.0.0 tnc3-alisc1.snssdk.com
 0.0.0.0 security-lq.snssdk.com
 # 已过滤白名单规则：0.0.0.0 tnc3-aliec2.snssdk.com
-#host, is.snssdk.com, REJECT
-#host, i.snssdk.com, REJECT
+#host, is.snssdk.com, reject
+#host, i.snssdk.com, reject
 0.0.0.0 v6-novelapp.ixigua.com
 ||novelapp.ixigua.com^
 ||default.ixigua.com^
@@ -809,14 +809,14 @@
 0.0.0.0 api.iegadp.qq.com
 ||byteorge.com^
 # 下面两条误杀严重导致懂车帝无法正常使用
-#host-suffix, bytegoofy.com, REJECT
-#host-suffix, bytedance.com, REJECT
-# 未识别规则：IP-CIDR, 49.71.37.101/32, REJECT
-# 未识别规则：IP-CIDR, 117.71.105.23/32, REJECT
-# 未识别规则：IP-CIDR, 218.94.207.205/32, REJECT
-# 未识别规则：IP-CIDR, 117.92.229.188/32, REJECT
-# 未识别规则：IP-CIDR, 101.36.166.16/32, REJECT
-# 未识别规则：IP-CIDR, 180.96.2.114/32, REJECT
+#host-suffix, bytegoofy.com, reject
+#host-suffix, bytedance.com, reject
+# 未识别规则：IP-CIDR, 49.71.37.101/32, reject
+# 未识别规则：IP-CIDR, 117.71.105.23/32, reject
+# 未识别规则：IP-CIDR, 218.94.207.205/32, reject
+# 未识别规则：IP-CIDR, 117.92.229.188/32, reject
+# 未识别规则：IP-CIDR, 101.36.166.16/32, reject
+# 未识别规则：IP-CIDR, 180.96.2.114/32, reject
 # > 风行网
 ||pb.funshion.net.cn^
 ||ad.funshion.org.cn^
@@ -1613,7 +1613,7 @@
 0.0.0.0 amsweb-cdn-gz-1258344696.file.myqcloud.com
 0.0.0.0 wallpaper-1258344696.file.myqcloud.com
 0.0.0.0 xs.gdt.qq.com
-# 未识别规则：IP-CIDR, 120.222.240.171/32, REJECT
+# 未识别规则：IP-CIDR, 120.222.240.171/32, reject
 # > 蜻蜓FM
 0.0.0.0 ad.qingting.fm
 0.0.0.0 adlaunch.qingting.fm
@@ -1684,11 +1684,11 @@
 0.0.0.0 ad-r.soulapp.cn
 0.0.0.0 ad-reward.soulapp.cn
 ||cdn.soulapp.cn^
-# 未识别规则：IP-CIDR, 47.56.131.76/32, REJECT
-# 未识别规则：IP-CIDR, 47.97.215.55/32, REJECT
-# 未识别规则：IP-CIDR, 47.99.42.29/32, REJECT
-# 未识别规则：IP-CIDR, 120.27.235.201/32, REJECT
-# 未识别规则：IP-CIDR, 121.196.197.147/32, REJECT
+# 未识别规则：IP-CIDR, 47.56.131.76/32, reject
+# 未识别规则：IP-CIDR, 47.97.215.55/32, reject
+# 未识别规则：IP-CIDR, 47.99.42.29/32, reject
+# 未识别规则：IP-CIDR, 120.27.235.201/32, reject
+# 未识别规则：IP-CIDR, 121.196.197.147/32, reject
 # > Snapchat
 0.0.0.0 ads.snapchat.com
 0.0.0.0 adsapi.snapchat.com
@@ -2383,6 +2383,8 @@
 # > 小爱音箱
 0.0.0.0 mistat.xiaomi.com
 # > 晓晓优选
+||adintl.cn^
+||zhangyuyidong.cn^
 # 已过滤白名单规则：||1sapp.com^
 ||aiclk.com^
 ||adbiding.com^
@@ -2402,7 +2404,7 @@
 ||ad.bwton.com^
 ||api.wxcjgg.cn^
 ||shunchangzhixing.com^
-# 未识别规则：IP-CIDR, 114.132.165.205/32, REJECT
+# 未识别规则：IP-CIDR, 114.132.165.205/32, reject
 # > 新浪
 ||ad.sina.com.cn^
 ||ad4.sina.com.cn^
