@@ -586,7 +586,6 @@
 # 已过滤白名单规则：||mipcache.bdstatic.com^
 ||su.bdstatic.com^
 ||zz.bdstatic.com^
-# 已过滤白名单规则：||bcebos.com^
 # 已过滤白名单规则：||duapps.com^
 # > 百度地图
 0.0.0.0 afdconf.baidu.com
